@@ -1,0 +1,8 @@
+build/generated/
+build/rebuilt/
+sim/generated/
+__pycache__/
+*.pyc
+*.jou
+*.wdb
+.Xil/

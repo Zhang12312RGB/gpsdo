@@ -1,0 +1,1437 @@
+
+===== BUILD Oct 31 2026 03:41:47 =====
+
+========== GPSDO PS 自检 ==========
+AXI base    = 0x43c00000
+DAC register (read only) = 0x6d8
+UART0(屏)   = OK
+UART1(调试) = OK
+PS LED 引脚 = OK
+PS 按键     = OK
+寄存器初值:
+  +0x00 = 0xfffffffc
+  +0x04 = 0x00000034
+  +0x08 = 0x000006d8
+  +0x0C = 0x00000000
+提示: +0x04(NMEA) 长期为 0 -> 查 PL UART(F17) 与 GNSS 模块接线/波特率
+NMEA diag: byte=30(+30) drop=1123(+1123) ver=0x00030002 | frame_err=1 pps_seen=1 locked=0 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=0 badcs=0 badfmt=0 long=0 resync=0 gga_age=4294967295 fresh=0
+===================================
+
+REFCHK seq0=2 seq1=2 ocxo=0 clk=223 raw=-193 frac=2918 D=1752 ms=1000 status=196769
+RAW 0x00=-193 c=0 f=63 0x18=0 0x30=314 0x2C=M--
+DBG fine=3 frac=3 diff=2 fracval=2918
+SLOWC t=0 upd=1 v=0 n=0 Cns=0 phiRef=-37.6953125 fRef=0 fNow=0 fast=-0.0376546455 Dref=1752 D=1752 g=0.47852 span=0 age=0 lag=0 src=0 w=0.0000 pev=0
+SLOWDBG t=0 upd=1 age=0 Tu=1 ev=0 st=0 act=0 n0=0 n=0 cnt=0 sec=0 done=0 innov=-37.6953125 S=1001080 K=5.0 lim=5002.69927 z=-0.037675 R=80
+SAMP why=0 used=1 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-37695 x1=0 innov=-37695 S=0 P3u=100 K1u=0
+CAND Q3e4 q=2999 z=-37695 x1=0 innov=-37695 S=0 P3u=300 K1u=0
+[TUNING] T=10 慢环T=1 | frqm=-37 phsm=-37692 ppsm=-37695 | fix=1 sat=10 hdop=0.93 cn0=34.5 | dac=1752 acc=1752.02 | slow=0m n=0 | P3u=999001079 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-188
+NMEA diag: byte=861(+831) drop=1123(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=0 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=13 badcs=0 badfmt=0 long=0 resync=0 gga_age=243 fresh=1
+REFCHK seq0=3 seq1=3 ocxo=-1 clk=222 raw=-264 frac=819 D=1752 ms=2000 status=262307
+RAW 0x00=-264 c=-1 f=248 0x18=-1 0x30=378 0x2C=M--
+DBG fine=4 frac=4 diff=3 fracval=819
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-37695 x1=0 innov=-37695 S=0 P3u=100 K1u=0
+CAND Q3e4 q=2999 z=-37695 x1=0 innov=-37695 S=0 P3u=300 K1u=0
+[TUNING] T=10 慢环T=1 | frqm=-37 phsm=-37692 ppsm=-51562 | fix=1 sat=10 hdop=0.93 cn0=32.9 | dac=1752 acc=1752.02 | slow=0m n=0 | P3u=999001079 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-188
+NMEA diag: byte=1497(+636) drop=1123(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=24 badcs=0 badfmt=0 long=0 resync=0 gga_age=220 fresh=1
+REFCHK seq0=4 seq1=4 ocxo=-2 clk=224 raw=-351 frac=42086 D=1752 ms=3000 status=327843
+RAW 0x00=-351 c=-1 f=161 0x18=-2 0x30=318 0x2C=M--
+DBG fine=5 frac=5 diff=4 fracval=42086
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-37695 x1=0 innov=-37695 S=0 P3u=100 K1u=0
+CAND Q3e4 q=2999 z=-37695 x1=0 innov=-37695 S=0 P3u=300 K1u=0
+[TUNING] T=10 慢环T=1 | frqm=-37 phsm=-37692 ppsm=-68554 | fix=1 sat=10 hdop=0.93 cn0=32.8 | dac=1752 acc=1752.02 | slow=0m n=0 | P3u=999001079 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-188
+NMEA diag: byte=2086(+589) drop=1123(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=34 badcs=0 badfmt=0 long=0 resync=0 gga_age=219 fresh=1
+REFCHK seq0=5 seq1=5 ocxo=-1 clk=226 raw=-307 frac=29132 D=1752 ms=4000 status=393379
+RAW 0x00=-307 c=-1 f=205 0x18=-1 0x30=314 0x2C=M--
+DBG fine=6 frac=6 diff=5 fracval=29132
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-37695 x1=0 innov=-37695 S=0 P3u=100 K1u=0
+CAND Q3e4 q=2999 z=-37695 x1=0 innov=-37695 S=0 P3u=300 K1u=0
+[TUNING] T=10 慢环T=1 | frqm=-37 phsm=-37692 ppsm=-59960 | fix=1 sat=10 hdop=0.93 cn0=32.8 | dac=1752 acc=1752.02 | slow=0m n=0 | P3u=999001079 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-188
+NMEA diag: byte=2744(+658) drop=1123(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=45 badcs=0 badfmt=0 long=0 resync=0 gga_age=218 fresh=1
+REFCHK seq0=6 seq1=6 ocxo=-1 clk=228 raw=-228 frac=36352 D=1752 ms=5000 status=458915
+RAW 0x00=-228 c=0 f=28 0x18=-1 0x30=92 0x2C=M--
+DBG fine=7 frac=7 diff=6 fracval=36352
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-37695 x1=0 innov=-37695 S=0 P3u=100 K1u=0
+CAND Q3e4 q=2999 z=-37695 x1=0 innov=-37695 S=0 P3u=300 K1u=0
+[TUNING] T=10 慢环T=1 | frqm=-37 phsm=-37692 ppsm=-44531 | fix=1 sat=10 hdop=0.93 cn0=32.6 | dac=1752 acc=1752.02 | slow=0m n=0 | P3u=999001079 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-188
+NMEA diag: byte=3334(+590) drop=1123(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=55 badcs=0 badfmt=0 long=0 resync=0 gga_age=218 fresh=1
+REFCHK seq0=7 seq1=7 ocxo=-1 clk=228 raw=-277 frac=30976 D=1752 ms=6000 status=524451
+RAW 0x00=-277 c=-1 f=235 0x18=-1 0x30=257 0x2C=M--
+DBG fine=8 frac=8 diff=7 fracval=30976
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-37695 x1=0 innov=-37695 S=0 P3u=100 K1u=0
+CAND Q3e4 q=2999 z=-37695 x1=0 innov=-37695 S=0 P3u=300 K1u=0
+[TUNING] T=10 慢环T=1 | frqm=-37 phsm=-37692 ppsm=-54101 | fix=1 sat=10 hdop=0.93 cn0=32.5 | dac=1752 acc=1752.02 | slow=0m n=0 | P3u=999001079 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-188
+NMEA diag: byte=3994(+660) drop=1123(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=66 badcs=0 badfmt=0 long=0 resync=0 gga_age=219 fresh=1
+REFCHK seq0=8 seq1=8 ocxo=-2 clk=228 raw=-394 frac=61184 D=1752 ms=7000 status=589987
+RAW 0x00=-394 c=-1 f=118 0x18=-2 0x30=134 0x2C=M--
+DBG fine=9 frac=9 diff=8 fracval=61184
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-37695 x1=0 innov=-37695 S=0 P3u=100 K1u=0
+CAND Q3e4 q=2999 z=-37695 x1=0 innov=-37695 S=0 P3u=300 K1u=0
+[TUNING] T=10 慢环T=1 | frqm=-37 phsm=-37692 ppsm=-76953 | fix=1 sat=10 hdop=0.93 cn0=32.4 | dac=1752 acc=1752.02 | slow=0m n=0 | P3u=999001079 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-188
+NMEA diag: byte=4581(+587) drop=1123(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=76 badcs=0 badfmt=0 long=0 resync=0 gga_age=216 fresh=1
+REFCHK seq0=9 seq1=9 ocxo=-1 clk=230 raw=-269 frac=57958 D=1752 ms=8000 status=655523
+RAW 0x00=-269 c=-1 f=243 0x18=-1 0x30=234 0x2C=M--
+DBG fine=10 frac=10 diff=9 fracval=57958
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-37695 x1=0 innov=-37695 S=0 P3u=100 K1u=0
+CAND Q3e4 q=2999 z=-37695 x1=0 innov=-37695 S=0 P3u=300 K1u=0
+[TUNING] T=10 慢环T=1 | frqm=-37 phsm=-37692 ppsm=-52539 | fix=1 sat=10 hdop=0.93 cn0=32.6 | dac=1752 acc=1752.02 | slow=0m n=0 | P3u=999001079 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-188
+NMEA diag: byte=5243(+662) drop=1123(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=87 badcs=0 badfmt=0 long=0 resync=0 gga_age=219 fresh=1
+REFCHK seq0=10 seq1=10 ocxo=-1 clk=228 raw=-258 frac=57446 D=1752 ms=9000 status=721059
+RAW 0x00=-258 c=-1 f=254 0x18=-1 0x30=250 0x2C=M--
+DBG fine=11 frac=11 diff=10 fracval=57446
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-37695 x1=0 innov=-37695 S=0 P3u=100 K1u=0
+CAND Q3e4 q=2999 z=-37695 x1=0 innov=-37695 S=0 P3u=300 K1u=0
+[TUNING] T=10 慢环T=1 | frqm=-37 phsm=-37692 ppsm=-50390 | fix=1 sat=10 hdop=0.93 cn0=32.9 | dac=1752 acc=1752.02 | slow=0m n=0 | P3u=999001079 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-188
+NMEA diag: byte=5832(+589) drop=1123(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=97 badcs=0 badfmt=0 long=0 resync=0 gga_age=217 fresh=1
+REFCHK seq0=11 seq1=11 ocxo=-1 clk=224 raw=-275 frac=52531 D=1752 ms=10000 status=786595
+RAW 0x00=-275 c=-1 f=237 0x18=-1 0x30=400 0x2C=M--
+DBG fine=12 frac=12 diff=11 fracval=52531
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-37695 x1=0 innov=-37695 S=0 P3u=100 K1u=0
+CAND Q3e4 q=2999 z=-37695 x1=0 innov=-37695 S=0 P3u=300 K1u=0
+[TUNING] T=10 慢环T=1 | frqm=-37 phsm=-37692 ppsm=-53710 | fix=1 sat=10 hdop=0.93 cn0=32.9 | dac=1752 acc=1752.02 | slow=0m n=0 | P3u=999001079 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-188
+NMEA diag: byte=6488(+656) drop=1123(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=108 badcs=0 badfmt=0 long=0 resync=0 gga_age=214 fresh=1
+REFCHK seq0=12 seq1=12 ocxo=-1 clk=226 raw=-388 frac=18636 D=1752 ms=11000 status=852131
+RAW 0x00=-388 c=-1 f=124 0x18=-1 0x30=234 0x2C=M--
+DBG fine=13 frac=13 diff=12 fracval=18636
+SLOWC t=10 upd=2 v=0 n=0 Cns=0 phiRef=-625.78125 fRef=0 fNow=0 fast=-50 Dref=1752 D=1752 g=0.47852 span=0 age=0 lag=0 src=0 w=0.0000 pev=0
+SLOWDBG t=10 upd=2 age=0 Tu=10 ev=0 st=0 act=0 n0=0 n=0 cnt=0 sec=0 done=0 innov=-587.712403 S=100061.7 K=5.0 lim=1581.62653 z=-1.85794 R=80
+SAMP why=0 used=1 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-625781 x1=-50000000 innov=-588085 S=10 P3u=1000 K1u=99900099
+CAND Q3e4 q=2999 z=-625781 x1=-50000000 innov=-588085 S=30 P3u=3000 K1u=99966677
+[TUNING] T=10 慢环T=1 | frqm=-50000 phsm=-625311 ppsm=-75781 | fix=1 sat=10 hdop=1.02 cn0=33.10 | dac=1778 acc=1778.14 | slow=0m n=0 | P3u=1597354 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-3126
+NMEA diag: byte=7110(+622) drop=1123(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=118 badcs=0 badfmt=0 long=0 resync=0 gga_age=249 fresh=1
+REFCHK seq0=13 seq1=13 ocxo=-1 clk=231 raw=-187 frac=36300 D=1778 ms=12000 status=917667
+RAW 0x00=-187 c=0 f=69 0x18=-1 0x30=94 0x2C=M--
+DBG fine=14 frac=14 diff=13 fracval=36300
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-625781 x1=-50000000 innov=-588085 S=10 P3u=1000 K1u=99900099
+CAND Q3e4 q=2999 z=-625781 x1=-50000000 innov=-588085 S=30 P3u=3000 K1u=99966677
+[TUNING] T=10 慢环T=1 | frqm=-50000 phsm=-625311 ppsm=-36523 | fix=1 sat=10 hdop=1.02 cn0=33.1 | dac=1778 acc=1778.14 | slow=0m n=0 | P3u=1597354 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-3126
+NMEA diag: byte=7745(+635) drop=1123(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=129 badcs=0 badfmt=0 long=0 resync=0 gga_age=223 fresh=1
+REFCHK seq0=14 seq1=14 ocxo=-1 clk=231 raw=-194 frac=52070 D=1778 ms=13000 status=983203
+RAW 0x00=-194 c=0 f=62 0x18=-1 0x30=12 0x2C=M--
+DBG fine=15 frac=15 diff=14 fracval=52070
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-625781 x1=-50000000 innov=-588085 S=10 P3u=1000 K1u=99900099
+CAND Q3e4 q=2999 z=-625781 x1=-50000000 innov=-588085 S=30 P3u=3000 K1u=99966677
+[TUNING] T=10 慢环T=1 | frqm=-50000 phsm=-625311 ppsm=-37890 | fix=1 sat=10 hdop=1.02 cn0=32.10 | dac=1778 acc=1778.14 | slow=0m n=0 | P3u=1597354 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-3126
+NMEA diag: byte=8335(+590) drop=1123(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=139 badcs=0 badfmt=0 long=0 resync=0 gga_age=223 fresh=1
+REFCHK seq0=15 seq1=15 ocxo=-1 clk=227 raw=-255 frac=52428 D=1778 ms=14000 status=1048739
+RAW 0x00=-255 c=0 f=1 0x18=-1 0x30=0 0x2C=M--
+DBG fine=16 frac=16 diff=15 fracval=52428
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-625781 x1=-50000000 innov=-588085 S=10 P3u=1000 K1u=99900099
+CAND Q3e4 q=2999 z=-625781 x1=-50000000 innov=-588085 S=30 P3u=3000 K1u=99966677
+[TUNING] T=10 慢环T=1 | frqm=-50000 phsm=-625311 ppsm=-49804 | fix=1 sat=10 hdop=1.02 cn0=32.9 | dac=1778 acc=1778.14 | slow=0m n=0 | P3u=1597354 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-3126
+NMEA diag: byte=8995(+660) drop=1123(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=150 badcs=0 badfmt=0 long=0 resync=0 gga_age=223 fresh=1
+REFCHK seq0=16 seq1=16 ocxo=-1 clk=227 raw=-320 frac=36147 D=1778 ms=15000 status=1114275
+RAW 0x00=-320 c=-1 f=192 0x18=-1 0x30=98 0x2C=M--
+DBG fine=17 frac=17 diff=16 fracval=36147
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-625781 x1=-50000000 innov=-588085 S=10 P3u=1000 K1u=99900099
+CAND Q3e4 q=2999 z=-625781 x1=-50000000 innov=-588085 S=30 P3u=3000 K1u=99966677
+[TUNING] T=10 慢环T=1 | frqm=-50000 phsm=-625311 ppsm=-62500 | fix=1 sat=10 hdop=1.02 cn0=33.8 | dac=1778 acc=1778.14 | slow=0m n=0 | P3u=1597354 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-3126
+NMEA diag: byte=9587(+592) drop=1123(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=160 badcs=0 badfmt=0 long=0 resync=0 gga_age=226 fresh=1
+REFCHK seq0=17 seq1=17 ocxo=-1 clk=230 raw=-204 frac=49408 D=1778 ms=16000 status=1179811
+RAW 0x00=-204 c=0 f=52 0x18=-1 0x30=94 0x2C=M--
+DBG fine=18 frac=18 diff=17 fracval=49408
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-625781 x1=-50000000 innov=-588085 S=10 P3u=1000 K1u=99900099
+CAND Q3e4 q=2999 z=-625781 x1=-50000000 innov=-588085 S=30 P3u=3000 K1u=99966677
+[TUNING] T=10 慢环T=1 | frqm=-50000 phsm=-625311 ppsm=-39843 | fix=1 sat=9 hdop=1.02 cn0=33.6 | dac=1778 acc=1778.14 | slow=0m n=0 | P3u=1597354 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-3126
+NMEA diag: byte=10245(+658) drop=1123(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=171 badcs=0 badfmt=0 long=0 resync=0 gga_age=225 fresh=1
+REFCHK seq0=18 seq1=18 ocxo=-1 clk=227 raw=-193 frac=65535 D=1778 ms=17000 status=1245347
+RAW 0x00=-193 c=0 f=63 0x18=-1 0x30=0 0x2C=M--
+DBG fine=19 frac=19 diff=18 fracval=65535
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-625781 x1=-50000000 innov=-588085 S=10 P3u=1000 K1u=99900099
+CAND Q3e4 q=2999 z=-625781 x1=-50000000 innov=-588085 S=30 P3u=3000 K1u=99966677
+[TUNING] T=10 慢环T=1 | frqm=-50000 phsm=-625311 ppsm=-37695 | fix=1 sat=9 hdop=1.02 cn0=35.1 | dac=1778 acc=1778.14 | slow=0m n=0 | P3u=1597354 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-3126
+NMEA diag: byte=10830(+585) drop=1124(+1) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=180 badcs=1 badfmt=0 long=0 resync=0 gga_age=224 fresh=1
+REFCHK seq0=19 seq1=19 ocxo=0 clk=228 raw=-204 frac=13209 D=1778 ms=18000 status=1310883
+RAW 0x00=-204 c=0 f=52 0x18=0 0x30=400 0x2C=M--
+DBG fine=20 frac=20 diff=19 fracval=13209
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-625781 x1=-50000000 innov=-588085 S=10 P3u=1000 K1u=99900099
+CAND Q3e4 q=2999 z=-625781 x1=-50000000 innov=-588085 S=30 P3u=3000 K1u=99966677
+[TUNING] T=10 慢环T=1 | frqm=-50000 phsm=-625311 ppsm=-39843 | fix=1 sat=9 hdop=1.02 cn0=35.1 | dac=1778 acc=1778.14 | slow=0m n=0 | P3u=1597354 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-3126
+NMEA diag: byte=11483(+653) drop=1124(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=191 badcs=1 badfmt=0 long=0 resync=0 gga_age=223 fresh=1
+REFCHK seq0=20 seq1=20 ocxo=-2 clk=226 raw=-308 frac=65535 D=1778 ms=19000 status=1376419
+RAW 0x00=-308 c=-1 f=204 0x18=-2 0x30=1 0x2C=M--
+DBG fine=21 frac=21 diff=20 fracval=65535
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-625781 x1=-50000000 innov=-588085 S=10 P3u=1000 K1u=99900099
+CAND Q3e4 q=2999 z=-625781 x1=-50000000 innov=-588085 S=30 P3u=3000 K1u=99966677
+[TUNING] T=10 慢环T=1 | frqm=-50000 phsm=-625311 ppsm=-60156 | fix=1 sat=9 hdop=1.02 cn0=35.2 | dac=1778 acc=1778.14 | slow=0m n=0 | P3u=1597354 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-3126
+NMEA diag: byte=12072(+589) drop=1124(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=201 badcs=1 badfmt=0 long=0 resync=0 gga_age=226 fresh=1
+REFCHK seq0=21 seq1=21 ocxo=0 clk=229 raw=-205 frac=13107 D=1778 ms=20000 status=1441955
+RAW 0x00=-205 c=0 f=51 0x18=0 0x30=0 0x2C=M--
+DBG fine=22 frac=22 diff=21 fracval=13107
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-625781 x1=-50000000 innov=-588085 S=10 P3u=1000 K1u=99900099
+CAND Q3e4 q=2999 z=-625781 x1=-50000000 innov=-588085 S=30 P3u=3000 K1u=99966677
+[TUNING] T=10 慢环T=1 | frqm=-50000 phsm=-625311 ppsm=-40039 | fix=1 sat=9 hdop=1.02 cn0=35.2 | dac=1778 acc=1778.14 | slow=0m n=0 | P3u=1597354 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-3126
+NMEA diag: byte=12726(+654) drop=1124(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=212 badcs=1 badfmt=0 long=0 resync=0 gga_age=225 fresh=1
+REFCHK seq0=22 seq1=22 ocxo=-1 clk=230 raw=-226 frac=20889 D=1778 ms=21000 status=1507491
+RAW 0x00=-226 c=0 f=30 0x18=-1 0x30=164 0x2C=M--
+DBG fine=23 frac=23 diff=22 fracval=20889
+SLOWC t=20 upd=3 v=0 n=0 Cns=124.290785 phiRef=-1198.50953 fRef=0 fNow=0 fast=-41.2230749 Dref=1752 D=1778 g=0.47852 span=0 age=0 lag=0 src=0 w=0.0000 pev=0
+SLOWDBG t=20 upd=3 age=0 Tu=10 ev=0 st=0 act=0 n0=0 n=0 cnt=0 sec=0 done=0 innov=-73.32258 S=479.414373 K=5.0 lim=109.477666 z=-3.34875 R=80
+SAMP why=0 used=1 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-1074218 x1=-44844265 innov=51562 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-1074218 x1=-44843921 innov=51562 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-41223 phsm=-1061983 ppsm=-44140 | fix=1 sat=9 hdop=1.02 cn0=35.2 | dac=1800 acc=1799.68 | slow=0m n=0 | P3u=399823 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-5309
+NMEA diag: byte=13339(+613) drop=1124(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=222 badcs=1 badfmt=0 long=0 resync=0 gga_age=253 fresh=1
+REFCHK seq0=23 seq1=23 ocxo=-1 clk=230 raw=-146 frac=48998 D=1800 ms=22000 status=1573027
+RAW 0x00=-146 c=0 f=110 0x18=-1 0x30=106 0x2C=M--
+DBG fine=24 frac=24 diff=23 fracval=48998
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-1074218 x1=-44844265 innov=51562 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-1074218 x1=-44843921 innov=51562 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-41223 phsm=-1061983 ppsm=-28515 | fix=1 sat=9 hdop=1.02 cn0=35.1 | dac=1800 acc=1799.68 | slow=0m n=0 | P3u=399823 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-5309
+NMEA diag: byte=13969(+630) drop=1124(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=233 badcs=1 badfmt=0 long=0 resync=0 gga_age=226 fresh=1
+REFCHK seq0=24 seq1=24 ocxo=-1 clk=228 raw=-256 frac=48896 D=1800 ms=23000 status=1638563
+RAW 0x00=-256 c=-1 f=0 0x18=-1 0x30=110 0x2C=M--
+DBG fine=25 frac=25 diff=24 fracval=48896
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-1074218 x1=-44844265 innov=51562 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-1074218 x1=-44843921 innov=51562 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-41223 phsm=-1061983 ppsm=-50000 | fix=1 sat=9 hdop=1.02 cn0=35.0 | dac=1800 acc=1799.68 | slow=0m n=0 | P3u=399823 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-5309
+NMEA diag: byte=14555(+586) drop=1124(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=243 badcs=1 badfmt=0 long=0 resync=0 gga_age=226 fresh=1
+REFCHK seq0=25 seq1=25 ocxo=0 clk=231 raw=-168 frac=5785 D=1800 ms=24000 status=1704099
+RAW 0x00=-168 c=0 f=88 0x18=0 0x30=226 0x2C=M--
+DBG fine=26 frac=26 diff=25 fracval=5785
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-1074218 x1=-44844265 innov=51562 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-1074218 x1=-44843921 innov=51562 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-41223 phsm=-1061983 ppsm=-32812 | fix=1 sat=9 hdop=1.02 cn0=35.1 | dac=1800 acc=1799.68 | slow=0m n=0 | P3u=399823 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-5309
+NMEA diag: byte=15208(+653) drop=1124(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=254 badcs=1 badfmt=0 long=0 resync=0 gga_age=225 fresh=1
+REFCHK seq0=26 seq1=26 ocxo=-1 clk=230 raw=-176 frac=26214 D=1800 ms=25000 status=1769635
+RAW 0x00=-176 c=0 f=80 0x18=-1 0x30=0 0x2C=M--
+DBG fine=27 frac=27 diff=26 fracval=26214
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-1074218 x1=-44844265 innov=51562 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-1074218 x1=-44843921 innov=51562 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-41223 phsm=-1061983 ppsm=-34375 | fix=1 sat=9 hdop=1.02 cn0=34.7 | dac=1800 acc=1799.68 | slow=0m n=0 | P3u=399823 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-5309
+NMEA diag: byte=15795(+587) drop=1125(+1) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=263 badcs=2 badfmt=0 long=0 resync=0 gga_age=226 fresh=1
+REFCHK seq0=27 seq1=27 ocxo=-1 clk=232 raw=-157 frac=51660 D=1800 ms=26000 status=1835171
+RAW 0x00=-157 c=0 f=99 0x18=-1 0x30=24 0x2C=M--
+DBG fine=28 frac=28 diff=27 fracval=51660
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-1074218 x1=-44844265 innov=51562 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-1074218 x1=-44843921 innov=51562 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-41223 phsm=-1061983 ppsm=-30664 | fix=1 sat=9 hdop=1.02 cn0=34.7 | dac=1800 acc=1799.68 | slow=0m n=0 | P3u=399823 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-5309
+NMEA diag: byte=16448(+653) drop=1125(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=274 badcs=2 badfmt=0 long=0 resync=0 gga_age=224 fresh=1
+REFCHK seq0=28 seq1=28 ocxo=-1 clk=229 raw=-253 frac=52531 D=1800 ms=27000 status=1900707
+RAW 0x00=-253 c=0 f=3 0x18=-1 0x30=400 0x2C=M--
+DBG fine=29 frac=29 diff=28 fracval=52531
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-1074218 x1=-44844265 innov=51562 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-1074218 x1=-44843921 innov=51562 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-41223 phsm=-1061983 ppsm=-49414 | fix=1 sat=9 hdop=1.02 cn0=34.7 | dac=1800 acc=1799.68 | slow=0m n=0 | P3u=399823 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-5309
+NMEA diag: byte=17035(+587) drop=1125(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=284 badcs=2 badfmt=0 long=0 resync=0 gga_age=226 fresh=1
+REFCHK seq0=29 seq1=29 ocxo=0 clk=229 raw=-169 frac=9164 D=1800 ms=28000 status=1966243
+RAW 0x00=-169 c=0 f=87 0x18=0 0x30=122 0x2C=M--
+DBG fine=30 frac=30 diff=29 fracval=9164
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-1074218 x1=-44844265 innov=51562 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-1074218 x1=-44843921 innov=51562 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-41223 phsm=-1061983 ppsm=-33007 | fix=1 sat=9 hdop=1.02 cn0=34.5 | dac=1800 acc=1799.68 | slow=0m n=0 | P3u=399823 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-5309
+NMEA diag: byte=17690(+655) drop=1126(+1) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=294 badcs=3 badfmt=0 long=0 resync=0 gga_age=227 fresh=1
+REFCHK seq0=30 seq1=30 ocxo=-1 clk=230 raw=-127 frac=42240 D=1800 ms=29000 status=2031779
+RAW 0x00=-127 c=0 f=129 0x18=-1 0x30=314 0x2C=M--
+DBG fine=31 frac=31 diff=30 fracval=42240
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-1074218 x1=-44844265 innov=51562 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-1074218 x1=-44843921 innov=51562 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-41223 phsm=-1061983 ppsm=-24804 | fix=1 sat=9 hdop=1.02 cn0=34.5 | dac=1800 acc=1799.68 | slow=0m n=0 | P3u=399823 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-5309
+NMEA diag: byte=18274(+584) drop=1126(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=304 badcs=3 badfmt=0 long=0 resync=0 gga_age=225 fresh=1
+REFCHK seq0=31 seq1=31 ocxo=0 clk=229 raw=-153 frac=3174 D=1800 ms=30000 status=2097315
+RAW 0x00=-153 c=0 f=103 0x18=0 0x30=306 0x2C=M--
+DBG fine=32 frac=32 diff=31 fracval=3174
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-1074218 x1=-44844265 innov=51562 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-1074218 x1=-44843921 innov=51562 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-41223 phsm=-1061983 ppsm=-29882 | fix=1 sat=9 hdop=1.02 cn0=34.2 | dac=1800 acc=1799.68 | slow=0m n=0 | P3u=399823 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-5309
+NMEA diag: byte=18930(+656) drop=1127(+1) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=314 badcs=4 badfmt=0 long=0 resync=0 gga_age=226 fresh=1
+REFCHK seq0=32 seq1=32 ocxo=-2 clk=226 raw=-295 frac=58777 D=1800 ms=31000 status=2162851
+RAW 0x00=-295 c=-1 f=217 0x18=-2 0x30=208 0x2C=M--
+DBG fine=33 frac=33 diff=32 fracval=58777
+SLOWC t=30 upd=4 v=0 n=0 Cns=353.87511 phiRef=-1799.18761 fRef=0 fNow=0 fast=-32.9864113 Dref=1752 D=1800 g=0.47852 span=0 age=0 lag=0 src=0 w=0.0000 pev=0
+SLOWDBG t=30 upd=4 age=0 Tu=10 ev=0 st=0 act=0 n0=0 n=0 cnt=0 sec=0 done=0 innov=-76.3727591 S=266.59924 K=5.0 lim=81.6393348 z=-4.67745 R=80
+SAMP why=0 used=1 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-1445312 x1=-37110148 innov=77348 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-1445312 x1=-37109632 innov=77345 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-32986 phsm=-1422394 ppsm=-57617 | fix=1 sat=9 hdop=1.02 cn0=34.3 | dac=1817 acc=1816.91 | slow=0m n=0 | P3u=159971 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-7111
+NMEA diag: byte=19539(+609) drop=1127(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=324 badcs=4 badfmt=0 long=0 resync=0 gga_age=251 fresh=1
+REFCHK seq0=33 seq1=33 ocxo=0 clk=227 raw=-103 frac=32307 D=1817 ms=32000 status=2228387
+RAW 0x00=-103 c=0 f=153 0x18=0 0x30=217 0x2C=M--
+DBG fine=34 frac=34 diff=33 fracval=32307
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-1445312 x1=-37110148 innov=77348 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-1445312 x1=-37109632 innov=77345 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-32986 phsm=-1422394 ppsm=-20117 | fix=1 sat=9 hdop=1.02 cn0=34.2 | dac=1817 acc=1816.91 | slow=0m n=0 | P3u=159971 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-7111
+NMEA diag: byte=20170(+631) drop=1127(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=335 badcs=4 badfmt=0 long=0 resync=0 gga_age=226 fresh=1
+REFCHK seq0=34 seq1=34 ocxo=-1 clk=230 raw=-126 frac=65535 D=1817 ms=33000 status=2293923
+RAW 0x00=-126 c=0 f=130 0x18=-1 0x30=0 0x2C=M--
+DBG fine=35 frac=35 diff=34 fracval=65535
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-1445312 x1=-37110148 innov=77348 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-1445312 x1=-37109632 innov=77345 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-32986 phsm=-1422394 ppsm=-24609 | fix=1 sat=9 hdop=1.02 cn0=34.2 | dac=1817 acc=1816.91 | slow=0m n=0 | P3u=159971 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-7111
+NMEA diag: byte=20756(+586) drop=1127(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=345 badcs=4 badfmt=0 long=0 resync=0 gga_age=226 fresh=1
+REFCHK seq0=35 seq1=35 ocxo=0 clk=233 raw=-145 frac=28467 D=1817 ms=34000 status=2359459
+RAW 0x00=-145 c=0 f=111 0x18=0 0x30=334 0x2C=M--
+DBG fine=36 frac=36 diff=35 fracval=28467
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-1445312 x1=-37110148 innov=77348 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-1445312 x1=-37109632 innov=77345 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-32986 phsm=-1422394 ppsm=-28320 | fix=1 sat=9 hdop=1.02 cn0=34.1 | dac=1817 acc=1816.91 | slow=0m n=0 | P3u=159971 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-7111
+NMEA diag: byte=21412(+656) drop=1127(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=356 badcs=4 badfmt=0 long=0 resync=0 gga_age=227 fresh=1
+REFCHK seq0=36 seq1=36 ocxo=-1 clk=231 raw=-199 frac=43008 D=1817 ms=35000 status=2424995
+RAW 0x00=-199 c=0 f=57 0x18=-1 0x30=290 0x2C=M--
+DBG fine=37 frac=37 diff=36 fracval=43008
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-1445312 x1=-37110148 innov=77348 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-1445312 x1=-37109632 innov=77345 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-32986 phsm=-1422394 ppsm=-38867 | fix=1 sat=9 hdop=1.02 cn0=33.9 | dac=1817 acc=1816.91 | slow=0m n=0 | P3u=159971 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-7111
+NMEA diag: byte=21997(+585) drop=1127(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=366 badcs=4 badfmt=0 long=0 resync=0 gga_age=226 fresh=1
+REFCHK seq0=37 seq1=37 ocxo=0 clk=233 raw=-117 frac=13107 D=1817 ms=36000 status=2490531
+RAW 0x00=-117 c=0 f=139 0x18=0 0x30=0 0x2C=M--
+DBG fine=38 frac=38 diff=37 fracval=13107
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-1445312 x1=-37110148 innov=77348 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-1445312 x1=-37109632 innov=77345 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-32986 phsm=-1422394 ppsm=-22851 | fix=1 sat=9 hdop=1.02 cn0=33.9 | dac=1817 acc=1816.91 | slow=0m n=0 | P3u=159971 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-7111
+NMEA diag: byte=22653(+656) drop=1127(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=377 badcs=4 badfmt=0 long=0 resync=0 gga_age=228 fresh=1
+REFCHK seq0=38 seq1=38 ocxo=-1 clk=231 raw=-102 frac=52531 D=1817 ms=37000 status=2556067
+RAW 0x00=-102 c=0 f=154 0x18=-1 0x30=400 0x2C=M--
+DBG fine=39 frac=39 diff=38 fracval=52531
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-1445312 x1=-37110148 innov=77348 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-1445312 x1=-37109632 innov=77345 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-32986 phsm=-1422394 ppsm=-19921 | fix=1 sat=9 hdop=1.33 cn0=33.9 | dac=1817 acc=1816.91 | slow=0m n=0 | P3u=159971 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-7111
+NMEA diag: byte=23304(+651) drop=1127(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=388 badcs=4 badfmt=0 long=0 resync=0 gga_age=223 fresh=1
+REFCHK seq0=39 seq1=39 ocxo=0 clk=229 raw=-111 frac=24217 D=1817 ms=38000 status=2621603
+RAW 0x00=-111 c=0 f=145 0x18=0 0x30=62 0x2C=M--
+DBG fine=40 frac=40 diff=39 fracval=24217
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-1445312 x1=-37110148 innov=77348 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-1445312 x1=-37109632 innov=77345 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-32986 phsm=-1422394 ppsm=-21679 | fix=1 sat=9 hdop=1.33 cn0=33.7 | dac=1817 acc=1816.91 | slow=0m n=0 | P3u=159971 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-7111
+NMEA diag: byte=23893(+589) drop=1127(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=398 badcs=4 badfmt=0 long=0 resync=0 gga_age=226 fresh=1
+REFCHK seq0=40 seq1=40 ocxo=-1 clk=229 raw=-248 frac=26214 D=1817 ms=39000 status=2687139
+RAW 0x00=-248 c=0 f=8 0x18=-1 0x30=0 0x2C=M--
+DBG fine=41 frac=41 diff=40 fracval=26214
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-1445312 x1=-37110148 innov=77348 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-1445312 x1=-37109632 innov=77345 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-32986 phsm=-1422394 ppsm=-48437 | fix=1 sat=9 hdop=1.33 cn0=33.6 | dac=1817 acc=1816.91 | slow=0m n=0 | P3u=159971 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-7111
+NMEA diag: byte=24545(+652) drop=1127(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=409 badcs=4 badfmt=0 long=0 resync=0 gga_age=223 fresh=1
+REFCHK seq0=41 seq1=41 ocxo=-1 clk=233 raw=-115 frac=62259 D=1817 ms=40000 status=2752675
+RAW 0x00=-115 c=0 f=141 0x18=-1 0x30=101 0x2C=M--
+DBG fine=42 frac=42 diff=41 fracval=62259
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-1445312 x1=-37110148 innov=77348 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-1445312 x1=-37109632 innov=77345 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-32986 phsm=-1422394 ppsm=-22460 | fix=1 sat=9 hdop=1.33 cn0=33.6 | dac=1817 acc=1816.91 | slow=0m n=0 | P3u=159971 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-7111
+NMEA diag: byte=25133(+588) drop=1127(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=419 badcs=4 badfmt=0 long=0 resync=0 gga_age=225 fresh=1
+REFCHK seq0=42 seq1=42 ocxo=0 clk=229 raw=-101 frac=36403 D=1817 ms=41000 status=2818211
+RAW 0x00=-101 c=0 f=155 0x18=0 0x30=90 0x2C=M--
+DBG fine=43 frac=43 diff=42 fracval=36403
+SLOWC t=40 upd=5 v=0 n=0 Cns=664.831762 phiRef=-2377.13645 fRef=0 fNow=0 fast=-25.6793776 Dref=1752 D=1817 g=0.47852 span=0 age=0 lag=0 src=0 w=0.0000 pev=0
+SLOWDBG t=40 upd=5 age=0 Tu=10 ev=0 st=0 act=0 n0=0 n=0 cnt=0 sec=0 done=0 innov=-41.3940966 S=199.982533 K=5.0 lim=70.7075902 z=-2.92713 R=80
+SAMP why=0 used=1 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-1712304 x1=-26700259 innov=104109 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-1712304 x1=-26699565 innov=104104 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-25679 phsm=-1695745 ppsm=-19726 | fix=1 sat=9 hdop=1.33 cn0=33.6 | dac=1830 acc=1830.33 | slow=0m n=0 | P3u=79994 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-8478
+NMEA diag: byte=25813(+680) drop=1127(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=430 badcs=4 badfmt=0 long=0 resync=0 gga_age=251 fresh=1
+REFCHK seq0=43 seq1=43 ocxo=0 clk=232 raw=-87 frac=14028 D=1830 ms=42000 status=2883747
+RAW 0x00=-87 c=0 f=169 0x18=0 0x30=376 0x2C=M--
+DBG fine=44 frac=44 diff=43 fracval=14028
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-1712304 x1=-26700259 innov=104109 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-1712304 x1=-26699565 innov=104104 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-25679 phsm=-1695745 ppsm=-16992 | fix=1 sat=9 hdop=1.33 cn0=33.2 | dac=1830 acc=1830.33 | slow=0m n=0 | P3u=79994 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-8478
+NMEA diag: byte=26377(+564) drop=1127(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=440 badcs=4 badfmt=0 long=0 resync=0 gga_age=228 fresh=1
+REFCHK seq0=44 seq1=44 ocxo=-1 clk=227 raw=-221 frac=22988 D=1830 ms=43000 status=2949283
+RAW 0x00=-221 c=0 f=35 0x18=-1 0x30=100 0x2C=M--
+DBG fine=45 frac=45 diff=44 fracval=22988
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-1712304 x1=-26700259 innov=104109 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-1712304 x1=-26699565 innov=104104 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-25679 phsm=-1695745 ppsm=-43164 | fix=1 sat=9 hdop=1.33 cn0=33.1 | dac=1830 acc=1830.33 | slow=0m n=0 | P3u=79994 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-8478
+NMEA diag: byte=27031(+654) drop=1127(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=451 badcs=4 badfmt=0 long=0 resync=0 gga_age=227 fresh=1
+REFCHK seq0=45 seq1=45 ocxo=0 clk=230 raw=-50 frac=10086 D=1830 ms=44000 status=3014819
+RAW 0x00=-50 c=0 f=206 0x18=0 0x30=94 0x2C=M--
+DBG fine=46 frac=46 diff=45 fracval=10086
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-1712304 x1=-26700259 innov=104109 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-1712304 x1=-26699565 innov=104104 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-25679 phsm=-1695745 ppsm=-9765 | fix=1 sat=9 hdop=1.33 cn0=32.10 | dac=1830 acc=1830.33 | slow=0m n=0 | P3u=79994 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-8478
+NMEA diag: byte=27617(+586) drop=1127(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=461 badcs=4 badfmt=0 long=0 resync=0 gga_age=227 fresh=1
+REFCHK seq0=46 seq1=46 ocxo=-1 clk=231 raw=-122 frac=44339 D=1830 ms=45000 status=3080355
+RAW 0x00=-122 c=0 f=134 0x18=-1 0x30=250 0x2C=M--
+DBG fine=47 frac=47 diff=46 fracval=44339
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-1712304 x1=-26700259 innov=104109 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-1712304 x1=-26699565 innov=104104 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-25679 phsm=-1695745 ppsm=-23828 | fix=1 sat=9 hdop=1.33 cn0=32.8 | dac=1830 acc=1830.33 | slow=0m n=0 | P3u=79994 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-8478
+NMEA diag: byte=28273(+656) drop=1127(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=472 badcs=4 badfmt=0 long=0 resync=0 gga_age=227 fresh=1
+REFCHK seq0=47 seq1=47 ocxo=0 clk=232 raw=-48 frac=32102 D=1830 ms=46000 status=3145891
+RAW 0x00=-48 c=0 f=208 0x18=0 0x30=222 0x2C=M--
+DBG fine=48 frac=48 diff=47 fracval=32102
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-1712304 x1=-26700259 innov=104109 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-1712304 x1=-26699565 innov=104104 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-25679 phsm=-1695745 ppsm=-9375 | fix=1 sat=9 hdop=1.33 cn0=32.7 | dac=1830 acc=1830.33 | slow=0m n=0 | P3u=79994 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-8478
+NMEA diag: byte=28856(+583) drop=1127(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=482 badcs=4 badfmt=0 long=0 resync=0 gga_age=225 fresh=1
+REFCHK seq0=48 seq1=48 ocxo=-1 clk=225 raw=-219 frac=41625 D=1830 ms=47000 status=3211427
+RAW 0x00=-219 c=0 f=37 0x18=-1 0x30=333 0x2C=M--
+DBG fine=49 frac=49 diff=48 fracval=41625
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-1712304 x1=-26700259 innov=104109 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-1712304 x1=-26699565 innov=104104 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-25679 phsm=-1695745 ppsm=-42773 | fix=1 sat=9 hdop=1.33 cn0=32.5 | dac=1830 acc=1830.33 | slow=0m n=0 | P3u=79994 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-8478
+NMEA diag: byte=29515(+659) drop=1127(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=493 badcs=4 badfmt=0 long=0 resync=0 gga_age=229 fresh=1
+REFCHK seq0=49 seq1=49 ocxo=0 clk=228 raw=-60 frac=26316 D=1830 ms=48000 status=3276963
+RAW 0x00=-60 c=0 f=196 0x18=0 0x30=400 0x2C=M--
+DBG fine=50 frac=50 diff=49 fracval=26316
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-1712304 x1=-26700259 innov=104109 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-1712304 x1=-26699565 innov=104104 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-25679 phsm=-1695745 ppsm=-11718 | fix=1 sat=9 hdop=1.33 cn0=32.4 | dac=1830 acc=1830.33 | slow=0m n=0 | P3u=79994 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-8478
+NMEA diag: byte=30099(+584) drop=1128(+1) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=502 badcs=4 badfmt=0 long=0 resync=0 gga_age=227 fresh=1
+REFCHK seq0=50 seq1=50 ocxo=0 clk=230 raw=-81 frac=5529 D=1830 ms=49000 status=3342499
+RAW 0x00=-81 c=0 f=175 0x18=0 0x30=234 0x2C=M--
+DBG fine=51 frac=51 diff=50 fracval=5529
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-1712304 x1=-26700259 innov=104109 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-1712304 x1=-26699565 innov=104104 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-25679 phsm=-1695745 ppsm=-15820 | fix=1 sat=9 hdop=1.33 cn0=32.2 | dac=1830 acc=1830.33 | slow=0m n=0 | P3u=79994 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-8478
+NMEA diag: byte=30753(+654) drop=1128(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=513 badcs=4 badfmt=0 long=0 resync=0 gga_age=227 fresh=1
+REFCHK seq0=51 seq1=51 ocxo=-1 clk=226 raw=-124 frac=39321 D=1830 ms=50000 status=3408035
+RAW 0x00=-124 c=0 f=132 0x18=-1 0x30=0 0x2C=M--
+DBG fine=52 frac=52 diff=51 fracval=39321
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-1712304 x1=-26700259 innov=104109 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-1712304 x1=-26699565 innov=104104 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-25679 phsm=-1695745 ppsm=-24218 | fix=1 sat=9 hdop=1.02 cn0=30.8 | dac=1830 acc=1830.33 | slow=0m n=0 | P3u=79994 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-8478
+NMEA diag: byte=31405(+652) drop=1128(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=524 badcs=4 badfmt=0 long=0 resync=0 gga_age=223 fresh=1
+REFCHK seq0=52 seq1=52 ocxo=-1 clk=227 raw=-154 frac=65535 D=1830 ms=51000 status=3473571
+RAW 0x00=-154 c=0 f=102 0x18=-1 0x30=0 0x2C=M--
+DBG fine=53 frac=53 diff=52 fracval=65535
+SLOWC t=50 upd=6 v=0 n=0 Cns=1038.01515 phiRef=-2978.05422 fRef=0 fNow=0 fast=-20.1686889 Dref=1752 D=1830 g=0.47852 span=0 age=0 lag=0 src=0 w=0.0000 pev=0
+SLOWDBG t=50 upd=6 age=0 Tu=10 ev=0 st=0 act=0 n0=0 n=0 cnt=0 sec=0 done=0 innov=-49.7072843 S=167.993755 K=5.0 lim=64.8062024 z=-3.83507 R=80
+SAMP why=0 used=1 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-1940039 x1=-22773830 innov=39268 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-1940039 x1=-22773568 innov=39261 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-20168 phsm=-1916368 ppsm=-30078 | fix=1 sat=9 hdop=1.33 cn0=29.7 | dac=1841 acc=1840.87 | slow=0m n=0 | P3u=45715 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-9581
+NMEA diag: byte=32022(+617) drop=1128(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=534 badcs=4 badfmt=0 long=0 resync=0 gga_age=254 fresh=1
+REFCHK seq0=53 seq1=53 ocxo=0 clk=230 raw=-87 frac=43212 D=1841 ms=52000 status=3539107
+RAW 0x00=-87 c=0 f=169 0x18=0 0x30=284 0x2C=M--
+DBG fine=54 frac=54 diff=53 fracval=43212
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-1940039 x1=-22773830 innov=39268 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-1940039 x1=-22773568 innov=39261 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-20168 phsm=-1916368 ppsm=-16992 | fix=1 sat=9 hdop=1.02 cn0=31.1 | dac=1841 acc=1840.87 | slow=0m n=0 | P3u=45715 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-9581
+NMEA diag: byte=32648(+626) drop=1128(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=545 badcs=4 badfmt=0 long=0 resync=0 gga_age=223 fresh=1
+REFCHK seq0=54 seq1=54 ocxo=0 clk=229 raw=-66 frac=26214 D=1841 ms=53000 status=3604643
+RAW 0x00=-66 c=0 f=190 0x18=0 0x30=0 0x2C=M--
+DBG fine=55 frac=55 diff=54 fracval=26214
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-1940039 x1=-22773830 innov=39268 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-1940039 x1=-22773568 innov=39261 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-20168 phsm=-1916368 ppsm=-12890 | fix=1 sat=9 hdop=1.33 cn0=31.5 | dac=1841 acc=1840.87 | slow=0m n=0 | P3u=45715 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-9581
+NMEA diag: byte=33237(+589) drop=1128(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=555 badcs=4 badfmt=0 long=0 resync=0 gga_age=227 fresh=1
+REFCHK seq0=55 seq1=55 ocxo=0 clk=230 raw=-28 frac=18995 D=1841 ms=54000 status=3670179
+RAW 0x00=-28 c=0 f=228 0x18=0 0x30=222 0x2C=M--
+DBG fine=56 frac=56 diff=55 fracval=18995
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-1940039 x1=-22773830 innov=39268 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-1940039 x1=-22773568 innov=39261 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-20168 phsm=-1916368 ppsm=-5468 | fix=1 sat=9 hdop=1.33 cn0=31.4 | dac=1841 acc=1840.87 | slow=0m n=0 | P3u=45715 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-9581
+NMEA diag: byte=33891(+654) drop=1128(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=566 badcs=4 badfmt=0 long=0 resync=0 gga_age=226 fresh=1
+REFCHK seq0=56 seq1=56 ocxo=-1 clk=224 raw=-177 frac=39321 D=1841 ms=55000 status=3735715
+RAW 0x00=-177 c=0 f=79 0x18=-1 0x30=0 0x2C=M--
+DBG fine=57 frac=57 diff=56 fracval=39321
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-1940039 x1=-22773830 innov=39268 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-1940039 x1=-22773568 innov=39261 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-20168 phsm=-1916368 ppsm=-34570 | fix=1 sat=9 hdop=1.33 cn0=31.1 | dac=1841 acc=1840.87 | slow=0m n=0 | P3u=45715 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-9581
+NMEA diag: byte=34479(+588) drop=1128(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=576 badcs=4 badfmt=0 long=0 resync=0 gga_age=228 fresh=1
+REFCHK seq0=57 seq1=57 ocxo=0 clk=230 raw=-51 frac=26214 D=1841 ms=56000 status=3801251
+RAW 0x00=-51 c=0 f=205 0x18=0 0x30=0 0x2C=M--
+DBG fine=58 frac=58 diff=57 fracval=26214
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-1940039 x1=-22773830 innov=39268 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-1940039 x1=-22773568 innov=39261 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-20168 phsm=-1916368 ppsm=-9960 | fix=1 sat=9 hdop=1.33 cn0=30.7 | dac=1841 acc=1840.87 | slow=0m n=0 | P3u=45715 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-9581
+NMEA diag: byte=35131(+652) drop=1128(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=587 badcs=4 badfmt=0 long=0 resync=0 gga_age=225 fresh=1
+REFCHK seq0=58 seq1=58 ocxo=-1 clk=228 raw=-102 frac=65535 D=1841 ms=57000 status=3866787
+RAW 0x00=-102 c=0 f=154 0x18=-1 0x30=0 0x2C=M--
+DBG fine=59 frac=59 diff=58 fracval=65535
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-1940039 x1=-22773830 innov=39268 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-1940039 x1=-22773568 innov=39261 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-20168 phsm=-1916368 ppsm=-19921 | fix=1 sat=8 hdop=1.33 cn0=30.6 | dac=1841 acc=1840.87 | slow=0m n=0 | P3u=45715 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-9581
+NMEA diag: byte=35719(+588) drop=1128(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=597 badcs=4 badfmt=0 long=0 resync=0 gga_age=227 fresh=1
+REFCHK seq0=59 seq1=59 ocxo=0 clk=226 raw=-51 frac=52428 D=1841 ms=58000 status=3932323
+RAW 0x00=-51 c=0 f=205 0x18=0 0x30=0 0x2C=M--
+DBG fine=60 frac=60 diff=59 fracval=52428
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-1940039 x1=-22773830 innov=39268 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-1940039 x1=-22773568 innov=39261 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-20168 phsm=-1916368 ppsm=-9960 | fix=1 sat=8 hdop=1.33 cn0=30.3 | dac=1841 acc=1840.87 | slow=0m n=0 | P3u=45715 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-9581
+NMEA diag: byte=36371(+652) drop=1128(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=608 badcs=4 badfmt=0 long=0 resync=0 gga_age=226 fresh=1
+REFCHK seq0=60 seq1=60 ocxo=0 clk=224 raw=-171 frac=8601 D=1841 ms=59000 status=3997859
+RAW 0x00=-171 c=0 f=85 0x18=0 0x30=139 0x2C=M--
+DBG fine=61 frac=61 diff=60 fracval=8601
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-1940039 x1=-22773830 innov=39268 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-1940039 x1=-22773568 innov=39261 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-20168 phsm=-1916368 ppsm=-33398 | fix=1 sat=8 hdop=1.33 cn0=30.6 | dac=1841 acc=1840.87 | slow=0m n=0 | P3u=45715 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-9581
+NMEA diag: byte=37024(+653) drop=1129(+1) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=618 badcs=5 badfmt=0 long=0 resync=0 gga_age=227 fresh=1
+REFCHK seq0=61 seq1=61 ocxo=0 clk=224 raw=-33 frac=102 D=1841 ms=60000 status=4063395
+RAW 0x00=-33 c=0 f=223 0x18=0 0x30=400 0x2C=M--
+DBG fine=62 frac=62 diff=61 fracval=102
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-1940039 x1=-22773830 innov=39268 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-1940039 x1=-22773568 innov=39261 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-20168 phsm=-1916368 ppsm=-6445 | fix=1 sat=8 hdop=1.33 cn0=25.3 | dac=1841 acc=1840.87 | slow=0m n=0 | P3u=45715 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-9581
+NMEA diag: byte=37676(+652) drop=1129(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=629 badcs=5 badfmt=0 long=0 resync=0 gga_age=226 fresh=1
+REFCHK seq0=62 seq1=62 ocxo=-1 clk=224 raw=-102 frac=39424 D=1841 ms=61000 status=4128931
+RAW 0x00=-102 c=0 f=154 0x18=-1 0x30=400 0x2C=M--
+DBG fine=63 frac=63 diff=62 fracval=39424
+SLOWC t=60 upd=7 v=0 n=0 Cns=1463.84532 phiRef=-3573.41563 fRef=0 fNow=0 fast=-15.3780274 Dref=1752 D=1841 g=0.47852 span=0 age=0 lag=0 src=0 w=0.0000 pev=0
+SLOWDBG t=60 upd=7 age=0 Tu=10 ev=0 st=0 act=0 n0=0 n=0 cnt=0 sec=0 done=0 innov=-44.152576 S=149.330985 K=5.0 lim=61.1005288 z=-3.61311 R=80
+SAMP why=0 used=1 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2109570 x1=-16953706 innov=58207 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2109570 x1=-16953319 innov=58204 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-15378 phsm=-2085916 ppsm=-19921 | fix=1 sat=8 hdop=1.52 cn0=24.9 | dac=1849 acc=1848.90 | slow=0m n=0 | P3u=28575 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-10429
+NMEA diag: byte=38289(+613) drop=1129(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=639 badcs=5 badfmt=0 long=0 resync=0 gga_age=256 fresh=1
+REFCHK seq0=63 seq1=63 ocxo=0 clk=226 raw=-51 frac=26316 D=1849 ms=62000 status=4194467
+RAW 0x00=-51 c=0 f=205 0x18=0 0x30=400 0x2C=M--
+DBG fine=64 frac=64 diff=63 fracval=26316
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2109570 x1=-16953706 innov=58207 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2109570 x1=-16953319 innov=58204 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-15378 phsm=-2085916 ppsm=-9960 | fix=1 sat=8 hdop=1.52 cn0=27.5 | dac=1849 acc=1848.90 | slow=0m n=0 | P3u=28575 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-10429
+NMEA diag: byte=38916(+627) drop=1129(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=650 badcs=5 badfmt=0 long=0 resync=0 gga_age=229 fresh=1
+REFCHK seq0=64 seq1=64 ocxo=0 clk=224 raw=0 frac=26316 D=1849 ms=63000 status=4260003
+RAW 0x00=0 c=0 f=0 0x18=0 0x30=400 0x2C=M--
+DBG fine=65 frac=65 diff=64 fracval=26316
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2109570 x1=-16953706 innov=58207 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2109570 x1=-16953319 innov=58204 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-15378 phsm=-2085916 ppsm=0 | fix=1 sat=8 hdop=1.33 cn0=28.4 | dac=1849 acc=1848.90 | slow=0m n=0 | P3u=28575 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-10429
+NMEA diag: byte=39565(+649) drop=1129(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=661 badcs=5 badfmt=0 long=0 resync=0 gga_age=225 fresh=1
+REFCHK seq0=65 seq1=65 ocxo=-1 clk=222 raw=-143 frac=55193 D=1849 ms=64000 status=4325539
+RAW 0x00=-143 c=0 f=113 0x18=-1 0x30=318 0x2C=M--
+DBG fine=66 frac=66 diff=65 fracval=55193
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2109570 x1=-16953706 innov=58207 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2109570 x1=-16953319 innov=58204 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-15378 phsm=-2085916 ppsm=-27929 | fix=1 sat=8 hdop=1.33 cn0=29.0 | dac=1849 acc=1848.90 | slow=0m n=0 | P3u=28575 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-10429
+NMEA diag: byte=40152(+587) drop=1129(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=671 badcs=5 badfmt=0 long=0 resync=0 gga_age=228 fresh=1
+REFCHK seq0=66 seq1=66 ocxo=0 clk=224 raw=-47 frac=43264 D=1849 ms=65000 status=4391075
+RAW 0x00=-47 c=0 f=209 0x18=0 0x30=282 0x2C=M--
+DBG fine=67 frac=67 diff=66 fracval=43264
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2109570 x1=-16953706 innov=58207 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2109570 x1=-16953319 innov=58204 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-15378 phsm=-2085916 ppsm=-9179 | fix=1 sat=9 hdop=1.02 cn0=29.8 | dac=1849 acc=1848.90 | slow=0m n=0 | P3u=28575 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-10429
+NMEA diag: byte=40803(+651) drop=1129(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=682 badcs=5 badfmt=0 long=0 resync=0 gga_age=226 fresh=1
+REFCHK seq0=67 seq1=67 ocxo=0 clk=225 raw=-67 frac=26214 D=1849 ms=66000 status=4456611
+RAW 0x00=-67 c=0 f=189 0x18=0 0x30=0 0x2C=M--
+DBG fine=68 frac=68 diff=67 fracval=26214
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2109570 x1=-16953706 innov=58207 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2109570 x1=-16953319 innov=58204 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-15378 phsm=-2085916 ppsm=-13085 | fix=1 sat=9 hdop=1.02 cn0=29.7 | dac=1849 acc=1848.90 | slow=0m n=0 | P3u=28575 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-10429
+NMEA diag: byte=41459(+656) drop=1129(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=693 badcs=5 badfmt=0 long=0 resync=0 gga_age=227 fresh=1
+REFCHK seq0=68 seq1=68 ocxo=0 clk=226 raw=-48 frac=14028 D=1849 ms=67000 status=4522147
+RAW 0x00=-48 c=0 f=208 0x18=0 0x30=376 0x2C=M--
+DBG fine=69 frac=69 diff=68 fracval=14028
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2109570 x1=-16953706 innov=58207 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2109570 x1=-16953319 innov=58204 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-15378 phsm=-2085916 ppsm=-9375 | fix=1 sat=8 hdop=1.33 cn0=29.6 | dac=1849 acc=1848.90 | slow=0m n=0 | P3u=28575 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-10429
+NMEA diag: byte=42045(+586) drop=1129(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=703 badcs=5 badfmt=0 long=0 resync=0 gga_age=227 fresh=1
+REFCHK seq0=69 seq1=69 ocxo=-1 clk=223 raw=-115 frac=50227 D=1849 ms=68000 status=4587683
+RAW 0x00=-115 c=0 f=141 0x18=-1 0x30=68 0x2C=M--
+DBG fine=70 frac=70 diff=69 fracval=50227
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2109570 x1=-16953706 innov=58207 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2109570 x1=-16953319 innov=58204 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-15378 phsm=-2085916 ppsm=-22460 | fix=1 sat=9 hdop=1.02 cn0=29.7 | dac=1849 acc=1848.90 | slow=0m n=0 | P3u=28575 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-10429
+NMEA diag: byte=42699(+654) drop=1129(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=714 badcs=5 badfmt=0 long=0 resync=0 gga_age=228 fresh=1
+REFCHK seq0=70 seq1=70 ocxo=0 clk=225 raw=-43 frac=39321 D=1849 ms=69000 status=4653219
+RAW 0x00=-43 c=0 f=213 0x18=0 0x30=0 0x2C=M--
+DBG fine=71 frac=71 diff=70 fracval=39321
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2109570 x1=-16953706 innov=58207 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2109570 x1=-16953319 innov=58204 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-15378 phsm=-2085916 ppsm=-8398 | fix=1 sat=9 hdop=1.02 cn0=29.9 | dac=1849 acc=1848.90 | slow=0m n=0 | P3u=28575 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-10429
+NMEA diag: byte=43284(+585) drop=1129(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=724 badcs=5 badfmt=0 long=0 resync=0 gga_age=227 fresh=1
+REFCHK seq0=71 seq1=71 ocxo=0 clk=223 raw=-46 frac=27596 D=1849 ms=70000 status=4718755
+RAW 0x00=-46 c=0 f=210 0x18=0 0x30=362 0x2C=M--
+DBG fine=72 frac=72 diff=71 fracval=27596
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2109570 x1=-16953706 innov=58207 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2109570 x1=-16953319 innov=58204 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-15378 phsm=-2085916 ppsm=-8984 | fix=1 sat=9 hdop=1.02 cn0=30.0 | dac=1849 acc=1848.90 | slow=0m n=0 | P3u=28575 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-10429
+NMEA diag: byte=43938(+654) drop=1129(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=735 badcs=5 badfmt=0 long=0 resync=0 gga_age=226 fresh=1
+REFCHK seq0=72 seq1=72 ocxo=0 clk=227 raw=-25 frac=21094 D=1849 ms=71000 status=4784291
+RAW 0x00=-25 c=0 f=231 0x18=0 0x30=158 0x2C=M--
+DBG fine=73 frac=73 diff=72 fracval=21094
+SLOWC t=70 upd=8 v=0 n=0 Cns=1927.97144 phiRef=-4151.79956 fRef=0 fNow=0 fast=-11.7366449 Dref=1752 D=1849 g=0.47852 span=0 age=0 lag=0 src=0 w=0.0000 pev=0
+SLOWDBG t=70 upd=8 age=0 Tu=10 ev=0 st=0 act=0 n0=0 n=0 cnt=0 sec=0 done=0 innov=-22.4126765 S=137.142388 K=5.0 lim=58.5539043 z=-1.91385 R=80
+SAMP why=0 used=1 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2223828 x1=-11426333 innov=55279 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2223828 x1=-11425965 innov=55275 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-11736 phsm=-2210754 ppsm=-4882 | fix=1 sat=9 hdop=1.02 cn0=30.1 | dac=1855 acc=1855.03 | slow=0m n=0 | P3u=19052 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-11053
+NMEA diag: byte=44551(+613) drop=1129(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=745 badcs=5 badfmt=0 long=0 resync=0 gga_age=255 fresh=1
+REFCHK seq0=73 seq1=73 ocxo=-1 clk=224 raw=-152 frac=47616 D=1855 ms=72000 status=4849827
+RAW 0x00=-152 c=0 f=104 0x18=-1 0x30=148 0x2C=M--
+DBG fine=74 frac=74 diff=73 fracval=47616
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2223828 x1=-11426333 innov=55279 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2223828 x1=-11425965 innov=55275 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-11736 phsm=-2210754 ppsm=-29687 | fix=1 sat=9 hdop=1.02 cn0=30.4 | dac=1855 acc=1855.03 | slow=0m n=0 | P3u=19052 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-11053
+NMEA diag: byte=45180(+629) drop=1129(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=756 badcs=5 badfmt=0 long=0 resync=0 gga_age=227 fresh=1
+REFCHK seq0=74 seq1=74 ocxo=0 clk=227 raw=-50 frac=34816 D=1855 ms=73000 status=4915363
+RAW 0x00=-50 c=0 f=206 0x18=0 0x30=140 0x2C=M--
+DBG fine=75 frac=75 diff=74 fracval=34816
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2223828 x1=-11426333 innov=55279 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2223828 x1=-11425965 innov=55275 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-11736 phsm=-2210754 ppsm=-9765 | fix=1 sat=9 hdop=1.02 cn0=30.6 | dac=1855 acc=1855.03 | slow=0m n=0 | P3u=19052 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-11053
+NMEA diag: byte=45764(+584) drop=1129(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=766 badcs=5 badfmt=0 long=0 resync=0 gga_age=224 fresh=1
+REFCHK seq0=75 seq1=75 ocxo=0 clk=224 raw=17 frac=39168 D=1855 ms=74000 status=4980899
+RAW 0x00=17 c=0 f=17 0x18=0 0x30=6 0x2C=M--
+DBG fine=76 frac=76 diff=75 fracval=39168
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2223828 x1=-11426333 innov=55279 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2223828 x1=-11425965 innov=55275 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-11736 phsm=-2210754 ppsm=3320 | fix=1 sat=9 hdop=1.02 cn0=31.0 | dac=1855 acc=1855.03 | slow=0m n=0 | P3u=19052 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-11053
+NMEA diag: byte=46419(+655) drop=1129(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=777 badcs=5 badfmt=0 long=0 resync=0 gga_age=225 fresh=1
+REFCHK seq0=76 seq1=76 ocxo=0 clk=224 raw=-51 frac=26214 D=1855 ms=75000 status=5046435
+RAW 0x00=-51 c=0 f=205 0x18=0 0x30=0 0x2C=M--
+DBG fine=77 frac=77 diff=76 fracval=26214
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2223828 x1=-11426333 innov=55279 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2223828 x1=-11425965 innov=55275 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-11736 phsm=-2210754 ppsm=-9960 | fix=1 sat=9 hdop=1.02 cn0=30.8 | dac=1855 acc=1855.03 | slow=0m n=0 | P3u=19052 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-11053
+NMEA diag: byte=47006(+587) drop=1129(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=787 badcs=5 badfmt=0 long=0 resync=0 gga_age=226 fresh=1
+REFCHK seq0=77 seq1=77 ocxo=-1 clk=227 raw=-136 frac=56934 D=1855 ms=76000 status=5111971
+RAW 0x00=-136 c=0 f=120 0x18=-1 0x30=266 0x2C=M--
+DBG fine=78 frac=78 diff=77 fracval=56934
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2223828 x1=-11426333 innov=55279 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2223828 x1=-11425965 innov=55275 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-11736 phsm=-2210754 ppsm=-26562 | fix=1 sat=9 hdop=1.02 cn0=30.1 | dac=1855 acc=1855.03 | slow=0m n=0 | P3u=19052 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-11053
+NMEA diag: byte=47663(+657) drop=1129(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=798 badcs=5 badfmt=0 long=0 resync=0 gga_age=227 fresh=1
+REFCHK seq0=78 seq1=78 ocxo=0 clk=228 raw=-18 frac=52428 D=1855 ms=77000 status=5177507
+RAW 0x00=-18 c=0 f=238 0x18=0 0x30=0 0x2C=M--
+DBG fine=79 frac=79 diff=78 fracval=52428
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2223828 x1=-11426333 innov=55279 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2223828 x1=-11425965 innov=55275 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-11736 phsm=-2210754 ppsm=-3515 | fix=1 sat=9 hdop=1.02 cn0=30.1 | dac=1855 acc=1855.03 | slow=0m n=0 | P3u=19052 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-11053
+NMEA diag: byte=48248(+585) drop=1129(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=808 badcs=5 badfmt=0 long=0 resync=0 gga_age=227 fresh=1
+REFCHK seq0=79 seq1=79 ocxo=0 clk=226 raw=-51 frac=39321 D=1855 ms=78000 status=5243043
+RAW 0x00=-51 c=0 f=205 0x18=0 0x30=0 0x2C=M--
+DBG fine=80 frac=80 diff=79 fracval=39321
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2223828 x1=-11426333 innov=55279 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2223828 x1=-11425965 innov=55275 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-11736 phsm=-2210754 ppsm=-9960 | fix=1 sat=9 hdop=1.02 cn0=30.4 | dac=1855 acc=1855.03 | slow=0m n=0 | P3u=19052 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-11053
+NMEA diag: byte=48902(+654) drop=1129(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=819 badcs=5 badfmt=0 long=0 resync=0 gga_age=226 fresh=1
+REFCHK seq0=80 seq1=80 ocxo=0 clk=228 raw=-24 frac=33126 D=1855 ms=79000 status=5308579
+RAW 0x00=-24 c=0 f=232 0x18=0 0x30=192 0x2C=M--
+DBG fine=81 frac=81 diff=80 fracval=33126
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2223828 x1=-11426333 innov=55279 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2223828 x1=-11425965 innov=55275 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-11736 phsm=-2210754 ppsm=-4687 | fix=1 sat=9 hdop=1.02 cn0=30.4 | dac=1855 acc=1855.03 | slow=0m n=0 | P3u=19052 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-11053
+NMEA diag: byte=49488(+586) drop=1129(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=829 badcs=5 badfmt=0 long=0 resync=0 gga_age=225 fresh=1
+REFCHK seq0=81 seq1=81 ocxo=0 clk=224 raw=-110 frac=4915 D=1855 ms=80000 status=5374115
+RAW 0x00=-110 c=0 f=146 0x18=0 0x30=252 0x2C=M--
+DBG fine=82 frac=82 diff=81 fracval=4915
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2223828 x1=-11426333 innov=55279 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2223828 x1=-11425965 innov=55275 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-11736 phsm=-2210754 ppsm=-21484 | fix=1 sat=9 hdop=1.02 cn0=30.2 | dac=1855 acc=1855.03 | slow=0m n=0 | P3u=19052 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-11053
+NMEA diag: byte=50143(+655) drop=1129(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=840 badcs=5 badfmt=0 long=0 resync=0 gga_age=227 fresh=1
+REFCHK seq0=82 seq1=82 ocxo=-1 clk=228 raw=-26 frac=63692 D=1855 ms=81000 status=5439651
+RAW 0x00=-26 c=0 f=230 0x18=-1 0x30=58 0x2C=M--
+DBG fine=83 frac=83 diff=82 fracval=63692
+SLOWC t=80 upd=9 v=0 n=0 Cns=2420.81832 phiRef=-4762.02926 fRef=0 fNow=0 fast=-9.14422419 Dref=1752 D=1855 g=0.47852 span=0 age=0 lag=0 src=0 w=0.0000 pev=0
+SLOWDBG t=80 upd=9 age=0 Tu=10 ev=0 st=0 act=0 n0=0 n=0 cnt=1 sec=0 done=0 innov=-41.801669 S=128.572177 K=5.0 lim=56.6948359 z=-3.68655 R=80
+SAMP why=0 used=1 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2341210 x1=-11738250 innov=-3119 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2341210 x1=-11738270 innov=-3123 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-9144 phsm=-2315201 ppsm=-5078 | fix=1 sat=9 hdop=1.02 cn0=29.9 | dac=1860 acc=1859.81 | slow=0m n=0 | P3u=13339 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-11576
+NMEA diag: byte=50748(+605) drop=1129(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=850 badcs=5 badfmt=0 long=0 resync=0 gga_age=246 fresh=1
+REFCHK seq0=83 seq1=83 ocxo=0 clk=223 raw=-68 frac=46387 D=1860 ms=82000 status=5505187
+RAW 0x00=-68 c=0 f=188 0x18=0 0x30=186 0x2C=M--
+DBG fine=84 frac=84 diff=83 fracval=46387
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2341210 x1=-11738250 innov=-3119 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2341210 x1=-11738270 innov=-3123 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-9144 phsm=-2315201 ppsm=-13281 | fix=1 sat=9 hdop=1.06 cn0=29.7 | dac=1860 acc=1859.81 | slow=0m n=0 | P3u=13339 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-11576
+NMEA diag: byte=51387(+639) drop=1129(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=861 badcs=5 badfmt=0 long=0 resync=0 gga_age=227 fresh=1
+REFCHK seq0=84 seq1=84 ocxo=0 clk=223 raw=-27 frac=39526 D=1860 ms=83000 status=5570723
+RAW 0x00=-27 c=0 f=229 0x18=0 0x30=398 0x2C=M--
+DBG fine=85 frac=85 diff=84 fracval=39526
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2341210 x1=-11738250 innov=-3119 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2341210 x1=-11738270 innov=-3123 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-9144 phsm=-2315201 ppsm=-5273 | fix=1 sat=9 hdop=1.06 cn0=29.7 | dac=1860 acc=1859.81 | slow=0m n=0 | P3u=13339 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-11576
+NMEA diag: byte=51971(+584) drop=1129(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=871 badcs=5 badfmt=0 long=0 resync=0 gga_age=225 fresh=1
+REFCHK seq0=85 seq1=85 ocxo=0 clk=224 raw=39 frac=49459 D=1860 ms=84000 status=5636259
+RAW 0x00=39 c=0 f=39 0x18=0 0x30=92 0x2C=M--
+DBG fine=86 frac=86 diff=85 fracval=49459
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2341210 x1=-11738250 innov=-3119 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2341210 x1=-11738270 innov=-3123 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-9144 phsm=-2315201 ppsm=7617 | fix=1 sat=9 hdop=1.06 cn0=30.4 | dac=1860 acc=1859.81 | slow=0m n=0 | P3u=13339 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-11576
+NMEA diag: byte=52621(+650) drop=1129(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=882 badcs=5 badfmt=0 long=0 resync=0 gga_age=220 fresh=1
+REFCHK seq0=86 seq1=86 ocxo=0 clk=218 raw=-142 frac=13107 D=1860 ms=85000 status=5701795
+RAW 0x00=-142 c=0 f=114 0x18=0 0x30=0 0x2C=M--
+DBG fine=87 frac=87 diff=86 fracval=13107
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2341210 x1=-11738250 innov=-3119 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2341210 x1=-11738270 innov=-3123 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-9144 phsm=-2315201 ppsm=-27734 | fix=1 sat=9 hdop=1.02 cn0=29.6 | dac=1860 acc=1859.81 | slow=0m n=0 | P3u=13339 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-11576
+NMEA diag: byte=53214(+593) drop=1129(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=892 badcs=5 badfmt=0 long=0 resync=0 gga_age=225 fresh=1
+REFCHK seq0=87 seq1=87 ocxo=0 clk=223 raw=-3 frac=12441 D=1860 ms=86000 status=5767331
+RAW 0x00=-3 c=0 f=253 0x18=0 0x30=22 0x2C=M--
+DBG fine=88 frac=88 diff=87 fracval=12441
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2341210 x1=-11738250 innov=-3119 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2341210 x1=-11738270 innov=-3123 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-9144 phsm=-2315201 ppsm=-585 | fix=1 sat=8 hdop=1.32 cn0=30.8 | dac=1860 acc=1859.81 | slow=0m n=0 | P3u=13339 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-11576
+NMEA diag: byte=53865(+651) drop=1129(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=903 badcs=5 badfmt=0 long=0 resync=0 gga_age=218 fresh=1
+REFCHK seq0=88 seq1=88 ocxo=0 clk=222 raw=-36 frac=3328 D=1860 ms=87000 status=5832867
+RAW 0x00=-36 c=0 f=220 0x18=0 0x30=301 0x2C=M--
+DBG fine=89 frac=89 diff=88 fracval=3328
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2341210 x1=-11738250 innov=-3119 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2341210 x1=-11738270 innov=-3123 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-9144 phsm=-2315201 ppsm=-7031 | fix=1 sat=9 hdop=0.99 cn0=30.9 | dac=1860 acc=1859.81 | slow=0m n=0 | P3u=13339 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-11576
+NMEA diag: byte=54454(+589) drop=1129(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=913 badcs=5 badfmt=0 long=0 resync=0 gga_age=224 fresh=1
+REFCHK seq0=89 seq1=89 ocxo=-1 clk=225 raw=-32 frac=60723 D=1860 ms=88000 status=5898403
+RAW 0x00=-32 c=0 f=224 0x18=-1 0x30=148 0x2C=M--
+DBG fine=90 frac=90 diff=89 fracval=60723
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2341210 x1=-11738250 innov=-3119 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2341210 x1=-11738270 innov=-3123 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-9144 phsm=-2315201 ppsm=-6250 | fix=1 sat=9 hdop=0.99 cn0=30.9 | dac=1860 acc=1859.81 | slow=0m n=0 | P3u=13339 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-11576
+NMEA diag: byte=55109(+655) drop=1129(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=924 badcs=5 badfmt=0 long=0 resync=0 gga_age=223 fresh=1
+REFCHK seq0=90 seq1=90 ocxo=0 clk=222 raw=-84 frac=39321 D=1860 ms=89000 status=5963939
+RAW 0x00=-84 c=0 f=172 0x18=0 0x30=0 0x2C=M--
+DBG fine=91 frac=91 diff=90 fracval=39321
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2341210 x1=-11738250 innov=-3119 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2341210 x1=-11738270 innov=-3123 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-9144 phsm=-2315201 ppsm=-16406 | fix=1 sat=9 hdop=0.99 cn0=31.1 | dac=1860 acc=1859.81 | slow=0m n=0 | P3u=13339 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-11576
+NMEA diag: byte=55696(+587) drop=1129(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=934 badcs=5 badfmt=0 long=0 resync=0 gga_age=225 fresh=1
+REFCHK seq0=91 seq1=91 ocxo=0 clk=226 raw=-44 frac=28108 D=1860 ms=90000 status=6029475
+RAW 0x00=-44 c=0 f=212 0x18=0 0x30=346 0x2C=M--
+DBG fine=92 frac=92 diff=91 fracval=28108
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2341210 x1=-11738250 innov=-3119 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2341210 x1=-11738270 innov=-3123 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-9144 phsm=-2315201 ppsm=-8593 | fix=1 sat=9 hdop=0.99 cn0=31.4 | dac=1860 acc=1859.81 | slow=0m n=0 | P3u=13339 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-11576
+NMEA diag: byte=56351(+655) drop=1129(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=945 badcs=5 badfmt=0 long=0 resync=0 gga_age=224 fresh=1
+REFCHK seq0=92 seq1=92 ocxo=0 clk=225 raw=-38 frac=18329 D=1860 ms=91000 status=6095011
+RAW 0x00=-38 c=0 f=218 0x18=0 0x30=244 0x2C=M--
+DBG fine=93 frac=93 diff=92 fracval=18329
+SLOWC t=90 upd=10 v=0 n=0 Cns=2937.596 phiRef=-5363.76787 fRef=0 fNow=0 fast=-6.98868218 Dref=1752 D=1860 g=0.47852 span=0 age=0 lag=0 src=0 w=0.0000 pev=0
+SLOWDBG t=90 upd=10 age=0 Tu=10 ev=0 st=0 act=0 n0=0 n=0 cnt=2 sec=0 done=0 innov=-43.4544717 S=122.223973 K=5.0 lim=55.2774757 z=-3.93058 R=80
+SAMP why=0 used=1 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2426171 x1=-8496417 innov=32421 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2426171 x1=-8496201 innov=32421 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-6988 phsm=-2397729 ppsm=-7421 | fix=1 sat=9 hdop=0.99 cn0=31.6 | dac=1863 acc=1863.46 | slow=0m n=0 | P3u=9704 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-11988
+NMEA diag: byte=56962(+611) drop=1129(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=955 badcs=5 badfmt=0 long=0 resync=0 gga_age=251 fresh=1
+REFCHK seq0=93 seq1=93 ocxo=0 clk=225 raw=30 frac=25907 D=1863 ms=92000 status=6160547
+RAW 0x00=30 c=0 f=30 0x18=0 0x30=10 0x2C=M--
+DBG fine=94 frac=94 diff=93 fracval=25907
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2426171 x1=-8496417 innov=32421 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2426171 x1=-8496201 innov=32421 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-6988 phsm=-2397729 ppsm=5859 | fix=1 sat=9 hdop=0.99 cn0=31.9 | dac=1863 acc=1863.46 | slow=0m n=0 | P3u=9704 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-11988
+NMEA diag: byte=57590(+628) drop=1129(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=966 badcs=5 badfmt=0 long=0 resync=0 gga_age=223 fresh=1
+REFCHK seq0=94 seq1=94 ocxo=-1 clk=223 raw=-101 frac=65535 D=1863 ms=93000 status=6226083
+RAW 0x00=-101 c=0 f=155 0x18=-1 0x30=0 0x2C=M--
+DBG fine=95 frac=95 diff=94 fracval=65535
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2426171 x1=-8496417 innov=32421 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2426171 x1=-8496201 innov=32421 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-6988 phsm=-2397729 ppsm=-19726 | fix=1 sat=9 hdop=0.99 cn0=33.10 | dac=1863 acc=1863.46 | slow=0m n=0 | P3u=9704 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-11988
+NMEA diag: byte=58179(+589) drop=1129(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=976 badcs=5 badfmt=0 long=0 resync=0 gga_age=226 fresh=1
+REFCHK seq0=95 seq1=95 ocxo=0 clk=227 raw=-20 frac=60467 D=1863 ms=94000 status=6291619
+RAW 0x00=-20 c=0 f=236 0x18=0 0x30=156 0x2C=M--
+DBG fine=96 frac=96 diff=95 fracval=60467
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2426171 x1=-8496417 innov=32421 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2426171 x1=-8496201 innov=32421 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-6988 phsm=-2397729 ppsm=-3906 | fix=1 sat=9 hdop=0.99 cn0=33.5 | dac=1863 acc=1863.46 | slow=0m n=0 | P3u=9704 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-11988
+NMEA diag: byte=58831(+652) drop=1129(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=987 badcs=5 badfmt=0 long=0 resync=0 gga_age=225 fresh=1
+REFCHK seq0=96 seq1=96 ocxo=0 clk=228 raw=-32 frac=52377 D=1863 ms=95000 status=6357155
+RAW 0x00=-32 c=0 f=224 0x18=0 0x30=3 0x2C=M--
+DBG fine=97 frac=97 diff=96 fracval=52377
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2426171 x1=-8496417 innov=32421 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2426171 x1=-8496201 innov=32421 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-6988 phsm=-2397729 ppsm=-6250 | fix=1 sat=9 hdop=0.99 cn0=33.6 | dac=1863 acc=1863.46 | slow=0m n=0 | P3u=9704 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-11988
+NMEA diag: byte=59418(+587) drop=1129(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=997 badcs=5 badfmt=0 long=0 resync=0 gga_age=226 fresh=1
+REFCHK seq0=97 seq1=97 ocxo=0 clk=228 raw=0 frac=52428 D=1863 ms=96000 status=6422691
+RAW 0x00=0 c=0 f=0 0x18=0 0x30=0 0x2C=M--
+DBG fine=98 frac=98 diff=97 fracval=52428
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2426171 x1=-8496417 innov=32421 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2426171 x1=-8496201 innov=32421 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-6988 phsm=-2397729 ppsm=0 | fix=1 sat=10 hdop=0.99 cn0=33.6 | dac=1863 acc=1863.46 | slow=0m n=0 | P3u=9704 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-11988
+NMEA diag: byte=60072(+654) drop=1129(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=1008 badcs=5 badfmt=0 long=0 resync=0 gga_age=224 fresh=1
+REFCHK seq0=98 seq1=98 ocxo=0 clk=226 raw=-135 frac=17766 D=1863 ms=97000 status=6488227
+RAW 0x00=-135 c=0 f=121 0x18=0 0x30=260 0x2C=M--
+DBG fine=99 frac=99 diff=98 fracval=17766
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2426171 x1=-8496417 innov=32421 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2426171 x1=-8496201 innov=32421 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-6988 phsm=-2397729 ppsm=-26367 | fix=1 sat=10 hdop=0.99 cn0=33.8 | dac=1863 acc=1863.46 | slow=0m n=0 | P3u=9704 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-11988
+NMEA diag: byte=60659(+587) drop=1129(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=1018 badcs=5 badfmt=0 long=0 resync=0 gga_age=223 fresh=1
+REFCHK seq0=99 seq1=99 ocxo=0 clk=228 raw=-16 frac=13568 D=1863 ms=98000 status=6553763
+RAW 0x00=-16 c=0 f=240 0x18=0 0x30=390 0x2C=M--
+DBG fine=100 frac=100 diff=99 fracval=13568
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2426171 x1=-8496417 innov=32421 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2426171 x1=-8496201 innov=32421 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-6988 phsm=-2397729 ppsm=-3125 | fix=1 sat=10 hdop=0.99 cn0=32.6 | dac=1863 acc=1863.46 | slow=0m n=0 | P3u=9704 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-11988
+NMEA diag: byte=61314(+655) drop=1129(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=1029 badcs=5 badfmt=0 long=0 resync=0 gga_age=221 fresh=1
+REFCHK seq0=100 seq1=100 ocxo=0 clk=229 raw=20 frac=18739 D=1863 ms=99000 status=6619299
+RAW 0x00=20 c=0 f=20 0x18=0 0x30=230 0x2C=M--
+DBG fine=101 frac=101 diff=100 fracval=18739
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2426171 x1=-8496417 innov=32421 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2426171 x1=-8496201 innov=32421 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-6988 phsm=-2397729 ppsm=3906 | fix=1 sat=10 hdop=0.99 cn0=34.2 | dac=1863 acc=1863.46 | slow=0m n=0 | P3u=9704 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-11988
+NMEA diag: byte=61904(+590) drop=1129(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=1039 badcs=5 badfmt=0 long=0 resync=0 gga_age=223 fresh=1
+REFCHK seq0=101 seq1=101 ocxo=0 clk=229 raw=-22 frac=13107 D=1863 ms=100000 status=6684835
+RAW 0x00=-22 c=0 f=234 0x18=0 0x30=0 0x2C=M--
+DBG fine=102 frac=102 diff=101 fracval=13107
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2426171 x1=-8496417 innov=32421 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2426171 x1=-8496201 innov=32421 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-6988 phsm=-2397729 ppsm=-4296 | fix=1 sat=10 hdop=0.99 cn0=34.2 | dac=1863 acc=1863.46 | slow=0m n=0 | P3u=9704 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-11988
+NMEA diag: byte=62562(+658) drop=1129(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=1050 badcs=5 badfmt=0 long=0 resync=0 gga_age=224 fresh=1
+REFCHK seq0=102 seq1=102 ocxo=-1 clk=227 raw=-102 frac=52428 D=1863 ms=101000 status=6750371
+RAW 0x00=-102 c=0 f=154 0x18=-1 0x30=0 0x2C=M--
+DBG fine=103 frac=103 diff=102 fracval=52428
+SLOWC t=100 upd=11 v=0 n=0 Cns=3468.73884 phiRef=-5968.73884 fRef=0 fNow=0 fast=-5.76562256 Dref=1752 D=1863 g=0.47852 span=0 age=0 lag=0 src=0 w=0.0000 pev=0
+SLOWDBG t=100 upd=11 age=0 Tu=10 ev=0 st=0 act=0 n0=0 n=0 cnt=3 sec=0 done=0 innov=-46.7394228 S=117.336052 K=5.0 lim=54.1608835 z=-4.31487 R=80
+SAMP why=0 used=1 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2500000 x1=-7382923 innov=11136 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2500000 x1=-7382849 innov=11133 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-5765 phsm=-2468132 ppsm=-19921 | fix=1 sat=10 hdop=0.99 cn0=34.3 | dac=1866 acc=1866.47 | slow=0m n=0 | P3u=7280 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-12340
+NMEA diag: byte=63246(+684) drop=1129(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=1061 badcs=5 badfmt=0 long=0 resync=0 gga_age=254 fresh=1
+REFCHK seq0=103 seq1=103 ocxo=0 clk=232 raw=-9 frac=50022 D=1866 ms=102000 status=6815907
+RAW 0x00=-9 c=0 f=247 0x18=0 0x30=75 0x2C=M--
+DBG fine=104 frac=104 diff=103 fracval=50022
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2500000 x1=-7382923 innov=11136 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2500000 x1=-7382849 innov=11133 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-5765 phsm=-2468132 ppsm=-1757 | fix=1 sat=10 hdop=0.99 cn0=34.2 | dac=1866 acc=1866.47 | slow=0m n=0 | P3u=7280 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-12340
+NMEA diag: byte=63808(+562) drop=1129(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=1071 badcs=5 badfmt=0 long=0 resync=0 gga_age=225 fresh=1
+REFCHK seq0=104 seq1=104 ocxo=0 clk=226 raw=9 frac=52428 D=1866 ms=103000 status=6881443
+RAW 0x00=9 c=0 f=9 0x18=0 0x30=0 0x2C=M--
+DBG fine=105 frac=105 diff=104 fracval=52428
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2500000 x1=-7382923 innov=11136 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2500000 x1=-7382849 innov=11133 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-5765 phsm=-2468132 ppsm=1757 | fix=1 sat=10 hdop=1.17 cn0=33.9 | dac=1866 acc=1866.47 | slow=0m n=0 | P3u=7280 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-12340
+NMEA diag: byte=64461(+653) drop=1130(+1) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=1081 badcs=6 badfmt=0 long=0 resync=0 gga_age=223 fresh=1
+REFCHK seq0=105 seq1=105 ocxo=0 clk=231 raw=-2 frac=51865 D=1866 ms=104000 status=6946979
+RAW 0x00=-2 c=0 f=254 0x18=0 0x30=18 0x2C=M--
+DBG fine=106 frac=106 diff=105 fracval=51865
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2500000 x1=-7382923 innov=11136 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2500000 x1=-7382849 innov=11133 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-5765 phsm=-2468132 ppsm=-390 | fix=1 sat=10 hdop=0.99 cn0=34.3 | dac=1866 acc=1866.47 | slow=0m n=0 | P3u=7280 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-12340
+NMEA diag: byte=65054(+593) drop=1130(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=1091 badcs=6 badfmt=0 long=0 resync=0 gga_age=228 fresh=1
+REFCHK seq0=106 seq1=106 ocxo=0 clk=228 raw=-137 frac=16793 D=1866 ms=105000 status=7012515
+RAW 0x00=-137 c=0 f=119 0x18=0 0x30=290 0x2C=M--
+DBG fine=107 frac=107 diff=106 fracval=16793
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2500000 x1=-7382923 innov=11136 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2500000 x1=-7382849 innov=11133 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-5765 phsm=-2468132 ppsm=-26757 | fix=1 sat=10 hdop=0.99 cn0=34.5 | dac=1866 acc=1866.47 | slow=0m n=0 | P3u=7280 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-12340
+NMEA diag: byte=65710(+656) drop=1130(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=1102 badcs=6 badfmt=0 long=0 resync=0 gga_age=227 fresh=1
+REFCHK seq0=107 seq1=107 ocxo=0 clk=230 raw=-14 frac=13107 D=1866 ms=106000 status=7078051
+RAW 0x00=-14 c=0 f=242 0x18=0 0x30=0 0x2C=M--
+DBG fine=108 frac=108 diff=107 fracval=13107
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2500000 x1=-7382923 innov=11136 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2500000 x1=-7382849 innov=11133 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-5765 phsm=-2468132 ppsm=-2734 | fix=1 sat=10 hdop=0.94 cn0=34.7 | dac=1866 acc=1866.47 | slow=0m n=0 | P3u=7280 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-12340
+NMEA diag: byte=66297(+587) drop=1130(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=1112 badcs=6 badfmt=0 long=0 resync=0 gga_age=226 fresh=1
+REFCHK seq0=108 seq1=108 ocxo=0 clk=229 raw=-2 frac=12697 D=1866 ms=107000 status=7143587
+RAW 0x00=-2 c=0 f=254 0x18=0 0x30=14 0x2C=M--
+DBG fine=109 frac=109 diff=108 fracval=12697
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2500000 x1=-7382923 innov=11136 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2500000 x1=-7382849 innov=11133 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-5765 phsm=-2468132 ppsm=-390 | fix=1 sat=10 hdop=0.94 cn0=34.8 | dac=1866 acc=1866.47 | slow=0m n=0 | P3u=7280 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-12340
+NMEA diag: byte=66955(+658) drop=1130(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=1123 badcs=6 badfmt=0 long=0 resync=0 gga_age=226 fresh=1
+REFCHK seq0=109 seq1=109 ocxo=0 clk=228 raw=26 frac=19456 D=1866 ms=108000 status=7209123
+RAW 0x00=26 c=0 f=26 0x18=0 0x30=208 0x2C=M--
+DBG fine=110 frac=110 diff=109 fracval=19456
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2500000 x1=-7382923 innov=11136 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2500000 x1=-7382849 innov=11133 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-5765 phsm=-2468132 ppsm=5078 | fix=1 sat=10 hdop=0.94 cn0=34.8 | dac=1866 acc=1866.47 | slow=0m n=0 | P3u=7280 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-12340
+NMEA diag: byte=67541(+586) drop=1130(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=1133 badcs=6 badfmt=0 long=0 resync=0 gga_age=224 fresh=1
+REFCHK seq0=110 seq1=110 ocxo=0 clk=229 raw=-20 frac=14438 D=1866 ms=109000 status=7274659
+RAW 0x00=-20 c=0 f=236 0x18=0 0x30=363 0x2C=M--
+DBG fine=111 frac=111 diff=110 fracval=14438
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2500000 x1=-7382923 innov=11136 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2500000 x1=-7382849 innov=11133 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-5765 phsm=-2468132 ppsm=-3906 | fix=1 sat=10 hdop=1.02 cn0=34.9 | dac=1866 acc=1866.47 | slow=0m n=0 | P3u=7280 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-12340
+NMEA diag: byte=68201(+660) drop=1130(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=1144 badcs=6 badfmt=0 long=0 resync=0 gga_age=229 fresh=1
+REFCHK seq0=111 seq1=111 ocxo=-1 clk=228 raw=-129 frac=46950 D=1866 ms=110000 status=7340195
+RAW 0x00=-129 c=0 f=127 0x18=-1 0x30=170 0x2C=M--
+DBG fine=112 frac=112 diff=111 fracval=46950
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2500000 x1=-7382923 innov=11136 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2500000 x1=-7382849 innov=11133 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-5765 phsm=-2468132 ppsm=-25195 | fix=1 sat=10 hdop=1.32 cn0=34.9 | dac=1866 acc=1866.47 | slow=0m n=0 | P3u=7280 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-12340
+NMEA diag: byte=68791(+590) drop=1130(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=1154 badcs=6 badfmt=0 long=0 resync=0 gga_age=230 fresh=1
+REFCHK seq0=112 seq1=112 ocxo=0 clk=229 raw=0 frac=47052 D=1866 ms=111000 status=7405731
+RAW 0x00=0 c=0 f=0 0x18=0 0x30=166 0x2C=M--
+DBG fine=113 frac=113 diff=112 fracval=47052
+SLOWC t=110 upd=12 v=0 n=0 Cns=4014.23729 phiRef=-6568.53416 fRef=0 fNow=0 fast=-4.49497774 Dref=1752 D=1866 g=0.47852 span=0 age=0 lag=0 src=0 w=0.0000 pev=0
+SLOWDBG t=110 upd=12 age=0 Tu=10 ev=0 st=0 act=0 n0=0 n=0 cnt=4 sec=0 done=0 innov=-42.8632992 S=113.458284 K=5.0 lim=53.2583993 z=-4.02409 R=80
+SAMP why=0 used=1 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2554296 x1=-5429882 innov=19532 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2554296 x1=-5429752 innov=19531 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-4494 phsm=-2524073 ppsm=0 | fix=1 sat=10 hdop=1.32 cn0=34.9 | dac=1869 acc=1868.82 | slow=0m n=0 | P3u=5603 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-12620
+NMEA diag: byte=69470(+679) drop=1130(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=1165 badcs=6 badfmt=0 long=0 resync=0 gga_age=253 fresh=1
+REFCHK seq0=113 seq1=113 ocxo=0 clk=227 raw=-1 frac=46796 D=1869 ms=112000 status=7471267
+RAW 0x00=-1 c=0 f=255 0x18=0 0x30=174 0x2C=M--
+DBG fine=114 frac=114 diff=113 fracval=46796
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2554296 x1=-5429882 innov=19532 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2554296 x1=-5429752 innov=19531 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-4494 phsm=-2524073 ppsm=-195 | fix=1 sat=9 hdop=1.32 cn0=35.9 | dac=1869 acc=1868.82 | slow=0m n=0 | P3u=5603 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-12620
+NMEA diag: byte=70036(+566) drop=1130(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=1175 badcs=6 badfmt=0 long=0 resync=0 gga_age=230 fresh=1
+REFCHK seq0=114 seq1=114 ocxo=0 clk=230 raw=13 frac=50124 D=1869 ms=113000 status=7536803
+RAW 0x00=13 c=0 f=13 0x18=0 0x30=71 0x2C=M--
+DBG fine=115 frac=115 diff=114 fracval=50124
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2554296 x1=-5429882 innov=19532 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2554296 x1=-5429752 innov=19531 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-4494 phsm=-2524073 ppsm=2539 | fix=1 sat=9 hdop=1.32 cn0=36.2 | dac=1869 acc=1868.82 | slow=0m n=0 | P3u=5603 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-12620
+NMEA diag: byte=70685(+649) drop=1130(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=1186 badcs=6 badfmt=0 long=0 resync=0 gga_age=226 fresh=1
+REFCHK seq0=115 seq1=115 ocxo=0 clk=229 raw=-136 frac=15257 D=1869 ms=114000 status=7602339
+RAW 0x00=-136 c=0 f=120 0x18=0 0x30=338 0x2C=M--
+DBG fine=116 frac=116 diff=115 fracval=15257
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2554296 x1=-5429882 innov=19532 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2554296 x1=-5429752 innov=19531 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-4494 phsm=-2524073 ppsm=-26562 | fix=1 sat=9 hdop=1.32 cn0=36.2 | dac=1869 acc=1868.82 | slow=0m n=0 | P3u=5603 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-12620
+NMEA diag: byte=71269(+584) drop=1130(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=1196 badcs=6 badfmt=0 long=0 resync=0 gga_age=226 fresh=1
+REFCHK seq0=116 seq1=116 ocxo=0 clk=226 raw=18 frac=19865 D=1869 ms=115000 status=7667875
+RAW 0x00=18 c=0 f=18 0x18=0 0x30=196 0x2C=M--
+DBG fine=117 frac=117 diff=116 fracval=19865
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2554296 x1=-5429882 innov=19532 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2554296 x1=-5429752 innov=19531 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-4494 phsm=-2524073 ppsm=3515 | fix=1 sat=9 hdop=1.32 cn0=36.1 | dac=1869 acc=1868.82 | slow=0m n=0 | P3u=5603 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-12620
+NMEA diag: byte=71924(+655) drop=1130(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=1207 badcs=6 badfmt=0 long=0 resync=0 gga_age=228 fresh=1
+REFCHK seq0=117 seq1=117 ocxo=0 clk=226 raw=21 frac=25241 D=1869 ms=116000 status=7733411
+RAW 0x00=21 c=0 f=21 0x18=0 0x30=30 0x2C=M--
+DBG fine=118 frac=118 diff=117 fracval=25241
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2554296 x1=-5429882 innov=19532 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2554296 x1=-5429752 innov=19531 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-4494 phsm=-2524073 ppsm=4101 | fix=1 sat=9 hdop=1.32 cn0=35.9 | dac=1869 acc=1868.82 | slow=0m n=0 | P3u=5603 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-12620
+NMEA diag: byte=72508(+584) drop=1130(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=1217 badcs=6 badfmt=0 long=0 resync=0 gga_age=228 fresh=1
+REFCHK seq0=118 seq1=118 ocxo=0 clk=228 raw=4 frac=26214 D=1869 ms=117000 status=7798947
+RAW 0x00=4 c=0 f=4 0x18=0 0x30=0 0x2C=M--
+DBG fine=119 frac=119 diff=118 fracval=26214
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2554296 x1=-5429882 innov=19532 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2554296 x1=-5429752 innov=19531 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-4494 phsm=-2524073 ppsm=781 | fix=1 sat=9 hdop=1.32 cn0=35.9 | dac=1869 acc=1868.82 | slow=0m n=0 | P3u=5603 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-12620
+NMEA diag: byte=73159(+651) drop=1130(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=1228 badcs=6 badfmt=0 long=0 resync=0 gga_age=227 fresh=1
+REFCHK seq0=119 seq1=119 ocxo=0 clk=230 raw=-102 frac=102 D=1869 ms=118000 status=7864483
+RAW 0x00=-102 c=0 f=154 0x18=0 0x30=400 0x2C=M--
+DBG fine=120 frac=120 diff=119 fracval=102
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2554296 x1=-5429882 innov=19532 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2554296 x1=-5429752 innov=19531 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-4494 phsm=-2524073 ppsm=-19921 | fix=1 sat=9 hdop=1.32 cn0=35.6 | dac=1869 acc=1868.82 | slow=0m n=0 | P3u=5603 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-12620
+NMEA diag: byte=73747(+588) drop=1130(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=1238 badcs=6 badfmt=0 long=0 resync=0 gga_age=231 fresh=1
+REFCHK seq0=120 seq1=120 ocxo=0 clk=226 raw=17 frac=4352 D=1869 ms=119000 status=7930019
+RAW 0x00=17 c=0 f=17 0x18=0 0x30=270 0x2C=M--
+DBG fine=121 frac=121 diff=120 fracval=4352
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2554296 x1=-5429882 innov=19532 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2554296 x1=-5429752 innov=19531 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-4494 phsm=-2524073 ppsm=3320 | fix=1 sat=9 hdop=1.32 cn0=35.4 | dac=1869 acc=1868.82 | slow=0m n=0 | P3u=5603 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-12620
+NMEA diag: byte=74397(+650) drop=1130(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=1249 badcs=6 badfmt=0 long=0 resync=0 gga_age=227 fresh=1
+REFCHK seq0=121 seq1=121 ocxo=-1 clk=230 raw=-32 frac=61747 D=1869 ms=120000 status=7995555
+RAW 0x00=-32 c=0 f=224 0x18=-1 0x30=118 0x2C=M--
+DBG fine=122 frac=122 diff=121 fracval=61747
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2554296 x1=-5429882 innov=19532 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2554296 x1=-5429752 innov=19531 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=1 | frqm=-4494 phsm=-2524073 ppsm=-6250 | fix=1 sat=9 hdop=1.32 cn0=35.3 | dac=1869 acc=1868.82 | slow=0m n=0 | P3u=5603 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-12620
+NMEA diag: byte=74983(+586) drop=1130(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=1259 badcs=6 badfmt=0 long=0 resync=0 gga_age=230 fresh=1
+REFCHK seq0=122 seq1=122 ocxo=1 clk=228 raw=20 frac=1280 D=1869 ms=121000 status=8061091
+RAW 0x00=20 c=0 f=20 0x18=1 0x30=364 0x2C=M--
+DBG fine=123 frac=123 diff=122 fracval=1280
+SLOWC t=120 upd=13 v=0 n=0 Cns=4574.09133 phiRef=-7163.15383 fRef=0 fNow=0 fast=-3.17286184 Dref=1752 D=1869 g=0.47852 span=0 age=0 lag=0 src=0 w=0.0000 pev=0
+SLOWDBG t=120 upd=13 age=0 Tu=10 ev=1 st=0 act=1 n0=0 n=1 cnt=5 sec=0 done=0 innov=-34.3945729 S=110.307887 K=5.0 lim=52.5137809 z=-3.27481 R=80
+SLOWDBG t=120 upd=13 age=0 Tu=10 ev=0 st=0 act=1 n0=1 n=1 cnt=5 sec=0 done=0 innov=-34.3945729 S=110.307887 K=5.0 lim=52.5137809 z=-3.27481 R=80
+SAMP why=0 used=1 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2589062 x1=-3476757 innov=19533 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2589062 x1=-3476627 innov=19531 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=300 | frqm=-3172 phsm=-2564118 ppsm=3906 | fix=1 sat=8 hdop=1.43 cn0=34.2 | dac=1870 acc=1870.48 | slow=-3172m n=1 | P3u=4405 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-12820
+NMEA diag: byte=75674(+691) drop=1130(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=1270 badcs=6 badfmt=0 long=0 resync=0 gga_age=269 fresh=1
+REFCHK seq0=123 seq1=123 ocxo=-1 clk=228 raw=-112 frac=38195 D=1870 ms=122000 status=8126627
+RAW 0x00=-112 c=0 f=144 0x18=-1 0x30=36 0x2C=M--
+DBG fine=124 frac=124 diff=123 fracval=38195
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2589062 x1=-3476757 innov=19533 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2589062 x1=-3476627 innov=19531 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=300 | frqm=-3172 phsm=-2564118 ppsm=-21875 | fix=1 sat=9 hdop=1.32 cn0=34.4 | dac=1870 acc=1870.48 | slow=-3172m n=1 | P3u=4405 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-12820
+NMEA diag: byte=76221(+547) drop=1130(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=1280 badcs=6 badfmt=0 long=0 resync=0 gga_age=233 fresh=1
+REFCHK seq0=124 seq1=124 ocxo=0 clk=229 raw=23 frac=44134 D=1870 ms=123000 status=8192163
+RAW 0x00=23 c=0 f=23 0x18=0 0x30=256 0x2C=M--
+DBG fine=125 frac=125 diff=124 fracval=44134
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2589062 x1=-3476757 innov=19533 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2589062 x1=-3476627 innov=19531 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=300 | frqm=-3172 phsm=-2564118 ppsm=4492 | fix=1 sat=9 hdop=1.32 cn0=34.7 | dac=1870 acc=1870.48 | slow=-3172m n=1 | P3u=4405 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-12820
+NMEA diag: byte=76870(+649) drop=1130(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=1291 badcs=6 badfmt=0 long=0 resync=0 gga_age=228 fresh=1
+REFCHK seq0=125 seq1=125 ocxo=0 clk=229 raw=-1 frac=43878 D=1870 ms=124000 status=8257699
+RAW 0x00=-1 c=0 f=255 0x18=0 0x30=263 0x2C=M--
+DBG fine=126 frac=126 diff=125 fracval=43878
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2589062 x1=-3476757 innov=19533 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2589062 x1=-3476627 innov=19531 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=300 | frqm=-3172 phsm=-2564118 ppsm=-195 | fix=1 sat=9 hdop=1.32 cn0=34.8 | dac=1870 acc=1870.48 | slow=-3172m n=1 | P3u=4405 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-12820
+NMEA diag: byte=77455(+585) drop=1130(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=1301 badcs=6 badfmt=0 long=0 resync=0 gga_age=230 fresh=1
+REFCHK seq0=126 seq1=126 ocxo=0 clk=228 raw=22 frac=49510 D=1870 ms=125000 status=8323235
+RAW 0x00=22 c=0 f=22 0x18=0 0x30=90 0x2C=M--
+DBG fine=127 frac=127 diff=126 fracval=49510
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2589062 x1=-3476757 innov=19533 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2589062 x1=-3476627 innov=19531 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=300 | frqm=-3172 phsm=-2564118 ppsm=4296 | fix=1 sat=9 hdop=1.32 cn0=34.8 | dac=1870 acc=1870.48 | slow=-3172m n=1 | P3u=4405 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-12820
+NMEA diag: byte=78108(+653) drop=1130(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=1312 badcs=6 badfmt=0 long=0 resync=0 gga_age=230 fresh=1
+REFCHK seq0=127 seq1=127 ocxo=0 clk=225 raw=-142 frac=13107 D=1870 ms=126000 status=8388771
+RAW 0x00=-142 c=0 f=114 0x18=0 0x30=0 0x2C=M--
+DBG fine=128 frac=128 diff=127 fracval=13107
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2589062 x1=-3476757 innov=19533 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2589062 x1=-3476627 innov=19531 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=300 | frqm=-3172 phsm=-2564118 ppsm=-27734 | fix=1 sat=9 hdop=1.32 cn0=34.6 | dac=1870 acc=1870.48 | slow=-3172m n=1 | P3u=4405 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-12820
+NMEA diag: byte=78693(+585) drop=1130(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=1322 badcs=6 badfmt=0 long=0 resync=0 gga_age=230 fresh=1
+REFCHK seq0=128 seq1=128 ocxo=0 clk=228 raw=10 frac=15769 D=1870 ms=127000 status=8454307
+RAW 0x00=10 c=0 f=10 0x18=0 0x30=322 0x2C=M--
+DBG fine=129 frac=129 diff=128 fracval=15769
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2589062 x1=-3476757 innov=19533 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2589062 x1=-3476627 innov=19531 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=300 | frqm=-3172 phsm=-2564118 ppsm=1953 | fix=1 sat=9 hdop=1.32 cn0=33.1 | dac=1870 acc=1870.48 | slow=-3172m n=1 | P3u=4405 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-12820
+NMEA diag: byte=79342(+649) drop=1130(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=1333 badcs=6 badfmt=0 long=0 resync=0 gga_age=226 fresh=1
+REFCHK seq0=129 seq1=129 ocxo=0 clk=228 raw=41 frac=26214 D=1870 ms=128000 status=8519843
+RAW 0x00=41 c=0 f=41 0x18=0 0x30=0 0x2C=M--
+DBG fine=130 frac=130 diff=129 fracval=26214
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2589062 x1=-3476757 innov=19533 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2589062 x1=-3476627 innov=19531 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=300 | frqm=-3172 phsm=-2564118 ppsm=8007 | fix=1 sat=9 hdop=1.32 cn0=33.10 | dac=1870 acc=1870.48 | slow=-3172m n=1 | P3u=4405 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-12820
+NMEA diag: byte=79930(+588) drop=1130(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=1343 badcs=6 badfmt=0 long=0 resync=0 gga_age=229 fresh=1
+REFCHK seq0=130 seq1=130 ocxo=0 clk=229 raw=-19 frac=21401 D=1870 ms=129000 status=8585379
+RAW 0x00=-19 c=0 f=237 0x18=0 0x30=148 0x2C=M--
+DBG fine=131 frac=131 diff=130 fracval=21401
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2589062 x1=-3476757 innov=19533 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2589062 x1=-3476627 innov=19531 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=300 | frqm=-3172 phsm=-2564118 ppsm=-3710 | fix=1 sat=9 hdop=1.32 cn0=34.1 | dac=1870 acc=1870.48 | slow=-3172m n=1 | P3u=4405 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-12820
+NMEA diag: byte=80584(+654) drop=1130(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=1354 badcs=6 badfmt=0 long=0 resync=0 gga_age=229 fresh=1
+REFCHK seq0=131 seq1=131 ocxo=0 clk=227 raw=21 frac=26777 D=1870 ms=130000 status=8650915
+RAW 0x00=21 c=0 f=21 0x18=0 0x30=386 0x2C=M--
+DBG fine=132 frac=132 diff=131 fracval=26777
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2589062 x1=-3476757 innov=19533 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2589062 x1=-3476627 innov=19531 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=300 | frqm=-3172 phsm=-2564118 ppsm=4101 | fix=1 sat=8 hdop=1.32 cn0=33.6 | dac=1870 acc=1870.48 | slow=-3172m n=1 | P3u=4405 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-12820
+NMEA diag: byte=81166(+582) drop=1130(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=1364 badcs=6 badfmt=0 long=0 resync=0 gga_age=228 fresh=1
+REFCHK seq0=132 seq1=132 ocxo=-1 clk=228 raw=-122 frac=61081 D=1870 ms=131000 status=8716451
+RAW 0x00=-122 c=0 f=134 0x18=-1 0x30=138 0x2C=M--
+DBG fine=133 frac=133 diff=132 fracval=61081
+SLOWC t=130 upd=14 v=0 n=1 Cns=5138.74015 phiRef=-7782.29483 fRef=0 fNow=0 fast=-2.8444236 Dref=1752 D=1870 g=0.47852 span=0 age=0 lag=0 src=0 w=0.0000 pev=0
+SLOWDBG t=130 upd=14 age=0 Tu=10 ev=2 st=0 act=0 n0=1 n=0 cnt=0 sec=0 done=0 innov=-52.4931852 S=107.698412 K=5.0 lim=51.8889227 z=-5.05823 R=80
+SLOWDBG t=130 upd=14 age=0 Tu=10 ev=0 st=0 act=0 n0=0 n=0 cnt=0 sec=0 done=0 innov=-52.4931852 S=107.698412 K=5.0 lim=51.8889227 z=-5.05823 R=80
+SAMP why=0 used=1 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2643554 x1=-5449021 innov=-19724 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2643554 x1=-5449153 innov=-19725 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=300 | frqm=-2844 phsm=-2604561 ppsm=-23828 | fix=1 sat=8 hdop=1.32 cn0=33.4 | dac=1872 acc=1871.97 | slow=-3172m n=0 | P3u=3526 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-13022
+NMEA diag: byte=81854(+688) drop=1130(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=1375 badcs=6 badfmt=0 long=0 resync=0 gga_age=268 fresh=1
+REFCHK seq0=133 seq1=133 ocxo=0 clk=226 raw=17 frac=65535 D=1872 ms=132000 status=8781987
+RAW 0x00=17 c=0 f=17 0x18=0 0x30=0 0x2C=M--
+DBG fine=134 frac=134 diff=133 fracval=65535
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2643554 x1=-5449021 innov=-19724 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2643554 x1=-5449153 innov=-19725 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=300 | frqm=-2844 phsm=-2604561 ppsm=3320 | fix=1 sat=8 hdop=1.32 cn0=32.8 | dac=1872 acc=1871.97 | slow=-3172m n=0 | P3u=3526 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-13022
+NMEA diag: byte=82397(+543) drop=1130(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=1385 badcs=6 badfmt=0 long=0 resync=0 gga_age=225 fresh=1
+REFCHK seq0=134 seq1=134 ocxo=1 clk=227 raw=0 frac=102 D=1872 ms=133000 status=8847523
+RAW 0x00=0 c=0 f=0 0x18=1 0x30=400 0x2C=M--
+DBG fine=135 frac=135 diff=134 fracval=102
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2643554 x1=-5449021 innov=-19724 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2643554 x1=-5449153 innov=-19725 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=300 | frqm=-2844 phsm=-2604561 ppsm=0 | fix=1 sat=8 hdop=1.32 cn0=33.8 | dac=1872 acc=1871.97 | slow=-3172m n=0 | P3u=3526 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-13022
+NMEA diag: byte=83046(+649) drop=1130(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=1396 badcs=6 badfmt=0 long=0 resync=0 gga_age=223 fresh=1
+REFCHK seq0=135 seq1=135 ocxo=0 clk=228 raw=13 frac=3379 D=1872 ms=134000 status=8913059
+RAW 0x00=13 c=0 f=13 0x18=0 0x30=300 0x2C=M--
+DBG fine=136 frac=136 diff=135 fracval=3379
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2643554 x1=-5449021 innov=-19724 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2643554 x1=-5449153 innov=-19725 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=300 | frqm=-2844 phsm=-2604561 ppsm=2539 | fix=1 sat=8 hdop=1.32 cn0=34.1 | dac=1872 acc=1871.97 | slow=-3172m n=0 | P3u=3526 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-13022
+NMEA diag: byte=83633(+587) drop=1131(+1) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=1406 badcs=6 badfmt=0 long=0 resync=0 gga_age=230 fresh=1
+REFCHK seq0=136 seq1=136 ocxo=-1 clk=227 raw=-96 frac=44390 D=1872 ms=135000 status=8978595
+RAW 0x00=-96 c=0 f=160 0x18=-1 0x30=248 0x2C=M--
+DBG fine=137 frac=137 diff=136 fracval=44390
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2643554 x1=-5449021 innov=-19724 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2643554 x1=-5449153 innov=-19725 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=300 | frqm=-2844 phsm=-2604561 ppsm=-18750 | fix=1 sat=8 hdop=1.32 cn0=33.6 | dac=1872 acc=1871.97 | slow=-3172m n=0 | P3u=3526 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-13022
+NMEA diag: byte=84284(+651) drop=1131(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=1416 badcs=7 badfmt=0 long=0 resync=0 gga_age=230 fresh=1
+REFCHK seq0=137 seq1=137 ocxo=0 clk=228 raw=31 frac=52428 D=1872 ms=136000 status=9044131
+RAW 0x00=31 c=0 f=31 0x18=0 0x30=0 0x2C=M--
+DBG fine=138 frac=138 diff=137 fracval=52428
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2643554 x1=-5449021 innov=-19724 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2643554 x1=-5449153 innov=-19725 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=300 | frqm=-2844 phsm=-2604561 ppsm=6054 | fix=1 sat=8 hdop=1.32 cn0=33.8 | dac=1872 acc=1871.97 | slow=-3172m n=0 | P3u=3526 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-13022
+NMEA diag: byte=84863(+579) drop=1131(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=1426 badcs=7 badfmt=0 long=0 resync=0 gga_age=227 fresh=1
+REFCHK seq0=138 seq1=138 ocxo=0 clk=229 raw=-34 frac=43827 D=1872 ms=137000 status=9109667
+RAW 0x00=-34 c=0 f=222 0x18=0 0x30=266 0x2C=M--
+DBG fine=139 frac=139 diff=138 fracval=43827
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2643554 x1=-5449021 innov=-19724 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2643554 x1=-5449153 innov=-19725 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=300 | frqm=-2844 phsm=-2604561 ppsm=-6640 | fix=1 sat=8 hdop=1.32 cn0=33.8 | dac=1872 acc=1871.97 | slow=-3172m n=0 | P3u=3526 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-13022
+NMEA diag: byte=85517(+654) drop=1131(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=1437 badcs=7 badfmt=0 long=0 resync=0 gga_age=229 fresh=1
+REFCHK seq0=139 seq1=139 ocxo=0 clk=227 raw=34 frac=52428 D=1872 ms=138000 status=9175203
+RAW 0x00=34 c=0 f=34 0x18=0 0x30=0 0x2C=M--
+DBG fine=140 frac=140 diff=139 fracval=52428
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2643554 x1=-5449021 innov=-19724 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2643554 x1=-5449153 innov=-19725 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=300 | frqm=-2844 phsm=-2604561 ppsm=6640 | fix=1 sat=8 hdop=1.32 cn0=34.1 | dac=1872 acc=1871.97 | slow=-3172m n=0 | P3u=3526 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-13022
+NMEA diag: byte=86087(+570) drop=1131(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=1447 badcs=7 badfmt=0 long=0 resync=0 gga_age=229 fresh=1
+REFCHK seq0=140 seq1=140 ocxo=0 clk=226 raw=-102 frac=26316 D=1872 ms=139000 status=9240739
+RAW 0x00=-102 c=0 f=154 0x18=0 0x30=400 0x2C=M--
+DBG fine=141 frac=141 diff=140 fracval=26316
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2643554 x1=-5449021 innov=-19724 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2643554 x1=-5449153 innov=-19725 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=300 | frqm=-2844 phsm=-2604561 ppsm=-19921 | fix=1 sat=8 hdop=1.32 cn0=33.0 | dac=1872 acc=1871.97 | slow=-3172m n=0 | P3u=3526 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-13022
+NMEA diag: byte=86725(+638) drop=1131(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=1458 badcs=7 badfmt=0 long=0 resync=0 gga_age=227 fresh=1
+REFCHK seq0=141 seq1=141 ocxo=0 clk=226 raw=10 frac=28876 D=1872 ms=140000 status=9306275
+RAW 0x00=10 c=0 f=10 0x18=0 0x30=322 0x2C=M--
+DBG fine=142 frac=142 diff=141 fracval=28876
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2643554 x1=-5449021 innov=-19724 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2643554 x1=-5449153 innov=-19725 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=300 | frqm=-2844 phsm=-2604561 ppsm=1953 | fix=1 sat=8 hdop=1.32 cn0=33.8 | dac=1872 acc=1871.97 | slow=-3172m n=0 | P3u=3526 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-13022
+NMEA diag: byte=87300(+575) drop=1131(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=1468 badcs=7 badfmt=0 long=0 resync=0 gga_age=229 fresh=1
+REFCHK seq0=142 seq1=142 ocxo=0 clk=225 raw=37 frac=38348 D=1872 ms=141000 status=9371811
+RAW 0x00=37 c=0 f=37 0x18=0 0x30=30 0x2C=M--
+DBG fine=143 frac=143 diff=142 fracval=38348
+SLOWC t=140 upd=15 v=0 n=0 Cns=5712.95458 phiRef=-8374.08739 fRef=0 fNow=0 fast=-1.98171169 Dref=1752 D=1872 g=0.47852 span=0 age=0 lag=0 src=0 w=0.0000 pev=0
+SLOWDBG t=140 upd=15 age=0 Tu=10 ev=0 st=0 act=0 n0=0 n=0 cnt=1 sec=0 done=0 innov=-37.6970163 S=105.502008 K=5.0 lim=51.3570853 z=-3.67009 R=80
+SAMP why=0 used=1 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2661132 x1=-1758181 innov=36912 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2661132 x1=-1757935 innov=36913 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=300 | frqm=-1981 phsm=-2632547 ppsm=7226 | fix=1 sat=8 hdop=1.32 cn0=33.9 | dac=1873 acc=1873.00 | slow=-3172m n=0 | P3u=3125 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-13162
+NMEA diag: byte=87965(+665) drop=1131(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=1479 badcs=7 badfmt=0 long=0 resync=0 gga_age=255 fresh=1
+REFCHK seq0=143 seq1=143 ocxo=0 clk=229 raw=-30 frac=30720 D=1873 ms=142000 status=9437347
+RAW 0x00=-30 c=0 f=226 0x18=0 0x30=266 0x2C=M--
+DBG fine=144 frac=144 diff=143 fracval=30720
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2661132 x1=-1758181 innov=36912 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2661132 x1=-1757935 innov=36913 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=300 | frqm=-1981 phsm=-2632547 ppsm=-5859 | fix=1 sat=8 hdop=1.32 cn0=33.10 | dac=1873 acc=1873.00 | slow=-3172m n=0 | P3u=3125 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-13162
+NMEA diag: byte=88512(+547) drop=1131(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=1489 badcs=7 badfmt=0 long=0 resync=0 gga_age=230 fresh=1
+REFCHK seq0=144 seq1=144 ocxo=0 clk=226 raw=-98 frac=5632 D=1873 ms=143000 status=9502883
+RAW 0x00=-98 c=0 f=158 0x18=0 0x30=230 0x2C=M--
+DBG fine=145 frac=145 diff=144 fracval=5632
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2661132 x1=-1758181 innov=36912 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2661132 x1=-1757935 innov=36913 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=300 | frqm=-1981 phsm=-2632547 ppsm=-19140 | fix=1 sat=8 hdop=1.32 cn0=31.5 | dac=1873 acc=1873.00 | slow=-3172m n=0 | P3u=3125 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-13162
+NMEA diag: byte=89154(+642) drop=1131(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=1500 badcs=7 badfmt=0 long=0 resync=0 gga_age=230 fresh=1
+REFCHK seq0=145 seq1=145 ocxo=0 clk=231 raw=13 frac=8908 D=1873 ms=144000 status=9568419
+RAW 0x00=13 c=0 f=13 0x18=0 0x30=130 0x2C=M--
+DBG fine=146 frac=146 diff=145 fracval=8908
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2661132 x1=-1758181 innov=36912 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2661132 x1=-1757935 innov=36913 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=300 | frqm=-1981 phsm=-2632547 ppsm=2539 | fix=1 sat=8 hdop=1.32 cn0=30.10 | dac=1873 acc=1873.00 | slow=-3172m n=0 | P3u=3125 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-13162
+NMEA diag: byte=89725(+571) drop=1131(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=1510 badcs=7 badfmt=0 long=0 resync=0 gga_age=227 fresh=1
+REFCHK seq0=146 seq1=146 ocxo=0 clk=229 raw=16 frac=13107 D=1873 ms=145000 status=9633955
+RAW 0x00=16 c=0 f=16 0x18=0 0x30=0 0x2C=M--
+DBG fine=147 frac=147 diff=146 fracval=13107
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2661132 x1=-1758181 innov=36912 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2661132 x1=-1757935 innov=36913 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=300 | frqm=-1981 phsm=-2632547 ppsm=3125 | fix=1 sat=9 hdop=1.32 cn0=29.9 | dac=1873 acc=1873.00 | slow=-3172m n=0 | P3u=3125 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-13162
+NMEA diag: byte=90365(+640) drop=1131(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=1521 badcs=7 badfmt=0 long=0 resync=0 gga_age=225 fresh=1
+REFCHK seq0=147 seq1=147 ocxo=0 clk=228 raw=51 frac=26214 D=1873 ms=146000 status=9699491
+RAW 0x00=51 c=0 f=51 0x18=0 0x30=0 0x2C=M--
+DBG fine=148 frac=148 diff=147 fracval=26214
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2661132 x1=-1758181 innov=36912 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2661132 x1=-1757935 innov=36913 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=300 | frqm=-1981 phsm=-2632547 ppsm=9960 | fix=1 sat=9 hdop=0.98 cn0=30.8 | dac=1873 acc=1873.00 | slow=-3172m n=0 | P3u=3125 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-13162
+NMEA diag: byte=90940(+575) drop=1131(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=1531 badcs=7 badfmt=0 long=0 resync=0 gga_age=224 fresh=1
+REFCHK seq0=148 seq1=148 ocxo=0 clk=232 raw=-3 frac=25548 D=1873 ms=147000 status=9765027
+RAW 0x00=-3 c=0 f=253 0x18=0 0x30=22 0x2C=M--
+DBG fine=149 frac=149 diff=148 fracval=25548
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2661132 x1=-1758181 innov=36912 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2661132 x1=-1757935 innov=36913 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=300 | frqm=-1981 phsm=-2632547 ppsm=-585 | fix=1 sat=9 hdop=0.98 cn0=34.6 | dac=1873 acc=1873.00 | slow=-3172m n=0 | P3u=3125 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-13162
+NMEA diag: byte=91588(+648) drop=1131(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=1542 badcs=7 badfmt=0 long=0 resync=0 gga_age=228 fresh=1
+REFCHK seq0=149 seq1=149 ocxo=0 clk=229 raw=-80 frac=5068 D=1873 ms=148000 status=9830563
+RAW 0x00=-80 c=0 f=176 0x18=0 0x30=248 0x2C=M--
+DBG fine=150 frac=150 diff=149 fracval=5068
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2661132 x1=-1758181 innov=36912 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2661132 x1=-1757935 innov=36913 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=300 | frqm=-1981 phsm=-2632547 ppsm=-15625 | fix=1 sat=9 hdop=0.98 cn0=35.5 | dac=1873 acc=1873.00 | slow=-3172m n=0 | P3u=3125 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-13162
+NMEA diag: byte=92162(+574) drop=1131(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=1552 badcs=7 badfmt=0 long=0 resync=0 gga_age=228 fresh=1
+REFCHK seq0=150 seq1=150 ocxo=-1 clk=231 raw=-20 frac=65535 D=1873 ms=149000 status=9896099
+RAW 0x00=-20 c=0 f=236 0x18=-1 0x30=0 0x2C=M--
+DBG fine=151 frac=151 diff=150 fracval=65535
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2661132 x1=-1758181 innov=36912 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2661132 x1=-1757935 innov=36913 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=300 | frqm=-1981 phsm=-2632547 ppsm=-3906 | fix=1 sat=9 hdop=0.98 cn0=35.8 | dac=1873 acc=1873.00 | slow=-3172m n=0 | P3u=3125 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-13162
+NMEA diag: byte=92805(+643) drop=1131(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=1563 badcs=7 badfmt=0 long=0 resync=0 gga_age=230 fresh=1
+REFCHK seq0=151 seq1=151 ocxo=1 clk=232 raw=46 frac=11724 D=1873 ms=150000 status=9961635
+RAW 0x00=46 c=0 f=46 0x18=1 0x30=44 0x2C=M--
+DBG fine=152 frac=152 diff=151 fracval=11724
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2661132 x1=-1758181 innov=36912 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2661132 x1=-1757935 innov=36913 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=300 | frqm=-1981 phsm=-2632547 ppsm=8984 | fix=1 sat=9 hdop=1.04 cn0=35.9 | dac=1873 acc=1873.00 | slow=-3172m n=0 | P3u=3125 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-13162
+NMEA diag: byte=93376(+571) drop=1131(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=1573 badcs=7 badfmt=0 long=0 resync=0 gga_age=228 fresh=1
+REFCHK seq0=152 seq1=152 ocxo=0 clk=233 raw=6 frac=13209 D=1873 ms=151000 status=10027171
+RAW 0x00=6 c=0 f=6 0x18=0 0x30=400 0x2C=M--
+DBG fine=153 frac=153 diff=152 fracval=13209
+SLOWC t=150 upd=16 v=0 n=0 Cns=6291.95899 phiRef=-8972.42774 fRef=0 fNow=0 fast=-1.5766239 Dref=1752 D=1873 g=0.47852 span=0 age=0 lag=0 src=0 w=0.0000 pev=0
+SLOWDBG t=150 upd=16 age=0 Tu=10 ev=0 st=0 act=0 n0=0 n=0 cnt=2 sec=0 done=0 innov=-32.8888916 S=103.653789 K=5.0 lim=50.9052524 z=-3.2304 R=80
+SAMP why=0 used=1 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2680468 x1=-1933576 innov=-1754 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2680468 x1=-1933587 innov=-1756 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=300 | frqm=-1576 phsm=-2655085 ppsm=1171 | fix=1 sat=9 hdop=0.98 cn0=35.10 | dac=1874 acc=1873.82 | slow=-3172m n=0 | P3u=3125 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-13275
+NMEA diag: byte=94045(+669) drop=1131(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=1584 badcs=7 badfmt=0 long=0 resync=0 gga_age=256 fresh=1
+REFCHK seq0=153 seq1=153 ocxo=-1 clk=229 raw=-103 frac=52428 D=1874 ms=152000 status=10092707
+RAW 0x00=-103 c=0 f=153 0x18=-1 0x30=0 0x2C=M--
+DBG fine=154 frac=154 diff=153 fracval=52428
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2680468 x1=-1933576 innov=-1754 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2680468 x1=-1933587 innov=-1756 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=300 | frqm=-1576 phsm=-2655085 ppsm=-20117 | fix=1 sat=9 hdop=0.98 cn0=36.0 | dac=1874 acc=1873.82 | slow=-3172m n=0 | P3u=3125 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-13275
+NMEA diag: byte=94595(+550) drop=1131(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=1594 badcs=7 badfmt=0 long=0 resync=0 gga_age=231 fresh=1
+REFCHK seq0=154 seq1=154 ocxo=0 clk=233 raw=0 frac=52428 D=1874 ms=153000 status=10158243
+RAW 0x00=0 c=0 f=0 0x18=0 0x30=0 0x2C=M--
+DBG fine=155 frac=155 diff=154 fracval=52428
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2680468 x1=-1933576 innov=-1754 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2680468 x1=-1933587 innov=-1756 S=300 P3u=3000 K1u=99996666
+[TUNING] T=10 慢环T=300 | frqm=-1576 phsm=-2655085 ppsm=0 | fix=1 sat=9 hdop=0.98 cn0=36.2 | dac=1874 acc=1873.82 | slow=-3172m n=0 | P3u=3125 R=80 f50=0 f50r=0 | fmod=0 fsrc=0 fw=0 fsl=0 phsg=0 pt=-13275
+NMEA diag: byte=95234(+639) drop=1131(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+NMEA chk: ok=1605 badcs=7 badfmt=0 long=0 resync=0 gga_age=228 fresh=1
+REFCHK seq0=155 seq1=155 ocxo=0 clk=235 raw=29 frac=59955 D=1874 ms=154000 status=10223779
+RAW 0x00=29 c=0 f=29 0x18=0 0x30=172 0x2C=M--
+DBG fine=156 frac=156 diff=155 fracval=59955
+SAMP why=0 used=0 acc=1 gap=0 bad=0 badrun=0 hreset=0 gapskip=0 gapfill=0
+CAND Q1e4 q=1000 z=-2680468 x1=-1933576 innov=-1754 S=100 P3u=1000 K1u=99990001
+CAND Q3e4 q=2999 z=-2680468 x1=-1933587 innov=-1756 S=300 P3u=3000 K1u=99996666

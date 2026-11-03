@@ -1,0 +1,53 @@
+﻿path,original_name,bytes,sha256,builds,tuning_lines,calib_lines,holdover_lines
+data/raw/log_20261027_v02.dat,raw_log_20261027_v2_KPHASE0p005_66min.DAT,1538252,d4777ba560d56a578c2e45394a49c8732e64821c86c52f0d2dfcac73aa4c4aeb,===== BUILD Oct 27 2026 20:09:09 =====,3974,0,0
+data/raw/log_20261028_v01.dat,raw_log_20261028_v1_三改动全生效_Allan1s-0p035.DAT,1057299,66420af48b5759dfb79c984110466d293b4a5f8405b8cd3615db4418037797e9,===== BUILD Oct 28 2026 10:12:02 =====,2462,0,0
+data/raw/log_20261028_v02.dat,raw_log_20261028_v2_A版_固定T10_慢环开.DAT,802883,9f4b27dc3debb15a9507a856ac7fc587f43a89f6a022d2efb63c23d5045d3da0,===== BUILD Oct 28 2026 12:00:33 =====,1983,0,0
+data/raw/log_20261028_v03.dat,raw_log_20261028_v3_B版_固定T10_慢环关.DAT,794243,433664effdeb818e389823366c7968b2fb70ca7741afcf099b30dd4ebcb06f82,===== BUILD Oct 28 2026 12:37:28 =====,1969,0,0
+data/raw/log_20261028_v05.dat,raw_log_20261028_v5_B版_修复日志_新基线.DAT,957209,66dd261bee190ca37d765b07f28e2c4212319cd25ca596e892b2942b0d40f876,===== BUILD Oct 28 2026 16:14:11 =====,2138,0,0
+data/raw_archive/log_20261025_sample01.dat,raw_20261025_1358_TDC攻坚调试.DAT,939158,7f25785e39257821744aebf8f5680b14fe0671c0047819b68fd327022e86a640,===== BUILD Oct 25 2026 13:58:36 ===== | ===== BUILD Oct 25 2026 14:04:03 =====,3359,157,0
+data/raw_archive/log_20261025_sample02.dat,raw_20261025_1811_调试片段.DAT,154696,2105ee6df296667189d8a3d14d627b68a098bc6491e74b78eb9761a61e38a3ea,===== BUILD Oct 25 2026 18:11:10 =====,492,0,0
+data/raw_archive/log_20261025_sample03.dat,raw_20261025_1837_调试片段.DAT,118987,c91d2518b9a87567a05d13dcadffc4e931ffe02653a2f0a16a1d6109a6a12ed4,===== BUILD Oct 25 2026 18:34:48 =====,410,0,0
+data/raw_archive/log_20261025_sample04.dat,raw_20261025_1846_调试片段.DAT,127987,5052b9ff28c8a9007f25ec58e732e32796c8843e746f86cffda3bd3bcdfbbe92,===== BUILD Oct 25 2026 18:45:49 =====,439,0,0
+data/raw_archive/log_20261025_sample05.dat,raw_20261025_1938_调试片段.DAT,260582,1f21cf712a07f4d2944ef47d6492f8d16447f890b6ae2b7e9a12940cd692211b,===== BUILD Oct 25 2026 19:38:16 =====,899,0,0
+data/raw_archive/log_20261025_sample06.dat,raw_20261025_1954_调试片段.DAT,115807,5b5526518041cf225b9ba9440bc6e659a11a3243fa4c24cda71ae98093383fbb,===== BUILD Oct 25 2026 19:54:02 =====,398,0,0
+data/raw_archive/log_20261025_sample07.dat,raw_20261025_2003_调试片段.DAT,137392,0cc65ea4928f26811396137ddf422a42a54a06bcd257df7949ede437493fffe8,===== BUILD Oct 25 2026 20:02:42 =====,472,0,0
+data/raw_archive/log_20261025_sample08.dat,raw_20261025_2011_调试片段.DAT,131534,5d1a6b02a1bf5c749ac61a50c699a946ede50a0b7a537298b7c90e201cc45df8,===== BUILD Oct 25 2026 20:11:46 =====,453,0,0
+data/raw_archive/log_20261025_sample09.dat,raw_20261025_2020_调试片段.DAT,148091,0a1bfefa7bafd9d11b89de811535932fa41b1d84ab270e31623ecc0025d476ce,===== BUILD Oct 25 2026 20:20:11 =====,519,0,0
+data/raw_archive/log_20261025_sample10.dat,raw_20261025_2029_调试片段.DAT,127671,3fa954379905c31a199d7cb785c4137c81c0f75d60ade4782f089df30da48257,===== BUILD Oct 25 2026 20:29:25 =====,446,0,0
+data/raw_archive/log_20261025_v01.dat,raw_log_20261025_v1.DAT,590947,9fcbd5c75f1651116200f567f9a584194d7d46bc3c0f1777cc754e5184bbb7cc,===== BUILD Oct 25 2026 16:52:16 =====,2201,0,0
+data/raw_archive/log_20261025_v02.dat,raw_log_20261025_v2.DAT,366612,00bdedeffa6c8f904aadf996c389a96d3b8535e9cac7f53bc62dda19fb2a7a35,===== BUILD Oct 25 2026 17:38:27 =====,1228,0,0
+data/raw_archive/log_20261025_v04.dat,raw_log_20261025_v4_n3.DAT,375546,04f4cc684ca6cbb2721e81031e0efed7f7cded38159e4a4040f97d160918fd0f,===== BUILD Oct 25 2026 20:37:24 =====,1354,0,0
+data/raw_archive/log_20261025_v05.dat,raw_log_20261025_v5_Allan1s-0.048基准.DAT,526603,ba8cb4f04340a4eac7f748d37cb24908802f73905d1d06bb903fbca8731738d0,===== BUILD Oct 25 2026 21:01:17 =====,1890,0,0
+data/raw_archive/log_20261025_v06.dat,raw_log_20261025_v6.DAT,392080,aefc50567bb29bffb51397b9de06d513ae23ef708698df9d708e6fd6b05b919c,===== BUILD Oct 25 2026 21:31:51 =====,1422,0,0
+data/raw_archive/log_20261026_sample11.dat,raw_20261026_1500_调试片段.DAT,125208,999d25cdbb2dc70719f0626e6d5b352742b3ed96fc619994d3797a30e117898d,===== BUILD Oct 26 2026 15:00:50 =====,4,0,393
+data/raw_archive/log_20261026_sample12.dat,raw_20261026_1517_调试片段.DAT,19811,fcd0caf1938a031e83a7209ac096b448b9e23ac0b488b8a488a2ffcf97eba5bb,,71,0,0
+data/raw_archive/log_20261028_sample13.dat,raw_20261028_1011_三改动生效_原始.DAT,1062431,93ce7fa205636d45fb925fa7c229405f8bb23b495893ca6009dad015d134e543,===== BUILD Oct 28 2026 10:12:02 ===== | ===== BUILD Oct 28 2026 12:00:33 =====,2473,0,0
+data/raw_archive/log_20261028_sample14.dat,raw_20261028_1236_A版_原始.DAT,820735,65bd10fdb5ba088ed53b9f0944e8197e75008d81033e7b94cbaff6162fcfdcc9,===== BUILD Oct 28 2026 12:37:28 =====,2034,0,0
+data/raw_archive/log_20261028_sample15.dat,raw_20261028_1559_调试片段.DAT,89013,59c8a33dafa2f696c304b0d4408bf4653bb6dcdd8bb4e5724f302678196eedae,===== BUILD Oct 28 2026 15:59:41 =====,190,0,0
+data/raw_archive/log_20261031_sample16.dat,raw_20261031_34147.DAT,133035,ce5cb38ea118648bdabe740c4fe639fd48c5195d8b502b60a7d1fd0e32dcbc85,===== BUILD Oct 31 2026 03:41:47 =====,153,0,0
+data/raw_support/log_20261024_v01.dat,raw_log_20261024_v1_早期整数版.DAT,831300,9332426083d98b38e63b469292173e9f151b32c9cd56edecbcb5ec751f8e2e67,===== BUILD Oct 24 2026 20:52:28 =====,3039,80,0
+data/raw_support/log_20261025_v03.dat,raw_log_20261025_v3_n3.DAT,637954,1a2ad9ee3ee9a47d02958e9da95bf3acc881b37705c605ebfa07c967b43447f0,===== BUILD Oct 25 2026 19:00:25 =====,2195,0,0
+data/raw_support/log_20261027_v01.dat,raw_log_20261027_v1_分数贯通_KPHASE0p02.DAT,871644,636f268296ee6e4eb3066b083c1ec22f439a02408be525e340e0f0dde62acb76,===== BUILD Oct 27 2026 19:20:15 =====,2259,0,0
+data/raw_support/log_20261028_v04.dat,raw_log_20261028_v4_C版_shadow_慢环不参与.DAT,854919,a9f4c57602acd93ed47938790eac22ee34e68e991439477bf439dccfe1b7840e,===== BUILD Oct 28 2026 14:00:34 =====,2047,0,0
+data/raw_support/log_20261028_v06.dat,raw_log_20261028_v6_开环CALIB_固定DAC1752_15min.DAT,406721,598b9bb4b09489d26a9ae827814e72b5d81cf83ae7a5995693386233a1afdabc,===== BUILD Oct 28 2026 16:14:11 =====,10,961,0
+data/raw_support/log_20261028_v07.dat,raw_log_20261028_v7_闭环冻结对照_1886.DAT,1088054,00a6a72fc4208f7ad517e31a118e5aa8473bd20aa58492ed457dcf556feae794,===== BUILD Oct 28 2026 16:14:11 =====,1578,915,0
+data/raw_support/log_20261028_v08.dat,raw_log_20261028_v8_KPHASE0p002_未收敛.dat,939643,eae7cf06c4a888c78682975d3d0244db0050f97f1acd9695a6042f2114177410,===== BUILD Oct 28 2026 19:56:50 =====,953,1212,0
+data/raw_support/log_20261028_v09.dat,raw_log_20261028_v9_KPHASE0p002_稳态对照.DAT,1153949,8992bc754f91c685dcc71cb65cc769c68f965400c21bd7b255c167a8d416cc74,===== BUILD Oct 28 2026 19:56:50 =====,1381,1274,0
+data/raw_support/log_20261029_v10.dat,raw_log_20261029_v10_REFCHK44min_freeze1738.DAT,1855613,ef5b18717b46ff7c869a3c14ff406225a7b2350b6c90f0c390bcb325d58b7263,===== BUILD Oct 29 2026 12:37:59 =====,555,3008,32
+data/raw_support/log_20261029_v11.dat,raw_log_20261029_v11_闭环37min冻结20min.DAT,1868150,59b42bf75035e95a391be332c176b7ed6dfde8b97035e0a0e9a717532e47c641,===== BUILD Oct 29 2026 12:37:59 =====,2209,1312,0
+data/raw_support/log_20261030_v12.dat,raw_log_20261030_v12_NMEA修复_63min闭环.DAT,2327270,7cead954d91e8ffc35a3219e04d1bd39d8d90f4f116c962a7fd89d41e6444ceb,===== BUILD Oct 30 2026 15:43:44 =====,3766,0,0
+data/raw_support/log_20261030_v13.dat,raw_log_20261030_v13_R固定80_72min闭环.DAT,2689416,0514e39afff4098b8b0d764519292fd6614f198e9341dd0cc4046afc2472092d,===== BUILD Oct 30 2026 17:20:28 =====,4338,0,0
+data/raw_support/log_20261030_v14.dat,raw_log_20261030_v14_新门控_闭环31min+冻结22min.DAT,2213859,59c1651cd6e3b0d0a36d5dbf79f20dd582e656ca1a476464019d945072e1716e,===== BUILD Oct 30 2026 19:30:39 =====,1871,1382,0
+data/raw_support/log_20261030_v15.dat,raw_log_20261030_v15_A段_相位项开_59min闭环.DAT,2505657,fecadf5fc4692171b662bc2147987071c5d925a4a52d8dc2f12f96fd0af4cedf,===== BUILD Oct 30 2026 20:56:13 =====,3525,0,0
+data/raw_support/log_20261030_v16.dat,raw_log_20261030_v16_B段_相位项关_66min闭环.DAT,2837965,40944fa4075a68faa287f7263e4ec1f29520cff9fa924917c1c07394e8fae6ee,===== BUILD Oct 30 2026 22:20:48 =====,3970,0,0
+data/raw_support/log_20261031_v17.dat,raw_log_20261031_v17_A2段_相位项开_63min闭环.DAT,2741625,4a661e84de6d313f0a9c47af06e69567ac31169e2d4d136a88abe43218f411b3,===== BUILD Oct 30 2026 23:53:17 =====,3857,0,0
+data/raw_support/log_20261031_v18.dat,raw_log_20261031_v18_B2段_相位项关_63min闭环.DAT,2750099,119c6398b5c87fc1d4d92a9c647c3e393fe86798b8942109462fbc998b5c822e,===== BUILD Oct 31 2026 01:12:41 =====,3844,0,0
+data/raw_support/log_20261031_v19.dat,raw_log_20261031_v19_候选观察器_Q1e4_Q3e4_127min闭环.DAT,5570997,23499eb0d63d5e965ed5aacf5c83d1b822fd3ac743ada415a9124f1dbd295b89,===== BUILD Oct 31 2026 03:55:38 =====,7601,0,0
+data/raw_support/log_20261031_v20.dat,raw_log_20261031_v20_Q1e4接管_62min闭环.DAT,2732883,7793b79595f9aae6a58f56042a34a02d0a59ec58035d084301649f7a36b3b52b,===== BUILD Oct 31 2026 06:59:43 =====,3748,0,0
+data/raw_support/log_20261031_v21.dat,raw_log_20261031_v21_B回测_61min闭环.DAT,2663033,3f01f77fe197197f45386ad2fa7400b6fa3bfa5a9ad1685a9adef716c73936a8,===== BUILD Oct 31 2026 08:18:21 =====,3633,0,0
+data/raw_support/log_20261031_v22.dat,raw_log_20261031_v22_R标定_5段_DAC冻结1854.DAT,5824486,a65936ca8a5bc983a1ffdcaed90045ab2ad26b1e2da952320e5ceb0669eb9bc0,===== BUILD Oct 31 2026 14:03:43 =====,916,7641,20
+data/raw_support/log_20261031_v23.dat,raw_log_20261031_v23_慢环关MODE0_62min.DAT,2759031,ed3f20b54c3ad295877b8364d9e2b689cd5757886197b2734723a5690e7bd1b3,===== BUILD Oct 31 2026 16:49:26 =====,3733,0,0
+data/raw_support/log_20261031_v24.dat,raw_log_20261031_v24_慢环开MODE2_61min.DAT,2688358,9e3d5b936cf9a47306334ffd35d93aaa3ce3453f0521db2d50acbed77ed2fee8,===== BUILD Oct 31 2026 17:57:44 =====,3665,0,0
+data/raw_support/log_20261031_v25.dat,raw_log_20261031_v25_慢环关MODE0第2次_60min.DAT,2664679,e84346a4be0abd09a427bfe8a9e4850a9af665564772d3d63f86c44d8459fafa,===== BUILD Oct 31 2026 19:01:52 =====,3653,0,0
+data/raw_support/log_20261101_v26.dat,raw_log_20261101_v26_R雨天验证_5段_DAC1726_1733.DAT,4479428,0aa51581f77af8344110528414531d4554849796be1e2c43621cbfe96dc61878,===== BUILD Nov  1 2026 15:18:09 =====,667,5870,18
+data/raw_support/log_20261102_v27.dat,ReceivedTofile-COM5-2026_11_2_15-28-33.DAT,834215,c815d0bcebfeb9fa95dd829b55fcd79bf4c7b813c645106737c657eb9039a48e,===== BUILD Nov  2 2026 15:29:18 =====,800,242,112

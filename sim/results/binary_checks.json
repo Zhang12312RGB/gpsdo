@@ -1,0 +1,24 @@
+{
+  "release": {
+    "slow_weight_calls": [
+      "0x108b5c"
+    ],
+    "online_R_training_calls": [],
+    "QF": 0.0001,
+    "holdover_predict_calls": [
+      "0x109068",
+      "0x109138"
+    ],
+    "sha256": "3726d41112b29562ab8f13a1e216cd42b704c5e31b5bba1594b52e2c8d5d1a95"
+  },
+  "baseline": {
+    "slow_weight_calls": [],
+    "online_R_training_calls": [],
+    "QF": 0.0001,
+    "holdover_predict_calls": [
+      "0x108fb0",
+      "0x109080"
+    ],
+    "sha256": "074d013e94baa5ef48c886e7bed10a4c0e72465e443af7d8b05b133d1848e593"
+  }
+}

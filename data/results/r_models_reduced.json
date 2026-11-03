@@ -1,0 +1,2639 @@
+{
+  "specifications": {
+    "constant": {
+      "parameters": 1,
+      "formula": "R=r0"
+    },
+    "median_constant": {
+      "parameters": 1,
+      "formula": "R=median(training labels)"
+    },
+    "inverse_cn0": {
+      "parameters": 2,
+      "formula": "R=r0+k/CN0 (unconstrained)"
+    },
+    "floor_snr": {
+      "parameters": 2,
+      "formula": "R=r0+k*10^((30-CN0)/10), r0,k>=0"
+    },
+    "floor_hdop2": {
+      "parameters": 2,
+      "formula": "R=r0+k*HDOP^2, r0,k>=0"
+    },
+    "exp_cn0": {
+      "parameters": 2,
+      "formula": "R=exp(alpha+beta*(30-CN0))*smear, beta>=0"
+    },
+    "two_bins": {
+      "parameters": 2,
+      "formula": "R=Rgood*(1-f)+Rweak*f, f=weighted fraction(CN0<25), Rgood,Rweak>=0"
+    },
+    "two_bins_monotone": {
+      "parameters": 2,
+      "formula": "R=r0+delta*f, f=weighted fraction(CN0<25), r0,delta>=0"
+    },
+    "snr_only": {
+      "parameters": 1,
+      "formula": "R=k*10^((30-CN0)/10), k>=0"
+    }
+  },
+  "datasets": {
+    "frozen": {
+      "constant": {
+        "n": 200,
+        "model": {
+          "name": "constant",
+          "params": [
+            41.735326823093956
+          ]
+        },
+        "folds": [
+          {
+            "run": "v14",
+            "n": 33,
+            "rmse": 9.288878821551133,
+            "negative": 0
+          },
+          {
+            "run": "v22",
+            "n": 167,
+            "rmse": 15.31122335442615,
+            "negative": 0
+          }
+        ],
+        "LOO_models": [
+          {
+            "name": "constant",
+            "params": [
+              40.71833545887375
+            ]
+          },
+          {
+            "name": "constant",
+            "params": [
+              46.88191948445081
+            ]
+          }
+        ],
+        "equal_run_RMSE": 12.663270319522244
+      },
+      "median_constant": {
+        "n": 200,
+        "model": {
+          "name": "median_constant",
+          "params": [
+            43.6936270464346
+          ]
+        },
+        "folds": [
+          {
+            "run": "v14",
+            "n": 33,
+            "rmse": 8.039601896333084,
+            "negative": 0
+          },
+          {
+            "run": "v22",
+            "n": 167,
+            "rmse": 15.288823772708417,
+            "negative": 0
+          }
+        ],
+        "LOO_models": [
+          {
+            "name": "median_constant",
+            "params": [
+              42.839433005758515
+            ]
+          },
+          {
+            "name": "median_constant",
+            "params": [
+              46.826063332981924
+            ]
+          }
+        ],
+        "equal_run_RMSE": 12.214404017479866
+      },
+      "inverse_cn0": {
+        "n": 200,
+        "model": {
+          "name": "inverse_cn0",
+          "params": [
+            56.829766908087876,
+            -416.4794058711977
+          ]
+        },
+        "folds": [
+          {
+            "run": "v14",
+            "n": 33,
+            "rmse": 7.244651727447028,
+            "negative": 0
+          },
+          {
+            "run": "v22",
+            "n": 167,
+            "rmse": 19.33956715994612,
+            "negative": 0
+          }
+        ],
+        "LOO_models": [
+          {
+            "name": "inverse_cn0",
+            "params": [
+              53.78712334589396,
+              -341.3498211220437
+            ]
+          },
+          {
+            "name": "inverse_cn0",
+            "params": [
+              33.187604241734775,
+              528.6197780780726
+            ]
+          }
+        ],
+        "equal_run_RMSE": 14.603147547465028
+      },
+      "floor_snr": {
+        "n": 200,
+        "model": {
+          "name": "floor_snr",
+          "params": [
+            41.73532682309395,
+            0.0
+          ]
+        },
+        "folds": [
+          {
+            "run": "v14",
+            "n": 33,
+            "rmse": 9.288878821551142,
+            "negative": 0
+          },
+          {
+            "run": "v22",
+            "n": 167,
+            "rmse": 69.71204672403985,
+            "negative": 0
+          }
+        ],
+        "LOO_models": [
+          {
+            "name": "floor_snr",
+            "params": [
+              40.71833545887374,
+              0.0
+            ]
+          },
+          {
+            "name": "floor_snr",
+            "params": [
+              44.335654118625456,
+              17.324302437122817
+            ]
+          }
+        ],
+        "equal_run_RMSE": 49.7295321122981
+      },
+      "floor_hdop2": {
+        "n": 200,
+        "model": {
+          "name": "floor_hdop2",
+          "params": [
+            41.73532682309395,
+            0.0
+          ]
+        },
+        "folds": [
+          {
+            "run": "v14",
+            "n": 33,
+            "rmse": 9.288878821551142,
+            "negative": 0
+          },
+          {
+            "run": "v22",
+            "n": 167,
+            "rmse": 15.319091018542245,
+            "negative": 0
+          }
+        ],
+        "LOO_models": [
+          {
+            "name": "floor_hdop2",
+            "params": [
+              40.71833545887374,
+              0.0
+            ]
+          },
+          {
+            "name": "floor_hdop2",
+            "params": [
+              46.7969443954206,
+              0.0722849943497882
+            ]
+          }
+        ],
+        "equal_run_RMSE": 12.668027064145447
+      },
+      "exp_cn0": {
+        "n": 200,
+        "model": {
+          "name": "exp_cn0",
+          "params": [
+            3.640938725110494,
+            5.9332050268080994e-21
+          ],
+          "smear": 1.0946221235622735
+        },
+        "folds": [
+          {
+            "run": "v14",
+            "n": 33,
+            "rmse": 9.288878821551203,
+            "negative": 0
+          },
+          {
+            "run": "v22",
+            "n": 167,
+            "rmse": 18.180585415427874,
+            "negative": 0
+          }
+        ],
+        "LOO_models": [
+          {
+            "name": "exp_cn0",
+            "params": [
+              3.60237719124934,
+              2.171239011316969e-16
+            ],
+            "smear": 1.1099348305987484
+          },
+          {
+            "name": "exp_cn0",
+            "params": [
+              3.9098436049092125,
+              0.00849346360192126
+            ],
+            "smear": 1.0115726155763312
+          }
+        ],
+        "equal_run_RMSE": 14.436359579359527
+      },
+      "two_bins": {
+        "n": 200,
+        "model": {
+          "name": "two_bins",
+          "params": [
+            43.26357230532806,
+            38.2419825948187
+          ]
+        },
+        "folds": [
+          {
+            "run": "v14",
+            "n": 33,
+            "rmse": 8.522573428258488,
+            "negative": 0
+          },
+          {
+            "run": "v22",
+            "n": 167,
+            "rmse": 24.768392803741335,
+            "negative": 30
+          }
+        ],
+        "LOO_models": [
+          {
+            "name": "two_bins",
+            "params": [
+              41.948284301449824,
+              38.57368953401836
+            ]
+          },
+          {
+            "name": "two_bins",
+            "params": [
+              46.88191948445081,
+              0.0
+            ]
+          }
+        ],
+        "equal_run_RMSE": 18.52171077304258
+      },
+      "two_bins_monotone": {
+        "n": 200,
+        "model": {
+          "name": "two_bins_monotone",
+          "params": [
+            41.73532682309395,
+            0.0
+          ]
+        },
+        "folds": [
+          {
+            "run": "v14",
+            "n": 33,
+            "rmse": 9.288878821551142,
+            "negative": 0
+          },
+          {
+            "run": "v22",
+            "n": 167,
+            "rmse": 15.31122335442615,
+            "negative": 0
+          }
+        ],
+        "LOO_models": [
+          {
+            "name": "two_bins_monotone",
+            "params": [
+              40.71833545887374,
+              0.0
+            ]
+          },
+          {
+            "name": "two_bins_monotone",
+            "params": [
+              46.88191948445081,
+              0.0
+            ]
+          }
+        ],
+        "equal_run_RMSE": 12.663270319522248
+      },
+      "snr_only": {
+        "n": 200,
+        "model": {
+          "name": "snr_only",
+          "params": [
+            8.703469627861802
+          ]
+        },
+        "folds": [
+          {
+            "run": "v14",
+            "n": 33,
+            "rmse": 46.13836778278375,
+            "negative": 0
+          },
+          {
+            "run": "v22",
+            "n": 167,
+            "rmse": 1063.4389069973113,
+            "negative": 0
+          }
+        ],
+        "LOO_models": [
+          {
+            "name": "snr_only",
+            "params": [
+              8.607723961099182
+            ]
+          },
+          {
+            "name": "snr_only",
+            "params": [
+              294.072817121012
+            ]
+          }
+        ],
+        "equal_run_RMSE": 752.6722586548861
+      }
+    },
+    "held_tuning": {
+      "constant": {
+        "n": 171,
+        "model": {
+          "name": "constant",
+          "params": [
+            47.003507567463046
+          ]
+        },
+        "folds": [
+          {
+            "run": "v14",
+            "n": 10,
+            "rmse": 8.292633026154288,
+            "negative": 0
+          },
+          {
+            "run": "v15",
+            "n": 18,
+            "rmse": 7.303180298661769,
+            "negative": 0
+          },
+          {
+            "run": "v16",
+            "n": 14,
+            "rmse": 5.062031577646662,
+            "negative": 0
+          },
+          {
+            "run": "v17",
+            "n": 22,
+            "rmse": 6.957965801526578,
+            "negative": 0
+          },
+          {
+            "run": "v18",
+            "n": 23,
+            "rmse": 6.609296150106994,
+            "negative": 0
+          },
+          {
+            "run": "v19",
+            "n": 35,
+            "rmse": 7.6880845548625505,
+            "negative": 0
+          },
+          {
+            "run": "v20",
+            "n": 33,
+            "rmse": 5.999576605968247,
+            "negative": 0
+          },
+          {
+            "run": "v21",
+            "n": 15,
+            "rmse": 6.367062833685206,
+            "negative": 0
+          }
+        ],
+        "LOO_models": [
+          {
+            "name": "constant",
+            "params": [
+              46.787525896815794
+            ]
+          },
+          {
+            "name": "constant",
+            "params": [
+              46.85787910768767
+            ]
+          },
+          {
+            "name": "constant",
+            "params": [
+              47.19070025160815
+            ]
+          },
+          {
+            "name": "constant",
+            "params": [
+              47.07703974944411
+            ]
+          },
+          {
+            "name": "constant",
+            "params": [
+              47.11225284339623
+            ]
+          },
+          {
+            "name": "constant",
+            "params": [
+              47.0802772014599
+            ]
+          },
+          {
+            "name": "constant",
+            "params": [
+              46.88863734632937
+            ]
+          },
+          {
+            "name": "constant",
+            "params": [
+              47.0470081947236
+            ]
+          }
+        ],
+        "equal_run_RMSE": 6.8507801113362605
+      },
+      "median_constant": {
+        "n": 171,
+        "model": {
+          "name": "median_constant",
+          "params": [
+            46.69093784344707
+          ]
+        },
+        "folds": [
+          {
+            "run": "v14",
+            "n": 10,
+            "rmse": 8.35432090370464,
+            "negative": 0
+          },
+          {
+            "run": "v15",
+            "n": 18,
+            "rmse": 7.345174460191692,
+            "negative": 0
+          },
+          {
+            "run": "v16",
+            "n": 14,
+            "rmse": 4.869812675781381,
+            "negative": 0
+          },
+          {
+            "run": "v17",
+            "n": 22,
+            "rmse": 6.936931100193439,
+            "negative": 0
+          },
+          {
+            "run": "v18",
+            "n": 23,
+            "rmse": 6.572112973832956,
+            "negative": 0
+          },
+          {
+            "run": "v19",
+            "n": 35,
+            "rmse": 7.711191501067952,
+            "negative": 0
+          },
+          {
+            "run": "v20",
+            "n": 33,
+            "rmse": 6.114293377961824,
+            "negative": 0
+          },
+          {
+            "run": "v21",
+            "n": 15,
+            "rmse": 6.34885315561315,
+            "negative": 0
+          }
+        ],
+        "LOO_models": [
+          {
+            "name": "median_constant",
+            "params": [
+              46.65102383762471
+            ]
+          },
+          {
+            "name": "median_constant",
+            "params": [
+              46.65102383762471
+            ]
+          },
+          {
+            "name": "median_constant",
+            "params": [
+              46.72599175469101
+            ]
+          },
+          {
+            "name": "median_constant",
+            "params": [
+              46.69093784344707
+            ]
+          },
+          {
+            "name": "median_constant",
+            "params": [
+              46.70815803555707
+            ]
+          },
+          {
+            "name": "median_constant",
+            "params": [
+              47.409838157285414
+            ]
+          },
+          {
+            "name": "median_constant",
+            "params": [
+              46.16327912948486
+            ]
+          },
+          {
+            "name": "median_constant",
+            "params": [
+              46.67098084053589
+            ]
+          }
+        ],
+        "equal_run_RMSE": 6.8550165700844
+      },
+      "inverse_cn0": {
+        "n": 171,
+        "model": {
+          "name": "inverse_cn0",
+          "params": [
+            40.921172368574034,
+            216.74894094293848
+          ]
+        },
+        "folds": [
+          {
+            "run": "v14",
+            "n": 10,
+            "rmse": 8.291370281339509,
+            "negative": 0
+          },
+          {
+            "run": "v15",
+            "n": 18,
+            "rmse": 7.298226564418397,
+            "negative": 0
+          },
+          {
+            "run": "v16",
+            "n": 14,
+            "rmse": 5.050322113492207,
+            "negative": 0
+          },
+          {
+            "run": "v17",
+            "n": 22,
+            "rmse": 6.923584488442934,
+            "negative": 0
+          },
+          {
+            "run": "v18",
+            "n": 23,
+            "rmse": 6.547331966092485,
+            "negative": 0
+          },
+          {
+            "run": "v19",
+            "n": 35,
+            "rmse": 7.660534865631473,
+            "negative": 0
+          },
+          {
+            "run": "v20",
+            "n": 33,
+            "rmse": 6.0066158533482135,
+            "negative": 0
+          },
+          {
+            "run": "v21",
+            "n": 15,
+            "rmse": 6.38437123070996,
+            "negative": 0
+          }
+        ],
+        "LOO_models": [
+          {
+            "name": "inverse_cn0",
+            "params": [
+              40.68560980548559,
+              217.60789324752636
+            ]
+          },
+          {
+            "name": "inverse_cn0",
+            "params": [
+              40.65370141226162,
+              219.06855384123165
+            ]
+          },
+          {
+            "name": "inverse_cn0",
+            "params": [
+              40.984709662849326,
+              220.62167159921626
+            ]
+          },
+          {
+            "name": "inverse_cn0",
+            "params": [
+              41.12630695286489,
+              209.6233441318708
+            ]
+          },
+          {
+            "name": "inverse_cn0",
+            "params": [
+              41.81791687566633,
+              187.3729730736747
+            ]
+          },
+          {
+            "name": "inverse_cn0",
+            "params": [
+              41.000103743894364,
+              222.29016964566958
+            ]
+          },
+          {
+            "name": "inverse_cn0",
+            "params": [
+              39.925574825600656,
+              250.49076683730559
+            ]
+          },
+          {
+            "name": "inverse_cn0",
+            "params": [
+              40.66545369605042,
+              226.56268392934732
+            ]
+          }
+        ],
+        "equal_run_RMSE": 6.835968183709252
+      },
+      "floor_snr": {
+        "n": 171,
+        "model": {
+          "name": "floor_snr",
+          "params": [
+            46.1472331574336,
+            2.4254888330490316
+          ]
+        },
+        "folds": [
+          {
+            "run": "v14",
+            "n": 10,
+            "rmse": 8.392802021335276,
+            "negative": 0
+          },
+          {
+            "run": "v15",
+            "n": 18,
+            "rmse": 7.367632352023951,
+            "negative": 0
+          },
+          {
+            "run": "v16",
+            "n": 14,
+            "rmse": 5.00017300953476,
+            "negative": 0
+          },
+          {
+            "run": "v17",
+            "n": 22,
+            "rmse": 6.917881608185797,
+            "negative": 0
+          },
+          {
+            "run": "v18",
+            "n": 23,
+            "rmse": 6.546452267255784,
+            "negative": 0
+          },
+          {
+            "run": "v19",
+            "n": 35,
+            "rmse": 7.574857502835103,
+            "negative": 0
+          },
+          {
+            "run": "v20",
+            "n": 33,
+            "rmse": 6.0293620562187975,
+            "negative": 0
+          },
+          {
+            "run": "v21",
+            "n": 15,
+            "rmse": 6.368272571597751,
+            "negative": 0
+          }
+        ],
+        "LOO_models": [
+          {
+            "name": "floor_snr",
+            "params": [
+              45.85915644004004,
+              2.616198315870123
+            ]
+          },
+          {
+            "name": "floor_snr",
+            "params": [
+              45.86224076920735,
+              2.644592604568003
+            ]
+          },
+          {
+            "name": "floor_snr",
+            "params": [
+              46.339074325036286,
+              2.35607953935547
+            ]
+          },
+          {
+            "name": "floor_snr",
+            "params": [
+              46.171330395946555,
+              2.361630982319188
+            ]
+          },
+          {
+            "name": "floor_snr",
+            "params": [
+              46.27036309749339,
+              2.2558907036455045
+            ]
+          },
+          {
+            "name": "floor_snr",
+            "params": [
+              46.71426299368768,
+              1.3286723164094143
+            ]
+          },
+          {
+            "name": "floor_snr",
+            "params": [
+              45.94774657485261,
+              2.842743104746596
+            ]
+          },
+          {
+            "name": "floor_snr",
+            "params": [
+              46.14364943936254,
+              2.4622294475591078
+            ]
+          }
+        ],
+        "equal_run_RMSE": 6.843998777587244
+      },
+      "floor_hdop2": {
+        "n": 171,
+        "model": {
+          "name": "floor_hdop2",
+          "params": [
+            44.95576004323799,
+            1.668664365416488
+          ]
+        },
+        "folds": [
+          {
+            "run": "v14",
+            "n": 10,
+            "rmse": 7.961793677357555,
+            "negative": 0
+          },
+          {
+            "run": "v15",
+            "n": 18,
+            "rmse": 7.420502647841883,
+            "negative": 0
+          },
+          {
+            "run": "v16",
+            "n": 14,
+            "rmse": 5.770925689505108,
+            "negative": 0
+          },
+          {
+            "run": "v17",
+            "n": 22,
+            "rmse": 6.955842517881566,
+            "negative": 0
+          },
+          {
+            "run": "v18",
+            "n": 23,
+            "rmse": 6.498873550936301,
+            "negative": 0
+          },
+          {
+            "run": "v19",
+            "n": 35,
+            "rmse": 7.602146487818708,
+            "negative": 0
+          },
+          {
+            "run": "v20",
+            "n": 33,
+            "rmse": 6.097485773929734,
+            "negative": 0
+          },
+          {
+            "run": "v21",
+            "n": 15,
+            "rmse": 6.452321647975859,
+            "negative": 0
+          }
+        ],
+        "LOO_models": [
+          {
+            "name": "floor_hdop2",
+            "params": [
+              45.677607338073926,
+              0.9285521773348104
+            ]
+          },
+          {
+            "name": "floor_hdop2",
+            "params": [
+              44.43365172616575,
+              2.006628998150261
+            ]
+          },
+          {
+            "name": "floor_hdop2",
+            "params": [
+              44.116815454045664,
+              2.5817907346817446
+            ]
+          },
+          {
+            "name": "floor_hdop2",
+            "params": [
+              44.943146617181576,
+              1.7536240279698239
+            ]
+          },
+          {
+            "name": "floor_hdop2",
+            "params": [
+              45.523149086243045,
+              1.2791582079045278
+            ]
+          },
+          {
+            "name": "floor_hdop2",
+            "params": [
+              45.94041249080995,
+              0.9096289387812331
+            ]
+          },
+          {
+            "name": "floor_hdop2",
+            "params": [
+              44.28327261193172,
+              2.0255677488588204
+            ]
+          },
+          {
+            "name": "floor_hdop2",
+            "params": [
+              44.77114946010499,
+              1.8334901967165012
+            ]
+          }
+        ],
+        "equal_run_RMSE": 6.882778532507104
+      },
+      "exp_cn0": {
+        "n": 171,
+        "model": {
+          "name": "exp_cn0",
+          "params": [
+            3.858956869456472,
+            0.003209511084466369
+          ],
+          "smear": 1.0104564852705171
+        },
+        "folds": [
+          {
+            "run": "v14",
+            "n": 10,
+            "rmse": 8.268558114596434,
+            "negative": 0
+          },
+          {
+            "run": "v15",
+            "n": 18,
+            "rmse": 7.276823671367773,
+            "negative": 0
+          },
+          {
+            "run": "v16",
+            "n": 14,
+            "rmse": 5.061147461658347,
+            "negative": 0
+          },
+          {
+            "run": "v17",
+            "n": 22,
+            "rmse": 6.92840753823291,
+            "negative": 0
+          },
+          {
+            "run": "v18",
+            "n": 23,
+            "rmse": 6.558255914093199,
+            "negative": 0
+          },
+          {
+            "run": "v19",
+            "n": 35,
+            "rmse": 7.700637239337534,
+            "negative": 0
+          },
+          {
+            "run": "v20",
+            "n": 33,
+            "rmse": 5.99835240106587,
+            "negative": 0
+          },
+          {
+            "run": "v21",
+            "n": 15,
+            "rmse": 6.387289360713709,
+            "negative": 0
+          }
+        ],
+        "LOO_models": [
+          {
+            "name": "exp_cn0",
+            "params": [
+              3.853835531156553,
+              0.0030648163949616456
+            ],
+            "smear": 1.0102313147972584
+          },
+          {
+            "name": "exp_cn0",
+            "params": [
+              3.8534237236744757,
+              0.002951260876003113
+            ],
+            "smear": 1.010370802464326
+          },
+          {
+            "name": "exp_cn0",
+            "params": [
+              3.8632590581008373,
+              0.00337389932312935
+            ],
+            "smear": 1.010839835969247
+          },
+          {
+            "name": "exp_cn0",
+            "params": [
+              3.8581395372049254,
+              0.002971593659141023
+            ],
+            "smear": 1.0101968254666192
+          },
+          {
+            "name": "exp_cn0",
+            "params": [
+              3.8561821875980034,
+              0.0024439370672355723
+            ],
+            "smear": 1.010398911170963
+          },
+          {
+            "name": "exp_cn0",
+            "params": [
+              3.8719578887683994,
+              0.004419943631262095
+            ],
+            "smear": 1.0100714384086507
+          },
+          {
+            "name": "exp_cn0",
+            "params": [
+              3.8601095555851295,
+              0.003684463596664543
+            ],
+            "smear": 1.0109416906760447
+          },
+          {
+            "name": "exp_cn0",
+            "params": [
+              3.8611611782325186,
+              0.0034964847168753193
+            ],
+            "smear": 1.010487070788391
+          }
+        ],
+        "equal_run_RMSE": 6.837648463786727
+      },
+      "two_bins": {
+        "n": 171,
+        "model": {
+          "name": "two_bins",
+          "params": [
+            47.024619171606,
+            28.536036289252458
+          ]
+        },
+        "folds": [
+          {
+            "run": "v14",
+            "n": 10,
+            "rmse": 8.28368951358087,
+            "negative": 0
+          },
+          {
+            "run": "v15",
+            "n": 18,
+            "rmse": 7.307479737652746,
+            "negative": 0
+          },
+          {
+            "run": "v16",
+            "n": 14,
+            "rmse": 5.07340458177278,
+            "negative": 0
+          },
+          {
+            "run": "v17",
+            "n": 22,
+            "rmse": 6.960073909212938,
+            "negative": 0
+          },
+          {
+            "run": "v18",
+            "n": 23,
+            "rmse": 6.612488919875816,
+            "negative": 0
+          },
+          {
+            "run": "v19",
+            "n": 35,
+            "rmse": 8.048806225530711,
+            "negative": 0
+          },
+          {
+            "run": "v20",
+            "n": 33,
+            "rmse": 6.003256958630119,
+            "negative": 0
+          },
+          {
+            "run": "v21",
+            "n": 15,
+            "rmse": 6.3689480574555395,
+            "negative": 0
+          }
+        ],
+        "LOO_models": [
+          {
+            "name": "two_bins",
+            "params": [
+              46.807651003034294,
+              30.213679596847374
+            ]
+          },
+          {
+            "name": "two_bins",
+            "params": [
+              46.88021483471476,
+              26.889360147384014
+            ]
+          },
+          {
+            "name": "two_bins",
+            "params": [
+              47.21577036116551,
+              27.05801526886768
+            ]
+          },
+          {
+            "name": "two_bins",
+            "params": [
+              47.10215577847528,
+              27.93650701053773
+            ]
+          },
+          {
+            "name": "two_bins",
+            "params": [
+              47.137950958268675,
+              27.65973118567873
+            ]
+          },
+          {
+            "name": "two_bins",
+            "params": [
+              47.05241196851068,
+              122.90576726939035
+            ]
+          },
+          {
+            "name": "two_bins",
+            "params": [
+              46.913798043876625,
+              26.442679234801304
+            ]
+          },
+          {
+            "name": "two_bins",
+            "params": [
+              47.07065290147701,
+              28.180093851473906
+            ]
+          }
+        ],
+        "equal_run_RMSE": 6.903909397826756
+      },
+      "two_bins_monotone": {
+        "n": 171,
+        "model": {
+          "name": "two_bins_monotone",
+          "params": [
+            47.00350756746306,
+            0.0
+          ]
+        },
+        "folds": [
+          {
+            "run": "v14",
+            "n": 10,
+            "rmse": 8.292633026154306,
+            "negative": 0
+          },
+          {
+            "run": "v15",
+            "n": 18,
+            "rmse": 7.303180298661774,
+            "negative": 0
+          },
+          {
+            "run": "v16",
+            "n": 14,
+            "rmse": 5.062031577646665,
+            "negative": 0
+          },
+          {
+            "run": "v17",
+            "n": 22,
+            "rmse": 6.95796580152658,
+            "negative": 0
+          },
+          {
+            "run": "v18",
+            "n": 23,
+            "rmse": 6.609296150106999,
+            "negative": 0
+          },
+          {
+            "run": "v19",
+            "n": 35,
+            "rmse": 8.048806225530708,
+            "negative": 0
+          },
+          {
+            "run": "v20",
+            "n": 33,
+            "rmse": 5.999576605968251,
+            "negative": 0
+          },
+          {
+            "run": "v21",
+            "n": 15,
+            "rmse": 6.367062833685204,
+            "negative": 0
+          }
+        ],
+        "LOO_models": [
+          {
+            "name": "two_bins_monotone",
+            "params": [
+              46.78752589681575,
+              0.0
+            ]
+          },
+          {
+            "name": "two_bins_monotone",
+            "params": [
+              46.85787910768765,
+              0.0
+            ]
+          },
+          {
+            "name": "two_bins_monotone",
+            "params": [
+              47.190700251608156,
+              0.0
+            ]
+          },
+          {
+            "name": "two_bins_monotone",
+            "params": [
+              47.07703974944413,
+              0.0
+            ]
+          },
+          {
+            "name": "two_bins_monotone",
+            "params": [
+              47.11225284339627,
+              0.0
+            ]
+          },
+          {
+            "name": "two_bins_monotone",
+            "params": [
+              47.05241196851066,
+              75.85335530087944
+            ]
+          },
+          {
+            "name": "two_bins_monotone",
+            "params": [
+              46.88863734632933,
+              0.0
+            ]
+          },
+          {
+            "name": "two_bins_monotone",
+            "params": [
+              47.04700819472357,
+              0.0
+            ]
+          }
+        ],
+        "equal_run_RMSE": 6.902374071691475
+      },
+      "snr_only": {
+        "n": 171,
+        "model": {
+          "name": "snr_only",
+          "params": [
+            75.68760519196756
+          ]
+        },
+        "folds": [
+          {
+            "run": "v14",
+            "n": 10,
+            "rmse": 28.570462142493305,
+            "negative": 0
+          },
+          {
+            "run": "v15",
+            "n": 18,
+            "rmse": 37.59834756979995,
+            "negative": 0
+          },
+          {
+            "run": "v16",
+            "n": 14,
+            "rmse": 28.091748778584556,
+            "negative": 0
+          },
+          {
+            "run": "v17",
+            "n": 22,
+            "rmse": 36.56781456883827,
+            "negative": 0
+          },
+          {
+            "run": "v18",
+            "n": 23,
+            "rmse": 32.41342483245891,
+            "negative": 0
+          },
+          {
+            "run": "v19",
+            "n": 35,
+            "rmse": 41.086119795944654,
+            "negative": 0
+          },
+          {
+            "run": "v20",
+            "n": 33,
+            "rmse": 26.895463676165836,
+            "negative": 0
+          },
+          {
+            "run": "v21",
+            "n": 15,
+            "rmse": 32.36583715741912,
+            "negative": 0
+          }
+        ],
+        "LOO_models": [
+          {
+            "name": "snr_only",
+            "params": [
+              73.54179424990046
+            ]
+          },
+          {
+            "name": "snr_only",
+            "params": [
+              73.03831382850628
+            ]
+          },
+          {
+            "name": "snr_only",
+            "params": [
+              73.70304373522094
+            ]
+          },
+          {
+            "name": "snr_only",
+            "params": [
+              72.71035211948262
+            ]
+          },
+          {
+            "name": "snr_only",
+            "params": [
+              72.53213477284905
+            ]
+          },
+          {
+            "name": "snr_only",
+            "params": [
+              99.62584960667212
+            ]
+          },
+          {
+            "name": "snr_only",
+            "params": [
+              76.19862737454719
+            ]
+          },
+          {
+            "name": "snr_only",
+            "params": [
+              73.26206477619569
+            ]
+          }
+        ],
+        "equal_run_RMSE": 33.290147170949616
+      }
+    },
+    "combined": {
+      "constant": {
+        "n": 371,
+        "model": {
+          "name": "constant",
+          "params": [
+            44.163517947857066
+          ]
+        },
+        "folds": [
+          {
+            "run": "v14",
+            "n": 43,
+            "rmse": 8.268401537087728,
+            "negative": 0
+          },
+          {
+            "run": "v15",
+            "n": 18,
+            "rmse": 8.354055591221314,
+            "negative": 0
+          },
+          {
+            "run": "v16",
+            "n": 14,
+            "rmse": 4.581378294223097,
+            "negative": 0
+          },
+          {
+            "run": "v17",
+            "n": 22,
+            "rmse": 7.367819992178288,
+            "negative": 0
+          },
+          {
+            "run": "v18",
+            "n": 23,
+            "rmse": 6.945159186855174,
+            "negative": 0
+          },
+          {
+            "run": "v19",
+            "n": 35,
+            "rmse": 8.175701122159003,
+            "negative": 0
+          },
+          {
+            "run": "v20",
+            "n": 33,
+            "rmse": 6.994514417565846,
+            "negative": 0
+          },
+          {
+            "run": "v21",
+            "n": 15,
+            "rmse": 6.817963214380785,
+            "negative": 0
+          },
+          {
+            "run": "v22",
+            "n": 168,
+            "rmse": 15.305331037777,
+            "negative": 0
+          }
+        ],
+        "LOO_models": [
+          {
+            "name": "constant",
+            "params": [
+              43.69741978969286
+            ]
+          },
+          {
+            "name": "constant",
+            "params": [
+              43.95558319573656
+            ]
+          },
+          {
+            "name": "constant",
+            "params": [
+              44.134468638995166
+            ]
+          },
+          {
+            "name": "constant",
+            "params": [
+              44.01588620998844
+            ]
+          },
+          {
+            "name": "constant",
+            "params": [
+              44.02206547540643
+            ]
+          },
+          {
+            "name": "constant",
+            "params": [
+              43.898759119099225
+            ]
+          },
+          {
+            "name": "constant",
+            "params": [
+              43.83934117873445
+            ]
+          },
+          {
+            "name": "constant",
+            "params": [
+              44.062917536504706
+            ]
+          },
+          {
+            "name": "constant",
+            "params": [
+              46.97999659040194
+            ]
+          }
+        ],
+        "equal_run_RMSE": 8.551600531072845
+      },
+      "median_constant": {
+        "n": 371,
+        "model": {
+          "name": "median_constant",
+          "params": [
+            45.57820445659944
+          ]
+        },
+        "folds": [
+          {
+            "run": "v14",
+            "n": 43,
+            "rmse": 7.704495199931051,
+            "negative": 0
+          },
+          {
+            "run": "v15",
+            "n": 18,
+            "rmse": 7.717660658865666,
+            "negative": 0
+          },
+          {
+            "run": "v16",
+            "n": 14,
+            "rmse": 4.542275341485481,
+            "negative": 0
+          },
+          {
+            "run": "v17",
+            "n": 22,
+            "rmse": 7.0236139476833115,
+            "negative": 0
+          },
+          {
+            "run": "v18",
+            "n": 23,
+            "rmse": 6.623118899032725,
+            "negative": 0
+          },
+          {
+            "run": "v19",
+            "n": 35,
+            "rmse": 7.745827869887024,
+            "negative": 0
+          },
+          {
+            "run": "v20",
+            "n": 33,
+            "rmse": 6.425512934301719,
+            "negative": 0
+          },
+          {
+            "run": "v21",
+            "n": 15,
+            "rmse": 6.436780894489982,
+            "negative": 0
+          },
+          {
+            "run": "v22",
+            "n": 168,
+            "rmse": 15.203640253968041,
+            "negative": 0
+          }
+        ],
+        "LOO_models": [
+          {
+            "name": "median_constant",
+            "params": [
+              45.04214668481103
+            ]
+          },
+          {
+            "name": "median_constant",
+            "params": [
+              45.38831007354668
+            ]
+          },
+          {
+            "name": "median_constant",
+            "params": [
+              45.389909481524334
+            ]
+          },
+          {
+            "name": "median_constant",
+            "params": [
+              45.389909481524334
+            ]
+          },
+          {
+            "name": "median_constant",
+            "params": [
+              45.38910977753551
+            ]
+          },
+          {
+            "name": "median_constant",
+            "params": [
+              45.68938473505318
+            ]
+          },
+          {
+            "name": "median_constant",
+            "params": [
+              45.10761562146638
+            ]
+          },
+          {
+            "name": "median_constant",
+            "params": [
+              45.48405696906188
+            ]
+          },
+          {
+            "name": "median_constant",
+            "params": [
+              46.72537822766707
+            ]
+          }
+        ],
+        "equal_run_RMSE": 8.209875797953424
+      },
+      "inverse_cn0": {
+        "n": 371,
+        "model": {
+          "name": "inverse_cn0",
+          "params": [
+            58.99301960043627,
+            -456.6850188973728
+          ]
+        },
+        "folds": [
+          {
+            "run": "v14",
+            "n": 43,
+            "rmse": 7.42173162366116,
+            "negative": 0
+          },
+          {
+            "run": "v15",
+            "n": 18,
+            "rmse": 7.54850423090371,
+            "negative": 0
+          },
+          {
+            "run": "v16",
+            "n": 14,
+            "rmse": 4.801633881362067,
+            "negative": 0
+          },
+          {
+            "run": "v17",
+            "n": 22,
+            "rmse": 7.01516503716188,
+            "negative": 0
+          },
+          {
+            "run": "v18",
+            "n": 23,
+            "rmse": 6.7451795020080665,
+            "negative": 0
+          },
+          {
+            "run": "v19",
+            "n": 35,
+            "rmse": 8.240866270855522,
+            "negative": 0
+          },
+          {
+            "run": "v20",
+            "n": 33,
+            "rmse": 6.4000017009096215,
+            "negative": 0
+          },
+          {
+            "run": "v21",
+            "n": 15,
+            "rmse": 6.3086787256955255,
+            "negative": 0
+          },
+          {
+            "run": "v22",
+            "n": 168,
+            "rmse": 16.50764035108535,
+            "negative": 0
+          }
+        ],
+        "LOO_models": [
+          {
+            "name": "inverse_cn0",
+            "params": [
+              58.58121036861588,
+              -447.53928344705105
+            ]
+          },
+          {
+            "name": "inverse_cn0",
+            "params": [
+              58.84780972943033,
+              -453.90357182361663
+            ]
+          },
+          {
+            "name": "inverse_cn0",
+            "params": [
+              59.32818516655666,
+              -464.9969481217467
+            ]
+          },
+          {
+            "name": "inverse_cn0",
+            "params": [
+              59.303612770166716,
+              -464.82386064686204
+            ]
+          },
+          {
+            "name": "inverse_cn0",
+            "params": [
+              59.31600292362626,
+              -465.62516621645653
+            ]
+          },
+          {
+            "name": "inverse_cn0",
+            "params": [
+              59.063990229985286,
+              -464.5584572856771
+            ]
+          },
+          {
+            "name": "inverse_cn0",
+            "params": [
+              58.55001614668757,
+              -448.5662270582918
+            ]
+          },
+          {
+            "name": "inverse_cn0",
+            "params": [
+              59.01121445733887,
+              -457.07887533307616
+            ]
+          },
+          {
+            "name": "inverse_cn0",
+            "params": [
+              41.050620337947876,
+              214.26594753603086
+            ]
+          }
+        ],
+        "equal_run_RMSE": 8.504908434099757
+      },
+      "floor_snr": {
+        "n": 371,
+        "model": {
+          "name": "floor_snr",
+          "params": [
+            44.16351794785711,
+            0.0
+          ]
+        },
+        "folds": [
+          {
+            "run": "v14",
+            "n": 43,
+            "rmse": 8.268401537087751,
+            "negative": 0
+          },
+          {
+            "run": "v15",
+            "n": 18,
+            "rmse": 8.354055591221288,
+            "negative": 0
+          },
+          {
+            "run": "v16",
+            "n": 14,
+            "rmse": 4.581378294223088,
+            "negative": 0
+          },
+          {
+            "run": "v17",
+            "n": 22,
+            "rmse": 7.367819992178269,
+            "negative": 0
+          },
+          {
+            "run": "v18",
+            "n": 23,
+            "rmse": 6.945159186855164,
+            "negative": 0
+          },
+          {
+            "run": "v19",
+            "n": 35,
+            "rmse": 8.175701122158975,
+            "negative": 0
+          },
+          {
+            "run": "v20",
+            "n": 33,
+            "rmse": 6.994514417565798,
+            "negative": 0
+          },
+          {
+            "run": "v21",
+            "n": 15,
+            "rmse": 6.817963214380806,
+            "negative": 0
+          },
+          {
+            "run": "v22",
+            "n": 168,
+            "rmse": 20.3639697980007,
+            "negative": 0
+          }
+        ],
+        "LOO_models": [
+          {
+            "name": "floor_snr",
+            "params": [
+              43.697419789692816,
+              0.0
+            ]
+          },
+          {
+            "name": "floor_snr",
+            "params": [
+              43.95558319573661,
+              0.0
+            ]
+          },
+          {
+            "name": "floor_snr",
+            "params": [
+              44.13446863899522,
+              0.0
+            ]
+          },
+          {
+            "name": "floor_snr",
+            "params": [
+              44.015886209988494,
+              0.0
+            ]
+          },
+          {
+            "name": "floor_snr",
+            "params": [
+              44.022065475406464,
+              0.0
+            ]
+          },
+          {
+            "name": "floor_snr",
+            "params": [
+              43.89875911909931,
+              0.0
+            ]
+          },
+          {
+            "name": "floor_snr",
+            "params": [
+              43.83934117873454,
+              0.0
+            ]
+          },
+          {
+            "name": "floor_snr",
+            "params": [
+              44.06291753650464,
+              0.0
+            ]
+          },
+          {
+            "name": "floor_snr",
+            "params": [
+              46.180034206017865,
+              2.554727639410063
+            ]
+          }
+        ],
+        "equal_run_RMSE": 9.652903722860643
+      },
+      "floor_hdop2": {
+        "n": 371,
+        "model": {
+          "name": "floor_hdop2",
+          "params": [
+            44.16351794785711,
+            0.0
+          ]
+        },
+        "folds": [
+          {
+            "run": "v14",
+            "n": 43,
+            "rmse": 8.268401537087751,
+            "negative": 0
+          },
+          {
+            "run": "v15",
+            "n": 18,
+            "rmse": 8.354055591221288,
+            "negative": 0
+          },
+          {
+            "run": "v16",
+            "n": 14,
+            "rmse": 4.581378294223088,
+            "negative": 0
+          },
+          {
+            "run": "v17",
+            "n": 22,
+            "rmse": 7.367819992178269,
+            "negative": 0
+          },
+          {
+            "run": "v18",
+            "n": 23,
+            "rmse": 6.945159186855164,
+            "negative": 0
+          },
+          {
+            "run": "v19",
+            "n": 35,
+            "rmse": 8.175701122158975,
+            "negative": 0
+          },
+          {
+            "run": "v20",
+            "n": 33,
+            "rmse": 6.994514417565798,
+            "negative": 0
+          },
+          {
+            "run": "v21",
+            "n": 15,
+            "rmse": 6.817963214380806,
+            "negative": 0
+          },
+          {
+            "run": "v22",
+            "n": 168,
+            "rmse": 15.457441595534862,
+            "negative": 0
+          }
+        ],
+        "LOO_models": [
+          {
+            "name": "floor_hdop2",
+            "params": [
+              43.697419789692816,
+              0.0
+            ]
+          },
+          {
+            "name": "floor_hdop2",
+            "params": [
+              43.95558319573661,
+              0.0
+            ]
+          },
+          {
+            "name": "floor_hdop2",
+            "params": [
+              44.13446863899522,
+              0.0
+            ]
+          },
+          {
+            "name": "floor_hdop2",
+            "params": [
+              44.015886209988494,
+              0.0
+            ]
+          },
+          {
+            "name": "floor_hdop2",
+            "params": [
+              44.022065475406464,
+              0.0
+            ]
+          },
+          {
+            "name": "floor_hdop2",
+            "params": [
+              43.89875911909931,
+              0.0
+            ]
+          },
+          {
+            "name": "floor_hdop2",
+            "params": [
+              43.83934117873454,
+              0.0
+            ]
+          },
+          {
+            "name": "floor_hdop2",
+            "params": [
+              44.06291753650464,
+              0.0
+            ]
+          },
+          {
+            "name": "floor_hdop2",
+            "params": [
+              45.10069218847143,
+              1.5468671737256325
+            ]
+          }
+        ],
+        "equal_run_RMSE": 8.58194608395269
+      },
+      "exp_cn0": {
+        "n": 371,
+        "model": {
+          "name": "exp_cn0",
+          "params": [
+            3.7325772949284874,
+            2.3959334058607836e-20
+          ],
+          "smear": 1.056880629851743
+        },
+        "folds": [
+          {
+            "run": "v14",
+            "n": 43,
+            "rmse": 8.268401537087728,
+            "negative": 0
+          },
+          {
+            "run": "v15",
+            "n": 18,
+            "rmse": 8.354055591221314,
+            "negative": 0
+          },
+          {
+            "run": "v16",
+            "n": 14,
+            "rmse": 4.581378294223099,
+            "negative": 0
+          },
+          {
+            "run": "v17",
+            "n": 22,
+            "rmse": 7.367819992178288,
+            "negative": 0
+          },
+          {
+            "run": "v18",
+            "n": 23,
+            "rmse": 6.945159186855174,
+            "negative": 0
+          },
+          {
+            "run": "v19",
+            "n": 35,
+            "rmse": 8.175701122159005,
+            "negative": 0
+          },
+          {
+            "run": "v20",
+            "n": 33,
+            "rmse": 6.994514417565846,
+            "negative": 0
+          },
+          {
+            "run": "v21",
+            "n": 15,
+            "rmse": 6.817963214380785,
+            "negative": 0
+          },
+          {
+            "run": "v22",
+            "n": 168,
+            "rmse": 16.045952531262195,
+            "negative": 0
+          }
+        ],
+        "LOO_models": [
+          {
+            "name": "exp_cn0",
+            "params": [
+              3.7167454562868767,
+              3.9896035865936715e-21
+            ],
+            "smear": 1.0624139181870562
+          },
+          {
+            "name": "exp_cn0",
+            "params": [
+              3.7258075628225282,
+              1.047834989810448e-20
+            ],
+            "smear": 1.0590497972479112
+          },
+          {
+            "name": "exp_cn0",
+            "params": [
+              3.729952401737931,
+              1.4549418425522925e-20
+            ],
+            "smear": 1.0589614643215306
+          },
+          {
+            "name": "exp_cn0",
+            "params": [
+              3.7265998889203846,
+              8.768057928384137e-21
+            ],
+            "smear": 1.0596627849043072
+          },
+          {
+            "name": "exp_cn0",
+            "params": [
+              3.7265085429051164,
+              9.784445325345283e-21
+            ],
+            "smear": 1.0599083619406031
+          },
+          {
+            "name": "exp_cn0",
+            "params": [
+              3.7222239835689415,
+              1.6597932724320068e-20
+            ],
+            "smear": 1.0614777807784355
+          },
+          {
+            "name": "exp_cn0",
+            "params": [
+              3.720910829686421,
+              1.1070178474703408e-20
+            ],
+            "smear": 1.0614339585199375
+          },
+          {
+            "name": "exp_cn0",
+            "params": [
+              3.7284479063843095,
+              1.3378831305120962e-20
+            ],
+            "smear": 1.0588364855830341
+          },
+          {
+            "name": "exp_cn0",
+            "params": [
+              3.8597886121595884,
+              0.0032130511593228286
+            ],
+            "smear": 1.0106932263683464
+          }
+        ],
+        "equal_run_RMSE": 8.701138362606406
+      },
+      "two_bins": {
+        "n": 371,
+        "model": {
+          "name": "two_bins",
+          "params": [
+            45.437898075522874,
+            37.695062603476266
+          ]
+        },
+        "folds": [
+          {
+            "run": "v14",
+            "n": 43,
+            "rmse": 7.702587007814554,
+            "negative": 0
+          },
+          {
+            "run": "v15",
+            "n": 18,
+            "rmse": 7.772839308307807,
+            "negative": 0
+          },
+          {
+            "run": "v16",
+            "n": 14,
+            "rmse": 4.550860378475482,
+            "negative": 0
+          },
+          {
+            "run": "v17",
+            "n": 22,
+            "rmse": 7.029791914758697,
+            "negative": 0
+          },
+          {
+            "run": "v18",
+            "n": 23,
+            "rmse": 6.626562177700185,
+            "negative": 0
+          },
+          {
+            "run": "v19",
+            "n": 35,
+            "rmse": 7.8085501298032245,
+            "negative": 0
+          },
+          {
+            "run": "v20",
+            "n": 33,
+            "rmse": 6.402843083955473,
+            "negative": 0
+          },
+          {
+            "run": "v21",
+            "n": 15,
+            "rmse": 6.455188038886134,
+            "negative": 0
+          },
+          {
+            "run": "v22",
+            "n": 168,
+            "rmse": 15.114214528118909,
+            "negative": 0
+          }
+        ],
+        "LOO_models": [
+          {
+            "name": "two_bins",
+            "params": [
+              45.04764405523117,
+              37.79482432461213
+            ]
+          },
+          {
+            "name": "two_bins",
+            "params": [
+              45.25504701638205,
+              37.739873885201995
+            ]
+          },
+          {
+            "name": "two_bins",
+            "params": [
+              45.464547973199316,
+              37.688250015976664
+            ]
+          },
+          {
+            "name": "two_bins",
+            "params": [
+              45.35165246631322,
+              37.717109808547285
+            ]
+          },
+          {
+            "name": "two_bins",
+            "params": [
+              45.36450092915276,
+              37.71382532023924
+            ]
+          },
+          {
+            "name": "two_bins",
+            "params": [
+              45.26218540042529,
+              37.74192776713994
+            ]
+          },
+          {
+            "name": "two_bins",
+            "params": [
+              45.17929762464792,
+              37.759074581256435
+            ]
+          },
+          {
+            "name": "two_bins",
+            "params": [
+              45.37811878003443,
+              37.71034415112504
+            ]
+          },
+          {
+            "name": "two_bins",
+            "params": [
+              46.99755292004453,
+              28.745318213382838
+            ]
+          }
+        ],
+        "equal_run_RMSE": 8.204777039943293
+      },
+      "two_bins_monotone": {
+        "n": 371,
+        "model": {
+          "name": "two_bins_monotone",
+          "params": [
+            44.16351794785711,
+            0.0
+          ]
+        },
+        "folds": [
+          {
+            "run": "v14",
+            "n": 43,
+            "rmse": 8.268401537087751,
+            "negative": 0
+          },
+          {
+            "run": "v15",
+            "n": 18,
+            "rmse": 8.354055591221288,
+            "negative": 0
+          },
+          {
+            "run": "v16",
+            "n": 14,
+            "rmse": 4.581378294223088,
+            "negative": 0
+          },
+          {
+            "run": "v17",
+            "n": 22,
+            "rmse": 7.367819992178269,
+            "negative": 0
+          },
+          {
+            "run": "v18",
+            "n": 23,
+            "rmse": 6.945159186855164,
+            "negative": 0
+          },
+          {
+            "run": "v19",
+            "n": 35,
+            "rmse": 8.175701122158975,
+            "negative": 0
+          },
+          {
+            "run": "v20",
+            "n": 33,
+            "rmse": 6.994514417565798,
+            "negative": 0
+          },
+          {
+            "run": "v21",
+            "n": 15,
+            "rmse": 6.817963214380806,
+            "negative": 0
+          },
+          {
+            "run": "v22",
+            "n": 168,
+            "rmse": 15.305331037777023,
+            "negative": 0
+          }
+        ],
+        "LOO_models": [
+          {
+            "name": "two_bins_monotone",
+            "params": [
+              43.697419789692816,
+              0.0
+            ]
+          },
+          {
+            "name": "two_bins_monotone",
+            "params": [
+              43.95558319573661,
+              0.0
+            ]
+          },
+          {
+            "name": "two_bins_monotone",
+            "params": [
+              44.13446863899522,
+              0.0
+            ]
+          },
+          {
+            "name": "two_bins_monotone",
+            "params": [
+              44.015886209988494,
+              0.0
+            ]
+          },
+          {
+            "name": "two_bins_monotone",
+            "params": [
+              44.022065475406464,
+              0.0
+            ]
+          },
+          {
+            "name": "two_bins_monotone",
+            "params": [
+              43.89875911909931,
+              0.0
+            ]
+          },
+          {
+            "name": "two_bins_monotone",
+            "params": [
+              43.83934117873454,
+              0.0
+            ]
+          },
+          {
+            "name": "two_bins_monotone",
+            "params": [
+              44.06291753650464,
+              0.0
+            ]
+          },
+          {
+            "name": "two_bins_monotone",
+            "params": [
+              46.979996590401996,
+              0.0
+            ]
+          }
+        ],
+        "equal_run_RMSE": 8.551600531072841
+      },
+      "snr_only": {
+        "n": 371,
+        "model": {
+          "name": "snr_only",
+          "params": [
+            9.78518699916048
+          ]
+        },
+        "folds": [
+          {
+            "run": "v14",
+            "n": 43,
+            "rmse": 46.461847308669135,
+            "negative": 0
+          },
+          {
+            "run": "v15",
+            "n": 18,
+            "rmse": 47.25547140979584,
+            "negative": 0
+          },
+          {
+            "run": "v16",
+            "n": 14,
+            "rmse": 42.6655322859918,
+            "negative": 0
+          },
+          {
+            "run": "v17",
+            "n": 22,
+            "rmse": 45.60157991968291,
+            "negative": 0
+          },
+          {
+            "run": "v18",
+            "n": 23,
+            "rmse": 44.62399478121361,
+            "negative": 0
+          },
+          {
+            "run": "v19",
+            "n": 35,
+            "rmse": 41.21156502612802,
+            "negative": 0
+          },
+          {
+            "run": "v20",
+            "n": 33,
+            "rmse": 43.74021119175396,
+            "negative": 0
+          },
+          {
+            "run": "v21",
+            "n": 15,
+            "rmse": 44.983654403068705,
+            "negative": 0
+          },
+          {
+            "run": "v22",
+            "n": 168,
+            "rmse": 281.24131747686954,
+            "negative": 0
+          }
+        ],
+        "LOO_models": [
+          {
+            "name": "snr_only",
+            "params": [
+              9.62720988418701
+            ]
+          },
+          {
+            "name": "snr_only",
+            "params": [
+              9.72902588410975
+            ]
+          },
+          {
+            "name": "snr_only",
+            "params": [
+              9.721409702236825
+            ]
+          },
+          {
+            "name": "snr_only",
+            "params": [
+              9.723159180677602
+            ]
+          },
+          {
+            "name": "snr_only",
+            "params": [
+              9.68993327856781
+            ]
+          },
+          {
+            "name": "snr_only",
+            "params": [
+              9.396910953310318
+            ]
+          },
+          {
+            "name": "snr_only",
+            "params": [
+              9.526827366026017
+            ]
+          },
+          {
+            "name": "snr_only",
+            "params": [
+              9.726501958396579
+            ]
+          },
+          {
+            "name": "snr_only",
+            "params": [
+              83.93799373497401
+            ]
+          }
+        ],
+        "equal_run_RMSE": 102.74820488657924
+      }
+    }
+  },
+  "fixed_choices": {
+    "CN0_reference_dBHz": 30.0,
+    "bin_threshold_dBHz": 25.0,
+    "threshold_fitted": false,
+    "production_code_modified": false,
+    "warning": "Raw GNSS C/N0 noise formulas are candidates for these PPS labels, not a proven receiver timing law."
+  }
+}

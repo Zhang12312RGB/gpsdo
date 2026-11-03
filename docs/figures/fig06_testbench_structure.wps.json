@@ -1,0 +1,3295 @@
+{
+  "page": {
+    "padding": 0,
+    "backgroundColor": "255,255,255",
+    "orientation": "landscape",
+    "gridSize": 15,
+    "watermark": "",
+    "width": 1600,
+    "showGrid": false,
+    "lineJumps": false,
+    "richText": true,
+    "version": 0,
+    "height": 1000,
+    "showWatermark": false
+  },
+  "comments": [],
+  "plugins": {},
+  "aiContainers": {},
+  "insertPageOpts": {},
+  "postPayment": {},
+  "theme": {
+    "page": {
+      "backgroundColor": "transparent"
+    }
+  },
+  "elements": {
+    "f06_001": {
+      "id": "f06_001",
+      "name": "rectangle",
+      "title": "矩形",
+      "category": "basic",
+      "group": "",
+      "groupName": null,
+      "locked": false,
+      "link": "",
+      "children": [],
+      "parent": "",
+      "resizeDir": [
+        "tl",
+        "tr",
+        "br",
+        "bl",
+        "l",
+        "t",
+        "r",
+        "b"
+      ],
+      "attribute": {
+        "container": false,
+        "visible": true,
+        "rotatable": true,
+        "linkable": true,
+        "collapsable": false,
+        "collapsed": false,
+        "fixedLink": false,
+        "markerOffset": 5
+      },
+      "dataAttributes": [],
+      "props": {
+        "x": 588.7083333333333,
+        "y": 6.455789572594426,
+        "w": 422.58333333333314,
+        "h": 59.088420854811034,
+        "zindex": 1,
+        "angle": 0
+      },
+      "shapeStyle": {
+        "alpha": 1
+      },
+      "lineStyle": {
+        "lineWidth": 0
+      },
+      "fillStyle": {
+        "type": "none"
+      },
+      "theme": {},
+      "path": [
+        {
+          "actions": [
+            {
+              "action": "move",
+              "x": "0",
+              "y": "0"
+            },
+            {
+              "action": "line",
+              "x": "w",
+              "y": "0"
+            },
+            {
+              "action": "line",
+              "x": "w",
+              "y": "h"
+            },
+            {
+              "action": "line",
+              "x": "0",
+              "y": "h"
+            },
+            {
+              "action": "close"
+            }
+          ]
+        }
+      ],
+      "fontStyle": {
+        "fontFamily": "Microsoft YaHei",
+        "size": 31.9992,
+        "color": "0,0,0",
+        "textAlign": "center",
+        "vAlign": "middle",
+        "lineHeight": 1.3
+      },
+      "textBlock": [
+        {
+          "position": {
+            "x": 0,
+            "y": 0,
+            "w": "w",
+            "h": "h"
+          },
+          "text": "图 06  仿真台架与验证分层"
+        }
+      ],
+      "anchors": [
+        {
+          "x": "w/2",
+          "y": "0"
+        },
+        {
+          "x": "w/2",
+          "y": "h"
+        },
+        {
+          "x": "0",
+          "y": "h/2"
+        },
+        {
+          "x": "w",
+          "y": "h/2"
+        }
+      ]
+    },
+    "f06_002": {
+      "id": "f06_002",
+      "name": "rectangle",
+      "title": "矩形",
+      "category": "basic",
+      "group": "",
+      "groupName": null,
+      "locked": false,
+      "link": "",
+      "children": [],
+      "parent": "",
+      "resizeDir": [
+        "tl",
+        "tr",
+        "br",
+        "bl",
+        "l",
+        "t",
+        "r",
+        "b"
+      ],
+      "attribute": {
+        "container": false,
+        "visible": true,
+        "rotatable": true,
+        "linkable": true,
+        "collapsable": false,
+        "collapsed": false,
+        "fixedLink": false,
+        "markerOffset": 5
+      },
+      "dataAttributes": [],
+      "props": {
+        "x": 558.4999999999999,
+        "y": 61.51587725068009,
+        "w": 483.0000000000001,
+        "h": 36.96824549863982,
+        "zindex": 2,
+        "angle": 0
+      },
+      "shapeStyle": {
+        "alpha": 1
+      },
+      "lineStyle": {
+        "lineWidth": 0
+      },
+      "fillStyle": {
+        "type": "none"
+      },
+      "theme": {},
+      "path": [
+        {
+          "actions": [
+            {
+              "action": "move",
+              "x": "0",
+              "y": "0"
+            },
+            {
+              "action": "line",
+              "x": "w",
+              "y": "0"
+            },
+            {
+              "action": "line",
+              "x": "w",
+              "y": "h"
+            },
+            {
+              "action": "line",
+              "x": "0",
+              "y": "h"
+            },
+            {
+              "action": "close"
+            }
+          ]
+        }
+      ],
+      "fontStyle": {
+        "fontFamily": "Microsoft YaHei",
+        "size": 18.6662,
+        "color": "91,104,115",
+        "textAlign": "center",
+        "vAlign": "middle",
+        "lineHeight": 1.3
+      },
+      "textBlock": [
+        {
+          "position": {
+            "x": 0,
+            "y": 0,
+            "w": "w",
+            "h": "h"
+          },
+          "text": "缩时仿真、主机逻辑测试和真实硬件数据分别保留证据"
+        }
+      ],
+      "anchors": [
+        {
+          "x": "w/2",
+          "y": "0"
+        },
+        {
+          "x": "w/2",
+          "y": "h"
+        },
+        {
+          "x": "0",
+          "y": "h/2"
+        },
+        {
+          "x": "w",
+          "y": "h/2"
+        }
+      ]
+    },
+    "f06_003": {
+      "id": "f06_003",
+      "name": "rectangle",
+      "title": "矩形",
+      "category": "basic",
+      "group": "",
+      "groupName": null,
+      "locked": false,
+      "link": "",
+      "children": [],
+      "parent": "",
+      "resizeDir": [
+        "tl",
+        "tr",
+        "br",
+        "bl",
+        "l",
+        "t",
+        "r",
+        "b"
+      ],
+      "attribute": {
+        "container": false,
+        "visible": true,
+        "rotatable": true,
+        "linkable": true,
+        "collapsable": false,
+        "collapsed": false,
+        "fixedLink": false,
+        "markerOffset": 5
+      },
+      "dataAttributes": [],
+      "props": {
+        "x": 16.0,
+        "y": 130.0,
+        "w": 768.0,
+        "h": 720.0,
+        "zindex": 3,
+        "angle": 0
+      },
+      "shapeStyle": {
+        "alpha": 1
+      },
+      "lineStyle": {
+        "lineWidth": 1.19997,
+        "lineColor": "174,187,197"
+      },
+      "fillStyle": {
+        "type": "solid",
+        "color": "234,242,250"
+      },
+      "theme": {},
+      "path": [
+        {
+          "actions": [
+            {
+              "action": "move",
+              "x": "0",
+              "y": "0"
+            },
+            {
+              "action": "line",
+              "x": "w",
+              "y": "0"
+            },
+            {
+              "action": "line",
+              "x": "w",
+              "y": "h"
+            },
+            {
+              "action": "line",
+              "x": "0",
+              "y": "h"
+            },
+            {
+              "action": "close"
+            }
+          ]
+        }
+      ],
+      "fontStyle": {
+        "size": 18
+      },
+      "textBlock": [
+        {
+          "position": {
+            "x": 0,
+            "y": 0,
+            "w": "w",
+            "h": "h"
+          },
+          "text": ""
+        }
+      ],
+      "anchors": [
+        {
+          "x": "w/2",
+          "y": "0"
+        },
+        {
+          "x": "w/2",
+          "y": "h"
+        },
+        {
+          "x": "0",
+          "y": "h/2"
+        },
+        {
+          "x": "w",
+          "y": "h/2"
+        }
+      ]
+    },
+    "f06_004": {
+      "id": "f06_004",
+      "name": "rectangle",
+      "title": "矩形",
+      "category": "basic",
+      "group": "",
+      "groupName": null,
+      "locked": false,
+      "link": "",
+      "children": [],
+      "parent": "",
+      "resizeDir": [
+        "tl",
+        "tr",
+        "br",
+        "bl",
+        "l",
+        "t",
+        "r",
+        "b"
+      ],
+      "attribute": {
+        "container": false,
+        "visible": true,
+        "rotatable": true,
+        "linkable": true,
+        "collapsable": false,
+        "collapsed": false,
+        "fixedLink": false,
+        "markerOffset": 5
+      },
+      "dataAttributes": [],
+      "props": {
+        "x": 31.200000000000003,
+        "y": 135.4098684828716,
+        "w": 139.689453125,
+        "h": 39.18026303425697,
+        "zindex": 4,
+        "angle": 0
+      },
+      "shapeStyle": {
+        "alpha": 1
+      },
+      "lineStyle": {
+        "lineWidth": 0
+      },
+      "fillStyle": {
+        "type": "none"
+      },
+      "theme": {},
+      "path": [
+        {
+          "actions": [
+            {
+              "action": "move",
+              "x": "0",
+              "y": "0"
+            },
+            {
+              "action": "line",
+              "x": "w",
+              "y": "0"
+            },
+            {
+              "action": "line",
+              "x": "w",
+              "y": "h"
+            },
+            {
+              "action": "line",
+              "x": "0",
+              "y": "h"
+            },
+            {
+              "action": "close"
+            }
+          ]
+        }
+      ],
+      "fontStyle": {
+        "fontFamily": "Microsoft YaHei",
+        "size": 19.999499999999998,
+        "color": "48,72,90",
+        "textAlign": "center",
+        "vAlign": "middle",
+        "lineHeight": 1.3
+      },
+      "textBlock": [
+        {
+          "position": {
+            "x": 0,
+            "y": 0,
+            "w": "w",
+            "h": "h"
+          },
+          "text": "RTL 仿真结构"
+        }
+      ],
+      "anchors": [
+        {
+          "x": "w/2",
+          "y": "0"
+        },
+        {
+          "x": "w/2",
+          "y": "h"
+        },
+        {
+          "x": "0",
+          "y": "h/2"
+        },
+        {
+          "x": "w",
+          "y": "h/2"
+        }
+      ]
+    },
+    "f06_005": {
+      "id": "f06_005",
+      "name": "rectangle",
+      "title": "矩形",
+      "category": "basic",
+      "group": "",
+      "groupName": null,
+      "locked": false,
+      "link": "",
+      "children": [],
+      "parent": "",
+      "resizeDir": [
+        "tl",
+        "tr",
+        "br",
+        "bl",
+        "l",
+        "t",
+        "r",
+        "b"
+      ],
+      "attribute": {
+        "container": false,
+        "visible": true,
+        "rotatable": true,
+        "linkable": true,
+        "collapsable": false,
+        "collapsed": false,
+        "fixedLink": false,
+        "markerOffset": 5
+      },
+      "dataAttributes": [],
+      "props": {
+        "x": 848.0,
+        "y": 130.0,
+        "w": 736.0,
+        "h": 720.0,
+        "zindex": 5,
+        "angle": 0
+      },
+      "shapeStyle": {
+        "alpha": 1
+      },
+      "lineStyle": {
+        "lineWidth": 1.19997,
+        "lineColor": "174,187,197"
+      },
+      "fillStyle": {
+        "type": "solid",
+        "color": "237,244,237"
+      },
+      "theme": {},
+      "path": [
+        {
+          "actions": [
+            {
+              "action": "move",
+              "x": "0",
+              "y": "0"
+            },
+            {
+              "action": "line",
+              "x": "w",
+              "y": "0"
+            },
+            {
+              "action": "line",
+              "x": "w",
+              "y": "h"
+            },
+            {
+              "action": "line",
+              "x": "0",
+              "y": "h"
+            },
+            {
+              "action": "close"
+            }
+          ]
+        }
+      ],
+      "fontStyle": {
+        "size": 18
+      },
+      "textBlock": [
+        {
+          "position": {
+            "x": 0,
+            "y": 0,
+            "w": "w",
+            "h": "h"
+          },
+          "text": ""
+        }
+      ],
+      "anchors": [
+        {
+          "x": "w/2",
+          "y": "0"
+        },
+        {
+          "x": "w/2",
+          "y": "h"
+        },
+        {
+          "x": "0",
+          "y": "h/2"
+        },
+        {
+          "x": "w",
+          "y": "h/2"
+        }
+      ]
+    },
+    "f06_006": {
+      "id": "f06_006",
+      "name": "rectangle",
+      "title": "矩形",
+      "category": "basic",
+      "group": "",
+      "groupName": null,
+      "locked": false,
+      "link": "",
+      "children": [],
+      "parent": "",
+      "resizeDir": [
+        "tl",
+        "tr",
+        "br",
+        "bl",
+        "l",
+        "t",
+        "r",
+        "b"
+      ],
+      "attribute": {
+        "container": false,
+        "visible": true,
+        "rotatable": true,
+        "linkable": true,
+        "collapsable": false,
+        "collapsed": false,
+        "fixedLink": false,
+        "markerOffset": 5
+      },
+      "dataAttributes": [],
+      "props": {
+        "x": 863.1999999999999,
+        "y": 135.4098684828716,
+        "w": 149.66666666666652,
+        "h": 39.18026303425697,
+        "zindex": 6,
+        "angle": 0
+      },
+      "shapeStyle": {
+        "alpha": 1
+      },
+      "lineStyle": {
+        "lineWidth": 0
+      },
+      "fillStyle": {
+        "type": "none"
+      },
+      "theme": {},
+      "path": [
+        {
+          "actions": [
+            {
+              "action": "move",
+              "x": "0",
+              "y": "0"
+            },
+            {
+              "action": "line",
+              "x": "w",
+              "y": "0"
+            },
+            {
+              "action": "line",
+              "x": "w",
+              "y": "h"
+            },
+            {
+              "action": "line",
+              "x": "0",
+              "y": "h"
+            },
+            {
+              "action": "close"
+            }
+          ]
+        }
+      ],
+      "fontStyle": {
+        "fontFamily": "Microsoft YaHei",
+        "size": 19.999499999999998,
+        "color": "48,72,90",
+        "textAlign": "center",
+        "vAlign": "middle",
+        "lineHeight": 1.3
+      },
+      "textBlock": [
+        {
+          "position": {
+            "x": 0,
+            "y": 0,
+            "w": "w",
+            "h": "h"
+          },
+          "text": "PS 与上板验证"
+        }
+      ],
+      "anchors": [
+        {
+          "x": "w/2",
+          "y": "0"
+        },
+        {
+          "x": "w/2",
+          "y": "h"
+        },
+        {
+          "x": "0",
+          "y": "h/2"
+        },
+        {
+          "x": "w",
+          "y": "h/2"
+        }
+      ]
+    },
+    "f06_007": {
+      "id": "f06_007",
+      "name": "rectangle",
+      "title": "矩形",
+      "category": "basic",
+      "group": "",
+      "groupName": null,
+      "locked": false,
+      "link": "",
+      "children": [],
+      "parent": "",
+      "resizeDir": [
+        "tl",
+        "tr",
+        "br",
+        "bl",
+        "l",
+        "t",
+        "r",
+        "b"
+      ],
+      "attribute": {
+        "container": false,
+        "visible": true,
+        "rotatable": true,
+        "linkable": true,
+        "collapsable": false,
+        "collapsed": false,
+        "fixedLink": false,
+        "markerOffset": 5
+      },
+      "dataAttributes": [],
+      "props": {
+        "x": 80.0,
+        "y": 200.0,
+        "w": 640.0,
+        "h": 160.0,
+        "zindex": 7,
+        "angle": 0
+      },
+      "shapeStyle": {
+        "alpha": 1
+      },
+      "lineStyle": {
+        "lineWidth": 1.5999599999999998,
+        "lineColor": "113,136,154"
+      },
+      "fillStyle": {
+        "type": "solid",
+        "color": "255,255,255"
+      },
+      "theme": {},
+      "path": [
+        {
+          "actions": [
+            {
+              "action": "move",
+              "x": "0",
+              "y": "0"
+            },
+            {
+              "action": "line",
+              "x": "w",
+              "y": "0"
+            },
+            {
+              "action": "line",
+              "x": "w",
+              "y": "h"
+            },
+            {
+              "action": "line",
+              "x": "0",
+              "y": "h"
+            },
+            {
+              "action": "close"
+            }
+          ]
+        }
+      ],
+      "fontStyle": {
+        "size": 18
+      },
+      "textBlock": [
+        {
+          "position": {
+            "x": 0,
+            "y": 0,
+            "w": "w",
+            "h": "h"
+          },
+          "text": ""
+        }
+      ],
+      "anchors": [
+        {
+          "x": "w/2",
+          "y": "0"
+        },
+        {
+          "x": "w/2",
+          "y": "h"
+        },
+        {
+          "x": "0",
+          "y": "h/2"
+        },
+        {
+          "x": "w",
+          "y": "h/2"
+        }
+      ]
+    },
+    "f06_008": {
+      "id": "f06_008",
+      "name": "rectangle",
+      "title": "矩形",
+      "category": "basic",
+      "group": "",
+      "groupName": null,
+      "locked": false,
+      "link": "",
+      "children": [],
+      "parent": "",
+      "resizeDir": [
+        "tl",
+        "tr",
+        "br",
+        "bl",
+        "l",
+        "t",
+        "r",
+        "b"
+      ],
+      "attribute": {
+        "container": false,
+        "visible": true,
+        "rotatable": true,
+        "linkable": true,
+        "collapsable": false,
+        "collapsed": false,
+        "fixedLink": false,
+        "markerOffset": 5
+      },
+      "dataAttributes": [],
+      "props": {
+        "x": 299.6458333333333,
+        "y": 220.96287286677577,
+        "w": 200.70833333333326,
+        "h": 38.07425426644832,
+        "zindex": 8,
+        "angle": 0
+      },
+      "shapeStyle": {
+        "alpha": 1
+      },
+      "lineStyle": {
+        "lineWidth": 0
+      },
+      "fillStyle": {
+        "type": "none"
+      },
+      "theme": {},
+      "path": [
+        {
+          "actions": [
+            {
+              "action": "move",
+              "x": "0",
+              "y": "0"
+            },
+            {
+              "action": "line",
+              "x": "w",
+              "y": "0"
+            },
+            {
+              "action": "line",
+              "x": "w",
+              "y": "h"
+            },
+            {
+              "action": "line",
+              "x": "0",
+              "y": "h"
+            },
+            {
+              "action": "close"
+            }
+          ]
+        }
+      ],
+      "fontStyle": {
+        "fontFamily": "Microsoft YaHei",
+        "size": 19.33285,
+        "color": "23,52,75",
+        "textAlign": "center",
+        "vAlign": "middle",
+        "lineHeight": 1.3
+      },
+      "textBlock": [
+        {
+          "position": {
+            "x": 0,
+            "y": 0,
+            "w": "w",
+            "h": "h"
+          },
+          "text": "测试激励与 AXI 任务"
+        }
+      ],
+      "anchors": [
+        {
+          "x": "w/2",
+          "y": "0"
+        },
+        {
+          "x": "w/2",
+          "y": "h"
+        },
+        {
+          "x": "0",
+          "y": "h/2"
+        },
+        {
+          "x": "w",
+          "y": "h/2"
+        }
+      ]
+    },
+    "f06_009": {
+      "id": "f06_009",
+      "name": "rectangle",
+      "title": "矩形",
+      "category": "basic",
+      "group": "",
+      "groupName": null,
+      "locked": false,
+      "link": "",
+      "children": [],
+      "parent": "",
+      "resizeDir": [
+        "tl",
+        "tr",
+        "br",
+        "bl",
+        "l",
+        "t",
+        "r",
+        "b"
+      ],
+      "attribute": {
+        "container": false,
+        "visible": true,
+        "rotatable": true,
+        "linkable": true,
+        "collapsable": false,
+        "collapsed": false,
+        "fixedLink": false,
+        "markerOffset": 5
+      },
+      "dataAttributes": [],
+      "props": {
+        "x": 247.04166666666663,
+        "y": 254.6066449037532,
+        "w": 305.91666666666663,
+        "h": 95.58671019249351,
+        "zindex": 9,
+        "angle": 0
+      },
+      "shapeStyle": {
+        "alpha": 1
+      },
+      "lineStyle": {
+        "lineWidth": 0
+      },
+      "fillStyle": {
+        "type": "none"
+      },
+      "theme": {},
+      "path": [
+        {
+          "actions": [
+            {
+              "action": "move",
+              "x": "0",
+              "y": "0"
+            },
+            {
+              "action": "line",
+              "x": "w",
+              "y": "0"
+            },
+            {
+              "action": "line",
+              "x": "w",
+              "y": "h"
+            },
+            {
+              "action": "line",
+              "x": "0",
+              "y": "h"
+            },
+            {
+              "action": "close"
+            }
+          ]
+        }
+      ],
+      "fontStyle": {
+        "fontFamily": "Microsoft YaHei",
+        "size": 17.99955,
+        "color": "37,49,58",
+        "textAlign": "center",
+        "vAlign": "middle",
+        "lineHeight": 1.3
+      },
+      "textBlock": [
+        {
+          "position": {
+            "x": 0,
+            "y": 0,
+            "w": "w",
+            "h": "h"
+          },
+          "text": "clk / rst / 1PPS / OCXO / NMEA<br>axi_write、axi_read、uart_send<br>缩时频率与计数参数成对修改"
+        }
+      ],
+      "anchors": [
+        {
+          "x": "w/2",
+          "y": "0"
+        },
+        {
+          "x": "w/2",
+          "y": "h"
+        },
+        {
+          "x": "0",
+          "y": "h/2"
+        },
+        {
+          "x": "w",
+          "y": "h/2"
+        }
+      ]
+    },
+    "f06_010": {
+      "id": "f06_010",
+      "name": "rectangle",
+      "title": "矩形",
+      "category": "basic",
+      "group": "",
+      "groupName": null,
+      "locked": false,
+      "link": "",
+      "children": [],
+      "parent": "",
+      "resizeDir": [
+        "tl",
+        "tr",
+        "br",
+        "bl",
+        "l",
+        "t",
+        "r",
+        "b"
+      ],
+      "attribute": {
+        "container": false,
+        "visible": true,
+        "rotatable": true,
+        "linkable": true,
+        "collapsable": false,
+        "collapsed": false,
+        "fixedLink": false,
+        "markerOffset": 5
+      },
+      "dataAttributes": [],
+      "props": {
+        "x": 80.0,
+        "y": 425.0,
+        "w": 640.0,
+        "h": 170.0,
+        "zindex": 10,
+        "angle": 0
+      },
+      "shapeStyle": {
+        "alpha": 1
+      },
+      "lineStyle": {
+        "lineWidth": 1.5999599999999998,
+        "lineColor": "113,136,154"
+      },
+      "fillStyle": {
+        "type": "solid",
+        "color": "255,255,255"
+      },
+      "theme": {},
+      "path": [
+        {
+          "actions": [
+            {
+              "action": "move",
+              "x": "0",
+              "y": "0"
+            },
+            {
+              "action": "line",
+              "x": "w",
+              "y": "0"
+            },
+            {
+              "action": "line",
+              "x": "w",
+              "y": "h"
+            },
+            {
+              "action": "line",
+              "x": "0",
+              "y": "h"
+            },
+            {
+              "action": "close"
+            }
+          ]
+        }
+      ],
+      "fontStyle": {
+        "size": 18
+      },
+      "textBlock": [
+        {
+          "position": {
+            "x": 0,
+            "y": 0,
+            "w": "w",
+            "h": "h"
+          },
+          "text": ""
+        }
+      ],
+      "anchors": [
+        {
+          "x": "w/2",
+          "y": "0"
+        },
+        {
+          "x": "w/2",
+          "y": "h"
+        },
+        {
+          "x": "0",
+          "y": "h/2"
+        },
+        {
+          "x": "w",
+          "y": "h/2"
+        }
+      ]
+    },
+    "f06_011": {
+      "id": "f06_011",
+      "name": "rectangle",
+      "title": "矩形",
+      "category": "basic",
+      "group": "",
+      "groupName": null,
+      "locked": false,
+      "link": "",
+      "children": [],
+      "parent": "",
+      "resizeDir": [
+        "tl",
+        "tr",
+        "br",
+        "bl",
+        "l",
+        "t",
+        "r",
+        "b"
+      ],
+      "attribute": {
+        "container": false,
+        "visible": true,
+        "rotatable": true,
+        "linkable": true,
+        "collapsable": false,
+        "collapsed": false,
+        "fixedLink": false,
+        "markerOffset": 5
+      },
+      "dataAttributes": [],
+      "props": {
+        "x": 340.2708333333333,
+        "y": 448.4628728667759,
+        "w": 119.45833333333331,
+        "h": 38.07425426644825,
+        "zindex": 11,
+        "angle": 0
+      },
+      "shapeStyle": {
+        "alpha": 1
+      },
+      "lineStyle": {
+        "lineWidth": 0
+      },
+      "fillStyle": {
+        "type": "none"
+      },
+      "theme": {},
+      "path": [
+        {
+          "actions": [
+            {
+              "action": "move",
+              "x": "0",
+              "y": "0"
+            },
+            {
+              "action": "line",
+              "x": "w",
+              "y": "0"
+            },
+            {
+              "action": "line",
+              "x": "w",
+              "y": "h"
+            },
+            {
+              "action": "line",
+              "x": "0",
+              "y": "h"
+            },
+            {
+              "action": "close"
+            }
+          ]
+        }
+      ],
+      "fontStyle": {
+        "fontFamily": "Microsoft YaHei",
+        "size": 19.33285,
+        "color": "23,52,75",
+        "textAlign": "center",
+        "vAlign": "middle",
+        "lineHeight": 1.3
+      },
+      "textBlock": [
+        {
+          "position": {
+            "x": 0,
+            "y": 0,
+            "w": "w",
+            "h": "h"
+          },
+          "text": "DUT 与监测"
+        }
+      ],
+      "anchors": [
+        {
+          "x": "w/2",
+          "y": "0"
+        },
+        {
+          "x": "w/2",
+          "y": "h"
+        },
+        {
+          "x": "0",
+          "y": "h/2"
+        },
+        {
+          "x": "w",
+          "y": "h/2"
+        }
+      ]
+    },
+    "f06_012": {
+      "id": "f06_012",
+      "name": "rectangle",
+      "title": "矩形",
+      "category": "basic",
+      "group": "",
+      "groupName": null,
+      "locked": false,
+      "link": "",
+      "children": [],
+      "parent": "",
+      "resizeDir": [
+        "tl",
+        "tr",
+        "br",
+        "bl",
+        "l",
+        "t",
+        "r",
+        "b"
+      ],
+      "attribute": {
+        "container": false,
+        "visible": true,
+        "rotatable": true,
+        "linkable": true,
+        "collapsable": false,
+        "collapsed": false,
+        "fixedLink": false,
+        "markerOffset": 5
+      },
+      "dataAttributes": [],
+      "props": {
+        "x": 206.19694010416663,
+        "y": 486.00664490375334,
+        "w": 387.60611979166663,
+        "h": 95.58671019249351,
+        "zindex": 12,
+        "angle": 0
+      },
+      "shapeStyle": {
+        "alpha": 1
+      },
+      "lineStyle": {
+        "lineWidth": 0
+      },
+      "fillStyle": {
+        "type": "none"
+      },
+      "theme": {},
+      "path": [
+        {
+          "actions": [
+            {
+              "action": "move",
+              "x": "0",
+              "y": "0"
+            },
+            {
+              "action": "line",
+              "x": "w",
+              "y": "0"
+            },
+            {
+              "action": "line",
+              "x": "w",
+              "y": "h"
+            },
+            {
+              "action": "line",
+              "x": "0",
+              "y": "h"
+            },
+            {
+              "action": "close"
+            }
+          ]
+        }
+      ],
+      "fontStyle": {
+        "fontFamily": "Microsoft YaHei",
+        "size": 17.99955,
+        "color": "37,49,58",
+        "textAlign": "center",
+        "vAlign": "middle",
+        "lineHeight": 1.3
+      },
+      "textBlock": [
+        {
+          "position": {
+            "x": 0,
+            "y": 0,
+            "w": "w",
+            "h": "h"
+          },
+          "text": "counter / TDC / ocxo_frac / phase_error<br>UART + mailbox + AXI + SPI<br>探针：raw / seq / busy / 24 位帧"
+        }
+      ],
+      "anchors": [
+        {
+          "x": "w/2",
+          "y": "0"
+        },
+        {
+          "x": "w/2",
+          "y": "h"
+        },
+        {
+          "x": "0",
+          "y": "h/2"
+        },
+        {
+          "x": "w",
+          "y": "h/2"
+        }
+      ]
+    },
+    "f06_013": {
+      "id": "f06_013",
+      "name": "rectangle",
+      "title": "矩形",
+      "category": "basic",
+      "group": "",
+      "groupName": null,
+      "locked": false,
+      "link": "",
+      "children": [],
+      "parent": "",
+      "resizeDir": [
+        "tl",
+        "tr",
+        "br",
+        "bl",
+        "l",
+        "t",
+        "r",
+        "b"
+      ],
+      "attribute": {
+        "container": false,
+        "visible": true,
+        "rotatable": true,
+        "linkable": true,
+        "collapsable": false,
+        "collapsed": false,
+        "fixedLink": false,
+        "markerOffset": 5
+      },
+      "dataAttributes": [],
+      "props": {
+        "x": 80.0,
+        "y": 665.0,
+        "w": 640.0,
+        "h": 150.0,
+        "zindex": 13,
+        "angle": 0
+      },
+      "shapeStyle": {
+        "alpha": 1
+      },
+      "lineStyle": {
+        "lineWidth": 1.5999599999999998,
+        "lineColor": "113,136,154"
+      },
+      "fillStyle": {
+        "type": "solid",
+        "color": "255,255,255"
+      },
+      "theme": {},
+      "path": [
+        {
+          "actions": [
+            {
+              "action": "move",
+              "x": "0",
+              "y": "0"
+            },
+            {
+              "action": "line",
+              "x": "w",
+              "y": "0"
+            },
+            {
+              "action": "line",
+              "x": "w",
+              "y": "h"
+            },
+            {
+              "action": "line",
+              "x": "0",
+              "y": "h"
+            },
+            {
+              "action": "close"
+            }
+          ]
+        }
+      ],
+      "fontStyle": {
+        "size": 18
+      },
+      "textBlock": [
+        {
+          "position": {
+            "x": 0,
+            "y": 0,
+            "w": "w",
+            "h": "h"
+          },
+          "text": ""
+        }
+      ],
+      "anchors": [
+        {
+          "x": "w/2",
+          "y": "0"
+        },
+        {
+          "x": "w/2",
+          "y": "h"
+        },
+        {
+          "x": "0",
+          "y": "h/2"
+        },
+        {
+          "x": "w",
+          "y": "h/2"
+        }
+      ]
+    },
+    "f06_014": {
+      "id": "f06_014",
+      "name": "rectangle",
+      "title": "矩形",
+      "category": "basic",
+      "group": "",
+      "groupName": null,
+      "locked": false,
+      "link": "",
+      "children": [],
+      "parent": "",
+      "resizeDir": [
+        "tl",
+        "tr",
+        "br",
+        "bl",
+        "l",
+        "t",
+        "r",
+        "b"
+      ],
+      "attribute": {
+        "container": false,
+        "visible": true,
+        "rotatable": true,
+        "linkable": true,
+        "collapsable": false,
+        "collapsed": false,
+        "fixedLink": false,
+        "markerOffset": 5
+      },
+      "dataAttributes": [],
+      "props": {
+        "x": 354.3333333333333,
+        "y": 683.4628728667759,
+        "w": 91.33333333333331,
+        "h": 38.07425426644832,
+        "zindex": 14,
+        "angle": 0
+      },
+      "shapeStyle": {
+        "alpha": 1
+      },
+      "lineStyle": {
+        "lineWidth": 0
+      },
+      "fillStyle": {
+        "type": "none"
+      },
+      "theme": {},
+      "path": [
+        {
+          "actions": [
+            {
+              "action": "move",
+              "x": "0",
+              "y": "0"
+            },
+            {
+              "action": "line",
+              "x": "w",
+              "y": "0"
+            },
+            {
+              "action": "line",
+              "x": "w",
+              "y": "h"
+            },
+            {
+              "action": "line",
+              "x": "0",
+              "y": "h"
+            },
+            {
+              "action": "close"
+            }
+          ]
+        }
+      ],
+      "fontStyle": {
+        "fontFamily": "Microsoft YaHei",
+        "size": 19.33285,
+        "color": "23,52,75",
+        "textAlign": "center",
+        "vAlign": "middle",
+        "lineHeight": 1.3
+      },
+      "textBlock": [
+        {
+          "position": {
+            "x": 0,
+            "y": 0,
+            "w": "w",
+            "h": "h"
+          },
+          "text": "回归用例"
+        }
+      ],
+      "anchors": [
+        {
+          "x": "w/2",
+          "y": "0"
+        },
+        {
+          "x": "w/2",
+          "y": "h"
+        },
+        {
+          "x": "0",
+          "y": "h/2"
+        },
+        {
+          "x": "w",
+          "y": "h/2"
+        }
+      ]
+    },
+    "f06_015": {
+      "id": "f06_015",
+      "name": "rectangle",
+      "title": "矩形",
+      "category": "basic",
+      "group": "",
+      "groupName": null,
+      "locked": false,
+      "link": "",
+      "children": [],
+      "parent": "",
+      "resizeDir": [
+        "tl",
+        "tr",
+        "br",
+        "bl",
+        "l",
+        "t",
+        "r",
+        "b"
+      ],
+      "attribute": {
+        "container": false,
+        "visible": true,
+        "rotatable": true,
+        "linkable": true,
+        "collapsable": false,
+        "collapsed": false,
+        "fixedLink": false,
+        "markerOffset": 5
+      },
+      "dataAttributes": [],
+      "props": {
+        "x": 234.39518229166663,
+        "y": 728.1377632691689,
+        "w": 331.20963541666663,
+        "h": 65.72447346166248,
+        "zindex": 15,
+        "angle": 0
+      },
+      "shapeStyle": {
+        "alpha": 1
+      },
+      "lineStyle": {
+        "lineWidth": 0
+      },
+      "fillStyle": {
+        "type": "none"
+      },
+      "theme": {},
+      "path": [
+        {
+          "actions": [
+            {
+              "action": "move",
+              "x": "0",
+              "y": "0"
+            },
+            {
+              "action": "line",
+              "x": "w",
+              "y": "0"
+            },
+            {
+              "action": "line",
+              "x": "w",
+              "y": "h"
+            },
+            {
+              "action": "line",
+              "x": "0",
+              "y": "h"
+            },
+            {
+              "action": "close"
+            }
+          ]
+        }
+      ],
+      "fontStyle": {
+        "fontFamily": "Microsoft YaHei",
+        "size": 17.99955,
+        "color": "37,49,58",
+        "textAlign": "center",
+        "vAlign": "middle",
+        "lineHeight": 1.3
+      },
+      "textBlock": [
+        {
+          "position": {
+            "x": 0,
+            "y": 0,
+            "w": "w",
+            "h": "h"
+          },
+          "text": "正负频差、分数跨圈、同秒配对<br>饱和、重复、缺口、邮箱 NEW/W1C"
+        }
+      ],
+      "anchors": [
+        {
+          "x": "w/2",
+          "y": "0"
+        },
+        {
+          "x": "w/2",
+          "y": "h"
+        },
+        {
+          "x": "0",
+          "y": "h/2"
+        },
+        {
+          "x": "w",
+          "y": "h/2"
+        }
+      ]
+    },
+    "f06_016": {
+      "id": "f06_016",
+      "name": "linker",
+      "text": "",
+      "group": "",
+      "linkerType": "broken",
+      "points": [],
+      "locked": false,
+      "dataAttributes": [],
+      "props": {
+        "zindex": 16
+      },
+      "lineStyle": {
+        "lineWidth": 1.8,
+        "lineColor": "66,90,112",
+        "beginArrowStyle": "none",
+        "endArrowStyle": "solidArrow",
+        "lineStyle": "solid"
+      },
+      "from": {
+        "x": 400,
+        "y": 360,
+        "id": null,
+        "angle": 0
+      },
+      "to": {
+        "x": 400,
+        "y": 425.0,
+        "id": null,
+        "angle": 0
+      },
+      "textBlock": []
+    },
+    "f06_017": {
+      "id": "f06_017",
+      "name": "linker",
+      "text": "",
+      "group": "",
+      "linkerType": "broken",
+      "points": [],
+      "locked": false,
+      "dataAttributes": [],
+      "props": {
+        "zindex": 17
+      },
+      "lineStyle": {
+        "lineWidth": 1.8,
+        "lineColor": "66,90,112",
+        "beginArrowStyle": "none",
+        "endArrowStyle": "solidArrow",
+        "lineStyle": "solid"
+      },
+      "from": {
+        "x": 400,
+        "y": 595.0,
+        "id": null,
+        "angle": 0
+      },
+      "to": {
+        "x": 400,
+        "y": 665.0,
+        "id": null,
+        "angle": 0
+      },
+      "textBlock": []
+    },
+    "f06_018": {
+      "id": "f06_018",
+      "name": "rectangle",
+      "title": "矩形",
+      "category": "basic",
+      "group": "",
+      "groupName": null,
+      "locked": false,
+      "link": "",
+      "children": [],
+      "parent": "",
+      "resizeDir": [
+        "tl",
+        "tr",
+        "br",
+        "bl",
+        "l",
+        "t",
+        "r",
+        "b"
+      ],
+      "attribute": {
+        "container": false,
+        "visible": true,
+        "rotatable": true,
+        "linkable": true,
+        "collapsable": false,
+        "collapsed": false,
+        "fixedLink": false,
+        "markerOffset": 5
+      },
+      "dataAttributes": [],
+      "props": {
+        "x": 904.0,
+        "y": 195.0,
+        "w": 624.0,
+        "h": 150.0,
+        "zindex": 18,
+        "angle": 0
+      },
+      "shapeStyle": {
+        "alpha": 1
+      },
+      "lineStyle": {
+        "lineWidth": 1.5999599999999998,
+        "lineColor": "113,136,154"
+      },
+      "fillStyle": {
+        "type": "solid",
+        "color": "255,255,255"
+      },
+      "theme": {},
+      "path": [
+        {
+          "actions": [
+            {
+              "action": "move",
+              "x": "0",
+              "y": "0"
+            },
+            {
+              "action": "line",
+              "x": "w",
+              "y": "0"
+            },
+            {
+              "action": "line",
+              "x": "w",
+              "y": "h"
+            },
+            {
+              "action": "line",
+              "x": "0",
+              "y": "h"
+            },
+            {
+              "action": "close"
+            }
+          ]
+        }
+      ],
+      "fontStyle": {
+        "size": 18
+      },
+      "textBlock": [
+        {
+          "position": {
+            "x": 0,
+            "y": 0,
+            "w": "w",
+            "h": "h"
+          },
+          "text": ""
+        }
+      ],
+      "anchors": [
+        {
+          "x": "w/2",
+          "y": "0"
+        },
+        {
+          "x": "w/2",
+          "y": "h"
+        },
+        {
+          "x": "0",
+          "y": "h/2"
+        },
+        {
+          "x": "w",
+          "y": "h/2"
+        }
+      ]
+    },
+    "f06_019": {
+      "id": "f06_019",
+      "name": "rectangle",
+      "title": "矩形",
+      "category": "basic",
+      "group": "",
+      "groupName": null,
+      "locked": false,
+      "link": "",
+      "children": [],
+      "parent": "",
+      "resizeDir": [
+        "tl",
+        "tr",
+        "br",
+        "bl",
+        "l",
+        "t",
+        "r",
+        "b"
+      ],
+      "attribute": {
+        "container": false,
+        "visible": true,
+        "rotatable": true,
+        "linkable": true,
+        "collapsable": false,
+        "collapsed": false,
+        "fixedLink": false,
+        "markerOffset": 5
+      },
+      "dataAttributes": [],
+      "props": {
+        "x": 1149.4999999999998,
+        "y": 213.4628728667759,
+        "w": 133.0,
+        "h": 38.07425426644832,
+        "zindex": 19,
+        "angle": 0
+      },
+      "shapeStyle": {
+        "alpha": 1
+      },
+      "lineStyle": {
+        "lineWidth": 0
+      },
+      "fillStyle": {
+        "type": "none"
+      },
+      "theme": {},
+      "path": [
+        {
+          "actions": [
+            {
+              "action": "move",
+              "x": "0",
+              "y": "0"
+            },
+            {
+              "action": "line",
+              "x": "w",
+              "y": "0"
+            },
+            {
+              "action": "line",
+              "x": "w",
+              "y": "h"
+            },
+            {
+              "action": "line",
+              "x": "0",
+              "y": "h"
+            },
+            {
+              "action": "close"
+            }
+          ]
+        }
+      ],
+      "fontStyle": {
+        "fontFamily": "Microsoft YaHei",
+        "size": 19.33285,
+        "color": "23,52,75",
+        "textAlign": "center",
+        "vAlign": "middle",
+        "lineHeight": 1.3
+      },
+      "textBlock": [
+        {
+          "position": {
+            "x": 0,
+            "y": 0,
+            "w": "w",
+            "h": "h"
+          },
+          "text": "主机逻辑验证"
+        }
+      ],
+      "anchors": [
+        {
+          "x": "w/2",
+          "y": "0"
+        },
+        {
+          "x": "w/2",
+          "y": "h"
+        },
+        {
+          "x": "0",
+          "y": "h/2"
+        },
+        {
+          "x": "w",
+          "y": "h/2"
+        }
+      ]
+    },
+    "f06_020": {
+      "id": "f06_020",
+      "name": "rectangle",
+      "title": "矩形",
+      "category": "basic",
+      "group": "",
+      "groupName": null,
+      "locked": false,
+      "link": "",
+      "children": [],
+      "parent": "",
+      "resizeDir": [
+        "tl",
+        "tr",
+        "br",
+        "bl",
+        "l",
+        "t",
+        "r",
+        "b"
+      ],
+      "attribute": {
+        "container": false,
+        "visible": true,
+        "rotatable": true,
+        "linkable": true,
+        "collapsable": false,
+        "collapsed": false,
+        "fixedLink": false,
+        "markerOffset": 5
+      },
+      "dataAttributes": [],
+      "props": {
+        "x": 1082.3124999999998,
+        "y": 258.1377632691688,
+        "w": 267.375,
+        "h": 65.72447346166234,
+        "zindex": 20,
+        "angle": 0
+      },
+      "shapeStyle": {
+        "alpha": 1
+      },
+      "lineStyle": {
+        "lineWidth": 0
+      },
+      "fillStyle": {
+        "type": "none"
+      },
+      "theme": {},
+      "path": [
+        {
+          "actions": [
+            {
+              "action": "move",
+              "x": "0",
+              "y": "0"
+            },
+            {
+              "action": "line",
+              "x": "w",
+              "y": "0"
+            },
+            {
+              "action": "line",
+              "x": "w",
+              "y": "h"
+            },
+            {
+              "action": "line",
+              "x": "0",
+              "y": "h"
+            },
+            {
+              "action": "close"
+            }
+          ]
+        }
+      ],
+      "fontStyle": {
+        "fontFamily": "Microsoft YaHei",
+        "size": 17.99955,
+        "color": "37,49,58",
+        "textAlign": "center",
+        "vAlign": "middle",
+        "lineHeight": 1.3
+      },
+      "textBlock": [
+        {
+          "position": {
+            "x": 0,
+            "y": 0,
+            "w": "w",
+            "h": "h"
+          },
+          "text": "守时 1 s 预测、恢复相位参考<br>限权 / 渐增 / 退出；日志格式"
+        }
+      ],
+      "anchors": [
+        {
+          "x": "w/2",
+          "y": "0"
+        },
+        {
+          "x": "w/2",
+          "y": "h"
+        },
+        {
+          "x": "0",
+          "y": "h/2"
+        },
+        {
+          "x": "w",
+          "y": "h/2"
+        }
+      ]
+    },
+    "f06_021": {
+      "id": "f06_021",
+      "name": "rectangle",
+      "title": "矩形",
+      "category": "basic",
+      "group": "",
+      "groupName": null,
+      "locked": false,
+      "link": "",
+      "children": [],
+      "parent": "",
+      "resizeDir": [
+        "tl",
+        "tr",
+        "br",
+        "bl",
+        "l",
+        "t",
+        "r",
+        "b"
+      ],
+      "attribute": {
+        "container": false,
+        "visible": true,
+        "rotatable": true,
+        "linkable": true,
+        "collapsable": false,
+        "collapsed": false,
+        "fixedLink": false,
+        "markerOffset": 5
+      },
+      "dataAttributes": [],
+      "props": {
+        "x": 904.0,
+        "y": 415.0,
+        "w": 624.0,
+        "h": 170.0,
+        "zindex": 21,
+        "angle": 0
+      },
+      "shapeStyle": {
+        "alpha": 1
+      },
+      "lineStyle": {
+        "lineWidth": 1.5999599999999998,
+        "lineColor": "113,136,154"
+      },
+      "fillStyle": {
+        "type": "solid",
+        "color": "255,255,255"
+      },
+      "theme": {},
+      "path": [
+        {
+          "actions": [
+            {
+              "action": "move",
+              "x": "0",
+              "y": "0"
+            },
+            {
+              "action": "line",
+              "x": "w",
+              "y": "0"
+            },
+            {
+              "action": "line",
+              "x": "w",
+              "y": "h"
+            },
+            {
+              "action": "line",
+              "x": "0",
+              "y": "h"
+            },
+            {
+              "action": "close"
+            }
+          ]
+        }
+      ],
+      "fontStyle": {
+        "size": 18
+      },
+      "textBlock": [
+        {
+          "position": {
+            "x": 0,
+            "y": 0,
+            "w": "w",
+            "h": "h"
+          },
+          "text": ""
+        }
+      ],
+      "anchors": [
+        {
+          "x": "w/2",
+          "y": "0"
+        },
+        {
+          "x": "w/2",
+          "y": "h"
+        },
+        {
+          "x": "0",
+          "y": "h/2"
+        },
+        {
+          "x": "w",
+          "y": "h/2"
+        }
+      ]
+    },
+    "f06_022": {
+      "id": "f06_022",
+      "name": "rectangle",
+      "title": "矩形",
+      "category": "basic",
+      "group": "",
+      "groupName": null,
+      "locked": false,
+      "link": "",
+      "children": [],
+      "parent": "",
+      "resizeDir": [
+        "tl",
+        "tr",
+        "br",
+        "bl",
+        "l",
+        "t",
+        "r",
+        "b"
+      ],
+      "attribute": {
+        "container": false,
+        "visible": true,
+        "rotatable": true,
+        "linkable": true,
+        "collapsable": false,
+        "collapsed": false,
+        "fixedLink": false,
+        "markerOffset": 5
+      },
+      "dataAttributes": [],
+      "props": {
+        "x": 1149.4999999999998,
+        "y": 438.46287286677597,
+        "w": 133.0,
+        "h": 38.07425426644825,
+        "zindex": 22,
+        "angle": 0
+      },
+      "shapeStyle": {
+        "alpha": 1
+      },
+      "lineStyle": {
+        "lineWidth": 0
+      },
+      "fillStyle": {
+        "type": "none"
+      },
+      "theme": {},
+      "path": [
+        {
+          "actions": [
+            {
+              "action": "move",
+              "x": "0",
+              "y": "0"
+            },
+            {
+              "action": "line",
+              "x": "w",
+              "y": "0"
+            },
+            {
+              "action": "line",
+              "x": "w",
+              "y": "h"
+            },
+            {
+              "action": "line",
+              "x": "0",
+              "y": "h"
+            },
+            {
+              "action": "close"
+            }
+          ]
+        }
+      ],
+      "fontStyle": {
+        "fontFamily": "Microsoft YaHei",
+        "size": 19.33285,
+        "color": "23,52,75",
+        "textAlign": "center",
+        "vAlign": "middle",
+        "lineHeight": 1.3
+      },
+      "textBlock": [
+        {
+          "position": {
+            "x": 0,
+            "y": 0,
+            "w": "w",
+            "h": "h"
+          },
+          "text": "真实板上功能"
+        }
+      ],
+      "anchors": [
+        {
+          "x": "w/2",
+          "y": "0"
+        },
+        {
+          "x": "w/2",
+          "y": "h"
+        },
+        {
+          "x": "0",
+          "y": "h/2"
+        },
+        {
+          "x": "w",
+          "y": "h/2"
+        }
+      ]
+    },
+    "f06_023": {
+      "id": "f06_023",
+      "name": "rectangle",
+      "title": "矩形",
+      "category": "basic",
+      "group": "",
+      "groupName": null,
+      "locked": false,
+      "link": "",
+      "children": [],
+      "parent": "",
+      "resizeDir": [
+        "tl",
+        "tr",
+        "br",
+        "bl",
+        "l",
+        "t",
+        "r",
+        "b"
+      ],
+      "attribute": {
+        "container": false,
+        "visible": true,
+        "rotatable": true,
+        "linkable": true,
+        "collapsable": false,
+        "collapsed": false,
+        "fixedLink": false,
+        "markerOffset": 5
+      },
+      "dataAttributes": [],
+      "props": {
+        "x": 1082.9716796874998,
+        "y": 476.0066449037533,
+        "w": 266.056640625,
+        "h": 95.58671019249358,
+        "zindex": 23,
+        "angle": 0
+      },
+      "shapeStyle": {
+        "alpha": 1
+      },
+      "lineStyle": {
+        "lineWidth": 0
+      },
+      "fillStyle": {
+        "type": "none"
+      },
+      "theme": {},
+      "path": [
+        {
+          "actions": [
+            {
+              "action": "move",
+              "x": "0",
+              "y": "0"
+            },
+            {
+              "action": "line",
+              "x": "w",
+              "y": "0"
+            },
+            {
+              "action": "line",
+              "x": "w",
+              "y": "h"
+            },
+            {
+              "action": "line",
+              "x": "0",
+              "y": "h"
+            },
+            {
+              "action": "close"
+            }
+          ]
+        }
+      ],
+      "fontStyle": {
+        "fontFamily": "Microsoft YaHei",
+        "size": 17.99955,
+        "color": "37,49,58",
+        "textAlign": "center",
+        "vAlign": "middle",
+        "lineHeight": 1.3
+      },
+      "textBlock": [
+        {
+          "position": {
+            "x": 0,
+            "y": 0,
+            "w": "w",
+            "h": "h"
+          },
+          "text": "核对 BUILD + KFCONF<br>KEY1 冻结 DAC；样本门控<br>MODE2：src=2 且实际 w&gt;0"
+        }
+      ],
+      "anchors": [
+        {
+          "x": "w/2",
+          "y": "0"
+        },
+        {
+          "x": "w/2",
+          "y": "h"
+        },
+        {
+          "x": "0",
+          "y": "h/2"
+        },
+        {
+          "x": "w",
+          "y": "h/2"
+        }
+      ]
+    },
+    "f06_024": {
+      "id": "f06_024",
+      "name": "rectangle",
+      "title": "矩形",
+      "category": "basic",
+      "group": "",
+      "groupName": null,
+      "locked": false,
+      "link": "",
+      "children": [],
+      "parent": "",
+      "resizeDir": [
+        "tl",
+        "tr",
+        "br",
+        "bl",
+        "l",
+        "t",
+        "r",
+        "b"
+      ],
+      "attribute": {
+        "container": false,
+        "visible": true,
+        "rotatable": true,
+        "linkable": true,
+        "collapsable": false,
+        "collapsed": false,
+        "fixedLink": false,
+        "markerOffset": 5
+      },
+      "dataAttributes": [],
+      "props": {
+        "x": 904.0,
+        "y": 665.0,
+        "w": 624.0,
+        "h": 150.0,
+        "zindex": 24,
+        "angle": 0
+      },
+      "shapeStyle": {
+        "alpha": 1
+      },
+      "lineStyle": {
+        "lineWidth": 1.5999599999999998,
+        "lineColor": "113,136,154"
+      },
+      "fillStyle": {
+        "type": "solid",
+        "color": "255,255,255"
+      },
+      "theme": {},
+      "path": [
+        {
+          "actions": [
+            {
+              "action": "move",
+              "x": "0",
+              "y": "0"
+            },
+            {
+              "action": "line",
+              "x": "w",
+              "y": "0"
+            },
+            {
+              "action": "line",
+              "x": "w",
+              "y": "h"
+            },
+            {
+              "action": "line",
+              "x": "0",
+              "y": "h"
+            },
+            {
+              "action": "close"
+            }
+          ]
+        }
+      ],
+      "fontStyle": {
+        "size": 18
+      },
+      "textBlock": [
+        {
+          "position": {
+            "x": 0,
+            "y": 0,
+            "w": "w",
+            "h": "h"
+          },
+          "text": ""
+        }
+      ],
+      "anchors": [
+        {
+          "x": "w/2",
+          "y": "0"
+        },
+        {
+          "x": "w/2",
+          "y": "h"
+        },
+        {
+          "x": "0",
+          "y": "h/2"
+        },
+        {
+          "x": "w",
+          "y": "h/2"
+        }
+      ]
+    },
+    "f06_025": {
+      "id": "f06_025",
+      "name": "rectangle",
+      "title": "矩形",
+      "category": "basic",
+      "group": "",
+      "groupName": null,
+      "locked": false,
+      "link": "",
+      "children": [],
+      "parent": "",
+      "resizeDir": [
+        "tl",
+        "tr",
+        "br",
+        "bl",
+        "l",
+        "t",
+        "r",
+        "b"
+      ],
+      "attribute": {
+        "container": false,
+        "visible": true,
+        "rotatable": true,
+        "linkable": true,
+        "collapsable": false,
+        "collapsed": false,
+        "fixedLink": false,
+        "markerOffset": 5
+      },
+      "dataAttributes": [],
+      "props": {
+        "x": 1149.4999999999998,
+        "y": 683.4628728667759,
+        "w": 133.0,
+        "h": 38.07425426644832,
+        "zindex": 25,
+        "angle": 0
+      },
+      "shapeStyle": {
+        "alpha": 1
+      },
+      "lineStyle": {
+        "lineWidth": 0
+      },
+      "fillStyle": {
+        "type": "none"
+      },
+      "theme": {},
+      "path": [
+        {
+          "actions": [
+            {
+              "action": "move",
+              "x": "0",
+              "y": "0"
+            },
+            {
+              "action": "line",
+              "x": "w",
+              "y": "0"
+            },
+            {
+              "action": "line",
+              "x": "w",
+              "y": "h"
+            },
+            {
+              "action": "line",
+              "x": "0",
+              "y": "h"
+            },
+            {
+              "action": "close"
+            }
+          ]
+        }
+      ],
+      "fontStyle": {
+        "fontFamily": "Microsoft YaHei",
+        "size": 19.33285,
+        "color": "23,52,75",
+        "textAlign": "center",
+        "vAlign": "middle",
+        "lineHeight": 1.3
+      },
+      "textBlock": [
+        {
+          "position": {
+            "x": 0,
+            "y": 0,
+            "w": "w",
+            "h": "h"
+          },
+          "text": "真实性能评价"
+        }
+      ],
+      "anchors": [
+        {
+          "x": "w/2",
+          "y": "0"
+        },
+        {
+          "x": "w/2",
+          "y": "h"
+        },
+        {
+          "x": "0",
+          "y": "h/2"
+        },
+        {
+          "x": "w",
+          "y": "h/2"
+        }
+      ]
+    },
+    "f06_026": {
+      "id": "f06_026",
+      "name": "rectangle",
+      "title": "矩形",
+      "category": "basic",
+      "group": "",
+      "groupName": null,
+      "locked": false,
+      "link": "",
+      "children": [],
+      "parent": "",
+      "resizeDir": [
+        "tl",
+        "tr",
+        "br",
+        "bl",
+        "l",
+        "t",
+        "r",
+        "b"
+      ],
+      "attribute": {
+        "container": false,
+        "visible": true,
+        "rotatable": true,
+        "linkable": true,
+        "collapsable": false,
+        "collapsed": false,
+        "fixedLink": false,
+        "markerOffset": 5
+      },
+      "dataAttributes": [],
+      "props": {
+        "x": 1101.7216796874998,
+        "y": 713.2066449037534,
+        "w": 228.556640625,
+        "h": 95.58671019249351,
+        "zindex": 26,
+        "angle": 0
+      },
+      "shapeStyle": {
+        "alpha": 1
+      },
+      "lineStyle": {
+        "lineWidth": 0
+      },
+      "fillStyle": {
+        "type": "none"
+      },
+      "theme": {},
+      "path": [
+        {
+          "actions": [
+            {
+              "action": "move",
+              "x": "0",
+              "y": "0"
+            },
+            {
+              "action": "line",
+              "x": "w",
+              "y": "0"
+            },
+            {
+              "action": "line",
+              "x": "w",
+              "y": "h"
+            },
+            {
+              "action": "line",
+              "x": "0",
+              "y": "h"
+            },
+            {
+              "action": "close"
+            }
+          ]
+        }
+      ],
+      "fontStyle": {
+        "fontFamily": "Microsoft YaHei",
+        "size": 17.99955,
+        "color": "37,49,58",
+        "textAlign": "center",
+        "vAlign": "middle",
+        "lineHeight": 1.3
+      },
+      "textBlock": [
+        {
+          "position": {
+            "x": 0,
+            "y": 0,
+            "w": "w",
+            "h": "h"
+          },
+          "text": "同配置与同长度时窗<br>原始 REFCHK → OADEV<br>关 / 开 / 关重复对照"
+        }
+      ],
+      "anchors": [
+        {
+          "x": "w/2",
+          "y": "0"
+        },
+        {
+          "x": "w/2",
+          "y": "h"
+        },
+        {
+          "x": "0",
+          "y": "h/2"
+        },
+        {
+          "x": "w",
+          "y": "h/2"
+        }
+      ]
+    },
+    "f06_027": {
+      "id": "f06_027",
+      "name": "linker",
+      "text": "",
+      "group": "",
+      "linkerType": "broken",
+      "points": [],
+      "locked": false,
+      "dataAttributes": [],
+      "props": {
+        "zindex": 27
+      },
+      "lineStyle": {
+        "lineWidth": 1.8,
+        "lineColor": "66,90,112",
+        "beginArrowStyle": "none",
+        "endArrowStyle": "solidArrow",
+        "lineStyle": "solid"
+      },
+      "from": {
+        "x": 1216,
+        "y": 345.0,
+        "id": null,
+        "angle": 0
+      },
+      "to": {
+        "x": 1216,
+        "y": 415.0,
+        "id": null,
+        "angle": 0
+      },
+      "textBlock": []
+    },
+    "f06_028": {
+      "id": "f06_028",
+      "name": "linker",
+      "text": "",
+      "group": "",
+      "linkerType": "broken",
+      "points": [],
+      "locked": false,
+      "dataAttributes": [],
+      "props": {
+        "zindex": 28
+      },
+      "lineStyle": {
+        "lineWidth": 1.8,
+        "lineColor": "66,90,112",
+        "beginArrowStyle": "none",
+        "endArrowStyle": "solidArrow",
+        "lineStyle": "solid"
+      },
+      "from": {
+        "x": 1216,
+        "y": 585.0,
+        "id": null,
+        "angle": 0
+      },
+      "to": {
+        "x": 1216,
+        "y": 665.0,
+        "id": null,
+        "angle": 0
+      },
+      "textBlock": []
+    },
+    "f06_029": {
+      "id": "f06_029",
+      "name": "rectangle",
+      "title": "矩形",
+      "category": "basic",
+      "group": "",
+      "groupName": null,
+      "locked": false,
+      "link": "",
+      "children": [],
+      "parent": "",
+      "resizeDir": [
+        "tl",
+        "tr",
+        "br",
+        "bl",
+        "l",
+        "t",
+        "r",
+        "b"
+      ],
+      "attribute": {
+        "container": false,
+        "visible": true,
+        "rotatable": true,
+        "linkable": true,
+        "collapsable": false,
+        "collapsed": false,
+        "fixedLink": false,
+        "markerOffset": 5
+      },
+      "dataAttributes": [],
+      "props": {
+        "x": 336.3889973958333,
+        "y": 916.5158772506802,
+        "w": 927.2220052083333,
+        "h": 36.968245498639675,
+        "zindex": 29,
+        "angle": 0
+      },
+      "shapeStyle": {
+        "alpha": 1
+      },
+      "lineStyle": {
+        "lineWidth": 0
+      },
+      "fillStyle": {
+        "type": "none"
+      },
+      "theme": {},
+      "path": [
+        {
+          "actions": [
+            {
+              "action": "move",
+              "x": "0",
+              "y": "0"
+            },
+            {
+              "action": "line",
+              "x": "w",
+              "y": "0"
+            },
+            {
+              "action": "line",
+              "x": "w",
+              "y": "h"
+            },
+            {
+              "action": "line",
+              "x": "0",
+              "y": "h"
+            },
+            {
+              "action": "close"
+            }
+          ]
+        }
+      ],
+      "fontStyle": {
+        "fontFamily": "Microsoft YaHei",
+        "size": 18.6662,
+        "color": "61,76,87",
+        "textAlign": "center",
+        "vAlign": "middle",
+        "lineHeight": 1.3
+      },
+      "textBlock": [
+        {
+          "position": {
+            "x": 0,
+            "y": 0,
+            "w": "w",
+            "h": "h"
+          },
+          "text": "旧 tb 文件不是当前 RTL 全量通过的证明；24 位帧须按下降沿检查。仿真参数不能当成硬件频率或精度。"
+        }
+      ],
+      "anchors": [
+        {
+          "x": "w/2",
+          "y": "0"
+        },
+        {
+          "x": "w/2",
+          "y": "h"
+        },
+        {
+          "x": "0",
+          "y": "h/2"
+        },
+        {
+          "x": "w",
+          "y": "h/2"
+        }
+      ]
+    },
+    "f06_030": {
+      "id": "f06_030",
+      "name": "rectangle",
+      "title": "矩形",
+      "category": "basic",
+      "group": "",
+      "groupName": null,
+      "locked": false,
+      "link": "",
+      "children": [],
+      "parent": "",
+      "resizeDir": [
+        "tl",
+        "tr",
+        "br",
+        "bl",
+        "l",
+        "t",
+        "r",
+        "b"
+      ],
+      "attribute": {
+        "container": false,
+        "visible": true,
+        "rotatable": true,
+        "linkable": true,
+        "collapsable": false,
+        "collapsed": false,
+        "fixedLink": false,
+        "markerOffset": 5
+      },
+      "dataAttributes": [],
+      "props": {
+        "x": 28.0,
+        "y": 965.1657061844486,
+        "w": 503.14973958333326,
+        "h": 29.668587631103293,
+        "zindex": 30,
+        "angle": 0
+      },
+      "shapeStyle": {
+        "alpha": 1
+      },
+      "lineStyle": {
+        "lineWidth": 0
+      },
+      "fillStyle": {
+        "type": "none"
+      },
+      "theme": {},
+      "path": [
+        {
+          "actions": [
+            {
+              "action": "move",
+              "x": "0",
+              "y": "0"
+            },
+            {
+              "action": "line",
+              "x": "w",
+              "y": "0"
+            },
+            {
+              "action": "line",
+              "x": "w",
+              "y": "h"
+            },
+            {
+              "action": "line",
+              "x": "0",
+              "y": "h"
+            },
+            {
+              "action": "close"
+            }
+          ]
+        }
+      ],
+      "fontStyle": {
+        "fontFamily": "Microsoft YaHei",
+        "size": 14.266309999999999,
+        "color": "104,119,131",
+        "textAlign": "center",
+        "vAlign": "middle",
+        "lineHeight": 1.3
+      },
+      "textBlock": [
+        {
+          "position": {
+            "x": 0,
+            "y": 0,
+            "w": "w",
+            "h": "h"
+          },
+          "text": "代码依据 sim/rtl；sim/run_host_tests.py；REFCHK / SAMP / CFUSE"
+        }
+      ],
+      "anchors": [
+        {
+          "x": "w/2",
+          "y": "0"
+        },
+        {
+          "x": "w/2",
+          "y": "h"
+        },
+        {
+          "x": "0",
+          "y": "h/2"
+        },
+        {
+          "x": "w",
+          "y": "h/2"
+        }
+      ]
+    },
+    "f06_031": {
+      "id": "f06_031",
+      "name": "rectangle",
+      "title": "矩形",
+      "category": "basic",
+      "group": "",
+      "groupName": null,
+      "locked": false,
+      "link": "",
+      "children": [],
+      "parent": "",
+      "resizeDir": [
+        "tl",
+        "tr",
+        "br",
+        "bl",
+        "l",
+        "t",
+        "r",
+        "b"
+      ],
+      "attribute": {
+        "container": false,
+        "visible": true,
+        "rotatable": true,
+        "linkable": true,
+        "collapsable": false,
+        "collapsed": false,
+        "fixedLink": false,
+        "markerOffset": 5
+      },
+      "dataAttributes": [],
+      "props": {
+        "x": 1362.9583333333333,
+        "y": 965.1657061844486,
+        "w": 209.04166666666652,
+        "h": 29.668587631103293,
+        "zindex": 31,
+        "angle": 0
+      },
+      "shapeStyle": {
+        "alpha": 1
+      },
+      "lineStyle": {
+        "lineWidth": 0
+      },
+      "fillStyle": {
+        "type": "none"
+      },
+      "theme": {},
+      "path": [
+        {
+          "actions": [
+            {
+              "action": "move",
+              "x": "0",
+              "y": "0"
+            },
+            {
+              "action": "line",
+              "x": "w",
+              "y": "0"
+            },
+            {
+              "action": "line",
+              "x": "w",
+              "y": "h"
+            },
+            {
+              "action": "line",
+              "x": "0",
+              "y": "h"
+            },
+            {
+              "action": "close"
+            }
+          ]
+        }
+      ],
+      "fontStyle": {
+        "fontFamily": "Microsoft YaHei",
+        "size": 14.266309999999999,
+        "color": "104,119,131",
+        "textAlign": "center",
+        "vAlign": "middle",
+        "lineHeight": 1.3
+      },
+      "textBlock": [
+        {
+          "position": {
+            "x": 0,
+            "y": 0,
+            "w": "w",
+            "h": "h"
+          },
+          "text": "独立用途修正版 2026-11-01"
+        }
+      ],
+      "anchors": [
+        {
+          "x": "w/2",
+          "y": "0"
+        },
+        {
+          "x": "w/2",
+          "y": "h"
+        },
+        {
+          "x": "0",
+          "y": "h/2"
+        },
+        {
+          "x": "w",
+          "y": "h/2"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "schema": "gpsdo_raw_csv_1",
+  "raw_files_modified": false,
+  "datasets": [
+    {
+      "raw_path": "data/raw_support/log_20261102_v27.dat",
+      "raw_bytes": 834215,
+      "raw_sha256": "c815d0bcebfeb9fa95dd829b55fcd79bf4c7b813c645106737c657eb9039a48e",
+      "main_csv": "data/csv/acceptance/log_20261102_v27.csv",
+      "refchk_records": 1154,
+      "complete_records": 1154,
+      "partial_records": 0,
+      "state_counts": {
+        "TUNING": 800,
+        "CALIB": 242,
+        "HOLDOVER": 112
+      },
+      "time_gap_transitions": 2,
+      "event_counts": {
+        "slowdbg": 86,
+        "slowc": 81,
+        "cfuse": 82,
+        "samp": 1154,
+        "nmea": 1155,
+        "state_events": 4
+      },
+      "orphan_state_lines": [],
+      "configuration_lines": [
+        "===== BUILD Nov  2 2026 15:29:18 =====",
+        "KFCONF profile=1 QF_e9=100000 p3floor=0 fixed_period=1 phsg=0 slow_mode=2",
+        "CFCONF scale_u=100000 cap_u=100000 rise_s=300 age_max_s=330 lag_max_s=630",
+        "FINALCONF release=FINAL_C_R80_T10_20261031 R_ns2=80 R_train=0 period_fixed=1 phase=0 slow=2"
+      ]
+    }
+  ],
+  "csv_files": [
+    {
+      "path": "data/csv/acceptance/csv_index.csv",
+      "bytes": 261,
+      "sha256": "75b3b2d2f5819c292a6e2374b23fa1e9f05de9406d002c5679b6db2f83dd312a"
+    },
+    {
+      "path": "data/csv/acceptance/log_20261102_v27.csv",
+      "bytes": 213276,
+      "sha256": "5e77af9e245db0c0da0d87041291999adf159bb1e0e32a8b9332081ed387d0e8"
+    },
+    {
+      "path": "data/csv/acceptance/log_20261102_v27_cfuse.csv",
+      "bytes": 7264,
+      "sha256": "c74c3801bcf262400f509db334069a8da3ef4b90f9c899675094cbf68a5c06b0"
+    },
+    {
+      "path": "data/csv/acceptance/log_20261102_v27_nmea.csv",
+      "bytes": 120950,
+      "sha256": "7405ab00468d9f1525407046b6ebbc707dcc670e9833fb88b85f5ecd015886d8"
+    },
+    {
+      "path": "data/csv/acceptance/log_20261102_v27_samp.csv",
+      "bytes": 130202,
+      "sha256": "3625818b34d79be9a4d42732bae0ff840aaad2f43b3b0f2238971c8c1cccc4af"
+    },
+    {
+      "path": "data/csv/acceptance/log_20261102_v27_slowc.csv",
+      "bytes": 23285,
+      "sha256": "d98df69503fb0eece6348361f5712b3fa1934ba206b46d78c36f12337b4e2fb3"
+    },
+    {
+      "path": "data/csv/acceptance/log_20261102_v27_slowdbg.csv",
+      "bytes": 20512,
+      "sha256": "61721aeaa58b37336b8b10b5c3afec8c11c8ebddafa341fe20948889702fc5de"
+    },
+    {
+      "path": "data/csv/acceptance/log_20261102_v27_state_events.csv",
+      "bytes": 164,
+      "sha256": "a91f94fe64139292bdc4dada37859a12df1c9936aef8514a16cfeb2084ea6a8e"
+    }
+  ]
+}

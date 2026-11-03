@@ -1,0 +1,27 @@
+ninja: Entering directory `D:\FPGAdesigner\vitis\test\test\TRY\build'
+[1/7] ==========Application Build Information ==========
+
+Compiler Flags:  -DSDT -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -MMD -MP -specs=D:/FPGAdesigner
+/vitis/test/test/measure/export/measure/sw/standalone_ps7_cortexa9_0/Xilinx.spec -ID:/FPGAdesigner/v
+itis/test/test/measure/export/measure/sw/standalone_ps7_cortexa9_0/include  
+
+Linker Flags:  -Wl,-T -Wl,"D:/FPGAdesigner/vitis/test/test/TRY/src/lscript.ld" -L"D:/FPGAdesigner/vi
+
+tis/test/test/TRY/src/" -L"D:/FPGAdesigner/vitis/test/test/measure/export/measure/sw/standalone_ps7_
+
+cortexa9_0/lib/" -L"/" -Wl,--start-group,-lxilstandalone,-lxiltimer,-lxilskey,-lxil,-lgcc,-lc -Wl,--
+
+end-group
+
+
+===========================================
+[2/7] Building C object CMakeFiles/TRY.elf.dir/control.c.obj
+[3/7] Building C object CMakeFiles/TRY.elf.dir/adaptive_r.c.obj
+[4/7] Building C object CMakeFiles/TRY.elf.dir/slow_loop.c.obj
+[5/7] Building C object CMakeFiles/TRY.elf.dir/screen.c.obj
+[6/7] Building C object CMakeFiles/TRY.elf.dir/main.c.obj
+[7/7] Linking C executable TRY.elf
+text	data	bss	dec	filename
+
+127370	2012	27296	156678	TRY.elf
+

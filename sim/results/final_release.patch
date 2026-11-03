@@ -1,0 +1,182 @@
+--- a/adaptive_r.c
++++ b/adaptive_r.c
+@@ -191,7 +191,7 @@
+     (void)hdop;
+     (void)sat;
+     (void)cn0;
+-    return 80.0;                     /* 固定 80 ns^2，见上方说明 */
++    return ADAPTIVE_R_FIXED_NS2;       /* final operational R, ns^2 */
+ }
+ 
+ /* 3x3 列主元高斯消元, 病态返回 0 */
+--- a/adaptive_r.h
++++ b/adaptive_r.h
+@@ -1,5 +1,8 @@
+ #ifndef ADAPTIVE_R_H
+ #define ADAPTIVE_R_H
++
++/* Fixed operational R; learned quality models remain an offline extension. */
++#define ADAPTIVE_R_FIXED_NS2 80.0
+ 
+ #define ADAPT_POINTS    40          /* ← 由 20 提到 40, 4 个未知数更稳  */
+ #define PHASE_WIN       20
+--- a/main.c
++++ b/main.c
+@@ -496,6 +496,8 @@
+     if (bsp_meas_valid() == 0) {
+         c_fusion_reset(SLOW_CW_NO_MEAS);
+         log_c_fusion();
++        kalman_predict_only(&kalman, (double)sample_period);
++        cand_obs_predict_only((double)sample_period);
+         return;
+     }
+ 
+@@ -531,7 +533,9 @@
+     cand_obs_update(z, (double)sample_period);
+     g_tuning_update_second = log_seconds;
+     innov = z - kalman.Xm[0];       // 新息(预测之后、更新之前的残差)
++#if EXP_R_TRAIN_ENABLE
+     adaptive_r_update(gnss_hdop(), gnss_sat(), gnss_cn0(), innov);
++#endif
+ 
+     /* 采样周期自适应必须【每个 epoch 都跑】。
+      * 原来它只在 (slow.done == 0 && slow.active == 0) 的交接门控里调用，
+@@ -739,6 +743,7 @@
+ // CALIB: DAC 冻结, 读相位差喂自适应 R 的采集
+ static void task_calib_second(void)
+ {
++#if EXP_R_TRAIN_ENABLE
+     double z, innov;
+ 
+     /* 同 TUNING: 没有有效测量就不采集, 否则自适应 R 的统计会被 z=0 污染。 */
+@@ -750,20 +755,35 @@
+     innov = z - kalman.X[0];
+ 
+     adaptive_r_update(gnss_hdop(), gnss_sat(), gnss_cn0(), innov);
++#endif
++    /* Final CALIB only freezes DAC; raw snapshots remain available for offline labels. */
+ }
+ 
+ // HOLDOVER: X[1] 冻结只外推 X[0]; 恢复则 R=5000 平滑 5 秒后回 TUNING
+ static void task_holdover_second(void)
+ {
++    /* Apply the last commanded DAC step once before a one-second prediction. */
++    {
++        int cur = control_get_last_dac();
++        double du = (double)(cur - s_prev_dac) * DAC_GAIN
++                    * (double)control_get_loop_sign();
++        kalman.X[1] += du;
++        s_prev_dac = cur;
++    }
+     holdover_seconds++;
+ 
+     if (resume_flag != 0) {
+         kalman.R = 5000.0;
+         /* 有有效测量才做平滑, 否则 z 是陈旧值/0, 会把恢复过程带偏。
+          * holdover_seconds 照常累加, 不因为暂时没有测量而卡住恢复流程。 */
+-        if (bsp_meas_valid() != 0) {
+-            kalman_update(&kalman, read_phase_error_ns(), 1.0);
+-        }
++        if ((bsp_meas_valid() != 0) && (g_last_why == BSP_Q_OK) && (g_last_acc != 0)) {
++            /* z and X[0] must share the accumulated phase reference. */
++            kalman_update(&kalman, main_phase_acc_ns, 1.0);
++        } else {
++            kalman_predict_only(&kalman, 1.0);
++            holdover_seconds = 0; /* require consecutive usable recovery observations */
++        }
++        cand_obs_predict_only(1.0); /* passive diagnostics only */
+         control_holdover_tick();
+ 
+         if (holdover_seconds >= HOLDOVER_RESUME_SECONDS) {
+@@ -785,7 +805,8 @@
+             }
+         }
+     } else {
+-        kalman.X[0] += kalman.X[1] * (double)sample_period;   // 自由外推
++        kalman_predict_only(&kalman, 1.0); /* this task runs once per second */
++        cand_obs_predict_only(1.0);
+         control_holdover_tick();                              // DAC 保持
+     }
+ }
+@@ -809,6 +830,9 @@
+ 
+ static void log_text(void)
+ {
++    int hdop100 = (int)(gnss_hdop() * 100.0 + 0.5);
++    int cn010 = (int)(gnss_cn0() * 10.0 + 0.5);
++    int dac100 = (int)(control_get_dac_acc() * 100.0 + 0.5);
+     /* 字段和串口屏一 一对应, 方便两边对照 */
+     /* 注意：不能用 "%d.%03d" 打印可能落在 (-1,0) 的数 —— (int)(-0.15)=0，
+      * 负号会丢。frq / pps / phs 全部改成毫单位整数（符号安全）。 */
+@@ -820,10 +844,10 @@
+                 (long)(kalman.X[0] * 1000.0),
+                (int)(main_last_phase_ns * 1000.0),
+                gnss_fix(), gnss_sat(),
+-               (int)gnss_hdop(), frac_of(gnss_hdop(), 100),
+-               (int)gnss_cn0(), frac_of(gnss_cn0(), 10),
++               hdop100 / 100, hdop100 % 100,
++               cn010 / 10, cn010 % 10,
+                control_get_last_dac(),
+-               (int)control_get_dac_acc(), frac_of(control_get_dac_acc(), 100),
++               dac100 / 100, dac100 % 100,
+                (int)(slow.freq * 1000.0), slow.npts,
+                 (int)(kalman.P[3] * 1000000.0), (int)g_R, (int)main_fix50_cnt, (int)main_fix50_real,
+                 (int)EXP_SLOW_MODE, g_fuse_src,
+@@ -1519,6 +1543,9 @@
+                (long)(SLOW_C_WEIGHT_MAX * 1000000.0 + 0.5),
+                (long)SLOW_C_WEIGHT_RISE_S, (long)SLOW_C_MAX_AGE_S,
+                (long)SLOW_C_MAX_LAG_S);
++    dbg_printf("FINALCONF release=%s R_ns2=%d R_train=%d period_fixed=%d phase=%d slow=%d\r\n",
++               FINAL_RELEASE_TAG, (int)ADAPTIVE_R_FIXED_NS2, (int)EXP_R_TRAIN_ENABLE,
++               (int)EXP_FIXED_PERIOD, (int)EXP_PHASE_TERM_EN, (int)EXP_SLOW_MODE);
+ 
+ 
+ 
+--- a/main.h
++++ b/main.h
+@@ -40,12 +40,14 @@
+  *     避免重构后悄悄改变 B 基线。
+  *   · 计算顺序固定为：选来源 → 判有效 → 用该来源跑保护 → 融合。
+  *----------------------------------------------------------------------------*/
+-#define EXP_SLOW_MODE      0
++#ifndef EXP_SLOW_MODE
++#define EXP_SLOW_MODE      2
++#endif
+ 
+ /*-----------------------------------------------------------------------------
+  * 2026-10-30 单变量试验：DAC 端是否使用相位项 K_PHASE × X[0]
+  *
+- *   1 = 使用（默认，与之前所有轮次一致）
++ *   1 = 使用相位反馈；当前提交配置关闭此项
+  *   0 = 不使用（纯频率控制，但【KF 内部仍保留 X[0] 状态】）
+  *
+  * ⚠️ 只影响 DAC 控制输入，不影响滤波器结构。
+@@ -55,7 +57,15 @@
+  *-----------------------------------------------------------------------------*/
+ #define EXP_PHASE_TERM_EN  0
+ 
+-#define EXP_SLOW_CONTROL   0
++/* Legacy alias; EXP_SLOW_MODE is the only control-source selector. */
++#define EXP_SLOW_CONTROL   (EXP_SLOW_MODE != 0)
++
++/* Final release: legacy online R training is retained for development only.
++ * The CALIB/TUNING label definitions must be redesigned before enabling it. */
++#ifndef EXP_R_TRAIN_ENABLE
++#define EXP_R_TRAIN_ENABLE 0
++#endif
++#define FINAL_RELEASE_TAG "FINAL_C_R80_T10_20261031"
+ 
+ extern int sys_state;
+ extern int sample_period;
+@@ -63,8 +73,9 @@
+ /* 本秒实测的相位差(ns), 给串口屏和日志用; meas_valid=0 时为 0 */
+ extern double main_last_phase_ns;
+ 
+-/* 相位累加器: 让卡尔曼的 X[0] 是【绝对相位】
+- * 屏幕/日志显示用 read_phase_error_ns()（本秒增量），不用这个值 */
++/* Accumulated phase relative to the software initial reference, in ns.
++ * X[0]/phsm use this accumulated reference; it is not calibrated UTC phase.
++ * main_last_phase_ns/ppsm are one-interval increments. */
+ extern double main_phase_acc_ns;
+ /* 诊断用: 单独累加 p，用来核对 main_phase_acc_ns 是不是真的只被这一处加过 */
+ extern double main_p_sum;

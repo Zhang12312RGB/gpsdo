@@ -1,0 +1,683 @@
+{
+  "source": "D:\\edge\\sscom\\ReceivedTofile-COM5-2026_11_2_15-28-33.DAT",
+  "source_bytes_at_snapshot": 834215,
+  "source_sha256": "c815d0bcebfeb9fa95dd829b55fcd79bf4c7b813c645106737c657eb9039a48e",
+  "snapshot_complete_records": 1154,
+  "partial_records": 0,
+  "time_ms": [
+    1000,
+    1154000
+  ],
+  "time_discontinuities": 2,
+  "configs": [
+    "===== BUILD Nov  2 2026 15:29:18 =====",
+    "KFCONF profile=1 QF_e9=100000 p3floor=0 fixed_period=1 phsg=0 slow_mode=2",
+    "CFCONF scale_u=100000 cap_u=100000 rise_s=300 age_max_s=330 lag_max_s=630",
+    "FINALCONF release=FINAL_C_R80_T10_20261031 R_ns2=80 R_train=0 period_fixed=1 phase=0 slow=2"
+  ],
+  "state_runs": [
+    {
+      "state": "TUNING",
+      "start_ms": 1000,
+      "end_ms": 121000,
+      "seconds": 121,
+      "dac_min": 1752,
+      "dac_max": 1851,
+      "dac_unique": [
+        1752,
+        1776,
+        1795,
+        1810,
+        1821,
+        1829,
+        1835,
+        1840,
+        1844,
+        1847,
+        1849,
+        1850,
+        1851
+      ],
+      "why": {
+        "0": 121
+      },
+      "gapfill_first_last": [
+        0,
+        0
+      ],
+      "hard_reset_first_last": [
+        0,
+        0
+      ]
+    },
+    {
+      "state": "CALIB",
+      "start_ms": 122000,
+      "end_ms": 343000,
+      "seconds": 222,
+      "dac_min": 1851,
+      "dac_max": 1851,
+      "dac_unique": [
+        1851
+      ],
+      "why": {
+        "0": 219,
+        "3": 1,
+        "5": 2
+      },
+      "gapfill_first_last": [
+        0,
+        3
+      ],
+      "hard_reset_first_last": [
+        0,
+        0
+      ]
+    },
+    {
+      "state": "HOLDOVER",
+      "start_ms": 344008,
+      "end_ms": 455000,
+      "seconds": 112,
+      "dac_min": 1851,
+      "dac_max": 1851,
+      "dac_unique": [
+        1851
+      ],
+      "why": {
+        "5": 105,
+        "1": 3,
+        "0": 4
+      },
+      "gapfill_first_last": [
+        4,
+        111
+      ],
+      "hard_reset_first_last": [
+        0,
+        0
+      ]
+    },
+    {
+      "state": "CALIB",
+      "start_ms": 456000,
+      "end_ms": 475000,
+      "seconds": 20,
+      "dac_min": 1851,
+      "dac_max": 1851,
+      "dac_unique": [
+        1851
+      ],
+      "why": {
+        "0": 20
+      },
+      "gapfill_first_last": [
+        111,
+        111
+      ],
+      "hard_reset_first_last": [
+        0,
+        0
+      ]
+    },
+    {
+      "state": "TUNING",
+      "start_ms": 476000,
+      "end_ms": 1154000,
+      "seconds": 679,
+      "dac_min": 1851,
+      "dac_max": 1856,
+      "dac_unique": [
+        1851,
+        1853,
+        1854,
+        1855,
+        1856
+      ],
+      "why": {
+        "0": 679
+      },
+      "gapfill_first_last": [
+        111,
+        111
+      ],
+      "hard_reset_first_last": [
+        0,
+        0
+      ]
+    }
+  ],
+  "state_messages": [
+    "STATE -> CALIB",
+    "STATE -> HOLDOVER",
+    "GNSS 恢复, 平滑 5 秒后回 TUNING",
+    "恢复完成, 回到 CALIB",
+    "STATE -> CALIB",
+    "STATE -> TUNING"
+  ],
+  "all_calib_holdover_dac_unique": [
+    1851
+  ],
+  "fusion_updates": 82,
+  "positive_fusion_updates": 37,
+  "positive_details": [
+    {
+      "ms": 787000,
+      "upd": 45,
+      "used_u": 3333,
+      "reason": 0,
+      "src": 2,
+      "valid": 1,
+      "span": 299,
+      "age": 12.01,
+      "lag": 161.51,
+      "w": 0.0033,
+      "dac": 1855
+    },
+    {
+      "ms": 797000,
+      "upd": 46,
+      "used_u": 6667,
+      "reason": 0,
+      "src": 2,
+      "valid": 1,
+      "span": 299,
+      "age": 22.01,
+      "lag": 171.51,
+      "w": 0.0067,
+      "dac": 1855
+    },
+    {
+      "ms": 807000,
+      "upd": 47,
+      "used_u": 10000,
+      "reason": 0,
+      "src": 2,
+      "valid": 1,
+      "span": 299,
+      "age": 32.01,
+      "lag": 181.51,
+      "w": 0.01,
+      "dac": 1855
+    },
+    {
+      "ms": 817000,
+      "upd": 48,
+      "used_u": 13333,
+      "reason": 0,
+      "src": 2,
+      "valid": 1,
+      "span": 299,
+      "age": 42.01,
+      "lag": 191.51,
+      "w": 0.0133,
+      "dac": 1855
+    },
+    {
+      "ms": 827000,
+      "upd": 49,
+      "used_u": 16667,
+      "reason": 0,
+      "src": 2,
+      "valid": 1,
+      "span": 299,
+      "age": 52.01,
+      "lag": 201.51,
+      "w": 0.0167,
+      "dac": 1855
+    },
+    {
+      "ms": 837000,
+      "upd": 50,
+      "used_u": 20000,
+      "reason": 0,
+      "src": 2,
+      "valid": 1,
+      "span": 299,
+      "age": 62.01,
+      "lag": 211.51,
+      "w": 0.02,
+      "dac": 1855
+    },
+    {
+      "ms": 847000,
+      "upd": 51,
+      "used_u": 23333,
+      "reason": 0,
+      "src": 2,
+      "valid": 1,
+      "span": 299,
+      "age": 72.01,
+      "lag": 221.51,
+      "w": 0.0233,
+      "dac": 1855
+    },
+    {
+      "ms": 857000,
+      "upd": 52,
+      "used_u": 26667,
+      "reason": 0,
+      "src": 2,
+      "valid": 1,
+      "span": 299,
+      "age": 82.01,
+      "lag": 231.51,
+      "w": 0.0267,
+      "dac": 1855
+    },
+    {
+      "ms": 867000,
+      "upd": 53,
+      "used_u": 30000,
+      "reason": 0,
+      "src": 2,
+      "valid": 1,
+      "span": 299,
+      "age": 92.01,
+      "lag": 241.51,
+      "w": 0.03,
+      "dac": 1855
+    },
+    {
+      "ms": 877000,
+      "upd": 54,
+      "used_u": 33333,
+      "reason": 0,
+      "src": 2,
+      "valid": 1,
+      "span": 299,
+      "age": 102.01,
+      "lag": 251.51,
+      "w": 0.0333,
+      "dac": 1855
+    },
+    {
+      "ms": 887000,
+      "upd": 55,
+      "used_u": 36667,
+      "reason": 0,
+      "src": 2,
+      "valid": 1,
+      "span": 299,
+      "age": 112.01,
+      "lag": 261.51,
+      "w": 0.0367,
+      "dac": 1856
+    },
+    {
+      "ms": 897000,
+      "upd": 56,
+      "used_u": 40000,
+      "reason": 0,
+      "src": 2,
+      "valid": 1,
+      "span": 299,
+      "age": 122.01,
+      "lag": 271.51,
+      "w": 0.04,
+      "dac": 1856
+    },
+    {
+      "ms": 907000,
+      "upd": 57,
+      "used_u": 43333,
+      "reason": 0,
+      "src": 2,
+      "valid": 1,
+      "span": 299,
+      "age": 132.01,
+      "lag": 281.51,
+      "w": 0.0433,
+      "dac": 1855
+    },
+    {
+      "ms": 917000,
+      "upd": 58,
+      "used_u": 46667,
+      "reason": 0,
+      "src": 2,
+      "valid": 1,
+      "span": 299,
+      "age": 142.01,
+      "lag": 291.51,
+      "w": 0.0467,
+      "dac": 1856
+    },
+    {
+      "ms": 927000,
+      "upd": 59,
+      "used_u": 50000,
+      "reason": 0,
+      "src": 2,
+      "valid": 1,
+      "span": 299,
+      "age": 152.01,
+      "lag": 301.51,
+      "w": 0.05,
+      "dac": 1856
+    },
+    {
+      "ms": 937000,
+      "upd": 60,
+      "used_u": 53333,
+      "reason": 0,
+      "src": 2,
+      "valid": 1,
+      "span": 299,
+      "age": 162.01,
+      "lag": 311.51,
+      "w": 0.0533,
+      "dac": 1856
+    },
+    {
+      "ms": 947000,
+      "upd": 61,
+      "used_u": 56667,
+      "reason": 0,
+      "src": 2,
+      "valid": 1,
+      "span": 299,
+      "age": 172.01,
+      "lag": 321.51,
+      "w": 0.0567,
+      "dac": 1855
+    },
+    {
+      "ms": 957000,
+      "upd": 62,
+      "used_u": 60000,
+      "reason": 0,
+      "src": 2,
+      "valid": 1,
+      "span": 299,
+      "age": 182.01,
+      "lag": 331.51,
+      "w": 0.06,
+      "dac": 1856
+    },
+    {
+      "ms": 967000,
+      "upd": 63,
+      "used_u": 59134,
+      "reason": 0,
+      "src": 2,
+      "valid": 1,
+      "span": 299,
+      "age": 192.01,
+      "lag": 341.51,
+      "w": 0.0591,
+      "dac": 1856
+    },
+    {
+      "ms": 977000,
+      "upd": 64,
+      "used_u": 57878,
+      "reason": 0,
+      "src": 2,
+      "valid": 1,
+      "span": 299,
+      "age": 202.01,
+      "lag": 351.51,
+      "w": 0.0579,
+      "dac": 1855
+    },
+    {
+      "ms": 987000,
+      "upd": 65,
+      "used_u": 56641,
+      "reason": 0,
+      "src": 2,
+      "valid": 1,
+      "span": 299,
+      "age": 212.01,
+      "lag": 361.51,
+      "w": 0.0566,
+      "dac": 1856
+    },
+    {
+      "ms": 997000,
+      "upd": 66,
+      "used_u": 55422,
+      "reason": 0,
+      "src": 2,
+      "valid": 1,
+      "span": 299,
+      "age": 222.01,
+      "lag": 371.51,
+      "w": 0.0554,
+      "dac": 1856
+    },
+    {
+      "ms": 1007000,
+      "upd": 67,
+      "used_u": 54224,
+      "reason": 0,
+      "src": 2,
+      "valid": 1,
+      "span": 299,
+      "age": 232.01,
+      "lag": 381.51,
+      "w": 0.0542,
+      "dac": 1855
+    },
+    {
+      "ms": 1017000,
+      "upd": 68,
+      "used_u": 53047,
+      "reason": 0,
+      "src": 2,
+      "valid": 1,
+      "span": 299,
+      "age": 242.01,
+      "lag": 391.51,
+      "w": 0.053,
+      "dac": 1856
+    },
+    {
+      "ms": 1027000,
+      "upd": 69,
+      "used_u": 51891,
+      "reason": 0,
+      "src": 2,
+      "valid": 1,
+      "span": 299,
+      "age": 252.01,
+      "lag": 401.51,
+      "w": 0.0519,
+      "dac": 1855
+    },
+    {
+      "ms": 1037000,
+      "upd": 70,
+      "used_u": 50757,
+      "reason": 0,
+      "src": 2,
+      "valid": 1,
+      "span": 299,
+      "age": 262.01,
+      "lag": 411.51,
+      "w": 0.0508,
+      "dac": 1856
+    },
+    {
+      "ms": 1047000,
+      "upd": 71,
+      "used_u": 49646,
+      "reason": 0,
+      "src": 2,
+      "valid": 1,
+      "span": 299,
+      "age": 272.01,
+      "lag": 421.51,
+      "w": 0.0496,
+      "dac": 1855
+    },
+    {
+      "ms": 1057000,
+      "upd": 72,
+      "used_u": 48557,
+      "reason": 0,
+      "src": 2,
+      "valid": 1,
+      "span": 299,
+      "age": 282.01,
+      "lag": 431.51,
+      "w": 0.0486,
+      "dac": 1855
+    },
+    {
+      "ms": 1067000,
+      "upd": 73,
+      "used_u": 47491,
+      "reason": 0,
+      "src": 2,
+      "valid": 1,
+      "span": 299,
+      "age": 292.01,
+      "lag": 441.51,
+      "w": 0.0475,
+      "dac": 1856
+    },
+    {
+      "ms": 1077000,
+      "upd": 74,
+      "used_u": 50824,
+      "reason": 0,
+      "src": 2,
+      "valid": 1,
+      "span": 599,
+      "age": 2.01,
+      "lag": 301.427,
+      "w": 0.0508,
+      "dac": 1855
+    },
+    {
+      "ms": 1087000,
+      "upd": 75,
+      "used_u": 54158,
+      "reason": 0,
+      "src": 2,
+      "valid": 1,
+      "span": 599,
+      "age": 12.01,
+      "lag": 311.427,
+      "w": 0.0542,
+      "dac": 1855
+    },
+    {
+      "ms": 1097000,
+      "upd": 76,
+      "used_u": 57491,
+      "reason": 0,
+      "src": 2,
+      "valid": 1,
+      "span": 599,
+      "age": 22.01,
+      "lag": 321.427,
+      "w": 0.0575,
+      "dac": 1856
+    },
+    {
+      "ms": 1107000,
+      "upd": 77,
+      "used_u": 60418,
+      "reason": 0,
+      "src": 2,
+      "valid": 1,
+      "span": 599,
+      "age": 32.01,
+      "lag": 331.427,
+      "w": 0.0604,
+      "dac": 1855
+    },
+    {
+      "ms": 1117000,
+      "upd": 78,
+      "used_u": 59145,
+      "reason": 0,
+      "src": 2,
+      "valid": 1,
+      "span": 599,
+      "age": 42.01,
+      "lag": 341.427,
+      "w": 0.0591,
+      "dac": 1855
+    },
+    {
+      "ms": 1127000,
+      "upd": 79,
+      "used_u": 57888,
+      "reason": 0,
+      "src": 2,
+      "valid": 1,
+      "span": 599,
+      "age": 52.011,
+      "lag": 351.428,
+      "w": 0.0579,
+      "dac": 1856
+    },
+    {
+      "ms": 1137000,
+      "upd": 80,
+      "used_u": 56651,
+      "reason": 0,
+      "src": 2,
+      "valid": 1,
+      "span": 599,
+      "age": 62.01,
+      "lag": 361.427,
+      "w": 0.0567,
+      "dac": 1855
+    },
+    {
+      "ms": 1147000,
+      "upd": 81,
+      "used_u": 55432,
+      "reason": 0,
+      "src": 2,
+      "valid": 1,
+      "span": 599,
+      "age": 72.01,
+      "lag": 371.427,
+      "w": 0.0554,
+      "dac": 1855
+    }
+  ],
+  "positive_weight_range": [
+    0.003333,
+    0.060418
+  ],
+  "NMEA_last": {
+    "ok": 10938,
+    "badcs": 45,
+    "badfmt": 1,
+    "long": 0,
+    "resync": 1,
+    "gga_age": 451,
+    "fresh": 1
+  },
+  "sample_last": {
+    "why": 0,
+    "used": 0,
+    "acc": 1,
+    "gap": 111,
+    "bad": 111,
+    "badrun": 0,
+    "hreset": 0,
+    "gapskip": 1,
+    "gapfill": 111
+  },
+  "elf": {
+    "path": "D:\\FPGAdesigner\\vitis\\test\\test\\TRY\\build\\TRY.elf",
+    "sha256": "29717ca20361051e5f3f7cf1d936760821ac88e9ee63a9da41a89c0d7fc2b7e9",
+    "BUILD": "Nov  2 2026 15:29:18",
+    "source_differences_from_submission": []
+  },
+  "notes": [],
+  "time_steps_ms": {
+    "1000": 1151,
+    "1008": 1,
+    "992": 1
+  },
+  "missing_logged_second_transitions": 0
+}

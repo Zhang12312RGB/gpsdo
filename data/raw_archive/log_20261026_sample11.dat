@@ -1,0 +1,816 @@
+
+===== BUILD Oct 26 2026 15:00:50 =====
+
+========== GPSDO PS 自检 ==========
+AXI base    = 0x43c00000
+DAC 回环    = 0x123  OK  (PL 已配置)
+UART0(屏)   = OK
+UART1(调试) = OK
+PS LED 引脚 = OK
+PS 按键     = OK
+寄存器初值:
+  +0x00 = 0x80000000
+  +0x04 = 0x00000000
+  +0x08 = 0x000006d8
+  +0x0C = 0x00000000
+提示: +0x04(NMEA) 长期为 0 -> 查 PL UART(F17) 与 GNSS 模块接线/波特率
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+===================================
+
+[TUNING] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[TUNING] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[TUNING] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[TUNING] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+STATE -> HOLDOVER
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+KEY2: 屏切到第 1 页 (GNSS)
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+KEY2: 屏切到第 0 页 (CTRL)
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | NO SIGNAL on F17 -> check module / wiring
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud
+[HOLDOVER] T=10 慢环T=1 | frqm=-5000 phsm=-2147483648 ppsm=-2147483648 | fix=0 sat=0 hdop=99.90 cn0=40.0 | dac=1756 acc=1755.66 | slow=0m n=0 | P3u=999008970 R=8052
+NMEA diag: byte=0(+0) drop=0(+0) ver=0x00030002 | frame_err=1 pps_seen=1 locked=1 meas=1 spi_busy=0 | SIGNAL present, framing errors -> check baud

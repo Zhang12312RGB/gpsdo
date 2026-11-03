@@ -1,0 +1,182 @@
+{
+  "source": "D:\\FPGAdesigner\\TJC\\TJC.HMI",
+  "sha256": "d9f12467b8b10f75ec7d0f7bb03751611b2069949f9c2a0bc76a4d6ac9ac37c3",
+  "method": "Read active named archive records and serialized object properties; no HMI write or screen flash.",
+  "on_device_flashed_layout_verified": false,
+  "pages": [
+    {
+      "entry": "0.pa",
+      "offset": 7347358,
+      "bytes": 6186,
+      "objects": [
+        {
+          "objname": "page0",
+          "x": 0,
+          "y": 0,
+          "w": 128,
+          "h": 160,
+          "vscope": 0,
+          "txt": null,
+          "object_offset": 7347498
+        },
+        {
+          "objname": "gpstxt",
+          "x": 0,
+          "y": 0,
+          "w": 128,
+          "h": 20,
+          "vscope": 0,
+          "txt": "newtxt",
+          "object_offset": 7348199
+        },
+        {
+          "objname": "gpfrq",
+          "x": 0,
+          "y": 20,
+          "w": 127,
+          "h": 20,
+          "vscope": 0,
+          "txt": "newtxt",
+          "object_offset": 7349091
+        },
+        {
+          "objname": "gpphs",
+          "x": 0,
+          "y": 40,
+          "w": 127,
+          "h": 20,
+          "vscope": 0,
+          "txt": "newtxt",
+          "object_offset": 7349982
+        },
+        {
+          "objname": "gpt",
+          "x": 0,
+          "y": 60,
+          "w": 127,
+          "h": 20,
+          "vscope": 0,
+          "txt": "newtxt",
+          "object_offset": 7350873
+        },
+        {
+          "objname": "gpslw",
+          "x": 0,
+          "y": 80,
+          "w": 127,
+          "h": 20,
+          "vscope": 0,
+          "txt": "newtxt",
+          "object_offset": 7351762
+        },
+        {
+          "objname": "gppps",
+          "x": 1,
+          "y": 100,
+          "w": 127,
+          "h": 20,
+          "vscope": 0,
+          "txt": "newtxt",
+          "object_offset": 7352653
+        }
+      ]
+    },
+    {
+      "entry": "1.pa",
+      "offset": 7366450,
+      "bytes": 7985,
+      "objects": [
+        {
+          "objname": "page1",
+          "x": 0,
+          "y": 0,
+          "w": 128,
+          "h": 160,
+          "vscope": 0,
+          "txt": null,
+          "object_offset": 7366614
+        },
+        {
+          "objname": "gpsl",
+          "x": 0,
+          "y": 0,
+          "w": 127,
+          "h": 20,
+          "vscope": 0,
+          "txt": "newtxt",
+          "object_offset": 7367315
+        },
+        {
+          "objname": "gpsn",
+          "x": 0,
+          "y": 20,
+          "w": 127,
+          "h": 20,
+          "vscope": 0,
+          "txt": "newtxt",
+          "object_offset": 7368205
+        },
+        {
+          "objname": "gphd",
+          "x": 0,
+          "y": 40,
+          "w": 127,
+          "h": 20,
+          "vscope": 0,
+          "txt": "newtxt",
+          "object_offset": 7369095
+        },
+        {
+          "objname": "gpcn",
+          "x": 0,
+          "y": 60,
+          "w": 127,
+          "h": 20,
+          "vscope": 0,
+          "txt": "newtxt",
+          "object_offset": 7369985
+        },
+        {
+          "objname": "gpsw",
+          "x": 1,
+          "y": 80,
+          "w": 127,
+          "h": 20,
+          "vscope": 0,
+          "txt": "newtxt",
+          "object_offset": 7370875
+        },
+        {
+          "objname": "gpsj",
+          "x": 0,
+          "y": 100,
+          "w": 127,
+          "h": 20,
+          "vscope": 0,
+          "txt": "newtxt",
+          "object_offset": 7371765
+        },
+        {
+          "objname": "gpst",
+          "x": 1,
+          "y": 120,
+          "w": 127,
+          "h": 20,
+          "vscope": 0,
+          "txt": "newtxt",
+          "object_offset": 7372655
+        },
+        {
+          "objname": "gpsd",
+          "x": 1,
+          "y": 140,
+          "w": 127,
+          "h": 20,
+          "vscope": 0,
+          "txt": "newtxt",
+          "object_offset": 7373545
+        }
+      ]
+    }
+  ]
+}

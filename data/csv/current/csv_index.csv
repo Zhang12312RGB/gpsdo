@@ -1,0 +1,14 @@
+﻿raw_path,main_csv,raw_sha256,refchk_records,complete_records,partial_records,time_gap_transitions
+data/raw_support/log_20261030_v14.dat,data/csv/current/log_20261030_v14.csv,59c1651cd6e3b0d0a36d5dbf79f20dd582e656ca1a476464019d945072e1716e,3253,3253,0,0
+data/raw_support/log_20261030_v15.dat,data/csv/current/log_20261030_v15.csv,fecadf5fc4692171b662bc2147987071c5d925a4a52d8dc2f12f96fd0af4cedf,3525,3525,0,0
+data/raw_support/log_20261030_v16.dat,data/csv/current/log_20261030_v16.csv,40944fa4075a68faa287f7263e4ec1f29520cff9fa924917c1c07394e8fae6ee,3971,3970,1,0
+data/raw_support/log_20261031_v17.dat,data/csv/current/log_20261031_v17.csv,4a661e84de6d313f0a9c47af06e69567ac31169e2d4d136a88abe43218f411b3,3857,3857,0,0
+data/raw_support/log_20261031_v18.dat,data/csv/current/log_20261031_v18.csv,119c6398b5c87fc1d4d92a9c647c3e393fe86798b8942109462fbc998b5c822e,3844,3844,0,0
+data/raw_support/log_20261031_v19.dat,data/csv/current/log_20261031_v19.csv,23499eb0d63d5e965ed5aacf5c83d1b822fd3ac743ada415a9124f1dbd295b89,7601,7601,0,1
+data/raw_support/log_20261031_v20.dat,data/csv/current/log_20261031_v20.csv,7793b79595f9aae6a58f56042a34a02d0a59ec58035d084301649f7a36b3b52b,3748,3748,0,0
+data/raw_support/log_20261031_v21.dat,data/csv/current/log_20261031_v21.csv,3f01f77fe197197f45386ad2fa7400b6fa3bfa5a9ad1685a9adef716c73936a8,3633,3633,0,0
+data/raw_support/log_20261031_v22.dat,data/csv/current/log_20261031_v22.csv,a65936ca8a5bc983a1ffdcaed90045ab2ad26b1e2da952320e5ceb0669eb9bc0,8577,8577,0,6
+data/raw_support/log_20261031_v23.dat,data/csv/current/log_20261031_v23.csv,ed3f20b54c3ad295877b8364d9e2b689cd5757886197b2734723a5690e7bd1b3,3733,3733,0,0
+data/raw_support/log_20261031_v24.dat,data/csv/current/log_20261031_v24.csv,9e3d5b936cf9a47306334ffd35d93aaa3ce3453f0521db2d50acbed77ed2fee8,3666,3665,1,0
+data/raw_support/log_20261031_v25.dat,data/csv/current/log_20261031_v25.csv,e84346a4be0abd09a427bfe8a9e4850a9af665564772d3d63f86c44d8459fafa,3653,3653,0,0
+data/raw_support/log_20261101_v26.dat,data/csv/current/log_20261101_v26.csv,0aa51581f77af8344110528414531d4554849796be1e2c43621cbfe96dc61878,6555,6555,0,2

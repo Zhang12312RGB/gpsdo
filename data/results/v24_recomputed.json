@@ -1,0 +1,27 @@
+{
+  "input": "data\\raw_support\\log_20261031_v24.dat",
+  "n": 2400,
+  "ms": [
+    1200000.0,
+    3599000.0
+  ],
+  "mean_ppb": -0.012532552083333334,
+  "mean_mhz_20mhz": -0.2506510416666667,
+  "mean_time_drift_ns_per_s": -0.012532552083333334,
+  "phase_increment_sum_ns": -30.078125,
+  "OADEV_ppb": {
+    "1": 13.210723930376055,
+    "5": 2.349485273718488,
+    "10": 1.244915937323912,
+    "50": 0.2828433234622235,
+    "100": 0.20775207818550107,
+    "200": 0.11475824367624646,
+    "300": 0.06714542390329828,
+    "400": 0.0566323109148589,
+    "600": 0.03753137893488636
+  },
+  "cfuse_updates": 240,
+  "cfuse_positive": 240,
+  "cfuse_mean_weight": 0.04479635833333333,
+  "warning": "OADEV is relative to this GNSS reference. Equivalent ns/s is a fluctuation scale, not directional drift."
+}

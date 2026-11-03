@@ -1,0 +1,4 @@
+# Used for the optional R regression and figure reproduction on Python 3.11.
+# Raw-to-CSV and OADEV-only reproduction use the Python standard library.
+numpy==2.4.6
+matplotlib==3.11.2

@@ -1,0 +1,27 @@
+{
+  "images": 15,
+  "remaining_blue": [
+    "AX7010 板卡外形及孔径已补；整机与外接底板长宽高、安装孔中心距及支柱高度仍待实测（P01）。",
+    "独立频率基准、仪器设置与频率或时间间隔测量结果待补（P10，进一步准确度验证）。"
+  ],
+  "source_original_preserved": true,
+  "input_docx_sha256": "b29055430abadd55196a6ccad1debb26d517087f506e7ab8a00d963ebddac023",
+  "date": "2026-11-02",
+  "pages": 20,
+  "blue_slots": 1,
+  "visual_qa": "All 20 pages of the dimensions-updated report inspected at full 1280-pixel render resolution",
+  "rendered_with": "WPS native PDF export, Poppler page PNGs",
+  "user_requested_omissions": [
+    "Unprovided DAC reference voltage, analog component values and schematic placeholders"
+  ],
+  "report_docx_sha256": "d6ae033eb921e3701b7f26d90eca1bf19b06c1cd20bcc1039b8a03bf3d72fcc8",
+  "report_pdf_sha256": "ef379bcb0340d7051f184d645cc51cce57c970ad244e975a32d7b09a770da11d",
+  "original_user_docx_preserved": true,
+  "dimensions_mm": {
+    "length": 245,
+    "width": 110,
+    "height": 58
+  },
+  "height_basis": "highest point of complete assembly, per user",
+  "ooxml_change": "word/document.xml only; other ZIP parts preserved byte-for-byte"
+}

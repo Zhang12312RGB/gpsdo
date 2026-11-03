@@ -1,0 +1,13 @@
+{
+  "result": "PASS",
+  "source_configuration": {
+    "profile": 1,
+    "R": 80,
+    "phase": 0,
+    "Tu_steady": 10
+  },
+  "mode2_sha256": "0c03bf1c1f22aba5790417cd7250ed19ab24f652bc725ddc8d779321d19565f2",
+  "mode0_sha256": "257cb32324eda50611ba49bdfb3dbdc04f6c6800c5d3756c62d7057a4155d442",
+  "frozen_elf_unchanged": true,
+  "hardware_programmed": false
+}

@@ -1,0 +1,815 @@
+
+===== BUILD Oct 25 2026 19:54:02 =====
+
+========== GPSDO PS 自检 ==========
+AXI base    = 0x43c00000
+DAC 回环    = 0x123  OK  (PL 已配置)
+UART0(屏)   = OK
+UART1(调试) = OK
+PS LED 引脚 = OK
+PS 按键     = OK
+寄存器初值:
+  +0x00 = 0x00000000
+  +0x04 = 0x00000055
+  +0x08 = 0x000006d8
+  +0x0C = 0x00000000
+提示: +0x04(NMEA) 长期为 0 -> 查 PL UART(F17) 与 GNSS 模块接线/波特率
+NMEA diag: byte=31(+31) drop=1108(+1108) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+===================================
+
+[TUNING] T=10 慢环T=1 | frq=0.000ppb phs=0.000ns pps=0.000ns | fix=1 sat=8 hdop=1.68 cn0=34.2 | dac=1752 acc=1752.00 | slow=0.000 n=0 | P3=999.0011 R=76
+NMEA diag: byte=583(+552) drop=1108(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=1 | frq=0.000ppb phs=0.000ns pps=-1.953ns | fix=1 sat=8 hdop=1.68 cn0=30.10 | dac=1752 acc=1752.00 | slow=0.000 n=0 | P3=999.0011 R=76
+NMEA diag: byte=1194(+611) drop=1108(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=1 | frq=0.000ppb phs=0.000ns pps=1.758ns | fix=1 sat=8 hdop=1.66 cn0=31.1 | dac=1752 acc=1752.00 | slow=0.000 n=0 | P3=999.0011 R=76
+NMEA diag: byte=1734(+540) drop=1108(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=1 | frq=0.000ppb phs=0.000ns pps=0.000ns | fix=1 sat=8 hdop=1.66 cn0=31.1 | dac=1752 acc=1752.00 | slow=0.000 n=0 | P3=999.0011 R=76
+NMEA diag: byte=2343(+609) drop=1108(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=1 | frq=0.000ppb phs=0.000ns pps=-1.953ns | fix=1 sat=8 hdop=1.66 cn0=31.2 | dac=1752 acc=1752.00 | slow=0.000 n=0 | P3=999.0011 R=76
+NMEA diag: byte=2883(+540) drop=1108(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=1 | frq=0.000ppb phs=0.000ns pps=1.758ns | fix=1 sat=8 hdop=1.66 cn0=29.7 | dac=1752 acc=1752.00 | slow=0.000 n=0 | P3=999.0011 R=76
+NMEA diag: byte=3494(+611) drop=1108(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=1 | frq=0.000ppb phs=0.000ns pps=0.000ns | fix=1 sat=8 hdop=1.90 cn0=30.4 | dac=1752 acc=1752.00 | slow=0.000 n=0 | P3=999.0011 R=76
+NMEA diag: byte=4034(+540) drop=1108(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=1 | frq=0.000ppb phs=0.000ns pps=0.000ns | fix=1 sat=8 hdop=1.90 cn0=30.7 | dac=1752 acc=1752.00 | slow=0.000 n=0 | P3=999.0011 R=76
+NMEA diag: byte=4643(+609) drop=1108(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=1 | frq=0.000ppb phs=0.000ns pps=-6.055ns | fix=1 sat=8 hdop=1.90 cn0=30.7 | dac=1752 acc=1752.00 | slow=0.000 n=0 | P3=999.0011 R=76
+NMEA diag: byte=5183(+540) drop=1108(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=1 | frq=0.000ppb phs=0.000ns pps=-3.320ns | fix=1 sat=8 hdop=1.66 cn0=30.6 | dac=1752 acc=1752.00 | slow=0.000 n=0 | P3=999.0011 R=76
+NMEA diag: byte=5792(+609) drop=1108(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=1 | frq=0.370ppb phs=-3.707ns pps=6.055ns | fix=1 sat=7 hdop=1.90 cn0=29.0 | dac=1752 acc=1752.19 | slow=0.000 n=0 | P3=1.8652 R=110
+NMEA diag: byte=6332(+540) drop=1108(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=1 | frq=0.370ppb phs=-3.707ns pps=2.344ns | fix=1 sat=7 hdop=1.90 cn0=29.5 | dac=1752 acc=1752.19 | slow=0.000 n=0 | P3=1.8652 R=110
+NMEA diag: byte=6939(+607) drop=1108(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=1 | frq=0.370ppb phs=-3.707ns pps=0.391ns | fix=1 sat=7 hdop=1.90 cn0=28.5 | dac=1752 acc=1752.19 | slow=0.000 n=0 | P3=1.8652 R=110
+NMEA diag: byte=7479(+540) drop=1108(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=1 | frq=0.370ppb phs=-3.707ns pps=-8.008ns | fix=1 sat=7 hdop=1.90 cn0=29.4 | dac=1752 acc=1752.19 | slow=0.000 n=0 | P3=1.8652 R=110
+NMEA diag: byte=8086(+607) drop=1108(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=1 | frq=0.370ppb phs=-3.707ns pps=6.445ns | fix=1 sat=7 hdop=1.90 cn0=29.7 | dac=1752 acc=1752.19 | slow=0.000 n=0 | P3=1.8652 R=110
+NMEA diag: byte=8624(+538) drop=1108(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=1 | frq=0.370ppb phs=-3.707ns pps=1.367ns | fix=1 sat=7 hdop=1.90 cn0=29.8 | dac=1752 acc=1752.19 | slow=0.000 n=0 | P3=1.8652 R=110
+NMEA diag: byte=9231(+607) drop=1108(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=1 | frq=0.370ppb phs=-3.707ns pps=0.195ns | fix=1 sat=7 hdop=1.90 cn0=29.0 | dac=1752 acc=1752.19 | slow=0.000 n=0 | P3=1.8652 R=110
+NMEA diag: byte=9771(+540) drop=1108(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=1 | frq=0.370ppb phs=-3.707ns pps=-7.617ns | fix=1 sat=7 hdop=1.90 cn0=28.5 | dac=1752 acc=1752.19 | slow=0.000 n=0 | P3=1.8652 R=110
+NMEA diag: byte=10380(+609) drop=1108(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=1 | frq=0.370ppb phs=-3.707ns pps=3.125ns | fix=1 sat=8 hdop=1.91 cn0=28.8 | dac=1752 acc=1752.19 | slow=0.000 n=0 | P3=1.8652 R=110
+NMEA diag: byte=10922(+542) drop=1108(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=1 | frq=0.370ppb phs=-3.707ns pps=3.125ns | fix=1 sat=8 hdop=1.91 cn0=30.7 | dac=1752 acc=1752.19 | slow=0.000 n=0 | P3=1.8652 R=110
+NMEA diag: byte=11531(+609) drop=1108(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=1 | frq=0.258ppb phs=-5.442ns pps=-2.344ns | fix=1 sat=8 hdop=1.91 cn0=31.0 | dac=1752 acc=1752.33 | slow=0.000 n=0 | P3=0.4277 R=95
+NMEA diag: byte=12071(+540) drop=1108(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=1 | frq=0.258ppb phs=-5.442ns pps=0.391ns | fix=1 sat=8 hdop=1.91 cn0=31.5 | dac=1752 acc=1752.33 | slow=0.000 n=0 | P3=0.4277 R=95
+NMEA diag: byte=12680(+609) drop=1108(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=1 | frq=0.258ppb phs=-5.442ns pps=0.977ns | fix=1 sat=8 hdop=1.91 cn0=30.7 | dac=1752 acc=1752.33 | slow=0.000 n=0 | P3=0.4277 R=95
+NMEA diag: byte=13222(+542) drop=1108(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=1 | frq=0.258ppb phs=-5.442ns pps=1.758ns | fix=1 sat=8 hdop=1.66 cn0=31.6 | dac=1752 acc=1752.33 | slow=0.000 n=0 | P3=0.4277 R=95
+NMEA diag: byte=13831(+609) drop=1108(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=1 | frq=0.258ppb phs=-5.442ns pps=-3.516ns | fix=1 sat=8 hdop=1.66 cn0=31.9 | dac=1752 acc=1752.33 | slow=0.000 n=0 | P3=0.4277 R=95
+NMEA diag: byte=14371(+540) drop=1108(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=1 | frq=0.258ppb phs=-5.442ns pps=3.320ns | fix=1 sat=8 hdop=1.66 cn0=31.9 | dac=1752 acc=1752.33 | slow=0.000 n=0 | P3=0.4277 R=95
+NMEA diag: byte=14980(+609) drop=1108(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=1 | frq=0.258ppb phs=-5.442ns pps=-5.273ns | fix=1 sat=8 hdop=1.66 cn0=31.9 | dac=1752 acc=1752.33 | slow=0.000 n=0 | P3=0.4277 R=95
+NMEA diag: byte=15520(+540) drop=1108(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=1 | frq=0.258ppb phs=-5.442ns pps=5.078ns | fix=1 sat=8 hdop=1.66 cn0=31.7 | dac=1752 acc=1752.33 | slow=0.000 n=0 | P3=0.4277 R=95
+NMEA diag: byte=16129(+609) drop=1108(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=1 | frq=0.258ppb phs=-5.442ns pps=-9.375ns | fix=1 sat=8 hdop=1.66 cn0=30.4 | dac=1752 acc=1752.33 | slow=0.000 n=0 | P3=0.4277 R=95
+NMEA diag: byte=16671(+542) drop=1108(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=1 | frq=0.258ppb phs=-5.442ns pps=4.102ns | fix=1 sat=8 hdop=1.66 cn0=29.7 | dac=1752 acc=1752.33 | slow=0.000 n=0 | P3=0.4277 R=95
+NMEA diag: byte=17282(+611) drop=1108(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=1 | frq=0.326ppb phs=-9.686ns pps=-2.930ns | fix=1 sat=7 hdop=1.91 cn0=29.2 | dac=1752 acc=1752.50 | slow=0.000 n=0 | P3=0.1856 R=111
+NMEA diag: byte=17822(+540) drop=1108(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=1 | frq=0.326ppb phs=-9.686ns pps=5.078ns | fix=1 sat=7 hdop=1.91 cn0=28.7 | dac=1752 acc=1752.50 | slow=0.000 n=0 | P3=0.1856 R=111
+NMEA diag: byte=18431(+609) drop=1108(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=1 | frq=0.326ppb phs=-9.686ns pps=-2.148ns | fix=1 sat=7 hdop=1.91 cn0=27.9 | dac=1752 acc=1752.50 | slow=0.000 n=0 | P3=0.1856 R=111
+NMEA diag: byte=18969(+538) drop=1108(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=1 | frq=0.326ppb phs=-9.686ns pps=-4.102ns | fix=1 sat=7 hdop=1.91 cn0=29.3 | dac=1752 acc=1752.50 | slow=0.000 n=0 | P3=0.1856 R=111
+NMEA diag: byte=19576(+607) drop=1108(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=1 | frq=0.326ppb phs=-9.686ns pps=4.688ns | fix=1 sat=7 hdop=1.91 cn0=29.7 | dac=1752 acc=1752.50 | slow=0.000 n=0 | P3=0.1856 R=111
+NMEA diag: byte=20114(+538) drop=1108(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=1 | frq=0.326ppb phs=-9.686ns pps=0.781ns | fix=1 sat=7 hdop=1.91 cn0=30.1 | dac=1752 acc=1752.50 | slow=0.000 n=0 | P3=0.1856 R=111
+NMEA diag: byte=20721(+607) drop=1108(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=1 | frq=0.326ppb phs=-9.686ns pps=-1.367ns | fix=1 sat=6 hdop=2.24 cn0=30.3 | dac=1752 acc=1752.50 | slow=0.000 n=0 | P3=0.1856 R=111
+NMEA diag: byte=21257(+536) drop=1108(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=1 | frq=0.326ppb phs=-9.686ns pps=2.734ns | fix=1 sat=6 hdop=2.24 cn0=30.2 | dac=1752 acc=1752.50 | slow=0.000 n=0 | P3=0.1856 R=111
+NMEA diag: byte=21862(+605) drop=1108(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=1 | frq=0.326ppb phs=-9.686ns pps=-2.539ns | fix=1 sat=7 hdop=1.69 cn0=31.1 | dac=1752 acc=1752.50 | slow=0.000 n=0 | P3=0.1856 R=111
+NMEA diag: byte=22468(+606) drop=1109(+1) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=1 | frq=0.326ppb phs=-9.686ns pps=-5.273ns | fix=1 sat=7 hdop=1.69 cn0=29.5 | dac=1752 acc=1752.50 | slow=0.000 n=0 | P3=0.1856 R=111
+NMEA diag: byte=23008(+540) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=1 | frq=0.294ppb phs=-11.944ns pps=1.367ns | fix=1 sat=7 hdop=1.69 cn0=29.6 | dac=1753 acc=1752.65 | slow=0.000 n=0 | P3=0.0887 R=93
+NMEA diag: byte=23617(+609) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=1 | frq=0.294ppb phs=-11.944ns pps=0.391ns | fix=1 sat=7 hdop=1.69 cn0=31.5 | dac=1753 acc=1752.65 | slow=0.000 n=0 | P3=0.0887 R=93
+NMEA diag: byte=24155(+538) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=1 | frq=0.294ppb phs=-11.944ns pps=0.391ns | fix=1 sat=7 hdop=1.69 cn0=30.10 | dac=1753 acc=1752.65 | slow=0.000 n=0 | P3=0.0887 R=93
+NMEA diag: byte=24764(+609) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=1 | frq=0.294ppb phs=-11.944ns pps=4.883ns | fix=1 sat=7 hdop=1.69 cn0=31.7 | dac=1753 acc=1752.65 | slow=0.000 n=0 | P3=0.0887 R=93
+NMEA diag: byte=25302(+538) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=1 | frq=0.294ppb phs=-11.944ns pps=2.734ns | fix=1 sat=7 hdop=1.69 cn0=32.2 | dac=1753 acc=1752.65 | slow=0.000 n=0 | P3=0.0887 R=93
+NMEA diag: byte=25909(+607) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=1 | frq=0.294ppb phs=-11.944ns pps=0.000ns | fix=1 sat=7 hdop=1.69 cn0=32.4 | dac=1753 acc=1752.65 | slow=0.000 n=0 | P3=0.0887 R=93
+NMEA diag: byte=26447(+538) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=1 | frq=0.294ppb phs=-11.944ns pps=-6.055ns | fix=1 sat=7 hdop=1.69 cn0=32.5 | dac=1753 acc=1752.65 | slow=0.000 n=0 | P3=0.0887 R=93
+NMEA diag: byte=27054(+607) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=1 | frq=0.294ppb phs=-11.944ns pps=2.148ns | fix=1 sat=7 hdop=1.69 cn0=32.8 | dac=1753 acc=1752.65 | slow=0.000 n=0 | P3=0.0887 R=93
+NMEA diag: byte=27592(+538) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=1 | frq=0.294ppb phs=-11.944ns pps=3.516ns | fix=1 sat=7 hdop=1.70 cn0=32.8 | dac=1753 acc=1752.65 | slow=0.000 n=0 | P3=0.0887 R=93
+NMEA diag: byte=28199(+607) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=1 | frq=0.294ppb phs=-11.944ns pps=-9.766ns | fix=1 sat=7 hdop=1.70 cn0=32.3 | dac=1753 acc=1752.65 | slow=0.000 n=0 | P3=0.0887 R=93
+NMEA diag: byte=28739(+540) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=1 | frq=0.265ppb phs=-7.043ns pps=9.570ns | fix=1 sat=7 hdop=1.70 cn0=32.1 | dac=1753 acc=1752.51 | slow=0.000 n=0 | P3=0.0505 R=93
+NMEA diag: byte=29348(+609) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=1 | frq=0.265ppb phs=-7.043ns pps=-2.344ns | fix=1 sat=7 hdop=1.70 cn0=32.0 | dac=1753 acc=1752.51 | slow=0.000 n=0 | P3=0.0505 R=93
+NMEA diag: byte=29888(+540) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=1 | frq=0.265ppb phs=-7.043ns pps=-1.172ns | fix=1 sat=7 hdop=1.70 cn0=32.1 | dac=1753 acc=1752.51 | slow=0.000 n=0 | P3=0.0505 R=93
+NMEA diag: byte=30497(+609) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=1 | frq=0.265ppb phs=-7.043ns pps=0.586ns | fix=1 sat=8 hdop=1.70 cn0=32.1 | dac=1753 acc=1752.51 | slow=0.000 n=0 | P3=0.0505 R=93
+NMEA diag: byte=31041(+544) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=1 | frq=0.265ppb phs=-7.043ns pps=2.734ns | fix=1 sat=8 hdop=1.70 cn0=33.0 | dac=1753 acc=1752.51 | slow=0.000 n=0 | P3=0.0505 R=93
+NMEA diag: byte=31652(+611) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=1 | frq=0.265ppb phs=-7.043ns pps=0.000ns | fix=1 sat=8 hdop=1.70 cn0=32.1 | dac=1753 acc=1752.51 | slow=0.000 n=0 | P3=0.0505 R=93
+NMEA diag: byte=32196(+544) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=1 | frq=0.265ppb phs=-7.043ns pps=-7.617ns | fix=1 sat=8 hdop=1.70 cn0=32.3 | dac=1753 acc=1752.51 | slow=0.000 n=0 | P3=0.0505 R=93
+NMEA diag: byte=32807(+611) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=1 | frq=0.265ppb phs=-7.043ns pps=7.422ns | fix=1 sat=8 hdop=1.70 cn0=31.8 | dac=1753 acc=1752.51 | slow=0.000 n=0 | P3=0.0505 R=93
+NMEA diag: byte=33351(+544) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=1 | frq=0.265ppb phs=-7.043ns pps=-8.984ns | fix=1 sat=8 hdop=1.70 cn0=31.5 | dac=1753 acc=1752.51 | slow=0.000 n=0 | P3=0.0505 R=93
+NMEA diag: byte=33964(+613) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=1 | frq=0.265ppb phs=-7.043ns pps=0.391ns | fix=1 sat=8 hdop=1.70 cn0=31.4 | dac=1753 acc=1752.51 | slow=0.000 n=0 | P3=0.0505 R=93
+NMEA diag: byte=34508(+544) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.144ppb phs=-9.762ns pps=-1.758ns | fix=1 sat=8 hdop=1.70 cn0=31.0 | dac=1752 acc=1752.44 | slow=0.144 n=1 | P3=0.0301 R=78
+NMEA diag: byte=35121(+613) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.144ppb phs=-9.762ns pps=3.516ns | fix=1 sat=8 hdop=1.70 cn0=30.8 | dac=1752 acc=1752.44 | slow=0.144 n=1 | P3=0.0301 R=78
+NMEA diag: byte=35665(+544) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.144ppb phs=-9.762ns pps=6.250ns | fix=1 sat=8 hdop=1.70 cn0=30.7 | dac=1752 acc=1752.44 | slow=0.144 n=1 | P3=0.0301 R=78
+NMEA diag: byte=36278(+613) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.144ppb phs=-9.762ns pps=0.000ns | fix=1 sat=8 hdop=1.70 cn0=30.8 | dac=1752 acc=1752.44 | slow=0.144 n=1 | P3=0.0301 R=78
+NMEA diag: byte=36822(+544) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.144ppb phs=-9.762ns pps=0.000ns | fix=1 sat=8 hdop=1.70 cn0=30.9 | dac=1752 acc=1752.44 | slow=0.144 n=1 | P3=0.0301 R=78
+NMEA diag: byte=37435(+613) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.144ppb phs=-9.762ns pps=-8.203ns | fix=1 sat=8 hdop=1.70 cn0=30.8 | dac=1752 acc=1752.44 | slow=0.144 n=1 | P3=0.0301 R=78
+NMEA diag: byte=37979(+544) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.144ppb phs=-9.762ns pps=-1.758ns | fix=1 sat=8 hdop=1.70 cn0=31.2 | dac=1752 acc=1752.44 | slow=0.144 n=1 | P3=0.0301 R=78
+NMEA diag: byte=38592(+613) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.144ppb phs=-9.762ns pps=9.766ns | fix=1 sat=8 hdop=1.70 cn0=31.3 | dac=1752 acc=1752.44 | slow=0.144 n=1 | P3=0.0301 R=78
+NMEA diag: byte=39136(+544) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.144ppb phs=-9.762ns pps=0.000ns | fix=1 sat=8 hdop=1.70 cn0=31.4 | dac=1752 acc=1752.44 | slow=0.144 n=1 | P3=0.0301 R=78
+NMEA diag: byte=39749(+613) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.144ppb phs=-9.762ns pps=-4.297ns | fix=1 sat=8 hdop=1.70 cn0=32.4 | dac=1752 acc=1752.44 | slow=0.144 n=1 | P3=0.0301 R=78
+NMEA diag: byte=40291(+542) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.289ppb phs=-10.785ns pps=1.953ns | fix=1 sat=8 hdop=1.70 cn0=33.9 | dac=1753 acc=1752.59 | slow=0.144 n=1 | P3=0.0198 R=77
+NMEA diag: byte=40900(+609) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.289ppb phs=-10.785ns pps=1.953ns | fix=1 sat=8 hdop=1.70 cn0=33.1 | dac=1753 acc=1752.59 | slow=0.144 n=1 | P3=0.0198 R=77
+NMEA diag: byte=41442(+542) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.289ppb phs=-10.785ns pps=-8.984ns | fix=1 sat=8 hdop=1.70 cn0=34.7 | dac=1753 acc=1752.59 | slow=0.144 n=1 | P3=0.0198 R=77
+NMEA diag: byte=42051(+609) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.289ppb phs=-10.785ns pps=0.781ns | fix=1 sat=8 hdop=1.70 cn0=33.7 | dac=1753 acc=1752.59 | slow=0.144 n=1 | P3=0.0198 R=77
+NMEA diag: byte=42593(+542) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.289ppb phs=-10.785ns pps=8.594ns | fix=1 sat=8 hdop=1.70 cn0=33.5 | dac=1753 acc=1752.59 | slow=0.144 n=1 | P3=0.0198 R=77
+NMEA diag: byte=43204(+611) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.289ppb phs=-10.785ns pps=-5.859ns | fix=1 sat=8 hdop=1.70 cn0=33.4 | dac=1753 acc=1752.59 | slow=0.144 n=1 | P3=0.0198 R=77
+NMEA diag: byte=43746(+542) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.289ppb phs=-10.785ns pps=6.641ns | fix=1 sat=8 hdop=1.67 cn0=33.0 | dac=1753 acc=1752.59 | slow=0.144 n=1 | P3=0.0198 R=77
+NMEA diag: byte=44359(+613) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.289ppb phs=-10.785ns pps=-2.539ns | fix=1 sat=8 hdop=1.67 cn0=32.7 | dac=1753 acc=1752.59 | slow=0.144 n=1 | P3=0.0198 R=77
+NMEA diag: byte=44903(+544) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.289ppb phs=-10.785ns pps=2.344ns | fix=1 sat=8 hdop=1.67 cn0=32.6 | dac=1753 acc=1752.59 | slow=0.144 n=1 | P3=0.0198 R=77
+NMEA diag: byte=45516(+613) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.289ppb phs=-10.785ns pps=0.000ns | fix=1 sat=8 hdop=1.67 cn0=32.5 | dac=1753 acc=1752.59 | slow=0.144 n=1 | P3=0.0198 R=77
+NMEA diag: byte=46060(+544) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.147ppb phs=-11.315ns pps=-8.594ns | fix=1 sat=8 hdop=1.67 cn0=32.6 | dac=1753 acc=1752.51 | slow=0.144 n=1 | P3=0.0138 R=75
+NMEA diag: byte=46673(+613) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.147ppb phs=-11.315ns pps=8.398ns | fix=1 sat=8 hdop=1.67 cn0=32.6 | dac=1753 acc=1752.51 | slow=0.144 n=1 | P3=0.0138 R=75
+NMEA diag: byte=47217(+544) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.147ppb phs=-11.315ns pps=0.000ns | fix=1 sat=8 hdop=1.67 cn0=32.9 | dac=1753 acc=1752.51 | slow=0.144 n=1 | P3=0.0138 R=75
+NMEA diag: byte=47830(+613) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.147ppb phs=-11.315ns pps=-6.055ns | fix=1 sat=8 hdop=1.67 cn0=32.7 | dac=1753 acc=1752.51 | slow=0.144 n=1 | P3=0.0138 R=75
+NMEA diag: byte=48374(+544) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.147ppb phs=-11.315ns pps=4.492ns | fix=1 sat=8 hdop=1.67 cn0=32.6 | dac=1753 acc=1752.51 | slow=0.144 n=1 | P3=0.0138 R=75
+NMEA diag: byte=48987(+613) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.147ppb phs=-11.315ns pps=-3.125ns | fix=1 sat=8 hdop=1.67 cn0=32.8 | dac=1753 acc=1752.51 | slow=0.144 n=1 | P3=0.0138 R=75
+NMEA diag: byte=49531(+544) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.147ppb phs=-11.315ns pps=-3.516ns | fix=1 sat=8 hdop=1.67 cn0=34.6 | dac=1753 acc=1752.51 | slow=0.144 n=1 | P3=0.0138 R=75
+NMEA diag: byte=50142(+611) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.147ppb phs=-11.315ns pps=7.813ns | fix=1 sat=8 hdop=1.67 cn0=33.7 | dac=1753 acc=1752.51 | slow=0.144 n=1 | P3=0.0138 R=75
+NMEA diag: byte=50686(+544) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.147ppb phs=-11.315ns pps=-3.320ns | fix=1 sat=8 hdop=1.67 cn0=33.6 | dac=1753 acc=1752.51 | slow=0.144 n=1 | P3=0.0138 R=75
+NMEA diag: byte=51299(+613) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.147ppb phs=-11.315ns pps=3.125ns | fix=1 sat=8 hdop=1.67 cn0=35.5 | dac=1753 acc=1752.51 | slow=0.144 n=1 | P3=0.0138 R=75
+NMEA diag: byte=51839(+540) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.162ppb phs=-8.906ns pps=0.000ns | fix=1 sat=8 hdop=1.67 cn0=34.6 | dac=1752 acc=1752.43 | slow=0.144 n=1 | P3=0.0100 R=75
+NMEA diag: byte=52450(+611) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.162ppb phs=-8.906ns pps=0.977ns | fix=1 sat=8 hdop=1.67 cn0=34.3 | dac=1752 acc=1752.43 | slow=0.144 n=1 | P3=0.0100 R=75
+NMEA diag: byte=52992(+542) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.162ppb phs=-8.906ns pps=-7.227ns | fix=1 sat=8 hdop=1.67 cn0=34.2 | dac=1752 acc=1752.43 | slow=0.144 n=1 | P3=0.0100 R=75
+NMEA diag: byte=53603(+611) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.162ppb phs=-8.906ns pps=-1.758ns | fix=1 sat=8 hdop=1.67 cn0=33.1 | dac=1752 acc=1752.43 | slow=0.144 n=1 | P3=0.0100 R=75
+NMEA diag: byte=54147(+544) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.162ppb phs=-8.906ns pps=4.492ns | fix=1 sat=8 hdop=1.67 cn0=32.6 | dac=1752 acc=1752.43 | slow=0.144 n=1 | P3=0.0100 R=75
+NMEA diag: byte=54760(+613) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.162ppb phs=-8.906ns pps=5.078ns | fix=1 sat=8 hdop=1.67 cn0=33.7 | dac=1752 acc=1752.43 | slow=0.144 n=1 | P3=0.0100 R=75
+NMEA diag: byte=55302(+542) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.162ppb phs=-8.906ns pps=-6.836ns | fix=1 sat=9 hdop=1.00 cn0=33.8 | dac=1752 acc=1752.43 | slow=0.144 n=1 | P3=0.0100 R=75
+NMEA diag: byte=55915(+613) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.162ppb phs=-8.906ns pps=6.055ns | fix=1 sat=9 hdop=1.00 cn0=35.2 | dac=1752 acc=1752.43 | slow=0.144 n=1 | P3=0.0100 R=75
+NMEA diag: byte=56457(+542) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.162ppb phs=-8.906ns pps=-5.859ns | fix=1 sat=9 hdop=1.00 cn0=35.6 | dac=1752 acc=1752.43 | slow=0.144 n=1 | P3=0.0100 R=75
+NMEA diag: byte=57068(+611) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.162ppb phs=-8.906ns pps=-1.172ns | fix=1 sat=9 hdop=1.00 cn0=35.7 | dac=1752 acc=1752.43 | slow=0.144 n=1 | P3=0.0100 R=75
+NMEA diag: byte=57610(+542) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.273ppb phs=-9.036ns pps=7.227ns | fix=1 sat=9 hdop=1.00 cn0=35.7 | dac=1753 acc=1752.57 | slow=0.144 n=1 | P3=0.0040 R=10
+NMEA diag: byte=58221(+611) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.273ppb phs=-9.036ns pps=-8.594ns | fix=1 sat=9 hdop=1.00 cn0=35.7 | dac=1753 acc=1752.57 | slow=0.144 n=1 | P3=0.0040 R=10
+NMEA diag: byte=58763(+542) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.273ppb phs=-9.036ns pps=5.859ns | fix=1 sat=9 hdop=1.00 cn0=35.1 | dac=1753 acc=1752.57 | slow=0.144 n=1 | P3=0.0040 R=10
+NMEA diag: byte=59374(+611) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.273ppb phs=-9.036ns pps=2.344ns | fix=1 sat=9 hdop=1.00 cn0=34.3 | dac=1753 acc=1752.57 | slow=0.144 n=1 | P3=0.0040 R=10
+NMEA diag: byte=59918(+544) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.273ppb phs=-9.036ns pps=-5.469ns | fix=1 sat=9 hdop=1.00 cn0=33.4 | dac=1753 acc=1752.57 | slow=0.144 n=1 | P3=0.0040 R=10
+NMEA diag: byte=60531(+613) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.273ppb phs=-9.036ns pps=5.273ns | fix=1 sat=9 hdop=1.00 cn0=33.2 | dac=1753 acc=1752.57 | slow=0.144 n=1 | P3=0.0040 R=10
+NMEA diag: byte=61075(+544) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.273ppb phs=-9.036ns pps=0.000ns | fix=1 sat=9 hdop=1.00 cn0=33.2 | dac=1753 acc=1752.57 | slow=0.144 n=1 | P3=0.0040 R=10
+NMEA diag: byte=61688(+613) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.273ppb phs=-9.036ns pps=-1.563ns | fix=1 sat=9 hdop=1.00 cn0=33.0 | dac=1753 acc=1752.57 | slow=0.144 n=1 | P3=0.0040 R=10
+NMEA diag: byte=62232(+544) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.273ppb phs=-9.036ns pps=1.367ns | fix=1 sat=9 hdop=1.00 cn0=33.2 | dac=1753 acc=1752.57 | slow=0.144 n=1 | P3=0.0040 R=10
+NMEA diag: byte=62845(+613) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.273ppb phs=-9.036ns pps=-2.930ns | fix=1 sat=9 hdop=1.00 cn0=33.2 | dac=1753 acc=1752.57 | slow=0.144 n=1 | P3=0.0040 R=10
+NMEA diag: byte=63389(+544) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.189ppb phs=-8.106ns pps=2.734ns | fix=1 sat=9 hdop=1.00 cn0=33.0 | dac=1752 acc=1752.47 | slow=0.144 n=1 | P3=0.0029 R=10
+NMEA diag: byte=64002(+613) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.189ppb phs=-8.106ns pps=-2.930ns | fix=1 sat=9 hdop=1.00 cn0=33.1 | dac=1752 acc=1752.47 | slow=0.144 n=1 | P3=0.0029 R=10
+NMEA diag: byte=64546(+544) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.189ppb phs=-8.106ns pps=0.195ns | fix=1 sat=9 hdop=1.00 cn0=32.3 | dac=1752 acc=1752.47 | slow=0.144 n=1 | P3=0.0029 R=10
+NMEA diag: byte=65159(+613) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.189ppb phs=-8.106ns pps=2.344ns | fix=1 sat=9 hdop=1.00 cn0=32.4 | dac=1752 acc=1752.47 | slow=0.144 n=1 | P3=0.0029 R=10
+NMEA diag: byte=65703(+544) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.189ppb phs=-8.106ns pps=0.000ns | fix=1 sat=9 hdop=1.00 cn0=33.1 | dac=1752 acc=1752.47 | slow=0.144 n=1 | P3=0.0029 R=10
+NMEA diag: byte=66316(+613) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.189ppb phs=-8.106ns pps=-2.148ns | fix=1 sat=9 hdop=1.00 cn0=32.8 | dac=1752 acc=1752.47 | slow=0.144 n=1 | P3=0.0029 R=10
+NMEA diag: byte=66860(+544) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.189ppb phs=-8.106ns pps=-6.445ns | fix=1 sat=9 hdop=1.00 cn0=32.7 | dac=1752 acc=1752.47 | slow=0.144 n=1 | P3=0.0029 R=10
+NMEA diag: byte=67473(+613) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.189ppb phs=-8.106ns pps=8.203ns | fix=1 sat=9 hdop=1.68 cn0=32.5 | dac=1752 acc=1752.47 | slow=0.144 n=1 | P3=0.0029 R=10
+NMEA diag: byte=68017(+544) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.189ppb phs=-8.106ns pps=-2.539ns | fix=1 sat=9 hdop=1.68 cn0=32.6 | dac=1752 acc=1752.47 | slow=0.144 n=1 | P3=0.0029 R=10
+NMEA diag: byte=68630(+613) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.189ppb phs=-8.106ns pps=0.781ns | fix=1 sat=9 hdop=1.68 cn0=32.5 | dac=1752 acc=1752.47 | slow=0.144 n=1 | P3=0.0029 R=10
+NMEA diag: byte=69174(+544) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.294ppb phs=-11.305ns pps=0.781ns | fix=1 sat=9 hdop=1.68 cn0=32.4 | dac=1753 acc=1752.62 | slow=0.144 n=1 | P3=0.0027 R=61
+NMEA diag: byte=69787(+613) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.294ppb phs=-11.305ns pps=2.344ns | fix=1 sat=9 hdop=1.68 cn0=35.6 | dac=1753 acc=1752.62 | slow=0.144 n=1 | P3=0.0027 R=61
+NMEA diag: byte=70362(+575) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.294ppb phs=-11.305ns pps=1.172ns | fix=1 sat=9 hdop=1.68 cn0=36.5 | dac=1753 acc=1752.62 | slow=0.144 n=1 | P3=0.0027 R=61
+NMEA diag: byte=71006(+644) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.294ppb phs=-11.305ns pps=0.586ns | fix=1 sat=9 hdop=1.68 cn0=36.4 | dac=1753 acc=1752.62 | slow=0.144 n=1 | P3=0.0027 R=61
+NMEA diag: byte=71581(+575) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.294ppb phs=-11.305ns pps=0.391ns | fix=1 sat=9 hdop=1.68 cn0=36.7 | dac=1753 acc=1752.62 | slow=0.144 n=1 | P3=0.0027 R=61
+NMEA diag: byte=72225(+644) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.294ppb phs=-11.305ns pps=-2.148ns | fix=1 sat=9 hdop=1.68 cn0=37.1 | dac=1753 acc=1752.62 | slow=0.144 n=1 | P3=0.0027 R=61
+NMEA diag: byte=72798(+573) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.294ppb phs=-11.305ns pps=-6.445ns | fix=1 sat=9 hdop=1.68 cn0=37.1 | dac=1753 acc=1752.62 | slow=0.144 n=1 | P3=0.0027 R=61
+NMEA diag: byte=73440(+642) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.294ppb phs=-11.305ns pps=8.398ns | fix=1 sat=9 hdop=1.68 cn0=37.0 | dac=1753 acc=1752.62 | slow=0.144 n=1 | P3=0.0027 R=61
+NMEA diag: byte=74013(+573) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.294ppb phs=-11.305ns pps=-7.227ns | fix=1 sat=9 hdop=1.68 cn0=36.9 | dac=1753 acc=1752.62 | slow=0.144 n=1 | P3=0.0027 R=61
+NMEA diag: byte=74655(+642) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.294ppb phs=-11.305ns pps=7.031ns | fix=1 sat=9 hdop=1.93 cn0=36.9 | dac=1753 acc=1752.62 | slow=0.144 n=1 | P3=0.0027 R=61
+NMEA diag: byte=75228(+573) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.180ppb phs=-9.762ns pps=-1.563ns | fix=1 sat=9 hdop=1.93 cn0=36.9 | dac=1753 acc=1752.53 | slow=0.144 n=1 | P3=0.0031 R=80
+NMEA diag: byte=75870(+642) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.180ppb phs=-9.762ns pps=-4.492ns | fix=1 sat=9 hdop=1.93 cn0=36.2 | dac=1753 acc=1752.53 | slow=0.144 n=1 | P3=0.0031 R=80
+NMEA diag: byte=76445(+575) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.180ppb phs=-9.762ns pps=0.195ns | fix=1 sat=9 hdop=1.93 cn0=35.5 | dac=1753 acc=1752.53 | slow=0.144 n=1 | P3=0.0031 R=80
+NMEA diag: byte=77091(+646) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.180ppb phs=-9.762ns pps=0.195ns | fix=1 sat=9 hdop=1.93 cn0=35.10 | dac=1753 acc=1752.53 | slow=0.144 n=1 | P3=0.0031 R=80
+NMEA diag: byte=77666(+575) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.180ppb phs=-9.762ns pps=-2.930ns | fix=1 sat=9 hdop=1.68 cn0=36.1 | dac=1753 acc=1752.53 | slow=0.144 n=1 | P3=0.0031 R=80
+NMEA diag: byte=78310(+644) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.180ppb phs=-9.762ns pps=2.148ns | fix=1 sat=9 hdop=1.68 cn0=35.10 | dac=1753 acc=1752.53 | slow=0.144 n=1 | P3=0.0031 R=80
+NMEA diag: byte=78954(+644) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.180ppb phs=-9.762ns pps=5.664ns | fix=1 sat=9 hdop=1.68 cn0=36.1 | dac=1753 acc=1752.53 | slow=0.144 n=1 | P3=0.0031 R=80
+NMEA diag: byte=79529(+575) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.180ppb phs=-9.762ns pps=-9.961ns | fix=1 sat=9 hdop=1.68 cn0=35.6 | dac=1753 acc=1752.53 | slow=0.144 n=1 | P3=0.0031 R=80
+NMEA diag: byte=80175(+646) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.180ppb phs=-9.762ns pps=0.391ns | fix=1 sat=9 hdop=1.68 cn0=35.7 | dac=1753 acc=1752.53 | slow=0.144 n=1 | P3=0.0031 R=80
+NMEA diag: byte=80752(+577) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.180ppb phs=-9.762ns pps=2.734ns | fix=1 sat=9 hdop=1.68 cn0=35.7 | dac=1753 acc=1752.53 | slow=0.144 n=1 | P3=0.0031 R=80
+NMEA diag: byte=81398(+646) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.166ppb phs=-9.021ns pps=3.320ns | fix=1 sat=9 hdop=1.68 cn0=35.6 | dac=1752 acc=1752.44 | slow=0.144 n=1 | P3=0.0029 R=60
+NMEA diag: byte=81975(+577) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.166ppb phs=-9.021ns pps=0.195ns | fix=1 sat=9 hdop=1.68 cn0=35.5 | dac=1752 acc=1752.44 | slow=0.144 n=1 | P3=0.0029 R=60
+NMEA diag: byte=82621(+646) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.166ppb phs=-9.021ns pps=2.539ns | fix=1 sat=9 hdop=1.68 cn0=35.9 | dac=1752 acc=1752.44 | slow=0.144 n=1 | P3=0.0029 R=60
+NMEA diag: byte=83196(+575) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.166ppb phs=-9.021ns pps=-9.766ns | fix=1 sat=9 hdop=1.68 cn0=35.8 | dac=1752 acc=1752.44 | slow=0.144 n=1 | P3=0.0029 R=60
+NMEA diag: byte=83840(+644) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.166ppb phs=-9.021ns pps=6.641ns | fix=1 sat=9 hdop=1.68 cn0=35.9 | dac=1752 acc=1752.44 | slow=0.144 n=1 | P3=0.0029 R=60
+NMEA diag: byte=84415(+575) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.166ppb phs=-9.021ns pps=1.367ns | fix=1 sat=9 hdop=1.86 cn0=36.1 | dac=1752 acc=1752.44 | slow=0.144 n=1 | P3=0.0029 R=60
+NMEA diag: byte=85059(+644) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.166ppb phs=-9.021ns pps=0.586ns | fix=1 sat=9 hdop=1.68 cn0=36.1 | dac=1752 acc=1752.44 | slow=0.144 n=1 | P3=0.0029 R=60
+NMEA diag: byte=85634(+575) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.166ppb phs=-9.021ns pps=-3.320ns | fix=1 sat=9 hdop=1.68 cn0=36.2 | dac=1752 acc=1752.44 | slow=0.144 n=1 | P3=0.0029 R=60
+NMEA diag: byte=86278(+644) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.166ppb phs=-9.021ns pps=2.930ns | fix=1 sat=9 hdop=1.68 cn0=36.2 | dac=1752 acc=1752.44 | slow=0.144 n=1 | P3=0.0029 R=60
+NMEA diag: byte=86853(+575) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.166ppb phs=-9.021ns pps=-7.813ns | fix=1 sat=9 hdop=1.68 cn0=36.2 | dac=1752 acc=1752.44 | slow=0.144 n=1 | P3=0.0029 R=60
+NMEA diag: byte=87497(+644) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.325ppb phs=-13.068ns pps=5.273ns | fix=1 sat=9 hdop=1.68 cn0=36.0 | dac=1753 acc=1752.61 | slow=0.144 n=1 | P3=0.0025 R=60
+NMEA diag: byte=88141(+644) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.325ppb phs=-13.068ns pps=-1.758ns | fix=1 sat=9 hdop=1.68 cn0=35.10 | dac=1753 acc=1752.61 | slow=0.144 n=1 | P3=0.0025 R=60
+NMEA diag: byte=88716(+575) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.325ppb phs=-13.068ns pps=6.055ns | fix=1 sat=9 hdop=1.68 cn0=35.5 | dac=1753 acc=1752.61 | slow=0.144 n=1 | P3=0.0025 R=60
+NMEA diag: byte=89362(+646) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.325ppb phs=-13.068ns pps=-1.172ns | fix=1 sat=9 hdop=1.68 cn0=36.7 | dac=1753 acc=1752.61 | slow=0.144 n=1 | P3=0.0025 R=60
+NMEA diag: byte=89937(+575) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.325ppb phs=-13.068ns pps=-8.008ns | fix=1 sat=9 hdop=1.68 cn0=37.2 | dac=1753 acc=1752.61 | slow=0.144 n=1 | P3=0.0025 R=60
+NMEA diag: byte=90581(+644) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.325ppb phs=-13.068ns pps=7.813ns | fix=1 sat=9 hdop=1.68 cn0=37.2 | dac=1753 acc=1752.61 | slow=0.144 n=1 | P3=0.0025 R=60
+NMEA diag: byte=91156(+575) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.325ppb phs=-13.068ns pps=-8.203ns | fix=1 sat=9 hdop=1.68 cn0=37.3 | dac=1753 acc=1752.61 | slow=0.144 n=1 | P3=0.0025 R=60
+NMEA diag: byte=91800(+644) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.325ppb phs=-13.068ns pps=0.586ns | fix=1 sat=9 hdop=1.68 cn0=36.3 | dac=1753 acc=1752.61 | slow=0.144 n=1 | P3=0.0025 R=60
+NMEA diag: byte=92377(+577) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.325ppb phs=-13.068ns pps=9.570ns | fix=1 sat=9 hdop=1.68 cn0=37.1 | dac=1753 acc=1752.61 | slow=0.144 n=1 | P3=0.0025 R=60
+NMEA diag: byte=93021(+644) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.325ppb phs=-13.068ns pps=0.000ns | fix=1 sat=9 hdop=1.69 cn0=37.3 | dac=1753 acc=1752.61 | slow=0.144 n=1 | P3=0.0025 R=60
+NMEA diag: byte=93596(+575) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.148ppb phs=-11.991ns pps=0.000ns | fix=1 sat=9 hdop=1.69 cn0=37.3 | dac=1753 acc=1752.54 | slow=0.144 n=1 | P3=0.0024 R=60
+NMEA diag: byte=94240(+644) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.148ppb phs=-11.991ns pps=-9.961ns | fix=1 sat=9 hdop=1.69 cn0=36.2 | dac=1753 acc=1752.54 | slow=0.144 n=1 | P3=0.0024 R=60
+NMEA diag: byte=94817(+577) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.148ppb phs=-11.991ns pps=5.273ns | fix=1 sat=9 hdop=1.69 cn0=35.10 | dac=1753 acc=1752.54 | slow=0.144 n=1 | P3=0.0024 R=60
+NMEA diag: byte=95463(+646) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.148ppb phs=-11.991ns pps=-2.930ns | fix=1 sat=9 hdop=1.69 cn0=36.8 | dac=1753 acc=1752.54 | slow=0.144 n=1 | P3=0.0024 R=60
+NMEA diag: byte=96038(+575) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.148ppb phs=-11.991ns pps=4.688ns | fix=1 sat=9 hdop=1.69 cn0=36.9 | dac=1753 acc=1752.54 | slow=0.144 n=1 | P3=0.0024 R=60
+NMEA diag: byte=96682(+644) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.148ppb phs=-11.991ns pps=2.539ns | fix=1 sat=9 hdop=1.69 cn0=36.6 | dac=1753 acc=1752.54 | slow=0.144 n=1 | P3=0.0024 R=60
+NMEA diag: byte=97257(+575) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.148ppb phs=-11.991ns pps=-5.859ns | fix=1 sat=9 hdop=1.69 cn0=35.3 | dac=1753 acc=1752.54 | slow=0.144 n=1 | P3=0.0024 R=60
+NMEA diag: byte=97903(+646) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.148ppb phs=-11.991ns pps=5.664ns | fix=1 sat=9 hdop=1.69 cn0=35.1 | dac=1753 acc=1752.54 | slow=0.144 n=1 | P3=0.0024 R=60
+NMEA diag: byte=98480(+577) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.148ppb phs=-11.991ns pps=-9.961ns | fix=1 sat=9 hdop=1.69 cn0=34.9 | dac=1753 acc=1752.54 | slow=0.144 n=1 | P3=0.0024 R=60
+NMEA diag: byte=99126(+646) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.148ppb phs=-11.991ns pps=9.766ns | fix=1 sat=9 hdop=1.69 cn0=35.2 | dac=1753 acc=1752.54 | slow=0.144 n=1 | P3=0.0024 R=60
+NMEA diag: byte=99703(+577) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.133ppb phs=-11.783ns pps=-2.734ns | fix=1 sat=9 hdop=1.69 cn0=36.4 | dac=1752 acc=1752.47 | slow=0.144 n=1 | P3=0.0024 R=61
+NMEA diag: byte=100347(+644) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.133ppb phs=-11.783ns pps=2.539ns | fix=1 sat=9 hdop=1.69 cn0=35.6 | dac=1752 acc=1752.47 | slow=0.144 n=1 | P3=0.0024 R=61
+NMEA diag: byte=100993(+646) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.133ppb phs=-11.783ns pps=-8.594ns | fix=1 sat=9 hdop=1.69 cn0=36.3 | dac=1752 acc=1752.47 | slow=0.144 n=1 | P3=0.0024 R=61
+NMEA diag: byte=101568(+575) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.133ppb phs=-11.783ns pps=8.398ns | fix=1 sat=9 hdop=1.69 cn0=34.10 | dac=1752 acc=1752.47 | slow=0.144 n=1 | P3=0.0024 R=61
+NMEA diag: byte=102214(+646) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.133ppb phs=-11.783ns pps=0.000ns | fix=1 sat=9 hdop=1.69 cn0=35.0 | dac=1752 acc=1752.47 | slow=0.144 n=1 | P3=0.0024 R=61
+NMEA diag: byte=102791(+577) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.133ppb phs=-11.783ns pps=0.000ns | fix=1 sat=9 hdop=1.69 cn0=34.9 | dac=1752 acc=1752.47 | slow=0.144 n=1 | P3=0.0024 R=61
+NMEA diag: byte=103437(+646) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.133ppb phs=-11.783ns pps=0.000ns | fix=1 sat=9 hdop=1.69 cn0=35.9 | dac=1752 acc=1752.47 | slow=0.144 n=1 | P3=0.0024 R=61
+NMEA diag: byte=104012(+575) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.133ppb phs=-11.783ns pps=-1.367ns | fix=1 sat=9 hdop=1.69 cn0=34.10 | dac=1752 acc=1752.47 | slow=0.144 n=1 | P3=0.0024 R=61
+NMEA diag: byte=104658(+646) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.133ppb phs=-11.783ns pps=0.781ns | fix=1 sat=9 hdop=1.69 cn0=34.7 | dac=1752 acc=1752.47 | slow=0.144 n=1 | P3=0.0024 R=61
+NMEA diag: byte=105235(+577) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.133ppb phs=-11.783ns pps=-2.734ns | fix=1 sat=9 hdop=1.69 cn0=34.8 | dac=1752 acc=1752.47 | slow=0.144 n=1 | P3=0.0024 R=61
+NMEA diag: byte=105881(+646) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.359ppb phs=-16.528ns pps=-3.711ns | fix=1 sat=9 hdop=1.69 cn0=35.1 | dac=1753 acc=1752.65 | slow=0.144 n=1 | P3=0.0024 R=61
+NMEA diag: byte=106527(+646) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.359ppb phs=-16.528ns pps=6.641ns | fix=1 sat=9 hdop=1.69 cn0=34.10 | dac=1753 acc=1752.65 | slow=0.144 n=1 | P3=0.0024 R=61
+NMEA diag: byte=107104(+577) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.359ppb phs=-16.528ns pps=0.000ns | fix=1 sat=9 hdop=1.69 cn0=34.9 | dac=1753 acc=1752.65 | slow=0.144 n=1 | P3=0.0024 R=61
+NMEA diag: byte=107750(+646) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.359ppb phs=-16.528ns pps=-4.297ns | fix=1 sat=9 hdop=0.99 cn0=34.6 | dac=1753 acc=1752.65 | slow=0.144 n=1 | P3=0.0024 R=61
+NMEA diag: byte=108327(+577) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.359ppb phs=-16.528ns pps=0.000ns | fix=1 sat=9 hdop=0.99 cn0=34.7 | dac=1753 acc=1752.65 | slow=0.144 n=1 | P3=0.0024 R=61
+NMEA diag: byte=108973(+646) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.359ppb phs=-16.528ns pps=0.195ns | fix=1 sat=9 hdop=0.99 cn0=34.7 | dac=1753 acc=1752.65 | slow=0.144 n=1 | P3=0.0024 R=61
+NMEA diag: byte=109619(+646) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.359ppb phs=-16.528ns pps=-3.125ns | fix=1 sat=9 hdop=0.99 cn0=34.6 | dac=1753 acc=1752.65 | slow=0.144 n=1 | P3=0.0024 R=61
+NMEA diag: byte=110265(+646) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.359ppb phs=-16.528ns pps=7.031ns | fix=1 sat=9 hdop=0.99 cn0=34.5 | dac=1753 acc=1752.65 | slow=0.144 n=1 | P3=0.0024 R=61
+NMEA diag: byte=110911(+646) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.359ppb phs=-16.528ns pps=-6.445ns | fix=1 sat=9 hdop=0.99 cn0=34.5 | dac=1753 acc=1752.65 | slow=0.144 n=1 | P3=0.0024 R=61
+NMEA diag: byte=111557(+646) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.359ppb phs=-16.528ns pps=1.758ns | fix=1 sat=9 hdop=0.99 cn0=34.7 | dac=1753 acc=1752.65 | slow=0.144 n=1 | P3=0.0024 R=61
+NMEA diag: byte=112203(+646) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.087ppb phs=-18.324ns pps=0.586ns | fix=1 sat=9 hdop=0.99 cn0=35.6 | dac=1753 acc=1752.61 | slow=0.144 n=1 | P3=0.0015 R=10
+NMEA diag: byte=112847(+644) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.087ppb phs=-18.324ns pps=-4.297ns | fix=1 sat=9 hdop=0.99 cn0=35.1 | dac=1753 acc=1752.61 | slow=0.144 n=1 | P3=0.0015 R=10
+NMEA diag: byte=113424(+577) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.087ppb phs=-18.324ns pps=-1.563ns | fix=1 sat=9 hdop=0.99 cn0=35.0 | dac=1753 acc=1752.61 | slow=0.144 n=1 | P3=0.0015 R=10
+NMEA diag: byte=114070(+646) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.087ppb phs=-18.324ns pps=6.445ns | fix=1 sat=9 hdop=0.99 cn0=34.9 | dac=1753 acc=1752.61 | slow=0.144 n=1 | P3=0.0015 R=10
+NMEA diag: byte=114647(+577) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.087ppb phs=-18.324ns pps=0.586ns | fix=1 sat=9 hdop=1.06 cn0=34.8 | dac=1753 acc=1752.61 | slow=0.144 n=1 | P3=0.0015 R=10
+NMEA diag: byte=115293(+646) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.087ppb phs=-18.324ns pps=3.320ns | fix=1 sat=9 hdop=1.06 cn0=34.8 | dac=1753 acc=1752.61 | slow=0.144 n=1 | P3=0.0015 R=10
+NMEA diag: byte=115870(+577) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.087ppb phs=-18.324ns pps=-9.961ns | fix=1 sat=9 hdop=1.06 cn0=34.7 | dac=1753 acc=1752.61 | slow=0.144 n=1 | P3=0.0015 R=10
+NMEA diag: byte=116516(+646) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.087ppb phs=-18.324ns pps=9.766ns | fix=1 sat=9 hdop=1.06 cn0=34.6 | dac=1753 acc=1752.61 | slow=0.144 n=1 | P3=0.0015 R=10
+NMEA diag: byte=117093(+577) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.087ppb phs=-18.324ns pps=0.000ns | fix=1 sat=9 hdop=0.99 cn0=34.7 | dac=1753 acc=1752.61 | slow=0.144 n=1 | P3=0.0015 R=10
+NMEA diag: byte=117739(+646) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.087ppb phs=-18.324ns pps=0.000ns | fix=1 sat=9 hdop=0.99 cn0=34.7 | dac=1753 acc=1752.61 | slow=0.144 n=1 | P3=0.0015 R=10
+NMEA diag: byte=118316(+577) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.087ppb phs=-17.503ns pps=0.195ns | fix=1 sat=9 hdop=0.99 cn0=34.9 | dac=1753 acc=1752.56 | slow=0.144 n=1 | P3=0.0012 R=10
+NMEA diag: byte=118962(+646) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.087ppb phs=-17.503ns pps=-2.539ns | fix=1 sat=9 hdop=0.99 cn0=34.10 | dac=1753 acc=1752.56 | slow=0.144 n=1 | P3=0.0012 R=10
+NMEA diag: byte=119539(+577) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.087ppb phs=-17.503ns pps=0.391ns | fix=1 sat=9 hdop=0.99 cn0=34.9 | dac=1753 acc=1752.56 | slow=0.144 n=1 | P3=0.0012 R=10
+NMEA diag: byte=120185(+646) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.087ppb phs=-17.503ns pps=1.563ns | fix=1 sat=9 hdop=1.29 cn0=35.1 | dac=1753 acc=1752.56 | slow=0.144 n=1 | P3=0.0012 R=10
+NMEA diag: byte=120831(+646) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.087ppb phs=-17.503ns pps=-8.789ns | fix=1 sat=9 hdop=1.29 cn0=35.4 | dac=1753 acc=1752.56 | slow=0.144 n=1 | P3=0.0012 R=10
+NMEA diag: byte=121477(+646) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.087ppb phs=-17.503ns pps=3.906ns | fix=1 sat=9 hdop=1.29 cn0=35.6 | dac=1753 acc=1752.56 | slow=0.144 n=1 | P3=0.0012 R=10
+NMEA diag: byte=122123(+646) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.087ppb phs=-17.503ns pps=5.273ns | fix=1 sat=9 hdop=1.29 cn0=35.6 | dac=1753 acc=1752.56 | slow=0.144 n=1 | P3=0.0012 R=10
+NMEA diag: byte=122769(+646) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.087ppb phs=-17.503ns pps=-1.953ns | fix=1 sat=9 hdop=1.29 cn0=35.5 | dac=1753 acc=1752.56 | slow=0.144 n=1 | P3=0.0012 R=10
+NMEA diag: byte=123346(+577) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.087ppb phs=-17.503ns pps=-4.492ns | fix=1 sat=9 hdop=1.29 cn0=35.5 | dac=1753 acc=1752.56 | slow=0.144 n=1 | P3=0.0012 R=10
+NMEA diag: byte=123992(+646) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.087ppb phs=-17.503ns pps=5.273ns | fix=1 sat=9 hdop=0.99 cn0=35.5 | dac=1753 acc=1752.56 | slow=0.144 n=1 | P3=0.0012 R=10
+NMEA diag: byte=124569(+577) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.067ppb phs=-18.489ns pps=-2.344ns | fix=1 sat=9 hdop=0.99 cn0=35.7 | dac=1753 acc=1752.53 | slow=0.144 n=1 | P3=0.0010 R=10
+NMEA diag: byte=125215(+646) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.067ppb phs=-18.489ns pps=3.516ns | fix=1 sat=9 hdop=0.99 cn0=36.3 | dac=1753 acc=1752.53 | slow=0.144 n=1 | P3=0.0010 R=10
+NMEA diag: byte=125792(+577) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.067ppb phs=-18.489ns pps=-2.148ns | fix=1 sat=9 hdop=0.99 cn0=35.9 | dac=1753 acc=1752.53 | slow=0.144 n=1 | P3=0.0010 R=10
+NMEA diag: byte=126438(+646) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.067ppb phs=-18.489ns pps=-3.125ns | fix=1 sat=9 hdop=0.99 cn0=35.10 | dac=1753 acc=1752.53 | slow=0.144 n=1 | P3=0.0010 R=10
+NMEA diag: byte=127084(+646) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.067ppb phs=-18.489ns pps=-1.563ns | fix=1 sat=9 hdop=0.99 cn0=35.9 | dac=1753 acc=1752.53 | slow=0.144 n=1 | P3=0.0010 R=10
+NMEA diag: byte=127661(+577) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.067ppb phs=-18.489ns pps=6.445ns | fix=1 sat=9 hdop=0.99 cn0=35.8 | dac=1753 acc=1752.53 | slow=0.144 n=1 | P3=0.0010 R=10
+NMEA diag: byte=128307(+646) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.067ppb phs=-18.489ns pps=-1.172ns | fix=1 sat=9 hdop=0.99 cn0=35.7 | dac=1753 acc=1752.53 | slow=0.144 n=1 | P3=0.0010 R=10
+NMEA diag: byte=128884(+577) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.067ppb phs=-18.489ns pps=-3.711ns | fix=1 sat=9 hdop=0.99 cn0=35.6 | dac=1753 acc=1752.53 | slow=0.144 n=1 | P3=0.0010 R=10
+NMEA diag: byte=129530(+646) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.067ppb phs=-18.489ns pps=0.195ns | fix=1 sat=9 hdop=0.99 cn0=35.5 | dac=1753 acc=1752.53 | slow=0.144 n=1 | P3=0.0010 R=10
+NMEA diag: byte=130107(+577) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.067ppb phs=-18.489ns pps=-4.688ns | fix=1 sat=9 hdop=0.99 cn0=35.3 | dac=1753 acc=1752.53 | slow=0.144 n=1 | P3=0.0010 R=10
+NMEA diag: byte=130753(+646) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.058ppb phs=-18.566ns pps=8.008ns | fix=1 sat=9 hdop=0.99 cn0=35.4 | dac=1752 acc=1752.50 | slow=0.144 n=1 | P3=0.0008 R=10
+NMEA diag: byte=131330(+577) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.058ppb phs=-18.566ns pps=-4.688ns | fix=1 sat=9 hdop=0.99 cn0=35.3 | dac=1752 acc=1752.50 | slow=0.144 n=1 | P3=0.0008 R=10
+NMEA diag: byte=131976(+646) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.058ppb phs=-18.566ns pps=-2.344ns | fix=1 sat=9 hdop=0.99 cn0=35.3 | dac=1752 acc=1752.50 | slow=0.144 n=1 | P3=0.0008 R=10
+NMEA diag: byte=132553(+577) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.058ppb phs=-18.566ns pps=2.539ns | fix=1 sat=9 hdop=0.99 cn0=35.2 | dac=1752 acc=1752.50 | slow=0.144 n=1 | P3=0.0008 R=10
+NMEA diag: byte=133199(+646) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.058ppb phs=-18.566ns pps=-1.953ns | fix=1 sat=9 hdop=0.99 cn0=35.0 | dac=1752 acc=1752.50 | slow=0.144 n=1 | P3=0.0008 R=10
+NMEA diag: byte=133776(+577) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.058ppb phs=-18.566ns pps=7.031ns | fix=1 sat=9 hdop=0.99 cn0=35.2 | dac=1752 acc=1752.50 | slow=0.144 n=1 | P3=0.0008 R=10
+NMEA diag: byte=134422(+646) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.058ppb phs=-18.566ns pps=-9.961ns | fix=1 sat=9 hdop=0.99 cn0=34.10 | dac=1752 acc=1752.50 | slow=0.144 n=1 | P3=0.0008 R=10
+NMEA diag: byte=134999(+577) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.058ppb phs=-18.566ns pps=3.906ns | fix=1 sat=9 hdop=0.99 cn0=35.4 | dac=1752 acc=1752.50 | slow=0.144 n=1 | P3=0.0008 R=10
+NMEA diag: byte=135643(+644) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.058ppb phs=-18.566ns pps=5.664ns | fix=1 sat=9 hdop=0.99 cn0=35.0 | dac=1752 acc=1752.50 | slow=0.144 n=1 | P3=0.0008 R=10
+NMEA diag: byte=136220(+577) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.058ppb phs=-18.566ns pps=-6.445ns | fix=1 sat=9 hdop=0.99 cn0=35.1 | dac=1752 acc=1752.50 | slow=0.144 n=1 | P3=0.0008 R=10
+NMEA diag: byte=136866(+646) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.419ppb phs=-22.628ns pps=6.250ns | fix=1 sat=9 hdop=1.70 cn0=35.1 | dac=1753 acc=1752.72 | slow=0.144 n=1 | P3=0.0024 R=62
+NMEA diag: byte=137441(+575) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.419ppb phs=-22.628ns pps=-2.734ns | fix=1 sat=9 hdop=1.70 cn0=34.8 | dac=1753 acc=1752.72 | slow=0.144 n=1 | P3=0.0024 R=62
+NMEA diag: byte=138087(+646) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.419ppb phs=-22.628ns pps=0.586ns | fix=1 sat=9 hdop=1.70 cn0=34.8 | dac=1753 acc=1752.72 | slow=0.144 n=1 | P3=0.0024 R=62
+NMEA diag: byte=138662(+575) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.419ppb phs=-22.628ns pps=0.781ns | fix=1 sat=9 hdop=1.70 cn0=34.3 | dac=1753 acc=1752.72 | slow=0.144 n=1 | P3=0.0024 R=62
+NMEA diag: byte=139308(+646) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.419ppb phs=-22.628ns pps=0.977ns | fix=1 sat=9 hdop=1.70 cn0=33.10 | dac=1753 acc=1752.72 | slow=0.144 n=1 | P3=0.0024 R=62
+NMEA diag: byte=139885(+577) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.419ppb phs=-22.628ns pps=0.977ns | fix=1 sat=9 hdop=1.70 cn0=34.1 | dac=1753 acc=1752.72 | slow=0.144 n=1 | P3=0.0024 R=62
+NMEA diag: byte=140531(+646) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.419ppb phs=-22.628ns pps=0.195ns | fix=1 sat=9 hdop=1.70 cn0=34.6 | dac=1753 acc=1752.72 | slow=0.144 n=1 | P3=0.0024 R=62
+NMEA diag: byte=141106(+575) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.419ppb phs=-22.628ns pps=0.586ns | fix=1 sat=9 hdop=0.99 cn0=34.7 | dac=1753 acc=1752.72 | slow=0.144 n=1 | P3=0.0024 R=62
+NMEA diag: byte=141750(+644) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.419ppb phs=-22.628ns pps=-7.617ns | fix=1 sat=9 hdop=0.99 cn0=34.6 | dac=1753 acc=1752.72 | slow=0.144 n=1 | P3=0.0024 R=62
+NMEA diag: byte=142325(+575) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.419ppb phs=-22.628ns pps=7.422ns | fix=1 sat=9 hdop=0.99 cn0=34.9 | dac=1753 acc=1752.72 | slow=0.144 n=1 | P3=0.0024 R=62
+NMEA diag: byte=142969(+644) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.056ppb phs=-22.308ns pps=-5.078ns | fix=1 sat=9 hdop=1.70 cn0=34.7 | dac=1753 acc=1752.69 | slow=0.144 n=1 | P3=0.0024 R=62
+NMEA diag: byte=143546(+577) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.056ppb phs=-22.308ns pps=4.883ns | fix=1 sat=9 hdop=0.99 cn0=34.4 | dac=1753 acc=1752.69 | slow=0.144 n=1 | P3=0.0024 R=62
+NMEA diag: byte=144192(+646) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.056ppb phs=-22.308ns pps=-2.344ns | fix=1 sat=9 hdop=0.99 cn0=29.6 | dac=1753 acc=1752.69 | slow=0.144 n=1 | P3=0.0024 R=62
+NMEA diag: byte=144767(+575) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.056ppb phs=-22.308ns pps=-7.617ns | fix=1 sat=9 hdop=0.99 cn0=32.10 | dac=1753 acc=1752.69 | slow=0.144 n=1 | P3=0.0024 R=62
+NMEA diag: byte=145413(+646) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.056ppb phs=-22.308ns pps=0.781ns | fix=1 sat=9 hdop=0.99 cn0=34.4 | dac=1753 acc=1752.69 | slow=0.144 n=1 | P3=0.0024 R=62
+NMEA diag: byte=145990(+577) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.056ppb phs=-22.308ns pps=0.586ns | fix=1 sat=9 hdop=0.99 cn0=34.8 | dac=1753 acc=1752.69 | slow=0.144 n=1 | P3=0.0024 R=62
+NMEA diag: byte=146636(+646) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.056ppb phs=-22.308ns pps=0.586ns | fix=1 sat=9 hdop=0.99 cn0=35.0 | dac=1753 acc=1752.69 | slow=0.144 n=1 | P3=0.0024 R=62
+NMEA diag: byte=147213(+577) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.056ppb phs=-22.308ns pps=9.766ns | fix=1 sat=9 hdop=0.99 cn0=35.4 | dac=1753 acc=1752.69 | slow=0.144 n=1 | P3=0.0024 R=62
+NMEA diag: byte=147859(+646) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.056ppb phs=-22.308ns pps=0.781ns | fix=1 sat=9 hdop=1.70 cn0=35.3 | dac=1753 acc=1752.69 | slow=0.144 n=1 | P3=0.0024 R=62
+NMEA diag: byte=148436(+577) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.056ppb phs=-22.308ns pps=0.391ns | fix=1 sat=9 hdop=1.70 cn0=35.2 | dac=1753 acc=1752.69 | slow=0.144 n=1 | P3=0.0024 R=62
+NMEA diag: byte=149082(+646) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.047ppb phs=-22.374ns pps=-6.250ns | fix=1 sat=9 hdop=1.70 cn0=35.1 | dac=1753 acc=1752.66 | slow=0.144 n=1 | P3=0.0024 R=62
+NMEA diag: byte=149659(+577) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.047ppb phs=-22.374ns pps=0.195ns | fix=1 sat=9 hdop=1.70 cn0=35.0 | dac=1753 acc=1752.66 | slow=0.144 n=1 | P3=0.0024 R=62
+NMEA diag: byte=150305(+646) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.047ppb phs=-22.374ns pps=7.031ns | fix=1 sat=9 hdop=1.70 cn0=31.7 | dac=1753 acc=1752.66 | slow=0.144 n=1 | P3=0.0024 R=62
+NMEA diag: byte=150882(+577) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.047ppb phs=-22.374ns pps=-8.594ns | fix=1 sat=9 hdop=1.70 cn0=33.10 | dac=1753 acc=1752.66 | slow=0.144 n=1 | P3=0.0024 R=62
+NMEA diag: byte=151528(+646) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.047ppb phs=-22.374ns pps=3.906ns | fix=1 sat=9 hdop=1.70 cn0=34.6 | dac=1753 acc=1752.66 | slow=0.144 n=1 | P3=0.0024 R=62
+NMEA diag: byte=152174(+646) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.047ppb phs=-22.374ns pps=-5.469ns | fix=1 sat=9 hdop=1.70 cn0=35.4 | dac=1753 acc=1752.66 | slow=0.144 n=1 | P3=0.0024 R=62
+NMEA diag: byte=152751(+577) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.047ppb phs=-22.374ns pps=3.320ns | fix=1 sat=9 hdop=1.70 cn0=35.5 | dac=1753 acc=1752.66 | slow=0.144 n=1 | P3=0.0024 R=62
+NMEA diag: byte=153397(+646) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.047ppb phs=-22.374ns pps=0.781ns | fix=1 sat=9 hdop=1.70 cn0=36.0 | dac=1753 acc=1752.66 | slow=0.144 n=1 | P3=0.0024 R=62
+NMEA diag: byte=153972(+575) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.047ppb phs=-22.374ns pps=5.469ns | fix=1 sat=9 hdop=1.70 cn0=35.5 | dac=1753 acc=1752.66 | slow=0.144 n=1 | P3=0.0024 R=62
+NMEA diag: byte=154618(+646) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.047ppb phs=-22.374ns pps=-6.641ns | fix=1 sat=9 hdop=0.99 cn0=35.2 | dac=1753 acc=1752.66 | slow=0.144 n=1 | P3=0.0024 R=62
+NMEA diag: byte=155195(+577) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.006ppb phs=-25.578ns pps=-1.563ns | fix=1 sat=9 hdop=0.99 cn0=35.1 | dac=1753 acc=1752.67 | slow=0.144 n=1 | P3=0.0018 R=10
+NMEA diag: byte=155841(+646) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.006ppb phs=-25.578ns pps=7.813ns | fix=1 sat=9 hdop=0.99 cn0=34.9 | dac=1753 acc=1752.67 | slow=0.144 n=1 | P3=0.0018 R=10
+NMEA diag: byte=156418(+577) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.006ppb phs=-25.578ns pps=-4.688ns | fix=1 sat=9 hdop=0.99 cn0=35.2 | dac=1753 acc=1752.67 | slow=0.144 n=1 | P3=0.0018 R=10
+NMEA diag: byte=157064(+646) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.006ppb phs=-25.578ns pps=2.930ns | fix=1 sat=9 hdop=0.99 cn0=35.5 | dac=1753 acc=1752.67 | slow=0.144 n=1 | P3=0.0018 R=10
+NMEA diag: byte=157643(+579) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.006ppb phs=-25.578ns pps=-3.516ns | fix=1 sat=9 hdop=0.99 cn0=35.1 | dac=1753 acc=1752.67 | slow=0.144 n=1 | P3=0.0018 R=10
+NMEA diag: byte=158291(+648) drop=1109(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.006ppb phs=-25.578ns pps=-3.906ns | fix=1 sat=9 hdop=1.70 cn0=35.0 | dac=1753 acc=1752.67 | slow=0.144 n=1 | P3=0.0018 R=10
+NMEA diag: byte=158938(+647) drop=1110(+1) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.006ppb phs=-25.578ns pps=8.789ns | fix=1 sat=9 hdop=1.70 cn0=35.1 | dac=1753 acc=1752.67 | slow=0.144 n=1 | P3=0.0018 R=10
+NMEA diag: byte=159517(+579) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.006ppb phs=-25.578ns pps=-9.766ns | fix=1 sat=9 hdop=1.70 cn0=34.8 | dac=1753 acc=1752.67 | slow=0.144 n=1 | P3=0.0018 R=10
+NMEA diag: byte=160165(+648) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.006ppb phs=-25.578ns pps=9.570ns | fix=1 sat=9 hdop=1.70 cn0=35.0 | dac=1753 acc=1752.67 | slow=0.144 n=1 | P3=0.0018 R=10
+NMEA diag: byte=160744(+579) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.006ppb phs=-25.578ns pps=-2.344ns | fix=1 sat=9 hdop=1.70 cn0=34.10 | dac=1753 acc=1752.67 | slow=0.144 n=1 | P3=0.0018 R=10
+NMEA diag: byte=161392(+648) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.015ppb phs=-26.220ns pps=-6.836ns | fix=1 sat=9 hdop=1.70 cn0=34.10 | dac=1753 acc=1752.67 | slow=0.144 n=1 | P3=0.0024 R=62
+NMEA diag: byte=162040(+648) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.015ppb phs=-26.220ns pps=4.297ns | fix=1 sat=9 hdop=1.70 cn0=34.9 | dac=1753 acc=1752.67 | slow=0.144 n=1 | P3=0.0024 R=62
+NMEA diag: byte=162619(+579) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.015ppb phs=-26.220ns pps=0.391ns | fix=1 sat=9 hdop=1.70 cn0=34.10 | dac=1753 acc=1752.67 | slow=0.144 n=1 | P3=0.0024 R=62
+NMEA diag: byte=163267(+648) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.015ppb phs=-26.220ns pps=3.320ns | fix=1 sat=9 hdop=1.70 cn0=34.7 | dac=1753 acc=1752.67 | slow=0.144 n=1 | P3=0.0024 R=62
+NMEA diag: byte=163846(+579) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.015ppb phs=-26.220ns pps=0.391ns | fix=1 sat=9 hdop=1.70 cn0=34.7 | dac=1753 acc=1752.67 | slow=0.144 n=1 | P3=0.0024 R=62
+NMEA diag: byte=164496(+650) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.015ppb phs=-26.220ns pps=-2.539ns | fix=1 sat=9 hdop=1.70 cn0=34.8 | dac=1753 acc=1752.67 | slow=0.144 n=1 | P3=0.0024 R=62
+NMEA diag: byte=165073(+577) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.015ppb phs=-26.220ns pps=-2.734ns | fix=1 sat=9 hdop=1.70 cn0=34.9 | dac=1753 acc=1752.67 | slow=0.144 n=1 | P3=0.0024 R=62
+NMEA diag: byte=165721(+648) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.015ppb phs=-26.220ns pps=1.172ns | fix=1 sat=9 hdop=1.70 cn0=35.4 | dac=1753 acc=1752.67 | slow=0.144 n=1 | P3=0.0024 R=62
+NMEA diag: byte=166300(+579) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.015ppb phs=-26.220ns pps=-5.664ns | fix=1 sat=9 hdop=1.70 cn0=34.5 | dac=1753 acc=1752.67 | slow=0.144 n=1 | P3=0.0024 R=62
+NMEA diag: byte=166948(+648) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.015ppb phs=-26.220ns pps=7.422ns | fix=1 sat=9 hdop=1.70 cn0=34.3 | dac=1753 acc=1752.67 | slow=0.144 n=1 | P3=0.0024 R=62
+NMEA diag: byte=167527(+579) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.013ppb phs=-26.234ns pps=1.758ns | fix=1 sat=9 hdop=1.70 cn0=34.1 | dac=1753 acc=1752.68 | slow=0.144 n=1 | P3=0.0024 R=62
+NMEA diag: byte=168175(+648) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.013ppb phs=-26.234ns pps=0.000ns | fix=1 sat=9 hdop=1.70 cn0=33.9 | dac=1753 acc=1752.68 | slow=0.144 n=1 | P3=0.0024 R=62
+NMEA diag: byte=168754(+579) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.013ppb phs=-26.234ns pps=-2.344ns | fix=1 sat=9 hdop=1.70 cn0=33.9 | dac=1753 acc=1752.68 | slow=0.144 n=1 | P3=0.0024 R=62
+NMEA diag: byte=169402(+648) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.013ppb phs=-26.234ns pps=-4.102ns | fix=1 sat=9 hdop=1.70 cn0=33.9 | dac=1753 acc=1752.68 | slow=0.144 n=1 | P3=0.0024 R=62
+NMEA diag: byte=169981(+579) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.013ppb phs=-26.234ns pps=6.250ns | fix=1 sat=9 hdop=1.70 cn0=33.4 | dac=1753 acc=1752.68 | slow=0.144 n=1 | P3=0.0024 R=62
+NMEA diag: byte=170629(+648) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.013ppb phs=-26.234ns pps=-2.734ns | fix=1 sat=8 hdop=1.70 cn0=33.1 | dac=1753 acc=1752.68 | slow=0.144 n=1 | P3=0.0024 R=62
+NMEA diag: byte=171206(+577) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.013ppb phs=-26.234ns pps=0.781ns | fix=1 sat=8 hdop=1.70 cn0=33.1 | dac=1753 acc=1752.68 | slow=0.144 n=1 | P3=0.0024 R=62
+NMEA diag: byte=171852(+646) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.013ppb phs=-26.234ns pps=-5.273ns | fix=1 sat=8 hdop=1.71 cn0=32.8 | dac=1753 acc=1752.68 | slow=0.144 n=1 | P3=0.0024 R=62
+NMEA diag: byte=172429(+577) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.013ppb phs=-26.234ns pps=7.227ns | fix=1 sat=8 hdop=1.71 cn0=33.1 | dac=1753 acc=1752.68 | slow=0.144 n=1 | P3=0.0024 R=62
+NMEA diag: byte=173071(+642) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.013ppb phs=-26.234ns pps=-7.031ns | fix=1 sat=8 hdop=1.06 cn0=32.10 | dac=1753 acc=1752.68 | slow=0.144 n=1 | P3=0.0024 R=62
+NMEA diag: byte=173646(+575) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.036ppb phs=-28.066ns pps=0.000ns | fix=1 sat=8 hdop=1.06 cn0=32.8 | dac=1753 acc=1752.70 | slow=0.144 n=1 | P3=0.0021 R=26
+NMEA diag: byte=174290(+644) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.036ppb phs=-28.066ns pps=4.297ns | fix=1 sat=8 hdop=1.06 cn0=33.1 | dac=1753 acc=1752.70 | slow=0.144 n=1 | P3=0.0021 R=26
+NMEA diag: byte=174865(+575) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.036ppb phs=-28.066ns pps=3.320ns | fix=1 sat=8 hdop=1.06 cn0=32.8 | dac=1753 acc=1752.70 | slow=0.144 n=1 | P3=0.0021 R=26
+NMEA diag: byte=175509(+644) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.036ppb phs=-28.066ns pps=-7.227ns | fix=1 sat=8 hdop=1.06 cn0=33.8 | dac=1753 acc=1752.70 | slow=0.144 n=1 | P3=0.0021 R=26
+NMEA diag: byte=176082(+573) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.036ppb phs=-28.066ns pps=-1.953ns | fix=1 sat=8 hdop=1.06 cn0=34.1 | dac=1753 acc=1752.70 | slow=0.144 n=1 | P3=0.0021 R=26
+NMEA diag: byte=176724(+642) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.036ppb phs=-28.066ns pps=8.008ns | fix=1 sat=8 hdop=1.06 cn0=34.2 | dac=1753 acc=1752.70 | slow=0.144 n=1 | P3=0.0021 R=26
+NMEA diag: byte=177366(+642) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.036ppb phs=-28.066ns pps=-8.203ns | fix=1 sat=8 hdop=1.06 cn0=34.2 | dac=1753 acc=1752.70 | slow=0.144 n=1 | P3=0.0021 R=26
+NMEA diag: byte=177939(+573) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.036ppb phs=-28.066ns pps=8.789ns | fix=1 sat=8 hdop=1.06 cn0=34.1 | dac=1753 acc=1752.70 | slow=0.144 n=1 | P3=0.0021 R=26
+NMEA diag: byte=178581(+642) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.036ppb phs=-28.066ns pps=-9.766ns | fix=1 sat=8 hdop=1.06 cn0=34.3 | dac=1753 acc=1752.70 | slow=0.144 n=1 | P3=0.0021 R=26
+NMEA diag: byte=179154(+573) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.036ppb phs=-28.066ns pps=9.570ns | fix=1 sat=8 hdop=1.06 cn0=33.8 | dac=1753 acc=1752.70 | slow=0.144 n=1 | P3=0.0021 R=26
+NMEA diag: byte=179798(+644) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.037ppb phs=-28.492ns pps=-2.148ns | fix=1 sat=8 hdop=1.71 cn0=34.6 | dac=1753 acc=1752.72 | slow=0.144 n=1 | P3=0.0031 R=78
+NMEA diag: byte=180442(+644) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.037ppb phs=-28.492ns pps=-3.320ns | fix=1 sat=8 hdop=1.71 cn0=33.9 | dac=1753 acc=1752.72 | slow=0.144 n=1 | P3=0.0031 R=78
+NMEA diag: byte=181017(+575) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.037ppb phs=-28.492ns pps=3.125ns | fix=1 sat=9 hdop=1.71 cn0=33.9 | dac=1753 acc=1752.72 | slow=0.144 n=1 | P3=0.0031 R=78
+NMEA diag: byte=181663(+646) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.037ppb phs=-28.492ns pps=1.367ns | fix=1 sat=9 hdop=1.71 cn0=33.8 | dac=1753 acc=1752.72 | slow=0.144 n=1 | P3=0.0031 R=78
+NMEA diag: byte=182240(+577) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.037ppb phs=-28.492ns pps=-7.422ns | fix=1 sat=9 hdop=1.71 cn0=34.6 | dac=1753 acc=1752.72 | slow=0.144 n=1 | P3=0.0031 R=78
+NMEA diag: byte=182884(+644) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.037ppb phs=-28.492ns pps=5.469ns | fix=1 sat=9 hdop=1.71 cn0=34.3 | dac=1753 acc=1752.72 | slow=0.144 n=1 | P3=0.0031 R=78
+NMEA diag: byte=183461(+577) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.037ppb phs=-28.492ns pps=0.781ns | fix=1 sat=9 hdop=1.71 cn0=34.5 | dac=1753 acc=1752.72 | slow=0.144 n=1 | P3=0.0031 R=78
+NMEA diag: byte=184107(+646) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.037ppb phs=-28.492ns pps=-3.711ns | fix=1 sat=9 hdop=1.71 cn0=34.5 | dac=1753 acc=1752.72 | slow=0.144 n=1 | P3=0.0031 R=78
+NMEA diag: byte=184684(+577) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.037ppb phs=-28.492ns pps=-1.758ns | fix=1 sat=9 hdop=1.71 cn0=34.4 | dac=1753 acc=1752.72 | slow=0.144 n=1 | P3=0.0031 R=78
+NMEA diag: byte=185330(+646) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.037ppb phs=-28.492ns pps=6.445ns | fix=1 sat=9 hdop=1.71 cn0=34.3 | dac=1753 acc=1752.72 | slow=0.144 n=1 | P3=0.0031 R=78
+NMEA diag: byte=185907(+577) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.050ppb phs=-29.842ns pps=-8.203ns | fix=1 sat=9 hdop=1.71 cn0=34.0 | dac=1753 acc=1752.74 | slow=0.144 n=1 | P3=0.0028 R=63
+NMEA diag: byte=186553(+646) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.050ppb phs=-29.842ns pps=8.008ns | fix=1 sat=9 hdop=1.71 cn0=33.9 | dac=1753 acc=1752.74 | slow=0.144 n=1 | P3=0.0028 R=63
+NMEA diag: byte=187130(+577) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.050ppb phs=-29.842ns pps=-6.836ns | fix=1 sat=9 hdop=1.71 cn0=33.8 | dac=1753 acc=1752.74 | slow=0.144 n=1 | P3=0.0028 R=63
+NMEA diag: byte=187776(+646) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.050ppb phs=-29.842ns pps=2.930ns | fix=1 sat=9 hdop=1.71 cn0=33.3 | dac=1753 acc=1752.74 | slow=0.144 n=1 | P3=0.0028 R=63
+NMEA diag: byte=188353(+577) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.050ppb phs=-29.842ns pps=2.344ns | fix=1 sat=9 hdop=1.71 cn0=33.5 | dac=1753 acc=1752.74 | slow=0.144 n=1 | P3=0.0028 R=63
+NMEA diag: byte=188999(+646) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.050ppb phs=-29.842ns pps=-4.492ns | fix=1 sat=9 hdop=1.71 cn0=33.5 | dac=1753 acc=1752.74 | slow=0.144 n=1 | P3=0.0028 R=63
+NMEA diag: byte=189645(+646) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.050ppb phs=-29.842ns pps=3.320ns | fix=1 sat=9 hdop=1.71 cn0=33.4 | dac=1753 acc=1752.74 | slow=0.144 n=1 | P3=0.0028 R=63
+NMEA diag: byte=190291(+646) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.050ppb phs=-29.842ns pps=-1.758ns | fix=1 sat=9 hdop=1.71 cn0=34.0 | dac=1753 acc=1752.74 | slow=0.144 n=1 | P3=0.0028 R=63
+NMEA diag: byte=190866(+575) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.050ppb phs=-29.842ns pps=-5.469ns | fix=1 sat=9 hdop=1.71 cn0=33.8 | dac=1753 acc=1752.74 | slow=0.144 n=1 | P3=0.0028 R=63
+NMEA diag: byte=191512(+646) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.050ppb phs=-29.842ns pps=4.688ns | fix=1 sat=9 hdop=1.71 cn0=33.6 | dac=1753 acc=1752.74 | slow=0.144 n=1 | P3=0.0028 R=63
+NMEA diag: byte=192089(+577) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.048ppb phs=-30.191ns pps=4.297ns | fix=1 sat=9 hdop=1.71 cn0=33.5 | dac=1753 acc=1752.77 | slow=0.144 n=1 | P3=0.0026 R=63
+NMEA diag: byte=192735(+646) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.048ppb phs=-30.191ns pps=0.000ns | fix=1 sat=9 hdop=1.71 cn0=33.7 | dac=1753 acc=1752.77 | slow=0.144 n=1 | P3=0.0026 R=63
+NMEA diag: byte=193310(+575) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.048ppb phs=-30.191ns pps=-4.297ns | fix=1 sat=9 hdop=1.71 cn0=33.4 | dac=1753 acc=1752.77 | slow=0.144 n=1 | P3=0.0026 R=63
+NMEA diag: byte=193956(+646) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.048ppb phs=-30.191ns pps=4.102ns | fix=1 sat=9 hdop=0.99 cn0=32.3 | dac=1753 acc=1752.77 | slow=0.144 n=1 | P3=0.0026 R=63
+NMEA diag: byte=194533(+577) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.048ppb phs=-30.191ns pps=0.000ns | fix=1 sat=9 hdop=0.99 cn0=32.1 | dac=1753 acc=1752.77 | slow=0.144 n=1 | P3=0.0026 R=63
+NMEA diag: byte=195179(+646) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.048ppb phs=-30.191ns pps=-1.172ns | fix=1 sat=9 hdop=0.99 cn0=31.10 | dac=1753 acc=1752.77 | slow=0.144 n=1 | P3=0.0026 R=63
+NMEA diag: byte=195756(+577) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.048ppb phs=-30.191ns pps=0.977ns | fix=1 sat=9 hdop=0.99 cn0=32.2 | dac=1753 acc=1752.77 | slow=0.144 n=1 | P3=0.0026 R=63
+NMEA diag: byte=196402(+646) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.048ppb phs=-30.191ns pps=0.391ns | fix=1 sat=9 hdop=0.99 cn0=32.6 | dac=1753 acc=1752.77 | slow=0.144 n=1 | P3=0.0026 R=63
+NMEA diag: byte=196979(+577) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.048ppb phs=-30.191ns pps=-9.766ns | fix=1 sat=9 hdop=0.99 cn0=32.5 | dac=1753 acc=1752.77 | slow=0.144 n=1 | P3=0.0026 R=63
+NMEA diag: byte=197625(+646) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.048ppb phs=-30.191ns pps=9.570ns | fix=1 sat=9 hdop=0.99 cn0=32.8 | dac=1753 acc=1752.77 | slow=0.144 n=1 | P3=0.0026 R=63
+NMEA diag: byte=198204(+579) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.066ppb phs=-32.153ns pps=-3.125ns | fix=1 sat=9 hdop=0.99 cn0=32.8 | dac=1753 acc=1752.80 | slow=0.144 n=1 | P3=0.0016 R=10
+NMEA diag: byte=198852(+648) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.066ppb phs=-32.153ns pps=-1.367ns | fix=1 sat=9 hdop=0.99 cn0=32.8 | dac=1753 acc=1752.80 | slow=0.144 n=1 | P3=0.0016 R=10
+NMEA diag: byte=199431(+579) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.066ppb phs=-32.153ns pps=-3.125ns | fix=1 sat=9 hdop=0.99 cn0=32.10 | dac=1753 acc=1752.80 | slow=0.144 n=1 | P3=0.0016 R=10
+NMEA diag: byte=200079(+648) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.066ppb phs=-32.153ns pps=0.391ns | fix=1 sat=9 hdop=0.99 cn0=32.10 | dac=1753 acc=1752.80 | slow=0.144 n=1 | P3=0.0016 R=10
+NMEA diag: byte=200658(+579) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.066ppb phs=-32.153ns pps=5.859ns | fix=1 sat=9 hdop=0.99 cn0=33.0 | dac=1753 acc=1752.80 | slow=0.144 n=1 | P3=0.0016 R=10
+NMEA diag: byte=201306(+648) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.066ppb phs=-32.153ns pps=0.586ns | fix=1 sat=9 hdop=0.99 cn0=32.9 | dac=1753 acc=1752.80 | slow=0.144 n=1 | P3=0.0016 R=10
+NMEA diag: byte=201885(+579) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.066ppb phs=-32.153ns pps=1.172ns | fix=1 sat=9 hdop=0.99 cn0=33.3 | dac=1753 acc=1752.80 | slow=0.144 n=1 | P3=0.0016 R=10
+NMEA diag: byte=202533(+648) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.066ppb phs=-32.153ns pps=0.000ns | fix=1 sat=9 hdop=0.99 cn0=33.0 | dac=1753 acc=1752.80 | slow=0.144 n=1 | P3=0.0016 R=10
+NMEA diag: byte=203112(+579) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.066ppb phs=-32.153ns pps=-5.664ns | fix=1 sat=9 hdop=0.99 cn0=33.1 | dac=1753 acc=1752.80 | slow=0.144 n=1 | P3=0.0016 R=10
+NMEA diag: byte=203760(+648) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.066ppb phs=-32.153ns pps=5.469ns | fix=1 sat=9 hdop=0.99 cn0=32.8 | dac=1753 acc=1752.80 | slow=0.144 n=1 | P3=0.0016 R=10
+NMEA diag: byte=204341(+581) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.075ppb phs=-33.595ns pps=-9.961ns | fix=1 sat=9 hdop=1.71 cn0=32.7 | dac=1753 acc=1752.84 | slow=0.144 n=1 | P3=0.0025 R=64
+NMEA diag: byte=204989(+648) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.075ppb phs=-33.595ns pps=3.516ns | fix=1 sat=9 hdop=1.71 cn0=32.4 | dac=1753 acc=1752.84 | slow=0.144 n=1 | P3=0.0025 R=64
+NMEA diag: byte=205637(+648) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.075ppb phs=-33.595ns pps=-1.172ns | fix=1 sat=9 hdop=1.71 cn0=32.4 | dac=1753 acc=1752.84 | slow=0.144 n=1 | P3=0.0025 R=64
+NMEA diag: byte=206216(+579) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.075ppb phs=-33.595ns pps=0.781ns | fix=1 sat=9 hdop=1.71 cn0=32.2 | dac=1753 acc=1752.84 | slow=0.144 n=1 | P3=0.0025 R=64
+NMEA diag: byte=206864(+648) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.075ppb phs=-33.595ns pps=4.102ns | fix=1 sat=9 hdop=1.71 cn0=32.2 | dac=1753 acc=1752.84 | slow=0.144 n=1 | P3=0.0025 R=64
+NMEA diag: byte=207443(+579) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.075ppb phs=-33.595ns pps=-4.102ns | fix=1 sat=9 hdop=1.71 cn0=32.1 | dac=1753 acc=1752.84 | slow=0.144 n=1 | P3=0.0025 R=64
+NMEA diag: byte=208093(+650) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.075ppb phs=-33.595ns pps=-2.148ns | fix=1 sat=9 hdop=1.71 cn0=31.9 | dac=1753 acc=1752.84 | slow=0.144 n=1 | P3=0.0025 R=64
+NMEA diag: byte=208674(+581) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.075ppb phs=-33.595ns pps=9.570ns | fix=1 sat=9 hdop=1.71 cn0=31.9 | dac=1753 acc=1752.84 | slow=0.144 n=1 | P3=0.0025 R=64
+NMEA diag: byte=209324(+650) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.075ppb phs=-33.595ns pps=0.391ns | fix=1 sat=9 hdop=1.71 cn0=32.1 | dac=1753 acc=1752.84 | slow=0.144 n=1 | P3=0.0025 R=64
+NMEA diag: byte=209905(+581) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.075ppb phs=-33.595ns pps=-3.906ns | fix=1 sat=9 hdop=1.71 cn0=32.1 | dac=1753 acc=1752.84 | slow=0.144 n=1 | P3=0.0025 R=64
+NMEA diag: byte=210555(+650) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.081ppb phs=-34.784ns pps=-2.148ns | fix=1 sat=9 hdop=1.71 cn0=32.2 | dac=1753 acc=1752.89 | slow=0.144 n=1 | P3=0.0025 R=64
+NMEA diag: byte=211134(+579) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.081ppb phs=-34.784ns pps=-1.367ns | fix=1 sat=9 hdop=1.71 cn0=32.2 | dac=1753 acc=1752.89 | slow=0.144 n=1 | P3=0.0025 R=64
+NMEA diag: byte=211782(+648) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.081ppb phs=-34.784ns pps=7.813ns | fix=1 sat=9 hdop=1.71 cn0=32.2 | dac=1753 acc=1752.89 | slow=0.144 n=1 | P3=0.0025 R=64
+NMEA diag: byte=212361(+579) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.081ppb phs=-34.784ns pps=-9.961ns | fix=1 sat=9 hdop=1.71 cn0=32.7 | dac=1753 acc=1752.89 | slow=0.144 n=1 | P3=0.0025 R=64
+NMEA diag: byte=213009(+648) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.081ppb phs=-34.784ns pps=5.859ns | fix=1 sat=9 hdop=1.71 cn0=32.7 | dac=1753 acc=1752.89 | slow=0.144 n=1 | P3=0.0025 R=64
+NMEA diag: byte=213657(+648) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.081ppb phs=-34.784ns pps=1.172ns | fix=1 sat=9 hdop=0.98 cn0=32.6 | dac=1753 acc=1752.89 | slow=0.144 n=1 | P3=0.0025 R=64
+NMEA diag: byte=214236(+579) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.081ppb phs=-34.784ns pps=1.563ns | fix=1 sat=9 hdop=0.98 cn0=32.1 | dac=1753 acc=1752.89 | slow=0.144 n=1 | P3=0.0025 R=64
+NMEA diag: byte=214884(+648) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.081ppb phs=-34.784ns pps=-8.984ns | fix=1 sat=9 hdop=0.98 cn0=32.0 | dac=1753 acc=1752.89 | slow=0.144 n=1 | P3=0.0025 R=64
+NMEA diag: byte=215463(+579) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.081ppb phs=-34.784ns pps=4.883ns | fix=1 sat=9 hdop=0.98 cn0=31.8 | dac=1753 acc=1752.89 | slow=0.144 n=1 | P3=0.0025 R=64
+NMEA diag: byte=216111(+648) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.081ppb phs=-34.784ns pps=4.883ns | fix=1 sat=9 hdop=0.98 cn0=31.8 | dac=1753 acc=1752.89 | slow=0.058 n=2 | P3=0.0025 R=64
+NMEA diag: byte=216690(+579) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.062ppb phs=-34.081ns pps=0.000ns | fix=1 sat=9 hdop=0.98 cn0=31.7 | dac=1753 acc=1752.92 | slow=0.058 n=2 | P3=0.0018 R=10
+NMEA diag: byte=217338(+648) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.062ppb phs=-34.081ns pps=-5.469ns | fix=1 sat=9 hdop=0.98 cn0=31.6 | dac=1753 acc=1752.92 | slow=0.058 n=2 | P3=0.0018 R=10
+NMEA diag: byte=217917(+579) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.062ppb phs=-34.081ns pps=1.758ns | fix=1 sat=9 hdop=0.98 cn0=31.5 | dac=1753 acc=1752.92 | slow=0.058 n=2 | P3=0.0018 R=10
+NMEA diag: byte=218565(+648) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.062ppb phs=-34.081ns pps=-3.320ns | fix=1 sat=8 hdop=1.27 cn0=31.4 | dac=1753 acc=1752.92 | slow=0.058 n=2 | P3=0.0018 R=10
+NMEA diag: byte=219142(+577) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.062ppb phs=-34.081ns pps=3.711ns | fix=1 sat=9 hdop=0.98 cn0=31.5 | dac=1753 acc=1752.92 | slow=0.058 n=2 | P3=0.0018 R=10
+NMEA diag: byte=219790(+648) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.062ppb phs=-34.081ns pps=1.953ns | fix=1 sat=9 hdop=0.98 cn0=31.10 | dac=1753 acc=1752.92 | slow=0.058 n=2 | P3=0.0018 R=10
+NMEA diag: byte=220369(+579) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.062ppb phs=-34.081ns pps=-7.617ns | fix=1 sat=9 hdop=0.98 cn0=32.1 | dac=1753 acc=1752.92 | slow=0.058 n=2 | P3=0.0018 R=10
+NMEA diag: byte=221017(+648) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.062ppb phs=-34.081ns pps=2.344ns | fix=1 sat=9 hdop=0.98 cn0=32.2 | dac=1753 acc=1752.92 | slow=0.058 n=2 | P3=0.0018 R=10
+NMEA diag: byte=221596(+579) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.062ppb phs=-34.081ns pps=3.711ns | fix=1 sat=9 hdop=0.98 cn0=32.3 | dac=1753 acc=1752.92 | slow=0.058 n=2 | P3=0.0018 R=10
+NMEA diag: byte=222244(+648) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.062ppb phs=-34.081ns pps=1.563ns | fix=1 sat=8 hdop=1.03 cn0=32.3 | dac=1753 acc=1752.92 | slow=0.058 n=2 | P3=0.0018 R=10
+NMEA diag: byte=222821(+577) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.083ppb phs=-36.339ns pps=-9.180ns | fix=1 sat=8 hdop=1.03 cn0=32.1 | dac=1753 acc=1752.95 | slow=0.058 n=2 | P3=0.0016 R=24
+NMEA diag: byte=223467(+646) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.083ppb phs=-36.339ns pps=5.859ns | fix=1 sat=8 hdop=1.03 cn0=32.2 | dac=1753 acc=1752.95 | slow=0.058 n=2 | P3=0.0016 R=24
+NMEA diag: byte=224113(+646) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.083ppb phs=-36.339ns pps=-4.297ns | fix=1 sat=8 hdop=1.03 cn0=32.6 | dac=1753 acc=1752.95 | slow=0.058 n=2 | P3=0.0016 R=24
+NMEA diag: byte=224688(+575) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.083ppb phs=-36.339ns pps=4.883ns | fix=1 sat=8 hdop=1.03 cn0=33.1 | dac=1753 acc=1752.95 | slow=0.058 n=2 | P3=0.0016 R=24
+NMEA diag: byte=225332(+644) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.083ppb phs=-36.339ns pps=2.344ns | fix=1 sat=9 hdop=1.03 cn0=33.2 | dac=1753 acc=1752.95 | slow=0.058 n=2 | P3=0.0016 R=24
+NMEA diag: byte=225909(+577) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.083ppb phs=-36.339ns pps=-4.492ns | fix=1 sat=9 hdop=1.03 cn0=33.3 | dac=1753 acc=1752.95 | slow=0.058 n=2 | P3=0.0016 R=24
+NMEA diag: byte=226555(+646) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.083ppb phs=-36.339ns pps=-3.516ns | fix=1 sat=9 hdop=1.03 cn0=33.3 | dac=1753 acc=1752.95 | slow=0.058 n=2 | P3=0.0016 R=24
+NMEA diag: byte=227132(+577) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.083ppb phs=-36.339ns pps=-1.953ns | fix=1 sat=9 hdop=1.03 cn0=33.3 | dac=1753 acc=1752.95 | slow=0.058 n=2 | P3=0.0016 R=24
+NMEA diag: byte=227778(+646) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.083ppb phs=-36.339ns pps=3.320ns | fix=1 sat=9 hdop=0.98 cn0=34.4 | dac=1753 acc=1752.95 | slow=0.058 n=2 | P3=0.0016 R=24
+NMEA diag: byte=228353(+575) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.083ppb phs=-36.339ns pps=1.172ns | fix=1 sat=9 hdop=0.98 cn0=34.8 | dac=1753 acc=1752.95 | slow=0.058 n=2 | P3=0.0016 R=24
+NMEA diag: byte=228997(+644) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.086ppb phs=-37.448ns pps=1.758ns | fix=1 sat=9 hdop=0.98 cn0=34.8 | dac=1753 acc=1752.98 | slow=0.058 n=2 | P3=0.0013 R=10
+NMEA diag: byte=229572(+575) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.086ppb phs=-37.448ns pps=-5.078ns | fix=1 sat=9 hdop=0.98 cn0=34.3 | dac=1753 acc=1752.98 | slow=0.058 n=2 | P3=0.0013 R=10
+NMEA diag: byte=230218(+646) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.086ppb phs=-37.448ns pps=2.148ns | fix=1 sat=9 hdop=0.98 cn0=34.1 | dac=1753 acc=1752.98 | slow=0.058 n=2 | P3=0.0013 R=10
+NMEA diag: byte=230795(+577) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.086ppb phs=-37.448ns pps=2.930ns | fix=1 sat=9 hdop=1.03 cn0=34.8 | dac=1753 acc=1752.98 | slow=0.058 n=2 | P3=0.0013 R=10
+NMEA diag: byte=231439(+644) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.086ppb phs=-37.448ns pps=3.125ns | fix=1 sat=9 hdop=1.03 cn0=35.4 | dac=1753 acc=1752.98 | slow=0.058 n=2 | P3=0.0013 R=10
+NMEA diag: byte=232083(+644) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.086ppb phs=-37.448ns pps=-9.180ns | fix=1 sat=9 hdop=1.03 cn0=35.4 | dac=1753 acc=1752.98 | slow=0.058 n=2 | P3=0.0013 R=10
+NMEA diag: byte=232658(+575) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.086ppb phs=-37.448ns pps=8.984ns | fix=1 sat=9 hdop=1.03 cn0=35.0 | dac=1753 acc=1752.98 | slow=0.058 n=2 | P3=0.0013 R=10
+NMEA diag: byte=233308(+650) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.086ppb phs=-37.448ns pps=0.000ns | fix=1 sat=9 hdop=1.03 cn0=34.7 | dac=1753 acc=1752.98 | slow=0.058 n=2 | P3=0.0013 R=10
+NMEA diag: byte=233887(+579) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.086ppb phs=-37.448ns pps=-4.492ns | fix=1 sat=9 hdop=1.03 cn0=34.5 | dac=1753 acc=1752.98 | slow=0.058 n=2 | P3=0.0013 R=10
+NMEA diag: byte=234535(+648) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.086ppb phs=-37.448ns pps=0.391ns | fix=1 sat=9 hdop=1.03 cn0=34.5 | dac=1753 acc=1752.98 | slow=0.058 n=2 | P3=0.0013 R=10
+NMEA diag: byte=235114(+579) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.114ppb phs=-40.570ns pps=-5.273ns | fix=1 sat=9 hdop=1.03 cn0=34.6 | dac=1753 acc=1753.02 | slow=0.058 n=2 | P3=0.0010 R=10
+NMEA diag: byte=235760(+646) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.114ppb phs=-40.570ns pps=7.227ns | fix=1 sat=9 hdop=1.03 cn0=34.4 | dac=1753 acc=1753.02 | slow=0.058 n=2 | P3=0.0010 R=10
+NMEA diag: byte=236337(+577) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.114ppb phs=-40.570ns pps=-5.469ns | fix=1 sat=9 hdop=1.03 cn0=34.2 | dac=1753 acc=1753.02 | slow=0.058 n=2 | P3=0.0010 R=10
+NMEA diag: byte=236983(+646) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.114ppb phs=-40.570ns pps=5.859ns | fix=1 sat=9 hdop=0.98 cn0=33.9 | dac=1753 acc=1753.02 | slow=0.058 n=2 | P3=0.0010 R=10
+NMEA diag: byte=237560(+577) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.114ppb phs=-40.570ns pps=0.977ns | fix=1 sat=9 hdop=0.98 cn0=33.8 | dac=1753 acc=1753.02 | slow=0.058 n=2 | P3=0.0010 R=10
+NMEA diag: byte=238206(+646) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.114ppb phs=-40.570ns pps=-3.516ns | fix=1 sat=9 hdop=0.98 cn0=34.1 | dac=1753 acc=1753.02 | slow=0.058 n=2 | P3=0.0010 R=10
+NMEA diag: byte=238783(+577) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.114ppb phs=-40.570ns pps=4.102ns | fix=1 sat=9 hdop=1.06 cn0=34.4 | dac=1753 acc=1753.02 | slow=0.058 n=2 | P3=0.0010 R=10
+NMEA diag: byte=239429(+646) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving
+[TUNING] T=10 慢环T=300 | frq=0.114ppb phs=-40.570ns pps=-8.594ns | fix=1 sat=9 hdop=1.06 cn0=34.5 | dac=1753 acc=1753.02 | slow=0.058 n=2 | P3=0.0010 R=10
+NMEA diag: byte=240004(+575) drop=1110(+0) ver=0x00030002 | frame_err=0 pps_seen=1 locked=1 meas=1 spi_busy=0 | OK: bytes arriving

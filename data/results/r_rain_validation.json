@@ -1,0 +1,145 @@
+{
+  "training_n": 165,
+  "validation_n": 133,
+  "training_mean": 40.897752121212115,
+  "validation_mean": 48.50626541353384,
+  "validation_population_std": 6.851766368955062,
+  "mean_increase_percent": 18.603744454638328,
+  "raw_records": 6555,
+  "states": {
+    "TUNING": 667,
+    "CALIB": 5870,
+    "HOLDOVER": 18
+  },
+  "segments": [
+    {
+      "seg": 1,
+      "n": 32,
+      "mean": 49.6369125,
+      "median": 50.2445,
+      "cn0": 27.0221875
+    },
+    {
+      "seg": 2,
+      "n": 29,
+      "mean": 47.30965862068965,
+      "median": 44.878,
+      "cn0": 26.442413793103448
+    },
+    {
+      "seg": 3,
+      "n": 8,
+      "mean": 48.278475,
+      "median": 49.1978,
+      "cn0": 26.19875
+    },
+    {
+      "seg": 4,
+      "n": 37,
+      "mean": 48.15782432432432,
+      "median": 48.0808,
+      "cn0": 23.605945945945948
+    },
+    {
+      "seg": 5,
+      "n": 27,
+      "mean": 48.996470370370375,
+      "median": 48.9217,
+      "cn0": 32.13481481481482
+    }
+  ],
+  "models_refit_using_training_day_only": {
+    "constant_train_mean": {
+      "rmse": 10.238953896476922,
+      "bias_prediction_minus_label": -7.60851329232172,
+      "r2": -1.2330892606118304
+    },
+    "cn0_direct": {
+      "rmse": 13.555319327217406,
+      "bias_prediction_minus_label": -11.475570276269957,
+      "r2": -2.913942252985286,
+      "beta": [
+        3.1100193266230476,
+        0.01855354893152828
+      ],
+      "factor": 1.0
+    },
+    "cn0_smearing": {
+      "rmse": 10.327070929408514,
+      "bias_prediction_minus_label": -7.301356207346333,
+      "r2": -1.2716908448591924,
+      "beta": [
+        3.1100193266230476,
+        0.01855354893152828
+      ],
+      "factor": 1.1127230815800464
+    },
+    "cn0_normal_sigma2": {
+      "rmse": 9.200779148529547,
+      "bias_prediction_minus_label": -5.543811132273282,
+      "r2": -0.80320092057325,
+      "beta": [
+        3.1100193266230476,
+        0.01855354893152828
+      ],
+      "factor": 1.1601849255599732
+    },
+    "four_parameters_direct": {
+      "rmse": 13.01889691739866,
+      "bias_prediction_minus_label": -9.904410620277808,
+      "r2": -2.6102999438153383,
+      "beta": [
+        4.642769279088867,
+        -0.4911625887586367,
+        0.004028278950420794,
+        -12.913138598320964
+      ],
+      "factor": 1.0
+    },
+    "four_parameters_smearing": {
+      "rmse": 10.362163110983328,
+      "bias_prediction_minus_label": -5.55496553347456,
+      "r2": -1.2871558364531461,
+      "beta": [
+        4.642769279088867,
+        -0.4911625887586367,
+        0.004028278950420794,
+        -12.913138598320964
+      ],
+      "factor": 1.112674510333714
+    },
+    "four_parameters_normal_sigma2": {
+      "rmse": 9.618040798816017,
+      "bias_prediction_minus_label": -3.694997845377737,
+      "r2": -0.9704623355496036,
+      "beta": [
+        4.642769279088867,
+        -0.4911625887586367,
+        0.004028278950420794,
+        -12.913138598320964
+      ],
+      "factor": 1.160857886445003
+    }
+  },
+  "label_max_absolute_error": 4.955229233871705e-05,
+  "label_first_checks": [
+    {
+      "ms": 591000,
+      "computed": 47.16993265800819,
+      "stored": 47.1699
+    },
+    {
+      "ms": 631000,
+      "computed": 51.95542677635147,
+      "stored": 51.9554
+    },
+    {
+      "ms": 671000,
+      "computed": 50.650160793162435,
+      "stored": 50.6502
+    }
+  ],
+  "label_validation": "133 windows do not cross segment/state/DAC boundary; coherent snapshot and sample why=0",
+  "raw_sha256": "0aa51581f77af8344110528414531d4554849796be1e2c43621cbfe96dc61878",
+  "evidence_limit": "Prior freezing of coefficients and retransformation method cannot be established from these files."
+}

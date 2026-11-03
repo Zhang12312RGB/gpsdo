@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1152pt" height="720pt" viewBox="0 0 1152 720" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-01T15:52:09.448109</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 720 
+L 1152 720 
+L 1152 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 34.0992 95.8968 
+L 1117.9008 95.8968 
+Q 1121.21856 95.8968 1121.21856 97.992 
+L 1121.21856 279.576 
+Q 1121.21856 281.6712 1117.9008 281.6712 
+L 34.0992 281.6712 
+Q 30.78144 281.6712 30.78144 279.576 
+L 30.78144 97.992 
+Q 30.78144 95.8968 34.0992 95.8968 
+z
+" clip-path="url(#pf5ab80b636)" style="fill: #eaf2fa; stroke: #aebbc5; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 576 248.148 
+L 576 286.56 
+L 343.7568 286.56 
+" clip-path="url(#pf5ab80b636)" style="fill: none; stroke: #425a70; stroke-width: 1.25; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 963.072 248.148 
+L 963.072 370.368 
+" clip-path="url(#pf5ab80b636)" style="fill: none; stroke: #425a70; stroke-width: 1.25; stroke-linecap: square"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 329.166675 195.768 
+Q 365.873383 195.768 401.182548 195.768 
+" clip-path="url(#pf5ab80b636)" style="fill: none; stroke: #425a70; stroke-width: 1.25; stroke-linecap: round"/>
+    <path d="M 395.582548 192.968 
+L 401.182548 195.768 
+L 395.582548 198.568 
+z
+" clip-path="url(#pf5ab80b636)" style="fill: #425a70; stroke: #425a70; stroke-width: 1.25; stroke-linecap: round"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 343.7568 288.558778 
+Q 343.7568 302.272896 343.7568 314.589472 
+" clip-path="url(#pf5ab80b636)" style="fill: none; stroke: #425a70; stroke-width: 1.25; stroke-linecap: round"/>
+    <path d="M 346.5568 308.989472 
+L 343.7568 314.589472 
+L 340.9568 308.989472 
+z
+" clip-path="url(#pf5ab80b636)" style="fill: #425a70; stroke: #425a70; stroke-width: 1.25; stroke-linecap: round"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 961.071047 370.368 
+Q 791.653761 370.368 623.634019 370.368 
+" clip-path="url(#pf5ab80b636)" style="fill: none; stroke: #425a70; stroke-width: 1.25; stroke-linecap: round"/>
+    <path d="M 629.234019 373.168 
+L 623.634019 370.368 
+L 629.234019 367.568 
+z
+" clip-path="url(#pf5ab80b636)" style="fill: #425a70; stroke: #425a70; stroke-width: 1.25; stroke-linecap: round"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 343.7568 424.746778 
+Q 343.7568 454.17435 343.7568 482.20438 
+" clip-path="url(#pf5ab80b636)" style="fill: none; stroke: #425a70; stroke-width: 1.25; stroke-linecap: round"/>
+    <path d="M 346.5568 476.60438 
+L 343.7568 482.20438 
+L 340.9568 476.60438 
+z
+" clip-path="url(#pf5ab80b636)" style="fill: #425a70; stroke: #425a70; stroke-width: 1.25; stroke-linecap: round"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 622.234294 544.968 
+Q 672.768117 544.968 721.904398 544.968 
+" clip-path="url(#pf5ab80b636)" style="fill: none; stroke: #425a70; stroke-width: 1.25; stroke-linecap: round"/>
+    <path d="M 716.304398 542.168 
+L 721.904398 544.968 
+L 716.304398 547.768 
+z
+" clip-path="url(#pf5ab80b636)" style="fill: #425a70; stroke: #425a70; stroke-width: 1.25; stroke-linecap: round"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 50.688 141.642 
+L 327.168 141.642 
+Q 329.9328 141.642 329.9328 143.388 
+L 329.9328 248.148 
+Q 329.9328 249.894 327.168 249.894 
+L 50.688 249.894 
+Q 47.9232 249.894 47.9232 248.148 
+L 47.9232 143.388 
+Q 47.9232 141.642 50.688 141.642 
+z
+" clip-path="url(#pf5ab80b636)" style="fill: #ffffff; stroke: #71889a; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 404.5824 141.642 
+L 747.4176 141.642 
+Q 750.1824 141.642 750.1824 143.388 
+L 750.1824 248.148 
+Q 750.1824 249.894 747.4176 249.894 
+L 404.5824 249.894 
+Q 401.8176 249.894 401.8176 248.148 
+L 401.8176 143.388 
+Q 401.8176 141.642 404.5824 141.642 
+z
+" clip-path="url(#pf5ab80b636)" style="fill: #ffffff; stroke: #71889a; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 824.832 141.642 
+L 1101.312 141.642 
+Q 1104.0768 141.642 1104.0768 143.388 
+L 1104.0768 248.148 
+Q 1104.0768 249.894 1101.312 249.894 
+L 824.832 249.894 
+Q 822.0672 249.894 822.0672 248.148 
+L 822.0672 143.388 
+Q 822.0672 141.642 824.832 141.642 
+z
+" clip-path="url(#pf5ab80b636)" style="fill: #ffffff; stroke: #71889a; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 67.2768 316.242 
+L 620.2368 316.242 
+Q 623.0016 316.242 623.0016 317.988 
+L 623.0016 422.748 
+Q 623.0016 424.494 620.2368 424.494 
+L 67.2768 424.494 
+Q 64.512 424.494 64.512 422.748 
+L 64.512 317.988 
+Q 64.512 316.242 67.2768 316.242 
+z
+" clip-path="url(#pf5ab80b636)" style="fill: #ffffff; stroke: #71889a; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 67.2768 483.858 
+L 620.2368 483.858 
+Q 623.0016 483.858 623.0016 485.604 
+L 623.0016 604.332 
+Q 623.0016 606.078 620.2368 606.078 
+L 67.2768 606.078 
+Q 64.512 606.078 64.512 604.332 
+L 64.512 485.604 
+Q 64.512 483.858 67.2768 483.858 
+z
+" clip-path="url(#pf5ab80b636)" style="fill: #ffffff; stroke: #71889a; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 725.2992 455.922 
+L 1090.2528 455.922 
+Q 1093.0176 455.922 1093.0176 457.668 
+L 1093.0176 604.332 
+Q 1093.0176 606.078 1090.2528 606.078 
+L 725.2992 606.078 
+Q 722.5344 606.078 722.5344 604.332 
+L 722.5344 457.668 
+Q 722.5344 455.922 725.2992 455.922 
+z
+" clip-path="url(#pf5ab80b636)" style="fill: #ffffff; stroke: #71889a; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 24px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="576" y="40.710525" transform="rotate(-0 576 40.710525)">图 10  TDC 与粗分数配对时序</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 14px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #5b6873" x="576" y="67.959969" transform="rotate(-0 576 67.959969)">以当前可执行逻辑为准，重点标明有效事件、符号与定点单位</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 15px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #30485a" x="47.37024" y="120.711375" transform="rotate(-0 47.37024 120.711375)">同一 PPS 的细分与 sub 快照</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 15px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #17344b" x="188.928" y="174.837375" transform="rotate(-0 188.928 174.837375)">TDC 捕获与编码</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 14px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #25313a" transform="translate(108.792219 204.508257)">PPS 进入 512 抽头延迟链</text>
+    <text style="font-size: 14px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #25313a" transform="translate(117.231594 225.330386)">采样→编码→tap_valid</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 15px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #17344b" x="576" y="174.808078" transform="rotate(-0 576 174.808078)">当前细分缩放</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 14px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #25313a" transform="translate(440.743594 203.557789)">fine16=clip16(((tap+offset)×41631)&gt;&gt;8)</text>
+    <text style="font-size: 14px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #25313a" transform="translate(493.605625 225.316168)">fine_valid 与数据更新同源</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 15px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #17344b" x="963.072" y="173.951437" transform="rotate(-0 963.072 173.951437)">同拍 sub_pps</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 14px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #25313a" transform="translate(931.950438 205.12732)">sub=0…4</text>
+    <text style="font-size: 14px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #25313a" transform="translate(890.322312 226.109136)">在 PPS 参考采样拍锁存</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 16px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #17344b" x="343.7568" y="349.70925" transform="rotate(-0 343.7568 349.70925)">完整 OCXO 周期分数</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 15px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #25313a" transform="translate(278.042738 378.241993)">fine8=fine16[15:8]</text>
+    <text style="font-size: 15px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #25313a" transform="translate(154.411097 400.789307)">x=(sub_pps+1)×256−fine8；frac16=clip16((x&lt;&lt;8)/5)</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 15px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #17344b" x="343.7568" y="519.556313" transform="rotate(-0 343.7568 519.556313)">counter_measure 配对</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 14px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #25313a" transform="translate(225.079456 544.084041)">先锁存整数边沿差 N，等 frac_valid_d</text>
+    <text style="font-size: 14px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #25313a" transform="translate(179.934925 565.480389)">Q16=(N−20000000)×65536+frac_now−frac_prev</text>
+    <text style="font-size: 14px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #25313a" transform="translate(247.692738 587.300018)">先写新结果，再发 meas_done</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 15px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #17344b" x="907.776" y="498.626578" transform="rotate(-0 907.776 498.626578)">phase_error 输出</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 14px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #25313a" transform="translate(816.640375 523.172501)">由 meas_done 触发取新结果</text>
+    <text style="font-size: 14px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #25313a" transform="translate(832.851938 544.926505)">Q8=(Q16+128) &gt;&gt;&gt; 8</text>
+    <text style="font-size: 14px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #25313a" transform="translate(846.423188 567.254728)">饱和到有符号 32 位</text>
+    <text style="font-size: 14px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #25313a" transform="translate(828.604906 588.958419)">0x00：50/256 ns 每 LSB</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 14px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #3d4c57" x="576" y="664.346031" transform="rotate(-0 576 664.346031)">fine 为距参考采样沿的剩余量，公式取负号。当前输出使用固定 403 对应系数，不把可写 period 寄存器当动态校准证据。</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 10.7px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #687783" x="45.1584" y="694.756734" transform="rotate(-0 45.1584 694.756734)">代码依据 tdc_carry.v；ocxo_frac.v；counter_measure.v；phase_error.v</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 10.7px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end; fill: #687783" x="1106.8416" y="695.388703" transform="rotate(-0 1106.8416 695.388703)">独立用途修正版 2026-11-01</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pf5ab80b636">
+   <rect x="23.04" y="7.2" width="1105.92" height="698.4"/>
+  </clipPath>
+ </defs>
+</svg>

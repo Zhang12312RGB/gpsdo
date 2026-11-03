@@ -1,0 +1,11 @@
+{
+  "source": "D:\\gpsdo_project\\submission\\gpsdo\\data\\raw_support\\log_20261031_v24.dat",
+  "source_sha256": "9e3d5b936cf9a47306334ffd35d93aaa3ce3453f0521db2d50acbed77ed2fee8",
+  "points": 1200,
+  "time_s": [
+    1.0,
+    1200.0
+  ],
+  "frequency_units": "frqm / 1000 = ppb",
+  "purpose": "Historical startup visualization only; not final ELF hardware acceptance"
+}

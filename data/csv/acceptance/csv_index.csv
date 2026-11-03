@@ -1,0 +1,2 @@
+﻿raw_path,main_csv,raw_sha256,refchk_records,complete_records,partial_records,time_gap_transitions
+data/raw_support/log_20261102_v27.dat,data/csv/acceptance/log_20261102_v27.csv,c815d0bcebfeb9fa95dd829b55fcd79bf4c7b813c645106737c657eb9039a48e,1154,1154,0,2

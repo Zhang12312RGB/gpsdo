@@ -1,0 +1,6 @@
+{
+  "normal_fusion_math_unchanged": true,
+  "holdover": "PASS holdover time, covariance, pending DAC input, accumulated recovery, bad-sample delay and CALIB/TUNING return",
+  "log_format": "PASS display carries and complete log format argument checking",
+  "slow_weight": "weight core: ramp, cap, downweight, expiry, NaN, protection, reentry, clock and gap PASS"
+}

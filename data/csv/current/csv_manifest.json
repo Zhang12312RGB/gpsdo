@@ -1,0 +1,813 @@
+{
+  "schema": "gpsdo_raw_csv_1",
+  "raw_files_modified": false,
+  "datasets": [
+    {
+      "raw_path": "data/raw_support/log_20261030_v14.dat",
+      "raw_bytes": 2213859,
+      "raw_sha256": "59c1651cd6e3b0d0a36d5dbf79f20dd582e656ca1a476464019d945072e1716e",
+      "main_csv": "data/csv/current/log_20261030_v14.csv",
+      "refchk_records": 3253,
+      "complete_records": 3253,
+      "partial_records": 0,
+      "state_counts": {
+        "TUNING": 1871,
+        "CALIB": 1382
+      },
+      "time_gap_transitions": 0,
+      "event_counts": {
+        "slowdbg": 194,
+        "slowc": 188,
+        "cfuse": 0,
+        "samp": 3253,
+        "nmea": 3254,
+        "state_events": 1
+      },
+      "orphan_state_lines": [],
+      "configuration_lines": [
+        "===== BUILD Oct 30 2026 19:30:39 ====="
+      ]
+    },
+    {
+      "raw_path": "data/raw_support/log_20261030_v15.dat",
+      "raw_bytes": 2505657,
+      "raw_sha256": "fecadf5fc4692171b662bc2147987071c5d925a4a52d8dc2f12f96fd0af4cedf",
+      "main_csv": "data/csv/current/log_20261030_v15.csv",
+      "refchk_records": 3525,
+      "complete_records": 3525,
+      "partial_records": 0,
+      "state_counts": {
+        "TUNING": 3525
+      },
+      "time_gap_transitions": 0,
+      "event_counts": {
+        "slowdbg": 361,
+        "slowc": 353,
+        "cfuse": 0,
+        "samp": 3525,
+        "nmea": 3526,
+        "state_events": 0
+      },
+      "orphan_state_lines": [],
+      "configuration_lines": [
+        "===== BUILD Oct 30 2026 20:56:13 ====="
+      ]
+    },
+    {
+      "raw_path": "data/raw_support/log_20261030_v16.dat",
+      "raw_bytes": 2837965,
+      "raw_sha256": "40944fa4075a68faa287f7263e4ec1f29520cff9fa924917c1c07394e8fae6ee",
+      "main_csv": "data/csv/current/log_20261030_v16.csv",
+      "refchk_records": 3971,
+      "complete_records": 3970,
+      "partial_records": 1,
+      "state_counts": {
+        "TUNING": 3970,
+        "UNKNOWN": 1
+      },
+      "time_gap_transitions": 0,
+      "event_counts": {
+        "slowdbg": 400,
+        "slowc": 398,
+        "cfuse": 0,
+        "samp": 3971,
+        "nmea": 3971,
+        "state_events": 0
+      },
+      "orphan_state_lines": [],
+      "configuration_lines": [
+        "===== BUILD Oct 30 2026 22:20:48 ====="
+      ]
+    },
+    {
+      "raw_path": "data/raw_support/log_20261031_v17.dat",
+      "raw_bytes": 2741625,
+      "raw_sha256": "4a661e84de6d313f0a9c47af06e69567ac31169e2d4d136a88abe43218f411b3",
+      "main_csv": "data/csv/current/log_20261031_v17.csv",
+      "refchk_records": 3857,
+      "complete_records": 3857,
+      "partial_records": 0,
+      "state_counts": {
+        "TUNING": 3857
+      },
+      "time_gap_transitions": 0,
+      "event_counts": {
+        "slowdbg": 394,
+        "slowc": 386,
+        "cfuse": 0,
+        "samp": 3857,
+        "nmea": 3858,
+        "state_events": 0
+      },
+      "orphan_state_lines": [],
+      "configuration_lines": [
+        "===== BUILD Oct 30 2026 23:53:17 ====="
+      ]
+    },
+    {
+      "raw_path": "data/raw_support/log_20261031_v18.dat",
+      "raw_bytes": 2750099,
+      "raw_sha256": "119c6398b5c87fc1d4d92a9c647c3e393fe86798b8942109462fbc998b5c822e",
+      "main_csv": "data/csv/current/log_20261031_v18.csv",
+      "refchk_records": 3844,
+      "complete_records": 3844,
+      "partial_records": 0,
+      "state_counts": {
+        "TUNING": 3844
+      },
+      "time_gap_transitions": 0,
+      "event_counts": {
+        "slowdbg": 387,
+        "slowc": 385,
+        "cfuse": 0,
+        "samp": 3844,
+        "nmea": 3845,
+        "state_events": 0
+      },
+      "orphan_state_lines": [],
+      "configuration_lines": [
+        "===== BUILD Oct 31 2026 01:12:41 ====="
+      ]
+    },
+    {
+      "raw_path": "data/raw_support/log_20261031_v19.dat",
+      "raw_bytes": 5570997,
+      "raw_sha256": "23499eb0d63d5e965ed5aacf5c83d1b822fd3ac743ada415a9124f1dbd295b89",
+      "main_csv": "data/csv/current/log_20261031_v19.csv",
+      "refchk_records": 7601,
+      "complete_records": 7601,
+      "partial_records": 0,
+      "state_counts": {
+        "TUNING": 7601
+      },
+      "time_gap_transitions": 1,
+      "event_counts": {
+        "slowdbg": 763,
+        "slowc": 761,
+        "cfuse": 0,
+        "samp": 7601,
+        "nmea": 7601,
+        "state_events": 0
+      },
+      "orphan_state_lines": [],
+      "configuration_lines": [
+        "===== BUILD Oct 31 2026 03:55:38 ====="
+      ]
+    },
+    {
+      "raw_path": "data/raw_support/log_20261031_v20.dat",
+      "raw_bytes": 2732883,
+      "raw_sha256": "7793b79595f9aae6a58f56042a34a02d0a59ec58035d084301649f7a36b3b52b",
+      "main_csv": "data/csv/current/log_20261031_v20.csv",
+      "refchk_records": 3748,
+      "complete_records": 3748,
+      "partial_records": 0,
+      "state_counts": {
+        "TUNING": 3748
+      },
+      "time_gap_transitions": 0,
+      "event_counts": {
+        "slowdbg": 377,
+        "slowc": 375,
+        "cfuse": 0,
+        "samp": 3748,
+        "nmea": 3749,
+        "state_events": 0
+      },
+      "orphan_state_lines": [],
+      "configuration_lines": [
+        "===== BUILD Oct 31 2026 06:59:43 =====",
+        "KFCONF profile=1 QF_e9=100000 p3floor=0 fixed_period=1 phsg=0 slow_mode=0"
+      ]
+    },
+    {
+      "raw_path": "data/raw_support/log_20261031_v21.dat",
+      "raw_bytes": 2663033,
+      "raw_sha256": "3f01f77fe197197f45386ad2fa7400b6fa3bfa5a9ad1685a9adef716c73936a8",
+      "main_csv": "data/csv/current/log_20261031_v21.csv",
+      "refchk_records": 3633,
+      "complete_records": 3633,
+      "partial_records": 0,
+      "state_counts": {
+        "TUNING": 3633
+      },
+      "time_gap_transitions": 0,
+      "event_counts": {
+        "slowdbg": 366,
+        "slowc": 364,
+        "cfuse": 0,
+        "samp": 3633,
+        "nmea": 3634,
+        "state_events": 0
+      },
+      "orphan_state_lines": [],
+      "configuration_lines": [
+        "===== BUILD Oct 31 2026 08:18:21 =====",
+        "KFCONF profile=0 QF_e9=200 p3floor=1 fixed_period=1 phsg=0 slow_mode=0"
+      ]
+    },
+    {
+      "raw_path": "data/raw_support/log_20261031_v22.dat",
+      "raw_bytes": 5824486,
+      "raw_sha256": "a65936ca8a5bc983a1ffdcaed90045ab2ad26b1e2da952320e5ceb0669eb9bc0",
+      "main_csv": "data/csv/current/log_20261031_v22.csv",
+      "refchk_records": 8577,
+      "complete_records": 8577,
+      "partial_records": 0,
+      "state_counts": {
+        "TUNING": 916,
+        "HOLDOVER": 20,
+        "CALIB": 7641
+      },
+      "time_gap_transitions": 6,
+      "event_counts": {
+        "slowdbg": 101,
+        "slowc": 89,
+        "cfuse": 94,
+        "samp": 8577,
+        "nmea": 8578,
+        "state_events": 7
+      },
+      "orphan_state_lines": [],
+      "configuration_lines": [
+        "===== BUILD Oct 31 2026 14:03:43 =====",
+        "KFCONF profile=0 QF_e9=200 p3floor=1 fixed_period=1 phsg=0 slow_mode=0",
+        "CFCONF scale_u=100000 cap_u=100000 rise_s=300 age_max_s=330 lag_max_s=630"
+      ]
+    },
+    {
+      "raw_path": "data/raw_support/log_20261031_v23.dat",
+      "raw_bytes": 2759031,
+      "raw_sha256": "ed3f20b54c3ad295877b8364d9e2b689cd5757886197b2734723a5690e7bd1b3",
+      "main_csv": "data/csv/current/log_20261031_v23.csv",
+      "refchk_records": 3733,
+      "complete_records": 3733,
+      "partial_records": 0,
+      "state_counts": {
+        "TUNING": 3733
+      },
+      "time_gap_transitions": 0,
+      "event_counts": {
+        "slowdbg": 376,
+        "slowc": 374,
+        "cfuse": 374,
+        "samp": 3733,
+        "nmea": 3734,
+        "state_events": 0
+      },
+      "orphan_state_lines": [],
+      "configuration_lines": [
+        "===== BUILD Oct 31 2026 16:49:26 =====",
+        "KFCONF profile=1 QF_e9=100000 p3floor=0 fixed_period=1 phsg=0 slow_mode=0",
+        "CFCONF scale_u=100000 cap_u=100000 rise_s=300 age_max_s=330 lag_max_s=630"
+      ]
+    },
+    {
+      "raw_path": "data/raw_support/log_20261031_v24.dat",
+      "raw_bytes": 2688358,
+      "raw_sha256": "9e3d5b936cf9a47306334ffd35d93aaa3ce3453f0521db2d50acbed77ed2fee8",
+      "main_csv": "data/csv/current/log_20261031_v24.csv",
+      "refchk_records": 3666,
+      "complete_records": 3665,
+      "partial_records": 1,
+      "state_counts": {
+        "TUNING": 3665,
+        "UNKNOWN": 1
+      },
+      "time_gap_transitions": 0,
+      "event_counts": {
+        "slowdbg": 369,
+        "slowc": 367,
+        "cfuse": 367,
+        "samp": 3666,
+        "nmea": 3666,
+        "state_events": 0
+      },
+      "orphan_state_lines": [],
+      "configuration_lines": [
+        "===== BUILD Oct 31 2026 17:57:44 =====",
+        "KFCONF profile=1 QF_e9=100000 p3floor=0 fixed_period=1 phsg=0 slow_mode=2",
+        "CFCONF scale_u=100000 cap_u=100000 rise_s=300 age_max_s=330 lag_max_s=630"
+      ]
+    },
+    {
+      "raw_path": "data/raw_support/log_20261031_v25.dat",
+      "raw_bytes": 2664679,
+      "raw_sha256": "e84346a4be0abd09a427bfe8a9e4850a9af665564772d3d63f86c44d8459fafa",
+      "main_csv": "data/csv/current/log_20261031_v25.csv",
+      "refchk_records": 3653,
+      "complete_records": 3653,
+      "partial_records": 0,
+      "state_counts": {
+        "TUNING": 3653
+      },
+      "time_gap_transitions": 0,
+      "event_counts": {
+        "slowdbg": 368,
+        "slowc": 366,
+        "cfuse": 366,
+        "samp": 3653,
+        "nmea": 3654,
+        "state_events": 0
+      },
+      "orphan_state_lines": [],
+      "configuration_lines": [
+        "===== BUILD Oct 31 2026 19:01:52 =====",
+        "KFCONF profile=1 QF_e9=100000 p3floor=0 fixed_period=1 phsg=0 slow_mode=0",
+        "CFCONF scale_u=100000 cap_u=100000 rise_s=300 age_max_s=330 lag_max_s=630"
+      ]
+    },
+    {
+      "raw_path": "data/raw_support/log_20261101_v26.dat",
+      "raw_bytes": 4479428,
+      "raw_sha256": "0aa51581f77af8344110528414531d4554849796be1e2c43621cbfe96dc61878",
+      "main_csv": "data/csv/current/log_20261101_v26.csv",
+      "refchk_records": 6555,
+      "complete_records": 6555,
+      "partial_records": 0,
+      "state_counts": {
+        "TUNING": 667,
+        "CALIB": 5870,
+        "HOLDOVER": 18
+      },
+      "time_gap_transitions": 2,
+      "event_counts": {
+        "slowdbg": 77,
+        "slowc": 67,
+        "cfuse": 69,
+        "samp": 6555,
+        "nmea": 6556,
+        "state_events": 5
+      },
+      "orphan_state_lines": [],
+      "configuration_lines": [
+        "===== BUILD Nov  1 2026 15:18:09 =====",
+        "KFCONF profile=0 QF_e9=200 p3floor=1 fixed_period=1 phsg=0 slow_mode=0",
+        "CFCONF scale_u=100000 cap_u=100000 rise_s=300 age_max_s=330 lag_max_s=630",
+        "FINALCONF release=FINAL_C_R80_T10_20261031 R_ns2=80 R_train=0 period_fixed=1 phase=0 slow=0"
+      ]
+    }
+  ],
+  "csv_files": [
+    {
+      "path": "data/csv/current/csv_index.csv",
+      "bytes": 2130,
+      "sha256": "e9340d72bcc22fa23394ad3ae594511eb7431c58176d5a2e39cc964600e6bbb4"
+    },
+    {
+      "path": "data/csv/current/log_20261030_v14.csv",
+      "bytes": 606926,
+      "sha256": "13a797b418db93fdb2782b111a722e9e3d1fd6c0ccac693a86c21ed7a3863034"
+    },
+    {
+      "path": "data/csv/current/log_20261030_v14_cfuse.csv",
+      "bytes": 49,
+      "sha256": "8afcf90fc8f4e36506efd292fbeb8a9f1bb9bb37927b725709a6a60378b01e7e"
+    },
+    {
+      "path": "data/csv/current/log_20261030_v14_nmea.csv",
+      "bytes": 347675,
+      "sha256": "31fe5a02cdd405be622545785db7766fb19f7d8ae6f2b9eca21cfda4675a7f97"
+    },
+    {
+      "path": "data/csv/current/log_20261030_v14_samp.csv",
+      "bytes": 345532,
+      "sha256": "28535287a32c9de37d6fe9339a2e1ab19f700bda31f25eeb412ba6753ae5df6f"
+    },
+    {
+      "path": "data/csv/current/log_20261030_v14_slowc.csv",
+      "bytes": 57637,
+      "sha256": "5753a2ec4c31cf8ad4b58e1ffb559a16166b58b84762eb20e77d4c9381003c2c"
+    },
+    {
+      "path": "data/csv/current/log_20261030_v14_slowdbg.csv",
+      "bytes": 46530,
+      "sha256": "260a94e45d7d0a1e54dfee9d118b9cb80b3dcdcc43acb39eb4b354e7bc205d3b"
+    },
+    {
+      "path": "data/csv/current/log_20261030_v14_state_events.csv",
+      "bytes": 79,
+      "sha256": "816664843e172f62adae684cc9b423677c0d6df9ba8e4faabdc96836dc58a0bb"
+    },
+    {
+      "path": "data/csv/current/log_20261030_v15.csv",
+      "bytes": 645541,
+      "sha256": "40252f193df72b3acd4e8750411baeabba01e9e9a3a5300471ab6178f3042a67"
+    },
+    {
+      "path": "data/csv/current/log_20261030_v15_cfuse.csv",
+      "bytes": 49,
+      "sha256": "8afcf90fc8f4e36506efd292fbeb8a9f1bb9bb37927b725709a6a60378b01e7e"
+    },
+    {
+      "path": "data/csv/current/log_20261030_v15_nmea.csv",
+      "bytes": 381899,
+      "sha256": "202c264ad7d46ac475762768ca811869528d692e04100799f7e881099fdb1e41"
+    },
+    {
+      "path": "data/csv/current/log_20261030_v15_samp.csv",
+      "bytes": 374636,
+      "sha256": "b70c1e6af123f531fbed3cdb5840b417d7875429533c38c4a8632f885f71a067"
+    },
+    {
+      "path": "data/csv/current/log_20261030_v15_slowc.csv",
+      "bytes": 108417,
+      "sha256": "fdb0b44272618693ee7b28813368fcd8c65f28db8c25515884af7cfcc83678ac"
+    },
+    {
+      "path": "data/csv/current/log_20261030_v15_slowdbg.csv",
+      "bytes": 87337,
+      "sha256": "5801d63e80ecc30f768a4f844c07af50fbd6568736ee415abb5d29f0591c0f72"
+    },
+    {
+      "path": "data/csv/current/log_20261030_v15_state_events.csv",
+      "bytes": 49,
+      "sha256": "8afcf90fc8f4e36506efd292fbeb8a9f1bb9bb37927b725709a6a60378b01e7e"
+    },
+    {
+      "path": "data/csv/current/log_20261030_v16.csv",
+      "bytes": 736554,
+      "sha256": "84b743f8ca7f4783992ebf46a847c24543a51002e22da07390d5721a73083677"
+    },
+    {
+      "path": "data/csv/current/log_20261030_v16_cfuse.csv",
+      "bytes": 49,
+      "sha256": "8afcf90fc8f4e36506efd292fbeb8a9f1bb9bb37927b725709a6a60378b01e7e"
+    },
+    {
+      "path": "data/csv/current/log_20261030_v16_nmea.csv",
+      "bytes": 420017,
+      "sha256": "afaa487ac5aa06ce08c768e96a5ee9ec678b405658e65df783eee03fbfb6f34d"
+    },
+    {
+      "path": "data/csv/current/log_20261030_v16_samp.csv",
+      "bytes": 422358,
+      "sha256": "7236d1d310137773b4a7a4b094b1666c90c43db9c8c13fb32326f142e7366801"
+    },
+    {
+      "path": "data/csv/current/log_20261030_v16_slowc.csv",
+      "bytes": 126985,
+      "sha256": "ae8a15a20ddb537d2a93d27f4af2ccd5b4e05ea54631a874d0abbc7c9427e914"
+    },
+    {
+      "path": "data/csv/current/log_20261030_v16_slowdbg.csv",
+      "bytes": 96949,
+      "sha256": "42716637b6d3db958c6bfb83a62523ebda3e24a0de721a43cfc14c2149a5e610"
+    },
+    {
+      "path": "data/csv/current/log_20261030_v16_state_events.csv",
+      "bytes": 49,
+      "sha256": "8afcf90fc8f4e36506efd292fbeb8a9f1bb9bb37927b725709a6a60378b01e7e"
+    },
+    {
+      "path": "data/csv/current/log_20261031_v17.csv",
+      "bytes": 705111,
+      "sha256": "283cac4f83cbefdacf2e387e51f61afd16dfe338e43bfc7d645c7434b5e8fcda"
+    },
+    {
+      "path": "data/csv/current/log_20261031_v17_cfuse.csv",
+      "bytes": 49,
+      "sha256": "8afcf90fc8f4e36506efd292fbeb8a9f1bb9bb37927b725709a6a60378b01e7e"
+    },
+    {
+      "path": "data/csv/current/log_20261031_v17_nmea.csv",
+      "bytes": 414773,
+      "sha256": "5033463f0e8e8c0d668fbd9ea9c5e1472707d52c517dd54513e7fa8547122f9a"
+    },
+    {
+      "path": "data/csv/current/log_20261031_v17_samp.csv",
+      "bytes": 410161,
+      "sha256": "e876e586c482d2275cb98c4825e9020a498fe6a1625144a136f6e42314ac22b4"
+    },
+    {
+      "path": "data/csv/current/log_20261031_v17_slowc.csv",
+      "bytes": 118879,
+      "sha256": "61dd58d8f9098f12417ae9a268846b29d2cc51d5f41e957ceb090bb4be042e97"
+    },
+    {
+      "path": "data/csv/current/log_20261031_v17_slowdbg.csv",
+      "bytes": 95384,
+      "sha256": "6e6b5a243ed201cc20ff4647436a5fe7fb47d40b551aab4d9f1f6f9777b6c793"
+    },
+    {
+      "path": "data/csv/current/log_20261031_v17_state_events.csv",
+      "bytes": 49,
+      "sha256": "8afcf90fc8f4e36506efd292fbeb8a9f1bb9bb37927b725709a6a60378b01e7e"
+    },
+    {
+      "path": "data/csv/current/log_20261031_v18.csv",
+      "bytes": 706661,
+      "sha256": "e83592cfc026132b484e5769a42b1d6d25cf19d319068d54c5068f7ac29dfd38"
+    },
+    {
+      "path": "data/csv/current/log_20261031_v18_cfuse.csv",
+      "bytes": 49,
+      "sha256": "8afcf90fc8f4e36506efd292fbeb8a9f1bb9bb37927b725709a6a60378b01e7e"
+    },
+    {
+      "path": "data/csv/current/log_20261031_v18_nmea.csv",
+      "bytes": 409132,
+      "sha256": "e00641bc1699784bbb09e13d6cd1162be71c62e4fe58bcbe0d62299a5d897c43"
+    },
+    {
+      "path": "data/csv/current/log_20261031_v18_samp.csv",
+      "bytes": 408769,
+      "sha256": "46da4111640154cea04721c5b7d013a518457f7d753707373525e1802df48969"
+    },
+    {
+      "path": "data/csv/current/log_20261031_v18_slowc.csv",
+      "bytes": 122577,
+      "sha256": "5df954a6aebd8de684eae3c6bc27202f2a9618fb6358f9395a9ba9a5d2b9da3f"
+    },
+    {
+      "path": "data/csv/current/log_20261031_v18_slowdbg.csv",
+      "bytes": 93977,
+      "sha256": "1e8931114727ef8a95237302549f49844b7cfb467bddac727101df90a9a09abe"
+    },
+    {
+      "path": "data/csv/current/log_20261031_v18_state_events.csv",
+      "bytes": 49,
+      "sha256": "8afcf90fc8f4e36506efd292fbeb8a9f1bb9bb37927b725709a6a60378b01e7e"
+    },
+    {
+      "path": "data/csv/current/log_20261031_v19.csv",
+      "bytes": 1411235,
+      "sha256": "a8c3ced4e49d113003d6e3a2468874df2bff607ffd3a1308f385b4383276d855"
+    },
+    {
+      "path": "data/csv/current/log_20261031_v19_cfuse.csv",
+      "bytes": 49,
+      "sha256": "8afcf90fc8f4e36506efd292fbeb8a9f1bb9bb37927b725709a6a60378b01e7e"
+    },
+    {
+      "path": "data/csv/current/log_20261031_v19_nmea.csv",
+      "bytes": 822505,
+      "sha256": "05a20625101436ebb429d0fbfca6f9054522ddd82bf8ddd6bd916058ffcaa602"
+    },
+    {
+      "path": "data/csv/current/log_20261031_v19_samp.csv",
+      "bytes": 810810,
+      "sha256": "5176399d47abdfaf305700e6451ddc53554e5bc98d45fbc51116425aa0ce2840"
+    },
+    {
+      "path": "data/csv/current/log_20261031_v19_slowc.csv",
+      "bytes": 246099,
+      "sha256": "62bcb9845aee5f8a41612c5da27a49f69d8525d852cdd1edbf65894a36b085fc"
+    },
+    {
+      "path": "data/csv/current/log_20261031_v19_slowdbg.csv",
+      "bytes": 185721,
+      "sha256": "8fe52a74005c238fed081f95a45ea58d8813449e79dbcc92b3eef164cde85b54"
+    },
+    {
+      "path": "data/csv/current/log_20261031_v19_state_events.csv",
+      "bytes": 49,
+      "sha256": "8afcf90fc8f4e36506efd292fbeb8a9f1bb9bb37927b725709a6a60378b01e7e"
+    },
+    {
+      "path": "data/csv/current/log_20261031_v20.csv",
+      "bytes": 685969,
+      "sha256": "1e6b6f6cc5c520050595638b9a5ad27d1805badd3989ddb5ac640599a23a3f11"
+    },
+    {
+      "path": "data/csv/current/log_20261031_v20_cfuse.csv",
+      "bytes": 49,
+      "sha256": "8afcf90fc8f4e36506efd292fbeb8a9f1bb9bb37927b725709a6a60378b01e7e"
+    },
+    {
+      "path": "data/csv/current/log_20261031_v20_nmea.csv",
+      "bytes": 397247,
+      "sha256": "109442ced9eb67a080ed8ced1aefcccf0a337ea929341184d7ca7c4f580d54ac"
+    },
+    {
+      "path": "data/csv/current/log_20261031_v20_samp.csv",
+      "bytes": 398540,
+      "sha256": "5341d59a33672cc2bdfca925b9329446a61708c0fd05522b657cacab03c178f9"
+    },
+    {
+      "path": "data/csv/current/log_20261031_v20_slowc.csv",
+      "bytes": 119318,
+      "sha256": "d16c8a34ae4a9f55b086eda483b0afbcda163d45c90ec40ef41ec31ead0aed2d"
+    },
+    {
+      "path": "data/csv/current/log_20261031_v20_slowdbg.csv",
+      "bytes": 91518,
+      "sha256": "76d600b568e8dd43abd9e39a6587b7a6fa5441dbfc97bba92bffb026fcdbce5d"
+    },
+    {
+      "path": "data/csv/current/log_20261031_v20_state_events.csv",
+      "bytes": 49,
+      "sha256": "8afcf90fc8f4e36506efd292fbeb8a9f1bb9bb37927b725709a6a60378b01e7e"
+    },
+    {
+      "path": "data/csv/current/log_20261031_v21.csv",
+      "bytes": 668441,
+      "sha256": "f665bce7ce59891d90bf773c6367db91e9cbdc2ecf4411c8f8b58c5274520210"
+    },
+    {
+      "path": "data/csv/current/log_20261031_v21_cfuse.csv",
+      "bytes": 49,
+      "sha256": "8afcf90fc8f4e36506efd292fbeb8a9f1bb9bb37927b725709a6a60378b01e7e"
+    },
+    {
+      "path": "data/csv/current/log_20261031_v21_nmea.csv",
+      "bytes": 389734,
+      "sha256": "71f23a5d7be653c0644e0fb40dcfa8c5373f06ff90b44386505d080e6d249346"
+    },
+    {
+      "path": "data/csv/current/log_20261031_v21_samp.csv",
+      "bytes": 386235,
+      "sha256": "4ac2ce4741353be090d6217db8da5cd29c041bcb4865e8112c149b16536718df"
+    },
+    {
+      "path": "data/csv/current/log_20261031_v21_slowc.csv",
+      "bytes": 115687,
+      "sha256": "4aee0f28080b906253c17e02b9667d75cc29e07f9ac09e7198a72030e60518f7"
+    },
+    {
+      "path": "data/csv/current/log_20261031_v21_slowdbg.csv",
+      "bytes": 88828,
+      "sha256": "6fcf071ddab3d44463b1e52204c6cb29f21d64d9a00549bfe01af76fb60fc706"
+    },
+    {
+      "path": "data/csv/current/log_20261031_v21_state_events.csv",
+      "bytes": 49,
+      "sha256": "8afcf90fc8f4e36506efd292fbeb8a9f1bb9bb37927b725709a6a60378b01e7e"
+    },
+    {
+      "path": "data/csv/current/log_20261031_v22.csv",
+      "bytes": 1675135,
+      "sha256": "0a613e077ade553b8b917df0d888b919339565cbaedc25f0b6c704c48b5c3326"
+    },
+    {
+      "path": "data/csv/current/log_20261031_v22_cfuse.csv",
+      "bytes": 7184,
+      "sha256": "de2ca707a4e99f13c633e4232ce423a0e695d76241184f2e7cdf64f428493846"
+    },
+    {
+      "path": "data/csv/current/log_20261031_v22_nmea.csv",
+      "bytes": 932574,
+      "sha256": "ac12856a1b630a7d34ca7c177c6a45689d3292d171148a402831fbc989145b6c"
+    },
+    {
+      "path": "data/csv/current/log_20261031_v22_samp.csv",
+      "bytes": 946711,
+      "sha256": "480f3b4a0cfdaa9873e49a7172880766470ae538b0d32658816d638dc3896fdf"
+    },
+    {
+      "path": "data/csv/current/log_20261031_v22_slowc.csv",
+      "bytes": 22637,
+      "sha256": "fb57ec294cfbfda765f9817c8744255915b07cc44d17d907af8b8d3b3d9a7b77"
+    },
+    {
+      "path": "data/csv/current/log_20261031_v22_slowdbg.csv",
+      "bytes": 23840,
+      "sha256": "954f4536a3a3dca33376b57aa2fcbcf9eb4b572e9c2677a2dcdf568e69b74dcd"
+    },
+    {
+      "path": "data/csv/current/log_20261031_v22_state_events.csv",
+      "bytes": 257,
+      "sha256": "9fc7233338b502296514e5a81bc27b11fa1a93528d9362556a11119b00ebb97a"
+    },
+    {
+      "path": "data/csv/current/log_20261031_v23.csv",
+      "bytes": 692647,
+      "sha256": "5e241e68997ff2ead37c705ff0b7b28246ddf12b842c0aea0346609a0ae27511"
+    },
+    {
+      "path": "data/csv/current/log_20261031_v23_cfuse.csv",
+      "bytes": 29530,
+      "sha256": "8f9a2fc8077b92294579b9225552008472dccfda06633d836e95e9cd66637343"
+    },
+    {
+      "path": "data/csv/current/log_20261031_v23_nmea.csv",
+      "bytes": 401665,
+      "sha256": "acfdbedc8360de9691566b0ee3a4867bf559fc750e8c3de7d1093b93460b85c5"
+    },
+    {
+      "path": "data/csv/current/log_20261031_v23_samp.csv",
+      "bytes": 396955,
+      "sha256": "5dcb7fb436d1606116f4899bd047ff340a52ca46087ce50d1e668f1d750582df"
+    },
+    {
+      "path": "data/csv/current/log_20261031_v23_slowc.csv",
+      "bytes": 119293,
+      "sha256": "edf2c0a1beb61ab131538959472005577a096cd85a9d4b9817c7863cb30cf914"
+    },
+    {
+      "path": "data/csv/current/log_20261031_v23_slowdbg.csv",
+      "bytes": 91301,
+      "sha256": "b595f900795500bf13b449887f8d90267237b4523eaa68d2092a7c1da6e25582"
+    },
+    {
+      "path": "data/csv/current/log_20261031_v23_state_events.csv",
+      "bytes": 49,
+      "sha256": "8afcf90fc8f4e36506efd292fbeb8a9f1bb9bb37927b725709a6a60378b01e7e"
+    },
+    {
+      "path": "data/csv/current/log_20261031_v24.csv",
+      "bytes": 684597,
+      "sha256": "975cc733c2a53385356516c649f1e5f0b504cc495161b1ef05db4196d2fe0d36"
+    },
+    {
+      "path": "data/csv/current/log_20261031_v24_cfuse.csv",
+      "bytes": 37433,
+      "sha256": "10ad4c3f1e7b61aeb3ff3e14bde63b00a1ac7c6f1d35eecb8f84c79ab680c1b3"
+    },
+    {
+      "path": "data/csv/current/log_20261031_v24_nmea.csv",
+      "bytes": 390349,
+      "sha256": "60802df63645ea0ac49ee7411ef632cddbb55583fbd7c66d33b89207ae45fe95"
+    },
+    {
+      "path": "data/csv/current/log_20261031_v24_samp.csv",
+      "bytes": 389785,
+      "sha256": "a49ca0049c748edc010b36753ff0e833cc429ac0e0d679f3046e2d19a9ec1d6c"
+    },
+    {
+      "path": "data/csv/current/log_20261031_v24_slowc.csv",
+      "bytes": 118007,
+      "sha256": "bf6bd16bf624853691042bd26472dc13e8c646abd91e88ed8a7ace0caa042073"
+    },
+    {
+      "path": "data/csv/current/log_20261031_v24_slowdbg.csv",
+      "bytes": 89629,
+      "sha256": "6dd22bd96b2df46b1037319d9ad3d793d0b063e6af8f6b9aeaa6177b936bcd25"
+    },
+    {
+      "path": "data/csv/current/log_20261031_v24_state_events.csv",
+      "bytes": 49,
+      "sha256": "8afcf90fc8f4e36506efd292fbeb8a9f1bb9bb37927b725709a6a60378b01e7e"
+    },
+    {
+      "path": "data/csv/current/log_20261031_v25.csv",
+      "bytes": 681149,
+      "sha256": "b4bf19abc55552e6699a66a7bef97a84d0a0d3c657d3111e0d1ff5e6aa283356"
+    },
+    {
+      "path": "data/csv/current/log_20261031_v25_cfuse.csv",
+      "bytes": 28889,
+      "sha256": "35817132a4959915cebf09593967b5f0ddf31bba6bbf2cf5071ca307607f5269"
+    },
+    {
+      "path": "data/csv/current/log_20261031_v25_nmea.csv",
+      "bytes": 386159,
+      "sha256": "6931707003f059230dbce753314ab0bb17da7bb1dd6432b335fd369991e82c70"
+    },
+    {
+      "path": "data/csv/current/log_20261031_v25_samp.csv",
+      "bytes": 388394,
+      "sha256": "586184e77e0f85c972822fa998ab6de9ab22de1d67e72c9313c1c4d08fc54b83"
+    },
+    {
+      "path": "data/csv/current/log_20261031_v25_slowc.csv",
+      "bytes": 116791,
+      "sha256": "85c9bc86876b976c256c3222fd854b5d3c6784d93467792dfccd79347c24005c"
+    },
+    {
+      "path": "data/csv/current/log_20261031_v25_slowdbg.csv",
+      "bytes": 89235,
+      "sha256": "e022805347bfc6df1f87cc52d1d12b9816c31329bae97dd81c0403d8f6d26b7e"
+    },
+    {
+      "path": "data/csv/current/log_20261031_v25_state_events.csv",
+      "bytes": 49,
+      "sha256": "8afcf90fc8f4e36506efd292fbeb8a9f1bb9bb37927b725709a6a60378b01e7e"
+    },
+    {
+      "path": "data/csv/current/log_20261101_v26.csv",
+      "bytes": 1236871,
+      "sha256": "db3bd9b6fad7f72d39744e5d554adc5031f7e00d8ee502021d71f2d9a47ea4d6"
+    },
+    {
+      "path": "data/csv/current/log_20261101_v26_cfuse.csv",
+      "bytes": 5309,
+      "sha256": "8d3800a3005d8ad90651ac3ce8fb8edaf00b81ff68e22d82e4b49cd7ca3768b9"
+    },
+    {
+      "path": "data/csv/current/log_20261101_v26_nmea.csv",
+      "bytes": 706192,
+      "sha256": "1db3b689f1f884cb881ec5a799eeb6dd76756352989f3f590b4cb301283dd2af"
+    },
+    {
+      "path": "data/csv/current/log_20261101_v26_samp.csv",
+      "bytes": 707130,
+      "sha256": "30bd5f55a38efb921b0c35d06cfd5ea459816f5390ce6bda4451682e1ac50825"
+    },
+    {
+      "path": "data/csv/current/log_20261101_v26_slowc.csv",
+      "bytes": 17126,
+      "sha256": "698ca484b31432159b2fa4eb8bba0b2a0e6eede5b37311ff8286c45fec7d9863"
+    },
+    {
+      "path": "data/csv/current/log_20261101_v26_slowdbg.csv",
+      "bytes": 18375,
+      "sha256": "d52ba4237668d4e4d84cdff85e304eb444e689d0e1d9ffceb45b586c487ca91f"
+    },
+    {
+      "path": "data/csv/current/log_20261101_v26_state_events.csv",
+      "bytes": 201,
+      "sha256": "84d9b54da8f1ce72c8263c6648b0701808e97a078f283102899d39bb2e12b630"
+    }
+  ]
+}

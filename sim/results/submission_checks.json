@@ -1,0 +1,10 @@
+{
+  "project_recreate": "PASS create_project, validate_bd_design, generate_target, wrapper",
+  "pl_synthesis_rerun": false,
+  "hardware_programmed": false,
+  "host_tests": "PASS 3 suites",
+  "portable_ps_compile_link": "PASS profile1 MODE2 against supplied BSP",
+  "frozen_elf_unchanged": true,
+  "v24_raw_recomputed": "PASS all nine OADEV values and mean",
+  "pdf_visual_review": "PASS report 6 pages and 10 diagrams"
+}

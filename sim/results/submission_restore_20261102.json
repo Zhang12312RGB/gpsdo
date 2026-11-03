@@ -1,0 +1,14 @@
+{
+  "source_files_equal": 29,
+  "restored_headers": [
+    "kalman.h",
+    "main.h"
+  ],
+  "default_try_elf_sha256": "3726d41112b29562ab8f13a1e216cd42b704c5e31b5bba1594b52e2c8d5d1a95",
+  "rebuilt_same_configuration_sha256": "dbaecdd8edb9b5bbc541373a0e984bfab931387970ce0d3452f3193373f2b666",
+  "ninja_build_exit_code": 0,
+  "warnings": 0,
+  "original_build_rules_preserved": true,
+  "backup": "D:\\gpsdo_project\\history\\pre_submission_finalize_20261102\\vitis_try",
+  "hardware_programmed": false
+}

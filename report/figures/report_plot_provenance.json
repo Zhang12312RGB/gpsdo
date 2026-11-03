@@ -1,0 +1,16 @@
+{
+  "source": "D:\\gpsdo_project\\submission\\gpsdo\\data\\raw_support\\log_20261031_v24.dat",
+  "source_sha256": "9e3d5b936cf9a47306334ffd35d93aaa3ce3453f0521db2d50acbed77ed2fee8",
+  "startup_points": 1200,
+  "startup_ms": [
+    1000,
+    1200000
+  ],
+  "oadev_source": "data/results/slow_loop_three_runs.json",
+  "oadev_samples_per_run": 2400,
+  "oadev_ms": [
+    1200000,
+    3599000
+  ],
+  "hardware_newly_measured": false
+}

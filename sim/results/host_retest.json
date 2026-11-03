@@ -1,0 +1,17 @@
+[
+  {
+    "test": "holdover",
+    "result": "PASS",
+    "output": "PASS holdover time, covariance, pending DAC input, accumulated recovery, bad-sample delay and CALIB/TUNING return"
+  },
+  {
+    "test": "log",
+    "result": "PASS",
+    "output": "PASS display carries and complete log format argument checking"
+  },
+  {
+    "test": "weight",
+    "result": "PASS",
+    "output": "weight core: ramp, cap, downweight, expiry, NaN, protection, reentry, clock and gap PASS"
+  }
+]
